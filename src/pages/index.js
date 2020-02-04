@@ -10,12 +10,14 @@ import Gallery from '../Components/Gallery';
 import Costing from '../Components/Costing';
 import LocationPart from '../Components/Location';
 import Amenities from '../Components/Amenities';
-import ButtonComponent from '../Components/Button'
+import ButtonComponent from '../Components/Button';
+import SEOComponent from '../Components/SEO';
 
 
 export default () => {
     return(
         <div>
+          <SEOComponent title="Assertz Marq 2.0 | Assertz Marq"/>
           <NavBar/>
           <div className="box">
           <div className="card">
