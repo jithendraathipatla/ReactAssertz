@@ -2,6 +2,7 @@ import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
+import './Slider.css';
 import FirstSliderImage from '../Images/slider1.jpg';
 import SecondSliderImage from '../Images/slider2.jpg';
 import ThirdSliderImage from '../Images/slider3.jpg';

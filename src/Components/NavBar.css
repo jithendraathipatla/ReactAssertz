@@ -1,38 +1,68 @@
-*{
-    padding:0px;
-    margin:0px;
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  z-index: 100;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.09);
+  background:black;
 }
-
-.navbar_main{
-    position: fixed;
-    height: 12%;
-    min-height: 60px;
-    width: 100%;
-    box-shadow: 0px 0px 1px 2px rgba(225,225, 225,0.5);
-    display: flex;
-    background-color: black;
-    z-index: 100;
-}
-
-.navbar_main .logo{
-  flex:2;
-  padding-left: 5px;
-}
-
-.navbar_links{
-  flex:6;
+.nav-header {
   display: flex;
+  justify-content: space-between;
+}
+.nav-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
   color: white;
 }
-
-.navbar_links div{
-  padding-top:20px;
-  margin-left: 40px;
+.nav-icon {
+  font-size: 1.5rem;
+  
 }
-.navbar_links a{
-   
-     font-size: 22px;
-     color:white;
-     text-decoration: none;
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+.nav-links a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 0;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.025rem;
 }
 
+.nav-links a:hover {
+  color: orchid;
+}
+
+.show-nav {
+  height: 270px;
+}
+@media screen and (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+  .nav-center {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .nav-links {
+    height: auto;
+    display: flex;
+    margin-left: 11rem;
+  }
+  .nav-links a {
+    margin: 0 1rem;
+    color: white;
+    padding: 16px 0;
+  }
+}

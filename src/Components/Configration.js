@@ -1,84 +1,54 @@
 import React from 'react';
-import Title from './Title';
-import { withStyles, makeStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
+import TitleComponent from '../Components/Title';
 
-const StyledTableCell = withStyles(theme => ({
-  head: {
-    backgroundColor: theme.palette.common.black,
-    color: theme.palette.common.white,
-  },
-  body: {
-    fontSize: 14,
-  },
-}))(TableCell);
+const Tabel = () => {
+    return (
+        <div>
+            <div style={{textAlign:"center"}}>
+            <TitleComponent title="Auriga Configuration"/>
+            </div>
+            <br/>
+            <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+  <thead >
+    <tr className="is-selected" style={{backgroundColor:"rgb(88, 108, 138)", border:"3px solid #eee"}}>
+      <th>Project</th>
+      <th>Configuration</th>
+      <th>Unit Carpet (Sq.Ft)</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+ 
+  <tbody>
+    <tr>
+    <td rowSpan={5}><br/>
+    <br/>Auriga</td>
+    </tr>
+    <tr>
+    <td>1.5 BHk + 1 T</td>
+     <td>833 - 837</td>
+     <td>Know More</td>
+    </tr>
+    <tr>
+     <td>2 BHK + 2 T</td>
+     <td>1074 - 1163</td>
+     <td>Know More</td>
+    </tr>
+    <tr>
+     <td>2.5 BHk + 2T</td>
+     <td>1311 - 1370</td>
+     <td>Know More</td>
+    
+    </tr>
+    <tr>
+     <td>3 BHK + 3T</td>
+     <td>1744 - 1801</td>
+     <td>Know More</td> 
+    </tr>
+    
+  </tbody>
+</table>
+        </div>
+    );
+};
 
-const StyledTableRow = withStyles(theme => ({
-  root: {
-    '&:nth-of-type(odd)': {
-      backgroundColor: theme.palette.background.default,
-    },
-  },
-}))(TableRow);
-
-function createData(name, calories, fat, carbs, protein) {
-  return { name, calories, fat, carbs, protein };
-}
-
-const rows = [
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-  createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-  createData('Eclair', 262, 16.0, 24, 6.0),
-  createData('Cupcake', 305, 3.7, 67, 4.3),
-  createData('Gingerbread', 356, 16.0, 49, 3.9),
-];
-
-const useStyles = makeStyles({
-  table: {
-    minWidth: 700,
-  },
-});
-
-export default function CustomizedTables() {
-  const classes = useStyles();
-
-  return (
-    <div>
-    <div style={{textAlign:"center"}}>
-    <Title title="Marq Configuration"/>
-    </div>
-    <TableContainer component={Paper}>
-      <Table className={classes.table} aria-label="customized table">
-        <TableHead>
-          <TableRow>
-            <StyledTableCell>Project (100g serving)</StyledTableCell>
-            <StyledTableCell align="right">Calories</StyledTableCell>
-            <StyledTableCell align="right">Fat&nbsp;(g)</StyledTableCell>
-            <StyledTableCell align="right">Carbs&nbsp;(g)</StyledTableCell>
-            <StyledTableCell align="right">Protein&nbsp;(g)</StyledTableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map(row => (
-            <StyledTableRow key={row.name}>
-              <StyledTableCell component="th" scope="row">
-                {row.name}
-              </StyledTableCell>
-              <StyledTableCell align="right">{row.calories}</StyledTableCell>
-              <StyledTableCell align="right">{row.fat}</StyledTableCell>
-              <StyledTableCell align="right">{row.carbs}</StyledTableCell>
-              <StyledTableCell align="right">{row.protein}</StyledTableCell>
-            </StyledTableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
-    </div>
-  );
-}
+export default Tabel;

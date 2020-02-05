@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import favicon from '../Images/favicon.png';
 
 
 
@@ -14,6 +15,7 @@ const SiteMetadata = ({ pathname, locale, title }) => {
         name="viewport"
         content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover"
       />
+      <link rel="icon" href={favicon} />
       <meta property="og:url" content={pathname} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content={locale} />

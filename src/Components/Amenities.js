@@ -99,7 +99,7 @@ const Amenities = () => {
         return state.map((item,i)=>{
             return(
                 <div key={i} >
-                   <img src={item.img} alt={item.name} width="40px"/>
+                   <img src={item.img} alt={item.name} width="50px"/>
                    <h1>{item.name}</h1>
                 </div>
             )
@@ -116,14 +116,20 @@ const Amenities = () => {
             </div>
         <br/>
         <br/>
+
+        
+        <hr/>
+        
         <div style={{textAlign:"center"}}>
         <Title title="Marq Lifestyle Videos"/>
         </div>
+
+
         <div className="youtubeFrame">
         
-        <iframe className="project-video-frame" width="95%" height="345" src="https://www.youtube.com/embed/uQNgB0UW64s">
+        <iframe className="project-video-frame" width="100%" height="345" src="https://www.youtube.com/embed/uQNgB0UW64s">
         </iframe>
-        <iframe className="project-video-frame" width="95%" height="345" src="https://www.youtube.com/embed/1C0Eo1lJN-Y">
+        <iframe className="project-video-frame" width="100%" height="345" src="https://www.youtube.com/embed/1C0Eo1lJN-Y">
         </iframe>
      
 

@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from '../Components/NavBar';
 import Title from '../Components/Title';
-import '../Styles/globalstyles.css';
 import Footer from '../Components/Footer';
 import Overview from '../Components/StatefulOverview';
 import ConfigurationPart from '../Components/Configration';
@@ -12,17 +11,23 @@ import LocationPart from '../Components/Location';
 import Amenities from '../Components/Amenities';
 import SEOComponent from '../Components/SEO';
 import Slider from '../Components/Slider';
+import SideMenuBar from '../Components/SideMenu';
+
 
 
 export default () => {
     return(
-        <div>
+        <div >
           <SEOComponent title="Assertz Marq 2.0 | Assertz Marq"/>
           <NavBar/>
-          <div className="box">
-          <div className="card">
+          
+          
           <Slider/>
-          <div style={{textAlign:"center"}}>
+          <SideMenuBar/>
+          <div className="box" >
+
+          <div className="card">
+          <div style={{textAlign:"center"}} >
            <Title title="About Assertz Marq 2.0"/>
            </div>
           <Description>
@@ -47,24 +52,25 @@ export default () => {
         </p>
         
         </Description>
-        
+        </div>
+        <hr/>
         <Overview/>
-        
+        <hr/>
         <ConfigurationPart/>
-        
+        <hr/>
         <Gallery/>
-        
+        <hr/>
         <Amenities/>
-        
-
+        <hr/>
         <Costing/>
-        
+        <hr/>
         
         <LocationPart/>
-          <Footer/>
          
           </div>
+       
+           <Footer/>
           </div>
-        </div>
+       
     )
 }
