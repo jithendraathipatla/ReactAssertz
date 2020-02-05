@@ -7,7 +7,7 @@ const Tabel = () => {
             <div style={{textAlign:"center"}}>
             <TitleComponent title="Marq Configuration"/>
             </div>
-            <br/>
+          
             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
   <thead >
     <tr className="is-selected" style={{backgroundColor:"rgb(88, 108, 138)", border:"3px solid #eee"}}>
@@ -21,7 +21,7 @@ const Tabel = () => {
   <tbody>
     <tr>
     <td rowSpan={5}><br/>
-    <br/>Auriga</td>
+    <br/>Marq</td>
     </tr>
     <tr>
     <td>1.5 BHk + 1 T</td>
