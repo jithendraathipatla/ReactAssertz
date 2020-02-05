@@ -20,8 +20,6 @@ export default () => {
         <div >
           <SEOComponent title="Assertz Marq 2.0 | Assertz Marq"/>
           <NavBar/>
-          
-          
           <Slider/>
           <SideMenuBar/>
           <div className="box" >

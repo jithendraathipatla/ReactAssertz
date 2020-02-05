@@ -62,13 +62,13 @@ export default function SimpleTabs(props) {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        {props.title1}
+        {props.exterior}
       </TabPanel>
       <TabPanel value={value} index={1}>
-       {props.title2}
+       {props.interior}
       </TabPanel>
       <TabPanel value={value} index={2}>
-       {props.title3}
+       {props.mplan}
       </TabPanel>
     </div>
   );

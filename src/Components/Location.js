@@ -1,9 +1,10 @@
 import React from 'react';
 import Title from './Title';
+import FormComponent from './Form';
 
 const Location = () => {
     return (
-        <div style={{display:"grid", gridTemplateColumns:"6fr 6fr"}}>
+        <div style={{display:"grid", gridTemplateColumns:"8fr 4fr", gridGap:"40px"}}>
         <div>
         <div style={{textAlign:"center"}}>
         <Title title="Marq Location"/>
@@ -14,6 +15,7 @@ const Location = () => {
         <div style={{textAlign:"center"}}>
         <Title title="Leave Us a Message"/>
         </div>
+        <FormComponent/>
         </div>
         </div>
     );
