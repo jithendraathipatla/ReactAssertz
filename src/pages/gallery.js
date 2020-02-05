@@ -5,6 +5,7 @@ import Location from '../Components/Location';
 import SEOComponent from '../Components/SEO';
 import Description from '../Components/Description';
 import Titleabc from '../Components/Title';
+import SideMenu from '../Components/SideMenu';
 
 
 const gallery = () => {
@@ -12,14 +13,20 @@ const gallery = () => {
         <div>
             <SEOComponent title="Assertz Marq Gallery | Assertz Marq 2.0 Gallery"/>
             <Navbar/>
+            <SideMenu/>
+
+            <div className="box">
+            <div className="card">
             <div style={{paddingTop:"10vh"}}>
             <div style={{textAlign:"center"}}>
             <Titleabc title="Assertz Marq Gallery"/>
             </div>
             <Description>Assertz marq Gallery Goes Here</Description>
            </div>
-           
+           </div>
+            <hr/>
             <Location/>
+            </div>
             <Footer/>
         </div>
     );

@@ -59,7 +59,7 @@ const StatefulOverview = () => {
         return state.map((item,i)=>{
           return (
               <div key={i} className="properly">
-                <img src={item.image} alt={item.main_title} width="40px" />
+                <img src={item.image} alt={item.main_title} width="50px" />
                 <div className="headings">
                  <h1>{item.main_title}</h1>
                  <h2>{item.sub_heading}</h2>
