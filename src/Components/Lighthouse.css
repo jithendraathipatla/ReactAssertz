@@ -1,0 +1,14 @@
+.images-in-grid{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 20px;
+}
+
+.images-in-grid img{
+   height: 200px;
+}
+
+.images-in-grid img:hover{
+    cursor: pointer;
+    transform: translateY(-1px);
+}

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Lightbox from 'react-image-lightbox';
+import './Lighthouse.css';
 import 'react-image-lightbox/style.css';
 
 
@@ -9,15 +10,14 @@ const Lighthouse = (props) => {
   const displayingGallery = () => {
     return state.map((item,i)=>{
       return(
-        <div key={i} className="card " style={{paddingBottom:"8px", backgroundColor:"#eee"}}>
-          <img src={item.image} alt={item.name} onClick={()=> setisOpen(true)} width="400px" height={props.height} />
+        <div key={i} style={{paddingBottom:"8px", backgroundColor:"#eee"}}>
+          <img src={item.image} alt={item.name} onClick={()=> setisOpen(true)} width="400px" />
           {item.name}
         </div>
         
       )
     })
   }
- 
   const [photoIndex, setphotoIndex] = useState(0);
   const [isOpen, setisOpen] = useState(false);
   return (
