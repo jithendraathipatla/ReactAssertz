@@ -5,7 +5,7 @@ const Tabel = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-            <TitleComponent title="Auriga Configuration"/>
+            <TitleComponent title="Marq Configuration"/>
             </div>
             <br/>
             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">

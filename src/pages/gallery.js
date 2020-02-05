@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Components/NavBar';
 import Footer from '../Components/Footer';
 import Location from '../Components/Location';
+import GalleryComponent from '../Components/Gallery';
 import SEOComponent from '../Components/SEO';
 import Description from '../Components/Description';
 import Titleabc from '../Components/Title';
@@ -25,6 +26,7 @@ const gallery = () => {
            </div>
            </div>
             <hr/>
+            <GalleryComponent/>
             <Location/>
             </div>
             <Footer/>
