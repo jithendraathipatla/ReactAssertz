@@ -14,9 +14,9 @@ const NavBar = () => {
         setstate(false);
      }
     return (
-      console.log(state),
+     
         <div>
-           <nav className="navbar">
+           <nav className="navbar" style={{backgroundColor:"black"}}>
            <div className="nav-center">
               <div className="nav-header">
                  <Link to="/">

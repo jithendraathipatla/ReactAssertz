@@ -20,6 +20,9 @@ const SiteMetadata = ({ pathname, locale, title }) => {
       <meta property="og:type" content="website" />
       <meta property="og:locale" content={locale} />
       <meta property="og:site_name" content={title} />
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"/>
+
     
     </Helmet>
   )
