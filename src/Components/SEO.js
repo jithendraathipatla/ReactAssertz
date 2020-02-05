@@ -14,7 +14,6 @@ const SiteMetadata = ({ pathname, locale, title }) => {
         name="viewport"
         content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover"
       />
-     
       <meta property="og:url" content={pathname} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content={locale} />

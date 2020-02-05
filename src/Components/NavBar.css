@@ -5,11 +5,13 @@
 
 .navbar_main{
     position: fixed;
-    height: 10%;
+    height: 12%;
+    min-height: 60px;
     width: 100%;
     box-shadow: 0px 0px 1px 2px rgba(225,225, 225,0.5);
     display: flex;
     background-color: black;
+    z-index: 100;
 }
 
 .navbar_main .logo{

@@ -8,6 +8,7 @@ import UnitVarients from '../Images/svg/towel.svg';
 import PossessionDate from '../Images/svg/calendar.svg';
 import Location from '../Images/svg/location.svg';
 import Title from './Title';
+import './StatefulOverview.css';
 
 
 const StatefulOverview = () => {
@@ -48,19 +49,18 @@ const StatefulOverview = () => {
     },
     {
         main_title:"Location",
-        sub_heading:"Whitefield-Hoskote Bangalore",
+        sub_heading:"Whitefield, Bangalore",
         image:Location,
     }
     ]);
 
     
     const displayingOverview = () => {
-        console.log(state)
         return state.map((item,i)=>{
           return (
-              <div key={i} style={{display:"flex"}}>
-                <img src={item.image} alt={item.main_title} width="25px" style={{flex:"2", border:"1px solid #eee", padding:"10px"}}/>
-                <div style={{flex:"4", display:"block", marginLeft:"15px"}}>
+              <div key={i} className="properly">
+                <img src={item.image} alt={item.main_title} width="40px" />
+                <div className="headings">
                  <h1>{item.main_title}</h1>
                  <h2>{item.sub_heading}</h2>
                  </div>
@@ -73,8 +73,11 @@ const StatefulOverview = () => {
     return (
        
         <div>
+        <div style={{textAlign:"center"}}>
         <Title title="Marq Overview"/>
-        <div style={{display:"grid", gridTemplateColumns:"3fr 3fr 3fr 3fr", gridGap:"20px"}}>
+        </div>
+        
+        <div className="Overview_main">
         {displayingOverview()}
         </div>
         </div>

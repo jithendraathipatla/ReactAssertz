@@ -10,8 +10,8 @@ import Gallery from '../Components/Gallery';
 import Costing from '../Components/Costing';
 import LocationPart from '../Components/Location';
 import Amenities from '../Components/Amenities';
-import ButtonComponent from '../Components/Button';
 import SEOComponent from '../Components/SEO';
+import Slider from '../Components/Slider';
 
 
 export default () => {
@@ -21,7 +21,10 @@ export default () => {
           <NavBar/>
           <div className="box">
           <div className="card">
-          <Title title="About Assertz Marq 2.0"/>
+          <Slider/>
+          <div style={{textAlign:"center"}}>
+           <Title title="About Assertz Marq 2.0"/>
+           </div>
           <Description>
           <p style={{textAlign:"justify"}}>
           <a href="http://assetzmarq.org/">Assetz Marq</a> has set up itself as one of the main names among the Builders and
@@ -44,19 +47,19 @@ export default () => {
         </p>
         
         </Description>
-        <hr/>
+        
         <Overview/>
-        <hr/>
+        
         <ConfigurationPart/>
-        <hr/>
+        
         <Gallery/>
-        <hr/>
-        <Costing/>
-        <hr/>
+        
         <Amenities/>
-        <hr/>
-        <ButtonComponent/>
-        <hr/>
+        
+
+        <Costing/>
+        
+        
         <LocationPart/>
           <Footer/>
          

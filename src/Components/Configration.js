@@ -1,4 +1,5 @@
 import React from 'react';
+import Title from './Title';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -48,11 +49,15 @@ export default function CustomizedTables() {
   const classes = useStyles();
 
   return (
+    <div>
+    <div style={{textAlign:"center"}}>
+    <Title title="Marq Configuration"/>
+    </div>
     <TableContainer component={Paper}>
       <Table className={classes.table} aria-label="customized table">
         <TableHead>
           <TableRow>
-            <StyledTableCell>Dessert (100g serving)</StyledTableCell>
+            <StyledTableCell>Project (100g serving)</StyledTableCell>
             <StyledTableCell align="right">Calories</StyledTableCell>
             <StyledTableCell align="right">Fat&nbsp;(g)</StyledTableCell>
             <StyledTableCell align="right">Carbs&nbsp;(g)</StyledTableCell>
@@ -74,5 +79,6 @@ export default function CustomizedTables() {
         </TableBody>
       </Table>
     </TableContainer>
+    </div>
   );
 }

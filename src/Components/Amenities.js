@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import './Amenities.css';
 import Title from '../Components/Title';
 import Swimming from '../Images/amensvg/swimming-pool.svg';
 import Club from '../Images/amensvg/house.svg';
@@ -98,7 +99,7 @@ const Amenities = () => {
         return state.map((item,i)=>{
             return(
                 <div key={i} >
-                   <img src={item.img} alt={item.name} width="50px"/>
+                   <img src={item.img} alt={item.name} width="40px"/>
                    <h1>{item.name}</h1>
                 </div>
             )
@@ -113,9 +114,11 @@ const Amenities = () => {
             <div className="Amenities_main">
             {displayingAmenities()}
             </div>
- 
-
+        <br/>
+        <br/>
+        <div style={{textAlign:"center"}}>
         <Title title="Marq Lifestyle Videos"/>
+        </div>
         <div className="youtubeFrame">
         
         <iframe className="project-video-frame" width="95%" height="345" src="https://www.youtube.com/embed/uQNgB0UW64s">

@@ -11,7 +11,6 @@ const NavBar = () => {
            </div>
 
            <div className="navbar_links">
-           
              <div><Link to="/">Home</Link></div>
               <div><Link to="/overview">Overview</Link></div>
               <div><Link to="/configuration">Configuration</Link></div>
