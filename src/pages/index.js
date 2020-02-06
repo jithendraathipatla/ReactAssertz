@@ -23,7 +23,6 @@ export default () => {
           <Slider/>
           <SideMenuBar/>
           <div className="box" >
-
           <div className="card">
           <div style={{textAlign:"center"}} >
            <Title title="About Assertz Marq 2.0"/>

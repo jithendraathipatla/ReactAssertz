@@ -34,76 +34,76 @@ import MasterPlanabcd from '../Images/mplan.jpg';
 const Gallery = () => {
     const [exterior, setexterior] = useState([
         {
-        name:"Exterior one",
+        name:"Outermost view",
         image: ExteriorFirst
         },
         {
-         name:"Exterior Two",
+         name:"Nature Side Walk",
          image: ExteriorSecond
         },
         {
-            name:"Exterior Three",
+            name:"From the Pool View",
             image: ExteriorThird
         },
         {
-            name:"Exterior Four",
+            name:"Areal view",
             image: ExteriorFourth
         }
         ]);
 
         const [interior, setinterior] = useState([
             {
-            name:"Interior one",
+            name:"Inside Hall",
             image: InteriorOne
             },
             {
-             name:"Interior Two",
+             name:"Bed Room",
              image: InteriorTwo
             },
             {
-                name:"Interior Three",
+                name:"Balcony View",
                 image: InteriorThree
             },
             {
-                name:"Interior Four",
+                name:"Entrance",
                 image: InteriorFour
             }]);
 
 
             const [floorsetone, setfloorsetone] = useState([
                 {
-                name:"Interior one",
+                name:"1451 SqFt",
                 image: FloorPlanOne
                 },
                 {
-                 name:"Interior Two",
+                 name:"1022 SqFt",
                  image: FloorPlanTwo
                 },
                 {
-                    name:"Interior Three",
+                    name:"1027 SqFt",
                     image: FloorPlanThree
                 },
                 {
-                    name:"Interior Four",
+                    name:"1208 SqFt",
                     image: FloorPlanFour
              }]);
 
 
              const [floorsettwo, setfloorsettwo] = useState([
                 {
-                name:"Interior one",
+                name:"1055 SqFt",
                 image: FloorPlanFive
                 },
                 {
-                 name:"Interior Two",
+                 name:"1703 SqFt",
                  image: FloorPlanSix
                 },
                 {
-                    name:"Interior Three",
+                    name:"1030 SqFt",
                     image: FloorPlanseven
                 },
                 {
-                    name:"Interior Four",
+                    name:"1174 SqFt",
                     image: FloorPlanEight
              }]);
 
@@ -111,15 +111,15 @@ const Gallery = () => {
 
              const [floorsetthree, setfloorsetthree] = useState([
                 {
-                name:"Interior one",
+                name:"1193 SqFt",
                 image: FloorPlanNine
                 },
                 {
-                 name:"Interior Two",
+                 name:"1071 SqFt",
                  image: FloorPlanTen
                 },
                 {
-                    name:"Interior Three",
+                    name:"1733 SqFt",
                     image: FloorPlanEleven
                 },
                ]);
