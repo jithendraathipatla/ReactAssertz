@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const configuration = () => {
     return (
         <div>
-           <SEOComponent title="Assertz Marq 2.0 Configuration | Assertz Marq Configuration"/>
+           <SEOComponent title="flats in whitefield | assetz property"/>
            <Navbar/>
            <SideMenu/>
            <div className="box">

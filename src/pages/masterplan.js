@@ -11,7 +11,7 @@ import MasterplanImage from '../Components/MasterPlan';
 const masterplan = () => {
     return (
         <div>
-        <SEOComponent title="Assertz MArq 2.0 Master Plan | Master Plan"/>
+        <SEOComponent title="Assertz Marq 2.0 Master Plan | Master Plan | assetz marq"/>
         <Navbar/>
         <SideMenu/>
         <div className="box">
