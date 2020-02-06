@@ -254,6 +254,7 @@
 .show-nav {
   height: 570px;
 }
+
 @media screen and (min-width: 768px) {
   .nav-btn {
     display: none;
@@ -414,6 +415,20 @@
 
   .locationPart{
    display: block;
+  }
+
+  .Overview_main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .Overview_main .headings {
+    display:block;
+     margin-left: 0px;
+  }
+  
+  .Overview_main .properly{
+    display: block;
   }
 
 }
