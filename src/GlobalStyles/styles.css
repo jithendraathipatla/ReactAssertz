@@ -29,9 +29,9 @@
 .main_title{
   color: #19544B;
     font-size: 26px;
-   
     padding-top: 15px;
     padding-bottom: 20px;
+    text-decoration: underline;
 }
 
 .Overview_main{
