@@ -6,6 +6,7 @@ import Footer from '../Components/Footer';
 import Titleabc from '../Components/Title';
 import Description from '../Components/Description';
 import SideMenu from '../Components/SideMenu';
+import MasterplanImage from '../Components/MasterPlan';
 
 const masterplan = () => {
     return (
@@ -22,6 +23,11 @@ const masterplan = () => {
         <Description>Assertz marq MasterPlan Goes Here</Description>
         </div>
        </div>
+       <hr/>
+       <div>
+       <MasterplanImage/>
+       </div>
+       <hr/>
             <Location/>
             </div>
             <Footer/>
