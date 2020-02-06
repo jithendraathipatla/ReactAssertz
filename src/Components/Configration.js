@@ -21,23 +21,24 @@ const Tabel = () => {
   </thead>
  
   <tbody>
+    
     <tr>
     <td rowSpan={4}>
-    <br/>Marq</td>
+    <br/>Phase II</td>
     </tr>
     <tr>
     <td>3 BHk + 2 T</td>
-     <td>833 - 837</td>
+     <td>1366 - 1424</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     </tr>
     <tr>
      <td>3 BHK + 3 T</td>
-     <td>1074 - 1163</td>
+     <td>1564 - 1939</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     </tr>
     <tr>
      <td>4 BHk + 4T</td>
-     <td>1311 - 1370</td>
+     <td>2232 - 2266</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     
     </tr> 

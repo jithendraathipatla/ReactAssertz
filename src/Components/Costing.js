@@ -34,7 +34,7 @@ const Costing = () => {
               </tr>
               <tr>
                <td>4 BHk + 4T</td>
-               <td>2232 - 1266</td>
+               <td>2232 - 2266</td>
                <td>Starting 1.40 Cr* <br/><Modal title="Price Breakup" class="modalbuttonsmall"/></td>
               </tr>
               
