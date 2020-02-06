@@ -128,7 +128,7 @@ const Sidemenu = (props) => {
                   <label>*Mobile</label>
                 </div>             
                 <div className="btn-group" >
-                  <button  className="modalbuttonMedium" style={{backgroundColor:"green", height:"32px", padding:"0px 10px 3px", marginTop:"10px"}} type="submit" name="submit">Submit</button>
+                  <button  className="modalbuttonMedium" type="submit" name="submit">Submit</button>
                 </div>
               </form>
            </div>  
@@ -151,7 +151,7 @@ const Sidemenu = (props) => {
                 </div>          
                 
                 <div className="btn-group">
-                  <button name="submit" className="modalbuttonMedium" style={{backgroundColor:"green", height:"30px", padding:"0px 10px 3px", marginTop:"10px"}} type="submit">submit</button>
+                  <button name="submit" className="modalbuttonMedium"  type="submit">submit</button>
                 </div>
               </form> 
     </div>  
