@@ -8,7 +8,7 @@ import UnitVarients from '../Images/svg/towel.svg';
 import PossessionDate from '../Images/svg/calendar.svg';
 import Location from '../Images/svg/location.svg';
 import Title from './Title';
-import './StatefulOverview.css';
+import '../GlobalStyles/styles.css';
 
 
 const StatefulOverview = () => {

@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import axios from 'axios';
-import './SideMenu.css';
+import '../GlobalStyles/styles.css';
 // import LastScreen from './Finalscreen';
 
 

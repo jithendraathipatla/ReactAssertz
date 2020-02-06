@@ -1,5 +1,5 @@
 import React from 'react';
-import './Description.css';
+import '../GlobalStyles/styles.css';
 
 
 const Description = (props) => {

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Lightbox from 'react-image-lightbox';
-import './Lighthouse.css';
+import '../GlobalStyles/styles.css';
 import 'react-image-lightbox/style.css';
 
 

@@ -23,8 +23,10 @@ const location = () => {
         <Description>Assertz marq Location Goes Here</Description>
         </div>
        </div>
+           <div>
             <img src={MainLogo} alt="Assertz Marq"/>
             <Location/>
+            </div>
             </div>
             <Footer/>
         </div>

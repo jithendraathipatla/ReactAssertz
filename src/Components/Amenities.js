@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import './Amenities.css';
+import '../GlobalStyles/styles.css';
 import Title from '../Components/Title';
 import Swimming from '../Images/amensvg/swimming-pool.svg';
 import Club from '../Images/amensvg/house.svg';

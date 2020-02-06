@@ -2,7 +2,7 @@ import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
-import './Slider.css';
+import '../GlobalStyles/styles.css';
 import FirstSliderImage from '../Images/slider1.jpg';
 import SecondSliderImage from '../Images/slider2.jpg';
 import ThirdSliderImage from '../Images/slider3.jpg';
@@ -14,7 +14,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const Slider = () => {
     return (
-        <div>
+        <div style={{marginTop:"50px"}}>
            <AutoplaySlider play={true} cancelOnInteraction={false} interval={4000}style={{height:"80vh"}}>
              <div data-src={FirstSliderImage}/>
              <div data-src={SecondSliderImage} />

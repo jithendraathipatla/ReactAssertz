@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import TitleComponent from '../Components/Title';
-import './Gallery.css';
+import '../GlobalStyles/styles.css';
 import TabContainer from '../Components/tabs';
 import Title from '../Components/Title';
 import LightHouseabc from '../Components/Lighthouse';
