@@ -7,7 +7,6 @@ const Form = () => {
   const [name, setname] = useState();
   const [email, setemail] = useState();
   const [phone, setphone] = useState();
- 
   const handelingFormdata = (e) => {
     e.preventDefault();
     let client_name = e.target.elements.name.value;
@@ -32,8 +31,9 @@ const Form = () => {
   axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
   .then(res => {
      console.log(res);
+  }).catch((e)=>{
+    console.log(e);
   })
-          
   }
 
     return (
@@ -62,7 +62,7 @@ const Form = () => {
   </div>
   </div>
   <br/>
-  <Button name="submit">Submit</Button>
+  <button className="modalbuttonMediumtwo" name="submit" type="submit" value="submit">Submit</button>
   </div>
   </form>
         
