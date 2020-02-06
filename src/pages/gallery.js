@@ -12,7 +12,7 @@ import SideMenu from '../Components/SideMenu';
 const gallery = () => {
     return (
         <div>
-            <SEOComponent title="Assertz Marq Gallery | Assertz Marq 2.0 Gallery"/>
+            <SEOComponent title="Assertz Marq Gallery | Assertz Marq 2.0 Gallery | assetz marq"/>
             <Navbar/>
             <SideMenu/>
 

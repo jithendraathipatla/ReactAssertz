@@ -1,10 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../GlobalStyles/styles.css';
 import Title from './Title';
 import CostingImage from '../Images/costing-details.jpg';
 import Modal from './Modal';
 
 const Costing = () => {
+    const [hoveredText, sethoveredText] = useState(null);
+
+    const handleMouseHover = () => {
+      sethoveredText("true");
+    }
+
+    const handleMouseHoverTwo = () => {
+      sethoveredText(null);
+    }
+
+
     return (
         <div>
         <div className="costingPart">
@@ -46,7 +57,12 @@ const Costing = () => {
             <div  style={{textAlign:"center"}}>
             <Title title="Marq CostSheet" />
             </div>
-            <img src={CostingImage} alt="costing Details" style={{height:"223px", width:"100%"}}/>
+            <div  onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHoverTwo} className="parkedtwo">
+            <img src={CostingImage}  alt="costing Details" style={{height:"223px", width:"100%"}}/>
+            <div className={hoveredText === null ? "parkedone" : "parked"}>
+            <Modal title="Know More"  class="modalbuttonsmall"/>
+            </div>
+            </div>
             <br/>
             <div style={{textAlign:"center"}}>
             <Modal title="Complecte Costing" class="modalbuttonsmall"/>
