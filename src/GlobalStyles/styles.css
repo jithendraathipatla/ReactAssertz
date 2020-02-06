@@ -252,7 +252,7 @@
 }
 
 .show-nav {
-  height: 270px;
+  height: 570px;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
@@ -378,4 +378,42 @@
 .aliginingForm{
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  background: linear-gradient(to right, #9494e6, #5fd8e8);}
+  background: linear-gradient(to right, #9494e6, #5fd8e8);
+}
+
+@media all and (max-width: 600px){
+  .Overview_main{
+    display:block;
+  }
+  .properly{
+    margin-bottom:20px;
+  }
+  .table.is-narrow td {
+    text-align: left !important;
+  }
+  .table tr.is-selected th {
+    text-align: left !important;
+  }
+  .galleryImages {
+    display: block;
+  }
+  .Amenities_main {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-gap: 26px 44px;
+    padding-left: 20px;
+  }
+
+  .youtubeFrame {
+    display: block;
+  }
+
+  .costingPart{
+    display: block;
+  }
+
+  .locationPart{
+   display: block;
+  }
+
+}
