@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import Modalabc from 'react-responsive-modal';
 import Form from './Form';
 import '../GlobalStyles/styles.css';
+import OfficialLogo from '../Images/official.png';
 
 const Modal = (props) => {
     const [isopen, setisopen] = useState(false);
@@ -9,9 +10,12 @@ const Modal = (props) => {
         <div className="finaltouch">
         <a onClick={() => setisopen(true)} className={props.class}>{props.title}</a>
         <Modalabc open={isopen} onClose={ () => setisopen(false)}>
-        <div style={{padding:"5px 30px 20px 30px"}}> 
+       
+        <div style={{textAlign:"center"}}>
+        <img className="modalImageLogo" src={OfficialLogo} alt="Marq 2.0"/>
+        </div>
           <Form/>
-         </div>
+        
         </Modalabc>
         </div>
     );

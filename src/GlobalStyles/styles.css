@@ -335,6 +335,11 @@
     color: #fff !important;
 }
 
+.modalImageLogo{
+  height: 60px;
+  margin-top: -16px;
+}
+
 .table.is-narrow td{
   text-align: center !important;
 }

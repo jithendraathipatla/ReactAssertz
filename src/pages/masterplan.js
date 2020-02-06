@@ -24,7 +24,10 @@ const masterplan = () => {
         </div>
        </div>
        <hr/>
-       <div>
+       <div style={{textAlign:"center"}}>
+       <Titleabc title="Marq Master Plan"/>
+       </div>
+       <div style={{textAlign:"center", marginLeft:"65vh"}}>
        <MasterplanImage/>
        </div>
        <hr/>

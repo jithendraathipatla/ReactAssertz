@@ -4,7 +4,8 @@ import MasterPlanabcd from '../Images/mplan.jpg';
 
 const MasterPlan = () => {
     const [masterplan, setmasterplan] = useState([
-        {
+        {   
+            name:"Master Plan",
             image:MasterPlanabcd
         }
     ]);
