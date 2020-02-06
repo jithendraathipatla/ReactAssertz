@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Logo from '../Images/logo.png';
 import axios from 'axios';
 import Button from './Button';
 
@@ -39,9 +38,6 @@ const Form = () => {
 
     return (
       <form onSubmit={handelingFormdata} name="main_forma" method="post">
-          <div style={{textAlign:"center"}}>
-            <img src={Logo} alt="concorde auriga" width="150px"/>
-          </div>
     <div>
       <br/>
   <div className="field">

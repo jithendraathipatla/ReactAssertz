@@ -314,6 +314,20 @@
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
 
+.modalbuttonMedium{
+  padding: 6px 14px;
+    font-size: 0.9125rem;
+    color: #fff;
+    background-color: #1976d2;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+.styles_modal__gNwvD {
+  max-width: 906px;
+  width: 373px !important;
+  border-radius: 10px !important;
+}
+
 .finaltouch a:hover{
     color: #fff !important;
 }
@@ -325,3 +339,14 @@
 .table tr.is-selected th{
   text-align: center !important;
 }
+
+.locationPart{
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  grid-gap: 20px;
+}
+
+.aliginingForm{
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background: linear-gradient(to right, #9494e6, #5fd8e8);}
