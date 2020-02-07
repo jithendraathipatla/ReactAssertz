@@ -75,9 +75,8 @@ const Sidemenu = (props) => {
     .then(res => {
       console.log(res);
       console.log(res.data); 
-    //   let abcd = document.getElementById("root")?.style;
-    //   abcd.display="none";
-    //   ReactDOM.render(<LastScreen/>,document.getElementById("root1"));
+      alert("You will now be redirected.");
+      window.location = "/download/";
     }).catch((e)=>{
       console.log(e);
     })
@@ -105,9 +104,8 @@ const Sidemenu = (props) => {
     .then(res => {
       console.log(res);
       console.log(res.data);
-    //   let abcd = document.getElementById("root")?.style;
-    //   abcd.display="none";
-    //   ReactDOM.render(<LastScreen/>,document.getElementById("root1"));
+      alert("You will now be redirected.");
+      window.location = "/download/";
     })
     }
 
@@ -115,17 +113,18 @@ const Sidemenu = (props) => {
     <div>
     <div className={state} style={{marginTop:`${props.height}`}}>
     <div className="popup-content">
-      <h1 style={{color:"black", textDecoration:"underline", paddingBottom:"7px"}} className="label">Fill Form to Download Brouchure</h1>
-    
+    <div className="frustated">
+      <h1 style={{paddingBottom:"15px", textDecoration:"underline"}} className="label">Fill Form to Download Brouchure</h1>
+      </div>
       <form name="brouchereform"  onSubmit={firstForm} method="POST" id="frmdb">
              <div id="sucess1"></div>               
                 <div className="inputGroup2">
                   <input className="input" style={{height:"30px", fontSize:"15px", padding:"10px 6px"}}  required placeholder="Your emailId" type="email" name="email" id="email1"/><br/>
-                  <label >*Email</label>
+                  <label className="frustatingclass">*Email</label>
                 </div>
                 <div className="inputGroup2">
                   <input className="input" style={{height:"30px", fontSize:"15px", padding:"10px 6px"}} onChange={restrictingone}  required type="number" placeholder="Your Phone Number" name="mobile" id="mobile1"/><br/>
-                  <label>*Mobile</label>
+                  <label className="frustatingclass" >*Mobile</label>
                 </div>             
                 <div className="btn-group" >
                   <button  className="modalbuttonMedium" type="submit" name="submit">Submit</button>
@@ -137,17 +136,18 @@ const Sidemenu = (props) => {
 
   <div className={costone}>
     <div className="popup-content" style={{height:"186px"}}>
-    <h1 style={{color:"black", textDecoration:"underline", paddingBottom:"7px"}} className="label">Fill Form to Download cost sheet</h1>
-    
+    <div className="frustated">
+    <h1 style={{paddingBottom:"15px", textDecoration:"underline"}} className="label">Fill Form to Download cost sheet</h1>
+    </div>
      <form action="./popup.php"  method="POST" className="callRequest" id="frmps" onSubmit={secondform}>
              <div id="sucess2"></div>      
                 <div className="inputGroup2">
                   <input className="input" style={{height:"30px", fontSize:"15px", padding:"10px  6px"}} required type="email" placeholder="Your Emailid" name="email" id="email2"/><br/>
-                  <label>*Email</label>
+                  <label className="frustatingclass" >*Email</label>
                 </div>
                 <div className="inputGroup2">
                   <input className="input" style={{height:"30px", fontSize:"15px", padding:"10px 6px"}} onChange={restricingSecond}  type="number" required placeholder="Your Number" name="mobile" id="mobile2"/><br/>
-                  <label>*Mobile</label>
+                  <label className="frustatingclass" >*Mobile</label>
                 </div>          
                 
                 <div className="btn-group">

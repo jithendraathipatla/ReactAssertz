@@ -31,6 +31,8 @@ const Form = () => {
   axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
   .then(res => {
      console.log(res);
+     alert("You will now be redirected.");
+     window.location = "/download/";
   }).catch((e)=>{
     console.log(e);
   })
