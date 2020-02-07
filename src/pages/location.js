@@ -6,7 +6,7 @@ import Footer from '../Components/Footer';
 import Titleabc from '../Components/Title';
 import Description from '../Components/Description';
 import SideMenu from '../Components/SideMenu';
-import Logo from '../Images/blacklogo.png';
+
 
 const location = () => {
     return (
@@ -26,7 +26,6 @@ const location = () => {
         </div>
        </div>
            <div>
-            <img src={Logo} alt="Assertz Marq"/>
             <Location/>
             </div>
             </div>

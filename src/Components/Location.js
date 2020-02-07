@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from './Title';
 import FormComponent from './Form';
-import OfficialLogo from '../Images/official.png';
+import Logo from '../Images/blacklogo.png';
 import '../GlobalStyles/styles.css';
 
 const Location = () => {
@@ -19,7 +19,7 @@ const Location = () => {
         </div>
         <div className="aliginingForm">
         <div style={{textAlign:"center"}}>
-            <img src={OfficialLogo} alt="Assertz" width="150px"/>
+            <img src={Logo} alt="Assertz" width="150px"/>
           </div>
         <FormComponent/>
         </div>
