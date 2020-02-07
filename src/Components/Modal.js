@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import Modalabc from 'react-responsive-modal';
 import Form from './Form';
 import '../GlobalStyles/styles.css';
-import OfficialLogo from '../Images/official.png';
+import OfficialLogo from '../Images/blacklogo.png';
 
 const Modal = (props) => {
     const [isopen, setisopen] = useState(false);
