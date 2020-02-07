@@ -47,7 +47,6 @@ export default () => {
           spaces found in Kannamangala on the Hoskote Whitefield main road,Bangalore that is all around associated with the real streets, social and
           business foundations.These condos have 2 blocks and are offering 3 BHK and 4 BHK private flats alongside the penthouses at reasonable prices.Assetz Marq 2.0 is the forthcoming new pursuit of Assetz Property Group – one of India's driving architects of private and business property. This lavish property is stretched out to 28 areas of the place where there is a rich green scene. It is a novel mix of private, retail and organization spaces. Masterminded in Kannamangala on the Hoskote-Whitefield standard road; It gives its inhabitants smart access to the working environments in Whitefield tech focus point and is in like manner all around related to other genuine avenues, social and business foundations. It is easily situated in Kannamangala, of Whitefield-Hoskote Main Road. Kannamangala is only a community; however, it has a gigantic interest after the development of the Bangalore International Airport, arranged close to this town.
         </p>
-        
         </Description>
         </div>
         <hr/>

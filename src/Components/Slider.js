@@ -14,13 +14,13 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const Slider = () => {
     return (
-        <div style={{marginTop:"50px"}}>
+        <div style={{marginTop:"70px"}}>
            <AutoplaySlider play={true} cancelOnInteraction={false} interval={4000}style={{height:"80vh"}}>
-             <div data-src={FirstSliderImage}/>
-             <div data-src={SecondSliderImage} />
-             <div data-src={ThirdSliderImage} />
-             <div data-src={FourthSliderImage} />
-             <div data-src={FifthSliderImage} />
+             <div data-src={FirstSliderImage} alt="First Slider Image"/>
+             <div data-src={SecondSliderImage} alt="Second Slider Image"/>
+             <div data-src={ThirdSliderImage} alt="Third Slider Image"/>
+             <div data-src={FourthSliderImage} alt="Fifth Slider Image"/>
+             <div data-src={FifthSliderImage} alt="Slider Image"/>
             </AutoplaySlider> 
         </div>
     );

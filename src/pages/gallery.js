@@ -12,7 +12,7 @@ import SideMenu from '../Components/SideMenu';
 const gallery = () => {
     return (
         <div>
-            <SEOComponent title="Assertz Marq Gallery | Assertz Marq 2.0 Gallery | assetz marq"/>
+            <SEOComponent title="Assertz Marq Gallery | Assertz Marq 2.0 Gallery | assetz marq" des="In this page you will be able to see the all Gallery of Assertz Marq 2.0 starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Assertz Marq 2.0"/>
             <Navbar/>
             <SideMenu/>
 

@@ -390,8 +390,14 @@
 .aliginingForm{
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  background: linear-gradient(to right, #9494e6, #5fd8e8);
+  background: url(../Images/contact-b1.png);
+  background-size: cover;
 }
+
+.frustated h1{
+  color:white;
+}
+
 
 @media all and (max-width: 600px){
   .Overview_main{

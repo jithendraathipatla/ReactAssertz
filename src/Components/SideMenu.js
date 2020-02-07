@@ -114,7 +114,7 @@ const Sidemenu = (props) => {
     <div className={state} style={{marginTop:`${props.height}`}}>
     <div className="popup-content">
     <div className="frustated">
-      <h1 style={{paddingBottom:"15px", textDecoration:"underline"}} className="label">Fill Form to Download Brouchure</h1>
+      <h1 style={{paddingBottom:"15px", textDecoration:"underline"}}>Fill Form to Download Brouchure</h1>
       </div>
       <form name="brouchereform"  onSubmit={firstForm} method="POST" id="frmdb">
              <div id="sucess1"></div>               
