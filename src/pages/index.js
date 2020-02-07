@@ -18,7 +18,7 @@ import SideMenuBar from '../Components/SideMenu';
 export default () => {
     return(
         <div >
-          <SEOComponent title="Assertz Marq 2.0 | Assertz Marq"/>
+          <SEOComponent title="Assertz Marq 2.0 | Assertz Marq" des="This webpage provides all the Information about Assertz Marq 2.0 . You will be able to see all the related Information on Assertz Marq 2.0 starting from Overview of the Project to the Location."/>
           <NavBar/>
           <Slider/>
           <SideMenuBar/>

@@ -12,7 +12,7 @@ import SideMenu from '../Components/SideMenu';
 const overview = () => {
     return (
         <div>
-        <SEOComponent title="Assertz Marq 2.0 Overview | Assertz builders | Assertz Properties"/>
+        <SEOComponent title="Assertz Marq 2.0 Overview | Assertz builders | Assertz Properties" des="This page helps you to understand more on the Assertz Marq 2.0 Property. The website you will see will help you to get more informative on Assertz Marq 2.0"/>
         <Navbar/>
         <SideMenu/>
         <div className="box">

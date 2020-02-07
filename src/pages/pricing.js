@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const pricing = () => {
     return (
         <div>
-        <SEOComponent title="Assertz Marq 2.0 Price | Starting Price of an Assertz Property | Best Apartment in Whitefield, Bangalore "/>
+        <SEOComponent title="Assertz Marq 2.0 Price | Starting Price of an Assertz Property | Best Apartment in Whitefield, Bangalore" des="Are you Curious to know about the offers and benifits the Assertz Marq 2.0 Provides ?, Then, visit the website to get all the data related to 3BHK and 4BHK starting Prices that Assertz Marq has to offer."/>
         <Navbar/>
         <SideMenu/>
         <div className="box">

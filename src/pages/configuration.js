@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const configuration = () => {
     return (
         <div>
-           <SEOComponent title="flats in whitefield | assetz property"/>
+           <SEOComponent title="flats in whitefield | assetz property" des="This website Provides a whole lot of information on the Assertz Marq 2.0 Property. You will find about Total land area the Assertz Marq 2.0 has come-up with , number of Uits that it owns and many more"/>
            <Navbar/>
            <SideMenu/>
            <div className="box">

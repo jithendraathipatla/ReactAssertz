@@ -11,7 +11,7 @@ import MainLogo from '../Images/logo.png';
 const location = () => {
     return (
         <div>
-        <SEOComponent title="Assertz Marq 2.0 Location | Assertz Marq location | assetz marq"/>
+        <SEOComponent title="Assertz Marq 2.0 Location | Assertz Marq location | assetz marq" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
         <Navbar/>
         <SideMenu/>
         <div className="box">
