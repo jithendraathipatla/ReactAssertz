@@ -2,14 +2,14 @@
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr 3fr 3fr;
     grid-gap: 40px 58px;
-    padding-left: 20px;
+    padding: 20px 2px 20px 72px;
 }
 
 .Amenities_main img{
   border: 1px solid #eee;
   padding: 5px;
   border-radius: 15%;
-  background: linear-gradient(to bottom, rgba(196, 209, 20, 0.534), rgba(255, 230, 0, 0.52));
+  background: white;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -17,13 +17,13 @@
 .Amenities_main h1{
     font-size: 18px;
     padding-top: 5px;
+    color:white;
 }
 
 .youtubeFrame{
     display: grid;
     grid-template-columns: 3fr 3fr;
     grid-gap: 3px 40px;
-    
 }
 
 .main_title{
@@ -39,6 +39,7 @@
     grid-template-columns: 2fr 2fr 2fr 2fr;
     grid-gap: 40px;
     margin-left: 20px;
+    padding: 20px;
 }
 
 .Overview_main h1{
@@ -55,7 +56,7 @@
     border: 1px solid #eee;
     padding: 5px;
     border-radius: 15%;
-    background: linear-gradient(to bottom, rgba(196, 209, 20, 0.534), rgba(255, 230, 0, 0.52));
+    background: white;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
 }
   
@@ -70,6 +71,7 @@
 .Overview_main .headings{
     flex:6;
     margin-left: 10px;
+    color:white;
 }
   
 .awssld__bullets {
@@ -102,28 +104,69 @@
     transition: left .5s ease;
     z-index:1000;
   }
-  
-  .popup-content {
-    background: linear-gradient(to right, #9494e6, #5fd8e8);  box-sizing: border-box;
+ 
+  .highlightingOverview{
+    background-image: url('../Images/slider2.jpg');
+  }
+.form-heada h1 {
+  font-size: 16px;
+  background-color: #ff9800;
+  margin-bottom: 20px;
+  font-weight: 500;
+  padding:10px 3px;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 0.1px solid white;
+}
+
+.form-groupa input {
+  border-radius: 3px;
+  border: 1px solid #dbc65d;
+  border-width: 1px;
+  background-color:#000000cf;
+  padding: 9px 15px;
+  width: 100%;
+  font-size:16px;
+}
+.testing_now{
+  background-image: url('../Images/amenities-bg.jpg');
+}
+.form-groupa {
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+
+.quoteSubmita{
+  color:#fff;
+  background-color: #ff9800;
+  padding: 6px 10px;
+  border-width: 1px;
+  font-size: 16px;
+  border-radius: 2px;
+  margin-top: -8px;
+}
+
+  .popup-content{
+    background-color: #000000cf;
+    box-sizing: border-box;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    color: white;
+    color: #000000cf;
     float: left;
-    height: 187px;
-    padding: 10px;
-    width: 275px;
+    height: 212px;
+    width: 310px;
     font-size: 12px;
     box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
   }
   
   .closepopup{
-    left: -275px;
+    left: -310px;
   }
   
   
   @keyframes example {
     from {background-color: red;}
-    to {background-color: yellow;}
+    to {background-color: orange;}
     0%, 100% {
       bottom: 0;
     }
@@ -336,16 +379,6 @@
   display:none;
 }
 
-.modalbuttonMedium{
-  border:none;
-  margin-top: 8px;
-  padding: 6px 14px;
-    font-size: 0.9125rem;
-    border-radius: 5px;
-    color: #fff;
-    background-color: green;
-    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
-}
 
 
 .modalbuttonMediumtwo{
@@ -388,16 +421,73 @@
 }
 
 .aliginingForm{
-  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  background: url(../Images/contact-b1.png);
   background-size: cover;
 }
 
-.frustated h1{
-  color:white;
+.backgroundSlider{
+  position: relative;
 }
 
+.backgroundForm{
+  position: absolute;
+  margin-top: -445px;
+  z-index: 17;
+  margin-left: 890px;
+  background-color: #000000cf;
+  width:300px;
+  border: 0.1px solid white;
+}
+
+.form-group {
+  padding: 0px 20px;
+  margin-bottom: 25px;
+}
+
+.form-group input {
+  border-radius: 3px;
+  border: 1px solid #dbc65d;
+  border-width: 1px;
+  background-color:#f9f9f900;
+  padding: 10px 15px;
+  width: 100%;
+  font-size:16px;
+}
+
+.form-head{
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+
+
+.form-button{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.quoteSubmit{
+  color:#fff;
+  background-color: #ff9800;
+  padding: 8px 15px;
+  border-width: 1px;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.form-head h1 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #ff9800;
+  margin-bottom: 20px;
+  padding: 8px 0px;
+  color: #fff;
+  border: 0.1px solid white;
+}
 
 @media all and (max-width: 600px){
   .Overview_main{

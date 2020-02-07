@@ -111,8 +111,10 @@ const Amenities = () => {
                 <Title title="Marq Amenities"/>
             </div>
             <br/>
+            <div className="testing_now">
             <div className="Amenities_main">
             {displayingAmenities()}
+            </div>
             </div>
         <br/>
         <br/>

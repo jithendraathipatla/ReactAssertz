@@ -12,6 +12,7 @@ import Amenities from '../Components/Amenities';
 import SEOComponent from '../Components/SEO';
 import Slider from '../Components/Slider';
 import SideMenuBar from '../Components/SideMenu';
+import HighlightForm from '../Components/HighlightForm';
 
 
 
@@ -20,7 +21,14 @@ export default () => {
         <div >
           <SEOComponent title="Assertz Marq 2.0 | Assertz Marq" des="This webpage provides all the Information about Assertz Marq 2.0 . You will be able to see all the related Information on Assertz Marq 2.0 starting from Overview of the Project to the Location."/>
           <NavBar/>
+          <div className="slider">
+          <div className="backgroundSlider">
           <Slider/>
+          </div>
+          <div className="backgroundForm">
+          <HighlightForm/>
+          </div>
+          </div>
           <SideMenuBar/>
           <div className="box" >
           <div className="card">

@@ -76,9 +76,10 @@ const StatefulOverview = () => {
         <div style={{textAlign:"center"}}>
         <Title title="Marq Overview"/>
         </div>
-        
+        <div className="highlightingOverview">
         <div className="Overview_main">
         {displayingOverview()}
+        </div>
         </div>
         </div>
     );

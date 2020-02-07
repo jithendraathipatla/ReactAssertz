@@ -113,45 +113,45 @@ const Sidemenu = (props) => {
     <div>
     <div className={state} style={{marginTop:`${props.height}`}}>
     <div className="popup-content">
-    <div className="frustated">
-      <h1 style={{paddingBottom:"15px", textDecoration:"underline"}}>Fill Form to Download Brouchure</h1>
+    <div className="form-heada">
+      <h1>Fill Form to Download Brouchure</h1>
       </div>
       <form name="brouchereform"  onSubmit={firstForm} method="POST" id="frmdb">
              <div id="sucess1"></div>               
-                <div className="inputGroup2">
-                  <input className="input" style={{height:"30px", fontSize:"15px", padding:"10px 6px"}}  required placeholder="Your emailId" type="email" name="email" id="email1"/><br/>
-                  <label className="frustatingclass">*Email</label>
+                <div className="form-groupa">
+                  <input  required placeholder="Your emailId" type="email" name="email" id="email1"/><br/>
+                  
                 </div>
-                <div className="inputGroup2">
-                  <input className="input" style={{height:"30px", fontSize:"15px", padding:"10px 6px"}} onChange={restrictingone}  required type="number" placeholder="Your Phone Number" name="mobile" id="mobile1"/><br/>
-                  <label className="frustatingclass" >*Mobile</label>
+                <div className="form-groupa">
+                  <input onChange={restrictingone}  required type="number" placeholder="Your Phone Number" name="mobile" id="mobile1"/><br/>
+                
                 </div>             
-                <div className="btn-group" >
-                  <button  className="modalbuttonMedium" type="submit" name="submit">Submit</button>
+                <div className="form-button" >
+                  <button  className="quoteSubmita" type="submit" name="submit">Submit</button>
                 </div>
               </form>
            </div>  
-<a  className={nextstep} onClick={handelPopUp}>Download Brouchure</a>
+<a className={nextstep} onClick={handelPopUp}>Download Brouchure</a>
   </div>
 
   <div className={costone}>
-    <div className="popup-content" style={{height:"186px"}}>
-    <div className="frustated">
-    <h1 style={{paddingBottom:"15px", textDecoration:"underline"}} className="label">Fill Form to Download cost sheet</h1>
+    <div className="popup-content" style={{height:"212px"}}>
+    <div className="form-heada">
+    <h1>Fill Form to Download cost sheet</h1>
     </div>
      <form action="./popup.php"  method="POST" className="callRequest" id="frmps" onSubmit={secondform}>
              <div id="sucess2"></div>      
-                <div className="inputGroup2">
-                  <input className="input" style={{height:"30px", fontSize:"15px", padding:"10px  6px"}} required type="email" placeholder="Your Emailid" name="email" id="email2"/><br/>
-                  <label className="frustatingclass" >*Email</label>
+                <div className="form-groupa">
+                  <input  required type="email" placeholder="Your Emailid" name="email" id="email2"/><br/>
+                 
                 </div>
-                <div className="inputGroup2">
-                  <input className="input" style={{height:"30px", fontSize:"15px", padding:"10px 6px"}} onChange={restricingSecond}  type="number" required placeholder="Your Number" name="mobile" id="mobile2"/><br/>
-                  <label className="frustatingclass" >*Mobile</label>
+                <div className="form-groupa">
+                  <input  onChange={restricingSecond}  type="number" required placeholder="Your Number" name="mobile" id="mobile2"/><br/>
+                
                 </div>          
                 
-                <div className="btn-group">
-                  <button name="submit" className="modalbuttonMedium"  type="submit">submit</button>
+                <div className="form-button">
+                  <button name="submit" className="quoteSubmita"  type="submit">submit</button>
                 </div>
               </form> 
     </div>  
