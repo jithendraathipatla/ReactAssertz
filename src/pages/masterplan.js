@@ -7,6 +7,7 @@ import Titleabc from '../Components/Title';
 import Description from '../Components/Description';
 import SideMenu from '../Components/SideMenu';
 import MasterplanImage from '../Components/MasterPlan';
+import '../GlobalStyles/styles.css';
 
 const masterplan = () => {
     return (
@@ -27,7 +28,7 @@ const masterplan = () => {
        <div style={{textAlign:"center"}}>
        <Titleabc title="Marq Master Plan"/>
        </div>
-       <div style={{textAlign:"center", marginLeft:"65vh"}}>
+       <div className="masterPlan">
        <MasterplanImage/>
        </div>
        <hr/>

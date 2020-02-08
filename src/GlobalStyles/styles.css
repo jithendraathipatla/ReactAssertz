@@ -513,8 +513,14 @@
   color: #fff;
   border: 0.1px solid white;
 }
-
+.masterPlan{
+  text-align: center;
+  margin-left: 64vh;
+}
 @media all and (max-width: 600px){
+  .masterPlan{
+    margin-left: 10vh;
+  }
   .Overview_main{
     display:block;
   }
