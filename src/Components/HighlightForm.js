@@ -1,10 +1,39 @@
 import React from 'react';
+import axios from 'axios';
 import '../GlobalStyles/styles.css';
 
+
 const HighlightForm = () => {
+    const handelformdata = (e) => {
+        e.preventDefault();
+        const name = e.target.elements.name.value;
+        const email = e.target.elements.email.value;
+        const phone = e.target.elements.phone_no.value;
+
+        const client_information = {
+            client_name:name,
+            client_email:email,
+            client_phone:phone
+        }
+        var data = {
+            service_id: 'gmail',
+            template_id: 'normal',
+            user_id: 'user_s9VasukllOwTDnR8R0FWD',
+            template_params: client_information
+        }
+      
+        axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
+        .then(res => {
+          console.log(res);
+          console.log(res.data);
+          alert("You will now be redirected.");
+          window.location = "/download/";
+        })
+      
+    }
     return (
         <div>
-        <form>
+        <form onSubmit={handelformdata}>
         <div className="quote-form">
                 <div className="form-head">
                 <h1>ENQUIRE NOW</h1>

@@ -123,7 +123,7 @@ const Sidemenu = (props) => {
                   
                 </div>
                 <div className="form-groupa">
-                  <input onChange={restrictingone}  required type="number" placeholder="Your Phone Number" name="mobile" id="mobile1"/><br/>
+                  <input onChange={restrictingone}  required type="number" placeholder="Your Phone Number" name="mobile" id="mobile1" minlength="10" maxlength="20" title="Must have 10 digit numbers" pattern="^\d{10}$"/><br/>
                 
                 </div>             
                 <div className="form-button" >
@@ -146,7 +146,7 @@ const Sidemenu = (props) => {
                  
                 </div>
                 <div className="form-groupa">
-                  <input  onChange={restricingSecond}  type="number" required placeholder="Your Number" name="mobile" id="mobile2"/><br/>
+                  <input  onChange={restricingSecond}  type="number" required placeholder="Your Number" name="mobile" id="mobile2" minlength="10" maxlength="20" title="Must have 10 digit numbers" pattern="^\d{10}$"/><br/>
                 
                 </div>          
                 

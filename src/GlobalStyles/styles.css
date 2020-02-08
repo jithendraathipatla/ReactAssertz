@@ -108,7 +108,29 @@
   .highlightingOverview{
     background-image: url('../Images/amenities-bg.jpg');
   }
-.form-heada h1 {
+ 
+  .controlabc{
+     display: flex;
+  }
+
+  .controlabc select{
+    flex:1;
+    margin-right: 19px;
+  }
+
+  .controlabc input{
+    flex: 4;
+  }
+
+  .form-control{
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-radius: 4px;
+    color: #363636;
+  }
+
+
+  .form-heada h1 {
   font-size: 16px;
   background-color: #ff9800;
   margin-bottom: 20px;
