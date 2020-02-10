@@ -127,7 +127,7 @@ const Sidemenu = (props) => {
                 
                 </div>             
                 <div className="form-button" >
-                  <button  className="quoteSubmita" type="submit" name="submit">Submit</button>
+                  <button  className="prestigecopyabcd" type="submit" name="submit">Submit</button>
                 </div>
               </form>
            </div>  
@@ -135,7 +135,7 @@ const Sidemenu = (props) => {
   </div>
 
   <div className={costone}>
-    <div className="popup-content" style={{height:"212px"}}>
+    <div className="popup-content" style={{height:"225px"}}>
     <div className="form-heada">
     <h1>Fill Form to Download cost sheet</h1>
     </div>
@@ -151,7 +151,7 @@ const Sidemenu = (props) => {
                 </div>          
                 
                 <div className="form-button">
-                  <button name="submit" className="quoteSubmita"  type="submit">submit</button>
+                  <button name="submit" className="prestigecopyabcd"  type="submit">submit</button>
                 </div>
               </form> 
     </div>  

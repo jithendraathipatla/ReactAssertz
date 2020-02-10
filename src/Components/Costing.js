@@ -17,15 +17,12 @@ const Costing = () => {
 
 
     return (
-        <div>
         <div className="costingPart">
             <div>
-            <div  style={{textAlign:"center"}}>
-            <Title title="Marq Pricing" />
-            </div>
+          
             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
             <thead >
-              <tr className="is-selected" style={{backgroundColor:"rgb(88, 108, 138)", border:"3px solid #eee"}}>
+              <tr className="is-selected" style={{backgroundColor:"rgb(168, 137, 68)", border:"3px solid #eee"}}>
                 <th>Unit Type</th>
                 <th>Unit Carpet Area(Sq.Ft)</th>
                 <th>Price</th>
@@ -34,28 +31,19 @@ const Costing = () => {
            
             <tbody>
               <tr>
-              <td>3 BHk + 2 T</td>
-               <td>1366 - 144</td>
-               <td>Starting 90 Lakh* <br/><Modal title="Price Breakup" class="modalbuttonsmall"/></td>
+              <td>1 BHk</td>
+               <td>632 - 652</td>
+               <td><Modal title="Price Breakup" class="modalbuttonsmall"/></td>
               </tr>
               <tr>
-               <td>3 BHK + 3 T</td>
-               <td>1564 - 1939</td>
-               <td>Starting 1.04 Cr* <br/><Modal title="Price Breakup" class="modalbuttonsmall"/></td>
+               <td>2 BHK</td>
+               <td>955 - 999</td>
+               <td><Modal title="Price Breakup" class="modalbuttonsmall"/></td>
               </tr>
-              <tr>
-               <td>4 BHk + 4T</td>
-               <td>2232 - 2266</td>
-               <td>Starting 1.40 Cr* <br/><Modal title="Price Breakup" class="modalbuttonsmall"/></td>
-              </tr>
+             
               
             </tbody>
           </table>
-            </div>
-
-            <div>
-            <div  style={{textAlign:"center"}}>
-            <Title title="Marq CostSheet" />
             </div>
             <div  onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHoverTwo} className="parkedtwo">
             <img src={CostingImage}  alt="costing Details" style={{height:"223px", width:"100%"}}/>
@@ -67,9 +55,8 @@ const Costing = () => {
             <div style={{textAlign:"center"}}>
             <Modal title="Complecte Costing" class="modalbuttonsmall"/>
             </div>
-            </div>
         </div>
-        </div>
+        
     );
 };
 

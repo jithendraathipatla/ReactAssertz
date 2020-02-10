@@ -17,17 +17,18 @@ import FloorPlanNine from '../Images/floor9.jpg';
 import FloorPlanTen from '../Images/floor10.jpg';
 import FloorPlanEleven from '../Images/floor11.jpg';
 
-import ExteriorFirst from '../Images/slider1.jpg';
-import ExteriorSecond from '../Images/slider2.jpg';
-import ExteriorThird from '../Images/slider3.jpg';
-import ExteriorFourth from '../Images/slider5.jpg';
+import ExteriorFirst from '../Imagesa/Images/prestige-finsbury-park-hyde1.jpg';
+import ExteriorSecond from '../Imagesa/Images/prestige-finsbury-regent3.jpg';
+import ExteriorThird from '../Imagesa/Images/prestige-finsbury-regent2.jpg';
+import ExteriorFourth from '../Imagesa/Images/prestige-finsbury-regent4.jpg';
 
 import InteriorOne from '../Images/interior1.jpeg';
 import InteriorTwo from '../Images/interior3.jpeg';
 import InteriorThree from '../Images/interior5.jpeg';
 import InteriorFour from '../Images/interior6.jpeg'; 
 
-import MasterPlanabcd from '../Images/mplan.jpg';
+import MasterPlanabcd from '../Imagesa/Images/masterplan-hyde.jpg';
+import Masterplanregent from '../Imagesa/Images/master.jpg';
 
 
 
@@ -129,8 +130,12 @@ const Gallery = () => {
 
         const [masterplan, setmasterplan] = useState([
             {
-                name:"Marq Master Plan",
+                name:"Master Plan Hyde",
                 image:MasterPlanabcd
+            },
+            {
+                name:"Master Plan Regent",
+                image:Masterplanregent
             }
         ]);
 
@@ -142,11 +147,11 @@ const Gallery = () => {
             <br/>
             <div  className="galleryImages">
               <div>
-              <Title title="Marq Interior, Exterior & Masterplan"/>
-              <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior} height="200px"/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
+              <Title title="Interior, Exterior & Masterplan"/>
+              <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior} height="200px"/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd, Masterplanregent]} state={masterplan}/>}/>
               </div>
               <div>
-              <Title title="Marq Floor Plans"/>
+              <Title title="Finsbury Park Floor Plans"/>
               <TabContainer title1="Part I" title2="Part II" title3="Part III" exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]} state={floorsetone}/>}  interior={<LightHouseabc images={[FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]} state={floorsettwo}/>} mplan={<LightHouseabc images={[FloorPlanNine, FloorPlanTen, FloorPlanEleven]} state={floorsetthree}/>}/>
               </div>
             </div>

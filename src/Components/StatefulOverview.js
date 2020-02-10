@@ -14,42 +14,42 @@ import '../GlobalStyles/styles.css';
 const StatefulOverview = () => {
     const [state, setstate] = useState([{
         main_title:"Project Type",
-        sub_heading:"Residential Unit",
+        sub_heading:"Residential Apartment",
         image:ProjectType,
     },
     {
         main_title:"Total Land Area",
-        sub_heading:"22 Aceres",
+        sub_heading:"25 Aceres",
         image:TotalLandArea,
     },
     {
         main_title:"Total Units",
-        sub_heading:"297 Units",
+        sub_heading:"3000 Units",
         image:TotalUnits,
     },
     {
         main_title:"Number Of Floors",
-        sub_heading:"B + G + 28",
+        sub_heading:"B + G + 20",
         image:NumberOfFloors,
     },
     {
         main_title:"Total Towers",
-        sub_heading:"2 Blocks",
+        sub_heading:"18 Towers",
         image:TotalTowers,
     },
     {
         main_title:"Unit Varients",
-        sub_heading:"3 & 4 BHK",
+        sub_heading:"1,2 & 3 BHK",
         image:UnitVarients,
     },
     {
         main_title:"Possession Date",
-        sub_heading:"Nov 2022",
+        sub_heading:"JUNE 2023",
         image:PossessionDate,
     },
     {
         main_title:"Location",
-        sub_heading:"Whitefield, Bangalore",
+        sub_heading:"Baglur Road, Bangalore",
         image:Location,
     }
     ]);
@@ -74,12 +74,11 @@ const StatefulOverview = () => {
        
         <div>
         <div style={{textAlign:"center"}}>
-        <Title title="Marq Overview"/>
+        <Title title="FunsBury Park Overview"/>
         </div>
-        <div className="highlightingOverview">
+      
         <div className="Overview_main">
         {displayingOverview()}
-        </div>
         </div>
         </div>
     );

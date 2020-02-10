@@ -18,7 +18,7 @@ const configuration = () => {
            <div className="card">
            <div style={{paddingTop:"10vh"}}>
            <div style={{textAlign:"center"}}>
-           <Titleabc title="Assertz Marq Configuration"/>
+           <Titleabc title="FinsBury Park Configuration"/>
            </div>
            <Description> <p style={{textAlign:"justify"}}>
           

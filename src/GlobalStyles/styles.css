@@ -7,17 +7,15 @@
 
 .Amenities_main img{
   border: 1px solid #eee;
-  padding: 5px;
-  border-radius: 15%;
-  background: white;
-  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 3%;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
 
 .Amenities_main h1{
     font-size: 18px;
     padding-top: 5px;
-    color:white;
 }
 
 .youtubeFrame{
@@ -27,7 +25,7 @@
 }
 
 .main_title{
-  color: #19544B;
+  color: #A88944;
     font-size: 26px;
     padding-top: 15px;
     padding-bottom: 20px;
@@ -53,11 +51,10 @@
 }
 
 .Overview_main img{
-    border: 1px solid #eee;
-    padding: 5px;
-    border-radius: 15%;
-    background: white;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 3%;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
 }
   
 .Overview_main .properly{
@@ -70,8 +67,7 @@
 
 .Overview_main .headings{
     flex:6;
-    margin-left: 10px;
-    color:white;
+    margin-left: 20px;
 }
   
 .awssld__bullets {
@@ -100,13 +96,9 @@
   .popupps{
     left: 0;
     position: fixed;
-    top: 55%;
+    top: 60%;
     transition: left .5s ease;
     z-index:1000;
-  }
- 
-  .highlightingOverview{
-    background-image: url('../Images/amenities-bg.jpg');
   }
  
   .controlabc{
@@ -132,7 +124,7 @@
 
   .form-heada h1 {
   font-size: 16px;
-  background-color: #ff9800;
+  background-color: #d4af37;
   margin-bottom: 20px;
   font-weight: 500;
   padding:10px 3px;
@@ -142,42 +134,33 @@
 }
 
 .form-groupa input {
-  border-radius: 3px;
-  border: 1px solid #dbc65d;
+  box-shadow: inset 0 0.0625em 0.125em rgba(10,10,10,.05);
+  border:1px solid #dbdbdb;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 4px;
   border-width: 1px;
-  background-color:#000000cf;
+  background-color:white;
   padding: 9px 15px;
   width: 100%;
   font-size:16px;
-  color:white;
+  color:black;
 }
 
-.testing_now{
-  background-image: url('../Images/slider2.jpg');
-}
 .form-groupa {
   padding: 0px 10px;
   margin-bottom: 20px;
 }
 
-.quoteSubmita{
-  color:#fff;
-  background-color: #ff9800;
-  padding: 6px 10px;
-  border-width: 1px;
-  font-size: 16px;
-  border-radius: 2px;
-  margin-top: -8px;
-}
 
   .popup-content{
-    background-color: #000000cf;
+    background-color: white;
     box-sizing: border-box;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: #000000cf;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: black;
     float: left;
-    height: 212px;
+    height: 225px;
     width: 310px;
     font-size: 12px;
     box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
@@ -189,8 +172,8 @@
   
   
   @keyframes example {
-    from {background-color: red;}
-    to {background-color: orange;}
+    from {background-color: #000;}
+    to {background-color: #d3b169;}
     0%, 100% {
       bottom: 0;
     }
@@ -278,10 +261,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.25rem 1rem;
+  padding: 0rem 0.1rem;
   z-index: 100;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.09);
-  background:black;
+  background:white;
 }
 .nav-header {
   display: flex;
@@ -307,7 +290,7 @@
   display: block;
   text-decoration: none;
   padding: 1rem 0;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 1.3rem;
   font-weight: 490;
@@ -315,7 +298,7 @@
 }
 
 .nav-links a:hover {
-  color: orchid;
+  color: #d3b169;
 }
 
 .show-nav {
@@ -330,16 +313,38 @@
     max-width: 100%;
     margin: 0 auto;
     display: flex;
+    width: 100%;
   }
-  .nav-links {
+  .nav-links{
     height: auto;
     display: flex;
-    margin-left: 11rem;
+    margin-left: 7.3rem;
+  }
+
+  .nav-links > li{
+    border-right: 0.1px solid #eee;
+    padding-right: 0.5rem;
+  }
+
+  .nav-links .LastChild{
+    border-right: none;
+  }
+
+  .nav-links li{
+    display: flex;
   }
   .nav-links a {
-    margin: 0 1rem;
-    color: white;
+    margin: 0 0rem 0rem 0.6rem;
+    color: black;
     padding: 16px 0;
+  }
+  .nav-links img{
+      height: 16px;
+      margin-top: 26px;
+      margin-left: 8px;
+  }
+  .main_logo1{
+    width: 200px;
   }
 }
 
@@ -378,7 +383,9 @@
   padding: 4px 10px;
     font-size: 0.8125rem;
     color: #fff;
-    background-color: #1976d2;
+    background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
+    background-size: 400% 400%;
+    animation: Gradient 3s ease infinite;
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
 
@@ -453,15 +460,146 @@
 .backgroundSlider{
   position: relative;
 }
+.backgroundFormTwo{
+  position: absolute;
+  top:12.5%;
+  z-index: 17;
+  left:3%;
+  background-color: rgba(0,0,0,0.7);
+  width:500px;
+  padding:10px;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+
+.carousel-captiona h1{
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 3px 4px rgba(0, 0, 0, .45);
+  font-size: 40px;
+}
+
+.carousel-captiona h4{
+  display: block;
+  font-size: 1.1rem;
+  color:#fff;
+  text-shadow: 1px 3px 4px rgba(0, 0, 0, .45);
+}
+
+.carousel-captiona h3{
+  display: block;
+  font-size: 1.5rem;
+  color:#fff;
+  text-shadow: 1px 3px 19px rgba(41, 26, 26, 0.75);
+}
+
+.carousel-captiona h6{
+  color: #fff;
+}
+
+.prestigecopyabcd{
+  color: white;
+  padding: 8px 20px;
+  border-width: 1px;
+  font-size: 16px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
+  background-size: 400% 400%;
+  animation: Gradient 3s ease infinite;
+}
+
+.prestigecopyabcd:hover{
+  cursor: pointer;
+}
+
+
+.prestigecopy{
+  color: white;
+  padding: 5px 59px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
+  background-size: 400% 400%;
+  animation: Gradient 3s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0 50%
+	}
+}
+@keyframes rocking{
+  0%{transform:rotate(0deg)}
+  25%{transform:rotate(0deg)}
+  50%{transform:rotate(2deg)}
+  75%{transform:rotate(-2deg)}
+  100%{transform:rotate(0deg)}
+}
+.close{
+  color:#2424;
+}
+
+
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+}
+
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.bounceIn {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.MuiTabs-root {
+  display: flex;
+  overflow: hidden;
+  min-height: 48px;
+  background: white;
+  color: black;
+  -webkit-overflow-scrolling: touch;
+}
+
 
 .backgroundForm{
   position: absolute;
-  margin-top: -445px;
+  top:20%;
   z-index: 17;
-  margin-left: 890px;
+  right:3%;
   background-color: #000000cf;
   width:300px;
-  border: 0.1px solid white;
 }
 
 .form-group {
@@ -471,9 +609,7 @@
 
 .form-group input {
   border-radius: 3px;
-  border: 1px solid #dbc65d;
   border-width: 1px;
-  background-color:#f9f9f900;
   padding: 10px 15px;
   width: 100%;
   color:white;
@@ -481,11 +617,12 @@
 }
 
 .form-head{
-  background-color: orange;
+  background-color: #d4af37;
   color: #fff;
   text-align: center;
   margin-bottom: 35px;
 }
+
 
 
 
@@ -495,23 +632,15 @@
   color: #fff;
 }
 
-.quoteSubmit{
-  color:#fff;
-  background-color: #ff9800;
-  padding: 8px 15px;
-  border-width: 1px;
-  font-size: 16px;
-  border-radius: 2px;
-}
 
 .form-head h1 {
   font-size: 20px;
   text-align: center;
-  background-color: #ff9800;
+  background-color: #d4af37;
   margin-bottom: 20px;
   padding: 8px 0px;
   color: #fff;
-  border: 0.1px solid white;
+  
 }
 .masterPlan{
   text-align: center;

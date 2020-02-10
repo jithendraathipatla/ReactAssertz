@@ -6,11 +6,12 @@ import Overview from '../Components/StatefulOverview';
 import ConfigurationPart from '../Components/Configration';
 import Description from '../Components/Description';
 import Gallery from '../Components/Gallery';
-import Costing from '../Components/Costing';
 import LocationPart from '../Components/Location';
 import Amenities from '../Components/Amenities';
 import SEOComponent from '../Components/SEO';
+import HighlightFormTwo from '../Components/HighlightFormTwo';
 import Slider from '../Components/Slider';
+import TabsContainerOne from '../Components/tabsforCost';
 import SideMenuBar from '../Components/SideMenu';
 import HighlightForm from '../Components/HighlightForm';
 
@@ -28,12 +29,15 @@ export default () => {
           <div className="backgroundForm">
           <HighlightForm/>
           </div>
+          <div className="backgroundFormTwo">
+          <HighlightFormTwo/>
+          </div>
           </div>
           <SideMenuBar/>
           <div className="box" >
-          <div className="card">
-          <div style={{textAlign:"center"}} >
-           <Title title="About Assertz Marq 2.0"/>
+        
+          <div style={{textAlign:"center", marginTop:"-30px"}} >
+           <Title title="About Prestige Finsbury Park"/>
            </div>
           <Description>
           <p style={{textAlign:"justify"}}>
@@ -50,7 +54,6 @@ export default () => {
           
         </p>
         </Description>
-        </div>
         <hr/>
         <Overview/>
         <hr/>
@@ -60,7 +63,7 @@ export default () => {
         <hr/>
         <Amenities/>
         <hr/>
-        <Costing/>
+        <TabsContainerOne/>
         <hr/>
         
         <LocationPart/>

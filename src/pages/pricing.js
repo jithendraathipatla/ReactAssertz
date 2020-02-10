@@ -5,7 +5,7 @@ import SEOComponent from '../Components/SEO';
 import Footer from '../Components/Footer';
 import Titleabc from '../Components/Title';
 import Description from '../Components/Description';
-import PricingComponent from '../Components/Costing';
+import PricingComponent from '../Components/tabsforCost';
 import SideMenu from '../Components/SideMenu';
 
 const pricing = () => {

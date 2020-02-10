@@ -108,34 +108,11 @@ const Amenities = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-                <Title title="Marq Amenities"/>
+                <Title title="FunsBury Park Amenities"/>
             </div>
-            <br/>
-            <div className="testing_now">
             <div className="Amenities_main">
             {displayingAmenities()}
             </div>
-            </div>
-        <br/>
-        <br/>
-
-        
-        <hr/>
-        
-        <div style={{textAlign:"center"}}>
-        <Title title="Marq Lifestyle Videos"/>
-        </div>
-
-
-        <div className="youtubeFrame">
-        
-        <iframe className="project-video-frame" width="100%" height="345" src="https://www.youtube.com/embed/uQNgB0UW64s">
-        </iframe>
-        <iframe className="project-video-frame" width="100%" height="345" src="https://www.youtube.com/embed/1C0Eo1lJN-Y">
-        </iframe>
-     
-
-       </div>
         </div>
     );
 };

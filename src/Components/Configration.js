@@ -7,12 +7,12 @@ const Tabel = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-            <TitleComponent title="Marq Configuration"/>
+            <TitleComponent title="Funsbury Park Configuration"/>
             </div>
           
             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
   <thead >
-    <tr className="is-selected" style={{backgroundColor:"rgb(88, 108, 138)", border:"3px solid #eee"}}>
+    <tr className="is-selected" style={{backgroundColor:"#a88944", border:"3px solid #eee"}}>
       <th>Project</th>
       <th>Configuration</th>
       <th>Unit Carpet (Sq.Ft)</th>
@@ -23,25 +23,46 @@ const Tabel = () => {
   <tbody>
     
     <tr>
-    <td rowSpan={4}>
-    <br/>Phase II</td>
+    <td rowSpan={3}>
+    <br/>Hyde</td>
     </tr>
     <tr>
-    <td>3 BHk + 2 T</td>
-     <td>1366 - 1424</td>
+    <td>1 BHk</td>
+     <td>632 - 652</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     </tr>
     <tr>
-     <td>3 BHK + 3 T</td>
-     <td>1564 - 1939</td>
+     <td>2 BHK </td>
+     <td>995 - 999</td>
+     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+    </tr>
+     
+
+    <tr>
+    <td rowSpan={5}>
+    <br/>Regent</td>
+    </tr>
+    <tr>
+    <td>1 BHk Large</td>
+     <td>862</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     </tr>
     <tr>
-     <td>4 BHk + 4T</td>
-     <td>2232 - 2266</td>
+     <td>2 BHK</td>
+     <td>1054 - 1173</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-    
+    </tr>
+    <tr>
+     <td>3 BHk + 2T</td>
+     <td>1244 - 1277</td>
+     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     </tr> 
+    <tr>
+    <td>3 BHk + 3T</td>
+    <td>1431 - 1562</td>
+    <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+   </tr> 
+
   </tbody>
 </table>
         </div>

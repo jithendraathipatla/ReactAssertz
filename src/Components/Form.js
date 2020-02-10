@@ -283,7 +283,7 @@ const Form = () => {
   </div>
   <br/>
   <div style={{textAlign:"center"}}>
-  <button className="modalbuttonMediumtwo" name="submit" type="submit" value="submit">Submit</button>
+  <button className="prestigecopyabcd" name="submit" type="submit" value="submit">Submit</button>
   </div>
   </div>
   </form>
