@@ -657,6 +657,9 @@
     font-weight: 490;
     letter-spacing: .025rem;
   }
+  .rera{
+    display: none;
+  }
   .nav-links a:first {
     border-top: 1px solid black;
   }
@@ -674,6 +677,7 @@
   .nav-btn{
    color:#d3b169;
   }
+
   .carousel-captiona h1 {
     font-size: 25px;
   }
