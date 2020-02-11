@@ -425,8 +425,18 @@
 
 .styles_modal__gNwvD {
   max-width: 906px;
-  width: 373px !important;
+  width: 480px !important;
   border-radius: 3px !important;
+  padding:0px;
+}
+
+.styles_modal__gNwvD form{
+  padding:0px 20px;
+}
+
+.styles_modal__gNwvD .modalImageLogo{
+  padding: 21px 0px 0px 0px;
+    width: 300px;
 }
 
 .finaltouch a:hover{
@@ -434,7 +444,7 @@
 }
 
 .modalImageLogo{
-  height: 50px;
+  height: 78px;
   margin-top: -6px;
 }
 
