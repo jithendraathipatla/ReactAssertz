@@ -647,6 +647,32 @@
   text-align: center;
 }
 @media all and (max-width: 600px){
+  .modalbuttonsmall{
+    display: flex;
+  }
+  .main_logo1{
+    width:200px;
+  }
+
+  .nav-btn{
+   color:#d3b169;
+  }
+  .carousel-captiona h1 {
+    font-size: 25px;
+  }
+
+  .backgroundFormTwo{
+    width: 340px;
+    top:10vh;
+    left:2vh;
+  }
+  .carousel-captiona h3{
+    font-size: 1rem;
+  }
+  .carousel-captiona h6 {
+    color: #fff;
+    font-size: 12px;
+  }
   .masterPlan{
     margin-left: 10vh;
   }
