@@ -20,7 +20,7 @@ import HighlightForm from '../Components/HighlightForm';
 export default () => {
     return(
         <div >
-          <SEOComponent title="Assertz Marq 2.0 | Assertz Marq" des="This webpage provides all the Information about Assertz Marq 2.0 . You will be able to see all the related Information on Assertz Marq 2.0 starting from Overview of the Project to the Location."/>
+          <SEOComponent title="Prestige Funsbury Park | Prestige Funsbury Park - Hyde,Regent" des="This webpage provides all the Information on Prestige Funsbury Park . You will be able to see all the related Information on Prestige Funsbury park [Hyde, Regent], starting from Overview of the Project to the Location."/>
           <NavBar/>
           <div className="slider">
           <div className="backgroundSlider">
@@ -41,17 +41,13 @@ export default () => {
            </div>
           <Description>
           <p style={{textAlign:"justify"}}>
-         Assetz Marq has set up itself as one of the main names among the Builders and
-          engineers in Bangalore. They have assembled two world-class IT tech
-          stops in Bangalore: Vrindavan Tech Town (presently International safe
-          have Tech Town) - India's first Platinum LEED guaranteed IT SEZ, and
-          Worldwide Innovation Park.Assetz Marq 2.0 is fresh out of the box new private venture by Assetz homes.
-           Assetz Marq is exceptionally extensive and has sumptuous highlights.
-            This undertaking has great availability to all the significant urban areas and is situated in the core of Whitefield.
-             This venture is developed in 22 acres of open land with 297 units with G+28 Floors. The Assetz Marq area is on the Main Road of Whitefield. 
-             Assetz Marq 2.0 value is entirely moderate to every one of the segments of the individuals. 
-             It has a unique mix of the private and business spaces found in Kannamangala on the Hoskote - Whitefield fundamental street, Bangalore that is all around related to the genuine avenues, social and business establishments. These apartment suites have 4 squares and are offering 2BHK and 3BHK private pads nearby the confined houses in sensible costs. 
-          
+          Prestige Finsbury Park is the most awaited residential town coming_up in North Banaglore,
+           KIADB area, Just right adjacent to the Aerospace and Hardware Park. 
+           The Prestige Finsbury is close to Kempedowda International Airport, Devanahalli.
+            The north Bangalore is the New Launch hot and serious property investement where you wanna be. 
+            It comprises of all the needs from Quality schools to luxurious Malls. Prestige Finsbury is the new launch and it is in the heart of banglore, 
+            so the property is becoming sensation by it name and it's locality. Prestige Finsbury park has the good connectivity to all the famious destinations of Bangalore by the wide and well Laid Outer-Ring-Road. 
+          It also has a very good connectivity to Bellary Road.
         </p>
         </Description>
         <hr/>

@@ -12,7 +12,7 @@ import '../GlobalStyles/styles.css';
 const masterplan = () => {
     return (
         <div>
-        <SEOComponent title="Assertz Marq 2.0 Master Plan | Master Plan | assetz marq" des="This page is all about the Assertz Marq 2.0 Master Plan. This page will allow you to see a detailed view on Master Plan of Assertz Marq 2.0  Property"/>
+        <SEOComponent title="Prestige Funsbury Park Master Plan - Regent | Prestige Funsbury Park Master Plan - Hyde | Prestige Funsbury Park" des="This page is all about the Prestige Funsbury Park Master Plan. This page will allow you to see a detailed view on Master Plan of Prestige Funsbury Park  Property"/>
         <Navbar/>
         <SideMenu/>
         <div className="box">
@@ -20,7 +20,7 @@ const masterplan = () => {
         <div style={{textAlign:"center"}}>
         <Titleabc title="FinsBury Park MasterPlan"/>
         </div>
-        <Description>Assetz Marq 2.0 is a state-of-the-art residential assignment via Assetz homes. This undertaking has Township concept in which they're giving schools, Retails, industrial space and has pricey features and superb connectivity to all of the fundamental cities and is positioned at Whitefield, Bangalore. This venture spread over 22 Acres of land in which they may be coming up with three phases,section one is already exceeded over to the glad client’s and segment 2 is underneath construction.</Description>
+        <Description>Prestige Funsbury Park is a state-of-the-art residential assignment via Assetz homes. This undertaking has Township concept in which they're giving schools, Retails, industrial space and has pricey features and superb connectivity to all of the fundamental cities and is positioned at Whitefield, Bangalore. This venture spread over 22 Acres of land in which they may be coming up with three phases,section one is already exceeded over to the glad client’s and segment 2 is underneath construction.</Description>
        </div>
         <hr/>
        <div style={{textAlign:"center"}}>

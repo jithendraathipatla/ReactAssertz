@@ -19,7 +19,7 @@ const Form = () => {
       Client_name:client_name,
       Client_email:client_email,
       Client_phone_number: phonenumber,
-      Project_Name:"Assertz Marq",
+      Project_Name:"Finsbury Park",
     }
     var data = {
       service_id: 'gmail',

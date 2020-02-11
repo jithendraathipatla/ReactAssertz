@@ -62,7 +62,7 @@ const Sidemenu = (props) => {
       let finalformdata = {
         name:vaueone,
         phonenumber:phoneone,
-        PropertyName:"Assertz Marq 2.0",
+        PropertyName:"Prestige Funsbury Park",
       }
       var data = {
         service_id: 'gmail',
@@ -91,7 +91,7 @@ const Sidemenu = (props) => {
       let finalformdata = {
         name:vaueone,
         phonenumber:phonetwo,
-        PropertyName:"Assertz Marq 2.0",
+        PropertyName:"Prestige Funsbury Park",
       };
       var data = {
         service_id: 'gmail',

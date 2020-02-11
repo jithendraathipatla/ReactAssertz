@@ -12,7 +12,7 @@ import SideMenu from '../Components/SideMenu';
 const overview = () => {
     return (
         <div>
-        <SEOComponent title="Assertz Marq 2.0 Overview | Assertz builders | Assertz Properties" des="This page helps you to understand more on the Assertz Marq 2.0 Property. The website you will see will help you to get more informative on Assertz Marq 2.0"/>
+        <SEOComponent title="Prestige Funsbury Park Overview | Prestige Funsbury Park - Hyde | Prestige Funsbury Park -Regent" des="This page helps you to understand more on the Assertz Marq 2.0 Property. The website you will see will help you to get more informative on Assertz Marq 2.0"/>
         <Navbar/>
         <SideMenu/>
         <div className="box">
@@ -20,7 +20,9 @@ const overview = () => {
         <div style={{textAlign:"center"}}>
         <Titleabc title="FinsBury Park Overview"/>
           </div>
-          <Description>Assetz Marq 2.0 is a state-of-the-art residential assignment via Assetz homes. This undertaking has Township concept in which they're giving schools, Retails, industrial space and has pricey features and superb connectivity to all of the fundamental cities and is positioned at Whitefield, Bangalore. This venture spread over 22 Acres of land in which they may be coming up with three phases,section one is already exceeded over to the glad client’s and segment 2 is underneath construction.</Description>
+          <Description>
+          Bagalur Road is now one of the finest and rapidly developing region in the Bangalore North. Baglur is also equiped with all the facilities and properties from reputed gaints. Prestige Finsbury park is located off Bagalur, which exactly is in Gummanahalli, of North Banglore. As the Prestige we are comitted to offer the best suited amenities to it's customers. Keeping every economic section in mind Prestige Finsbury is spreadind with luxurious 1,2,3 BHK Homes. So we reveal the most exiciting part, How much do you thisnk is the distance between the Prestige Finsbury park to the Kempedowda International Airport ?, "It is just 13.2 Km". On any normal day it will be with in 20minutes travell from the Kempedowda International airport.
+          </Description>
           </div>
           <hr/>
             <Overview/>

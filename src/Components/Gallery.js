@@ -23,10 +23,10 @@ import ExteriorSecond from '../Imagesa/Images/prestige-finsbury-regent3.jpg';
 import ExteriorThird from '../Imagesa/Images/prestige-finsbury-regent2.jpg';
 import ExteriorFourth from '../Imagesa/Images/prestige-finsbury-regent4.jpg';
 
-import InteriorOne from '../Images/interior1.jpeg';
-import InteriorTwo from '../Images/interior3.jpeg';
-import InteriorThree from '../Images/interior5.jpeg';
-import InteriorFour from '../Images/interior6.jpeg'; 
+import InteriorOne from '../Imagesa/Images/latestBedroom.jpg';
+import InteriorTwo from '../Imagesa/Images/latestDining.jpg';
+import InteriorThree from '../Imagesa/Images/latestHall.jpg';
+import InteriorFour from '../Imagesa/Images/latestPeace.jpg'; 
 
 import MasterPlanabcd from '../Imagesa/Images/masterplan-hyde.jpg';
 import Masterplanregent from '../Imagesa/Images/master.jpg';
@@ -55,57 +55,57 @@ const Gallery = () => {
 
         const [interior, setinterior] = useState([
             {
-            name:"Inside Hall",
+            name:"Bed Room",
             image: InteriorOne
             },
             {
-             name:"Bed Room",
+             name:"Dining Hall",
              image: InteriorTwo
             },
             {
-                name:"Balcony View",
+                name:"Hall",
                 image: InteriorThree
             },
             {
-                name:"Entrance",
+                name:"Balcony View",
                 image: InteriorFour
             }]);
 
 
             const [floorsetone, setfloorsetone] = useState([
                 {
-                name:"1451 SqFt",
+                name:"639 SqFt",
                 image: FloorPlanOne
                 },
                 {
-                 name:"1022 SqFt",
+                 name:"646 SqFt",
                  image: FloorPlanTwo
                 },
                 {
-                    name:"1027 SqFt",
+                    name:"650 SqFt",
                     image: FloorPlanThree
                 },
                 {
-                    name:"1208 SqFt",
+                    name:"652 SqFt",
                     image: FloorPlanFour
              }]);
 
 
              const [floorsettwo, setfloorsettwo] = useState([
                 {
-                name:"1055 SqFt",
+                name:"862 SqFt",
                 image: FloorPlanFive
                 },
                 {
-                 name:"1703 SqFt",
+                 name:"1054 SqFt",
                  image: FloorPlanSix
                 },
                 {
-                    name:"1030 SqFt",
+                    name:"1173 SqFt",
                     image: FloorPlanseven
                 },
                 {
-                    name:"1174 SqFt",
+                    name:"1244 SqFt",
                     image: FloorPlanEight
              }]);
 
@@ -113,19 +113,19 @@ const Gallery = () => {
 
              const [floorsetthree, setfloorsetthree] = useState([
                 {
-                name:"1193 SqFt",
+                name:"1277 SqFt",
                 image: FloorPlanNine
                 },
                 {
-                 name:"1071 SqFt",
+                 name:"1473 SqFt",
                  image: FloorPlanTen
                 },
                 {
-                    name:"1733 SqFt",
+                    name:"1552 SqFt",
                     image: FloorPlanEleven
                 },
                 {
-                    name:"1733 SqFt",
+                    name:"1562 SqFt",
                     image: FloorPlanTwevel
                 },
                ]);

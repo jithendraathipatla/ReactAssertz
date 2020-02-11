@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const location = () => {
     return (
         <div>
-        <SEOComponent title="Assertz Marq 2.0 Location | Assertz Marq location | assetz marq" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
+        <SEOComponent title="Prestige Funsbury Park - Hyde Location | Prestige Funsbury Park - Regent location | Prestige Funsbury Park" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
         <Navbar/>
         <SideMenu/>
         <div className="box">
@@ -19,7 +19,7 @@ const location = () => {
         <div style={{textAlign:"center"}}>
         <Titleabc title="FinsBury Park Location"/>
         </div>
-        <Description>Assertz marq is at Kannamangalla Village, Whitefield - Hoskote Rd, Bangalore. It is very near to WhiteField, Bangalore. So, the Apartments are easily commutable to all the parks and hubs in Bangalore. It is in the center for all of the IT Hubs Bangalore is most famous for. 40 minute Journey away from Manyata-tech-park and 30 Minute away journey from Bagmane Tech-park
+        <Description>Prestige Funsbury Park is at Baglur Roaf, Bangalore. It is very near to WhiteField, Bangalore. So, the Apartments are easily commutable to all the parks and hubs in Bangalore. It is in the center for all of the IT Hubs Bangalore is most famous for. 40 minute Journey away from Manyata-tech-park and 30 Minute away journey from Bagmane Tech-park
         It connects all the parts of the city from end to end. On any normal traffic day you will reach the destination without any hard toiled work.
         </Description>
        </div>

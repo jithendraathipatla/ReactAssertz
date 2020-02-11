@@ -7,7 +7,6 @@ import LoaderSVG from '../Imagesa/Images/svg/loader.svg';
 import ReadingSVG from '../Imagesa/Images/svg/reading-library-2.svg';
 import SiteVisitSVG from '../Imagesa/Images/svg/site-visit.svg';
 import PriceSVG from '../Imagesa/Images/svg/price.svg';
-import MasterPlanSVG from '../Imagesa/Images/svg/kids-play-area.svg'
 import AmenitiesSVG from '../Imagesa/Images/svg/amenities.svg';
 import LocationSVG from '../Imagesa/Images/svg/location.svg';
 import { FaAlignRight } from "react-icons/fa";
@@ -36,7 +35,7 @@ const NavBar = () => {
               </div>
               <ul className={state === true ? "nav-links show-nav" : "nav-links"}>
               <img  src={HomeSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/">Home</Link></li>
-              <img  src={MasterPlanSVG} alt="Home Svg"/> <li onClick={closingNav}><Link to="/overview">Overview</Link></li>
+              <img  src={AmenitiesSVG} alt="Home Svg"/> <li onClick={closingNav}><Link to="/overview">Overview</Link></li>
               <img  src={LoaderSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/configuration">Configuration</Link></li>
               <img  src={ReadingSVG} alt="Home Svg"/> <li onClick={closingNav}><Link to="/gallery">Gallery</Link></li>
               <img  src={SiteVisitSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/masterplan">Master Plan</Link></li>
