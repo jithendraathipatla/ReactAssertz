@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const configuration = () => {
     return (
         <div>
-           <SEOComponent title="flats in whitefield | assetz property" des="This website Provides a whole lot of information on the Assertz Marq 2.0 Property. You will find about Total land area the Assertz Marq 2.0 has come-up with , number of Uits that it owns and many more"/>
+           <SEOComponent title="Prestige Properties | Prestige Constructions | Prestige Funsbury Park" des="This website Provides a whole lot of information on the Prestige Funsbury Park Property. You will find about Total land area the Prestige Funsbury Park has come-up with , number of Uits that it owns and many more"/>
            <Navbar/>
            <SideMenu/>
            <div className="box">
@@ -21,11 +21,7 @@ const configuration = () => {
            <Titleabc title="FinsBury Park Configuration"/>
            </div>
            <Description> <p>
-          
-           <a href="http://assetzmarq.org/">Assetz Marq 2.0</a> is a brand new residential project by Assetz homes. This project has Township concept in which they are giving schools, Retails,
-           commercial space and has luxurious features and excellent connectivity to all the major cities and is located at <a href="http://concordeauriga.org.in/">Whitefield</a>, Bangalore. This project
-           spread over 22 Acres of land in which they are coming up with 3 phases,phase one is already handed over to the happy customer’s and phase 2 is under construction.
-          
+        
          </p>
          </Description>
            </div>

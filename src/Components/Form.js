@@ -37,7 +37,6 @@ const Form = () => {
     console.log(e);
   })
   }
-
     return (
       <form onSubmit={handelingFormdata} name="main_forma" method="post">
     <div>
