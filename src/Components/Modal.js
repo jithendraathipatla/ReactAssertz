@@ -22,8 +22,6 @@ const Modal = (props) => {
           <a href="tel:01234567890"><img src={Callusback} style={{maringLeft:"10px"}}/>  <span style={{color:"white"}}>9071354854</span></a> 
           </div>
         </Modalabc>
-        <br/>
-        <br/>
         </div>
     );
 };

@@ -1,4 +1,5 @@
 import React from 'react';
+import Modal from '../Components/Modal';
 
 
 const HighlightFormTwo = () => {
@@ -36,7 +37,7 @@ const HighlightFormTwo = () => {
             </div>
              <br/>
              <div style={{textAlign:"center"}}>
-              <button type="button" className="btn btn-primary prestigecopy" data-toggle="modal" data-target="#exampleModal" style={{animation:"rocking 0.31s infinite",animationDelay:"0.3s"}}>Price Breakup</button>
+             <Modal title="Price BreakUp"  class="prestigecopy"/>
              </div>
         </div>
     );

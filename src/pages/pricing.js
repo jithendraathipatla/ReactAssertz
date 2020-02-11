@@ -17,7 +17,7 @@ const pricing = () => {
         <div className="box">
         <div style={{paddingTop:"7vh"}}>
         <div style={{textAlign:"center"}}>
-        <Titleabc title="Assertz Marq Pricing"/>
+        <Titleabc title="FinsBury Park Pricing"/>
         </div>
         <Description>Assertz marq Pricing details are shown below, The Assertz Marq 2.0 Comprises of 3BHK and 4BHK Apartments. The starting Price of a 3BHk apartment is 90 Lakh, whereas the starting price of a 4BHK apartment is 1.40 Crore. If you want to get in touch with us submit any of the forms and will be in your ear's as soon as possible.
         <br/>

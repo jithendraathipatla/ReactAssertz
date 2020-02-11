@@ -17,7 +17,7 @@ const location = () => {
         <div className="box">
         <div style={{paddingTop:"7vh"}}>
         <div style={{textAlign:"center"}}>
-        <Titleabc title="Assertz Marq Location"/>
+        <Titleabc title="FinsBury Park Location"/>
         </div>
         <Description>Assertz marq is at Kannamangalla Village, Whitefield - Hoskote Rd, Bangalore. It is very near to WhiteField, Bangalore. So, the Apartments are easily commutable to all the parks and hubs in Bangalore. It is in the center for all of the IT Hubs Bangalore is most famous for. 40 minute Journey away from Manyata-tech-park and 30 Minute away journey from Bagmane Tech-park
         It connects all the parts of the city from end to end. On any normal traffic day you will reach the destination without any hard toiled work.
