@@ -11,7 +11,7 @@ import Amenities from '../Components/Amenities';
 import SEOComponent from '../Components/SEO';
 import HighlightFormTwo from '../Components/HighlightFormTwo';
 import Slider from '../Components/Slider';
-import TabsContainerOne from '../Components/tabsforCost';
+import TabsContainerOne from '../Components/Costing';
 import SideMenuBar from '../Components/SideMenu';
 import HighlightForm from '../Components/HighlightForm';
 
