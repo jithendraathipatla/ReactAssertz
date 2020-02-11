@@ -144,7 +144,7 @@ const Gallery = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-            <TitleComponent title="Marq Gallery"/>
+            <TitleComponent title="Finsbury Park Gallery"/>
             <br/>
             <div  className="galleryImages">
               <div>

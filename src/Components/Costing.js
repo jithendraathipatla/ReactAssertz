@@ -20,15 +20,15 @@ const Costing = () => {
         <div className="costingPart">
         <div> 
         <div style={{textAlign:"center"}}>
-        <Title title="Funsbury Park Price"/>
+        <Title title="FinsBury Park Price"/>
         </div>
             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
             <thead >
               <tr className="is-selected" style={{backgroundColor:"rgb(168, 137, 68)", border:"3px solid #eee"}}>
               <th>Project</th>
-              <th>Configuration</th>
+              <th style={{background:"black"}}>Configuration</th>
               <th>Unit Carpet (Sq.Ft)</th>
-              <th>Price</th>
+              <th style={{background:"black"}}>Price</th>
             </tr>
             </thead>
            
@@ -80,7 +80,7 @@ const Costing = () => {
             </div>
             <div>
             <div style={{textAlign:"center"}}>
-            <Title title="Funsbury Park Price"/>
+            <Title title="FinsBury Park Price"/>
             </div>
            
             <div  onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHoverTwo} className="parkedtwo">

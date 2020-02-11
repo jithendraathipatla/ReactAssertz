@@ -20,7 +20,7 @@ import HighlightForm from '../Components/HighlightForm';
 export default () => {
     return(
         <div >
-          <SEOComponent title="Prestige Funsbury Park | Prestige Funsbury Park - Hyde,Regent" des="This webpage provides all the Information on Prestige Funsbury Park . You will be able to see all the related Information on Prestige Funsbury park [Hyde, Regent], starting from Overview of the Project to the Location."/>
+          <SEOComponent title="Prestige FinsBury Park | Prestige FinsBury Park - Hyde,Regent" des="This webpage provides all the Information on Prestige FinsBury Park . You will be able to see all the related Information on Prestige FinsBury park [Hyde, Regent], starting from Overview of the Project to the Location."/>
           <NavBar/>
           <div className="slider">
           <div className="backgroundSlider">

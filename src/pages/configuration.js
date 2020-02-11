@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const configuration = () => {
     return (
         <div>
-           <SEOComponent title="Prestige Properties | Prestige Constructions | Prestige Funsbury Park" des="This website Provides a whole lot of information on the Prestige Funsbury Park Property. You will find about Total land area the Prestige Funsbury Park has come-up with , number of Uits that it owns and many more"/>
+           <SEOComponent title="Prestige Properties | Prestige Constructions | Prestige FinsBury Park" des="This website Provides a whole lot of information on the Prestige FinsBury Park Property. You will find about Total land area the Prestige FinsBury Park has come-up with , number of Uits that it owns and many more"/>
            <Navbar/>
            <SideMenu/>
            <div className="box">
@@ -20,9 +20,8 @@ const configuration = () => {
            <div style={{textAlign:"center"}}>
            <Titleabc title="FinsBury Park Configuration"/>
            </div>
-           <Description> <p>
-        
-         </p>
+           <Description>      
+               Bagalur Road is now one of the finest and rapidly developing region in the Bangalore North. Baglur is also equiped with all the facilities and properties from reputed gaints. Prestige Finsbury park is located off Bagalur, which exactly is in Gummanahalli, of North Banglore. As the Prestige we are comitted to offer the best suited amenities to it's customers. Keeping every economic section in mind Prestige Finsbury is spreadind with luxurious 1,2,3 BHK Homes. So we reveal the most exiciting part, How much do you thisnk is the distance between the Prestige Finsbury park to the Kempedowda International Airport ?, "It is just 13.2 Km". On any normal day it will be with in 20minutes travell from the Kempedowda International airport.
          </Description>
            </div>
           
