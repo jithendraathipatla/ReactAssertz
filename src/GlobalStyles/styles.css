@@ -371,6 +371,7 @@
 
 .description_main{
     padding:0px 10px 20px 10px;
+    text-align: justify;
 }
 
 .costingPart{
@@ -644,7 +645,6 @@
 }
 .masterPlan{
   text-align: center;
-  margin-left: 64vh;
 }
 @media all and (max-width: 600px){
   .masterPlan{

@@ -5,17 +5,18 @@ import TabContainer from '../Components/tabs';
 import Title from '../Components/Title';
 import LightHouseabc from '../Components/Lighthouse';
 
-import FloorPlanOne from '../Images/floor1.jpg';
-import FloorPlanTwo from '../Images/floor2.jpg';
-import FloorPlanThree from '../Images/floor3.jpg';
-import FloorPlanFour from '../Images/floor4.jpg';
-import FloorPlanFive from '../Images/floor5.jpg';
-import FloorPlanSix from '../Images/floor6.jpg';
-import FloorPlanseven from '../Images/floor7.jpg';
-import FloorPlanEight from '../Images/floor8.jpg';
-import FloorPlanNine from '../Images/floor9.jpg';
-import FloorPlanTen from '../Images/floor10.jpg';
-import FloorPlanEleven from '../Images/floor11.jpg';
+import FloorPlanOne from '../Imagesa/Images/HydeFloor1.jpg';
+import FloorPlanTwo from '../Imagesa/Images/HydeFloor2.jpg';
+import FloorPlanThree from '../Imagesa/Images/HydeFloor3.jpg';
+import FloorPlanFour from '../Imagesa/Images/HydeFloor4.jpg';
+import FloorPlanFive from '../Imagesa/Images/FloorRegentNow1.jpg';
+import FloorPlanSix from '../Imagesa/Images/FloorRegentNow2.jpg';
+import FloorPlanseven from '../Imagesa/Images/FloorRegentNow3.jpg';
+import FloorPlanEight from '../Imagesa/Images/FloorRegentNow4.jpg';
+import FloorPlanNine from '../Imagesa/Images/FloorRegentNow5.jpg';
+import FloorPlanTen from '../Imagesa/Images/FloorRegentNow6.jpg';
+import FloorPlanEleven from '../Imagesa/Images/FloorRegentNow7.jpg';
+import FloorPlanTwevel from '../Imagesa/Images/FloorRegentNow8.jpg';
 
 import ExteriorFirst from '../Imagesa/Images/prestige-finsbury-park-hyde1.jpg';
 import ExteriorSecond from '../Imagesa/Images/prestige-finsbury-regent3.jpg';
@@ -35,12 +36,12 @@ import Masterplanregent from '../Imagesa/Images/master.jpg';
 const Gallery = () => {
     const [exterior, setexterior] = useState([
         {
-        name:"Outermost view",
-        image: ExteriorFirst
+             name:"Outermost view",
+             image: ExteriorFirst
         },
         {
-         name:"Nature Side Walk",
-         image: ExteriorSecond
+             name:"Nature Side Walk",
+             image: ExteriorSecond
         },
         {
             name:"From the Pool View",
@@ -123,10 +124,11 @@ const Gallery = () => {
                     name:"1733 SqFt",
                     image: FloorPlanEleven
                 },
+                {
+                    name:"1733 SqFt",
+                    image: FloorPlanTwevel
+                },
                ]);
-
-
-            
 
         const [masterplan, setmasterplan] = useState([
             {
@@ -139,7 +141,6 @@ const Gallery = () => {
             }
         ]);
 
-    
     return (
         <div>
             <div style={{textAlign:"center"}}>
@@ -152,10 +153,9 @@ const Gallery = () => {
               </div>
               <div>
               <Title title="Finsbury Park Floor Plans"/>
-              <TabContainer title1="Part I" title2="Part II" title3="Part III" exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]} state={floorsetone}/>}  interior={<LightHouseabc images={[FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]} state={floorsettwo}/>} mplan={<LightHouseabc images={[FloorPlanNine, FloorPlanTen, FloorPlanEleven]} state={floorsetthree}/>}/>
+              <TabContainer title1="Hyde" title2="Regent" title3="Regent" exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]} state={floorsetone}/>}  interior={<LightHouseabc images={[FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]} state={floorsettwo}/>} mplan={<LightHouseabc images={[FloorPlanNine, FloorPlanTen, FloorPlanEleven, FloorPlanTwevel]} state={floorsetthree}/>}/>
               </div>
-            </div>
-             
+            </div>             
             </div>
         </div>
     );

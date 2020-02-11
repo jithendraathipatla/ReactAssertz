@@ -15,22 +15,21 @@ const configuration = () => {
            <Navbar/>
            <SideMenu/>
            <div className="box">
-           <div className="card">
-           <div style={{paddingTop:"10vh"}}>
+         
+           <div style={{paddingTop:"7vh"}}>
            <div style={{textAlign:"center"}}>
            <Titleabc title="FinsBury Park Configuration"/>
            </div>
-           <Description> <p style={{textAlign:"justify"}}>
+           <Description> <p>
           
            <a href="http://assetzmarq.org/">Assetz Marq 2.0</a> is a brand new residential project by Assetz homes. This project has Township concept in which they are giving schools, Retails,
            commercial space and has luxurious features and excellent connectivity to all the major cities and is located at <a href="http://concordeauriga.org.in/">Whitefield</a>, Bangalore. This project
            spread over 22 Acres of land in which they are coming up with 3 phases,phase one is already handed over to the happy customer’s and phase 2 is under construction.
-           <br/>                      
-           <br/>
+          
          </p>
          </Description>
            </div>
-          </div>
+          
            <hr/>
           <Configuration/>
           <hr/>

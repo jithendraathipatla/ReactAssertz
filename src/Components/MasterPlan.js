@@ -1,17 +1,23 @@
 import React,{useState} from 'react';
 import LightHouseabc from './Lighthouse';
-import MasterPlanabcd from '../Images/mplan.jpg';
+import MasterPlanabcd from '../Imagesa/Images/masterplan-hyde.jpg';
+import Masterplanregent from '../Imagesa/Images/master.jpg';
+
 
 const MasterPlan = () => {
     const [masterplan, setmasterplan] = useState([
         {   
-            name:"Master Plan",
+            name:"Master Plan Hyde",
             image:MasterPlanabcd
+        },
+        {   
+            name:"Master Plan Regent",
+            image:Masterplanregent
         }
     ]);
     return (
         <div>
-        <LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>
+        <LightHouseabc images={[MasterPlanabcd, Masterplanregent]} state={masterplan}/>
         </div>
     );
 };

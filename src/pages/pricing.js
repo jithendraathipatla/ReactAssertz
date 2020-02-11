@@ -15,8 +15,7 @@ const pricing = () => {
         <Navbar/>
         <SideMenu/>
         <div className="box">
-        <div className="card">
-        <div style={{paddingTop:"10vh"}}>
+        <div style={{paddingTop:"7vh"}}>
         <div style={{textAlign:"center"}}>
         <Titleabc title="Assertz Marq Pricing"/>
         </div>
@@ -29,7 +28,6 @@ const pricing = () => {
 
         </Description>
         </div>
-       </div>
        <hr/>
        <PricingComponent/>
            <hr/>

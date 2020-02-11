@@ -14,7 +14,6 @@ const amenities = () => {
         <SEOComponent title="Assertz Marq 2.0 Amenities | Assertz Marq Amenities | Top Amenities Apartments in Whitefield" des="This page is all about the aminities that you can Avail from the Assertz Marq 2.0 Apartments. You can also find more about the Assertz Marq 2.0 Projec within the website"/>
         <Navbar/>
            <div className="box" style={{paddingTop:"10vh"}}>
-           <div className="card">
             <div style={{textAlign:"center"}}>
             <Titleabc title="Assertz Marq Amenities"/>
             </div>
@@ -37,8 +36,7 @@ const amenities = () => {
 
 
             </Description>
-            </div>
-           
+        
            <SideMenu/>
            <hr/>
            <Amenities/>
