@@ -26,17 +26,17 @@ const Costing = () => {
             <thead >
               <tr className="is-selected" style={{backgroundColor:"rgb(168, 137, 68)", border:"3px solid #eee"}}>
               <th>Project</th>
-              <th style={{background:"#ceaf69"}}>Configuration</th>
+              <th style={{background:"black"}}>Configuration</th>
               <th>Unit Carpet (Sq.Ft)</th>
-              <th style={{background:"#ceaf69"}}>Price</th>
+              <th style={{background:"black"}}>Price</th>
             </tr>
             </thead>
            
             <tbody>
     
             <tr>
-            <td rowSpan={3}>
-            <br/>Hyde</td>
+            <td rowSpan={3}  style={{fontSize:"18px", fontWeight:"500"}}>
+            Hyde</td>
             </tr>
             <tr>
             <td>1 BHk</td>
@@ -51,7 +51,7 @@ const Costing = () => {
              
         
             <tr>
-            <td rowSpan={5}>
+            <td rowSpan={5}  style={{fontSize:"18px", fontWeight:"500"}}>
             <br/>Regent</td>
             </tr>
             <tr>
