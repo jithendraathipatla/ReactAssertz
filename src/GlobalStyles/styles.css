@@ -673,7 +673,7 @@
     letter-spacing: .025rem;
   }
   .prewidth{
-    width:35.1% !important;
+    width:38.1% !important;
   }
   .highlightree{
     font-size: 1rem;
@@ -701,9 +701,9 @@
   }
 
   .backgroundFormTwo{
-    width: 340px;
-    top:10vh;
-    left:2vh;
+    width: 311px;
+    top:12vh;
+    left:8vh;
   }
   .carousel-captiona h3{
     font-size: 1rem;
