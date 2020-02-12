@@ -663,7 +663,7 @@
 }
 
 .normaling{
-  margin-top: -120px;
+  margin-top: -120px !important;
 }
   .nav-links a {
     display: block;
@@ -705,12 +705,12 @@
 
   .backgroundFormTwo{
     width: 311px;
-    top:11vh;
+    top:2vh;
     left:5vh;
   }
 
   .awssld__wrapper {
-    height: 80;
+    height: 80% !important;
   }
   .awssld__bullets{
    display: none;
@@ -787,6 +787,12 @@
 
   .MuiBox-root-323 {
     padding: 10px 0px;
+  }
+
+  .main_title {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
 }
