@@ -356,6 +356,7 @@
 
 .images-in-grid img{
    height: 200px;
+   border: 1px solid #eee;
 }
 
 .images-in-grid img:hover{
