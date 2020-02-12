@@ -676,7 +676,6 @@
 .normaling{
   margin-top: -120px;
 }
-.
   .nav-links a {
     display: block;
     text-decoration: none;
@@ -691,7 +690,7 @@
     width:38.1% !important;
   }
   .highlightree{
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .nav-links a:first {
     border-top: 1px solid black;
