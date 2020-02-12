@@ -23,7 +23,7 @@ const HighlightFormTwo = () => {
             webkitAnimation: "Gradient 3s ease infinite",
             mozAnimation: "Gradient 3s ease infinite",
             animation: "Gradient 3s ease infinite", color:"#fff", padding: "5px",textAlign:"center" ,display: "block",margin: "5px 0"}}>
-                        <span style={{display: "block", fontSize: "1.5rem", letterSpacing:"3px"}}>
+                        <span style={{display: "block", fontSize: "1.5rem", letterSpacing:"3px"}} className="highlightree">
                  <span className="animated bounceIn infinite" style={{display: "block", animationDuration:"3s"}}>Hurry! Only 1% GST</span>
                  <span className="animated_sub" style={{display: "block"}}>PMAY benefits</span>
              </span></span>
