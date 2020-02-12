@@ -36,7 +36,7 @@ export default () => {
           <SideMenuBar/>
           <div className="box" >
         
-          <div style={{textAlign:"center", marginTop:"-30px"}} >
+          <div style={{textAlign:"center", marginTop:"-30px"}} className="normaling" >
            <Title title="About Prestige Finsbury Park"/>
            </div>
           <Description>

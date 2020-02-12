@@ -656,7 +656,9 @@
   display: flex;
   margin-left:30%;
 }
-
+.normaling{
+  margin-top: -120px;
+}
 .Overview_main h1{
   font-size: 16px; 
   font-weight:490;
@@ -697,23 +699,36 @@
   }
 
   .carousel-captiona h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .backgroundFormTwo{
     width: 311px;
-    top:12vh;
+    top:11vh;
     left:5vh;
   }
+
+  .awssld__wrapper {
+    height: 80;
+  }
+  .awssld__bullets{
+   display: none;
+  }
+
   .carousel-captiona h3{
     font-size: 1rem;
   }
+
+  .carousel-captiona h4{
+    font-size: 1rem;
+  }
+
   .carousel-captiona h6 {
     color: #fff;
     font-size: 12px;
   }
   .masterPlan{
-    margin-left: 10vh;
+    margin-left: 0vh;
   }
   .properly{
     margin-bottom:20px;
