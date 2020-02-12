@@ -53,7 +53,9 @@ export default () => {
         <hr/>
         <Overview/>
         <hr/>
+        <div className="configurationimage">
         <ConfigurationPart/>
+        </div>
         <hr/>
         <Gallery/>
         <hr/>

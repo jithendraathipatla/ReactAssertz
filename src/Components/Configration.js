@@ -5,7 +5,7 @@ import '../GlobalStyles/styles.css';
 
 const Tabel = () => {
     return (
-        <div>
+        <div className="configurationimage">
             <div style={{textAlign:"center"}}>
             <TitleComponent title="Finsbury Park Configuration"/>
             </div>

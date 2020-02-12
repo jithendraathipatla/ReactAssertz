@@ -5,6 +5,13 @@
     padding: 20px 2px 20px 72px;
 }
 
+.configurationimage{
+  background-image: url('../Imagesa/Images/Beach.jpg');
+  padding:10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .Amenities_main img{
   border: 1px solid #eee;
   padding: 10px;
