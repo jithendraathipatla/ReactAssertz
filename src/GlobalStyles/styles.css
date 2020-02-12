@@ -78,18 +78,7 @@
 }
   
 .awssld__bullets {
-    position: absolute;
-    bottom: 17px !important;
-    z-index: 20;
-    color: white;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.awssld__bullets button{
-    color:white !important;
+  display: none !important;
 }
 
 .popup{
@@ -480,7 +469,7 @@
 }
 .backgroundFormTwo{
   position: absolute;
-  top:11.7%;
+  top:12.6%;
   z-index: 17;
   left:3%;
   background-color: rgba(0,0,0,0.7);
