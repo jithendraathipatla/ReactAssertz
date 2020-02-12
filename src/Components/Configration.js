@@ -14,9 +14,9 @@ const Tabel = () => {
   <thead >
     <tr className="is-selected" style={{backgroundColor:"#a88944", border:"3px solid #eee"}}>
       <th>Project</th>
-      <th style={{background:"black"}}>Configuration</th>
+      <th style={{background:"#ceaf69"}}>Configuration</th>
       <th>Unit Carpet (Sq.Ft)</th>
-      <th style={{background:"black"}}>Price</th>
+      <th style={{background:"#ceaf69"}}>Price</th>
     </tr>
   </thead>
  
