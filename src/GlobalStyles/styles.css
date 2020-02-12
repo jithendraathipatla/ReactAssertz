@@ -668,6 +668,11 @@
   display: flex;
   margin-left:30%;
 }
+.configurationimage{
+ background-image: none;
+ padding:0px;
+}
+
 .normaling{
   margin-top: -120px;
 }
@@ -773,10 +778,10 @@
   }
   .Overview_main{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 14px;
+    grid-template-columns: 7fr 5fr;
+    grid-gap: 14px 50px;
     margin-left: 0px;
-    padding: 20px
+    padding: 11px 20px;
   }
 
   .Overview_main .headings {
