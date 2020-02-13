@@ -3,10 +3,10 @@ import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
 import '../GlobalStyles/styles.css';
-import FirstSliderImage from '../Imagesa/Images/Prestige-finsbury-park-hyde1.jpg';
-import SecondSliderImage from '../Imagesa/Images/Prestige-finsbury-park-hyde3.jpg';
-import ThirdSliderImage from '../Imagesa/Images/Prestige-finsbury-regent1.jpg';
-import FourthSliderImage from '../Imagesa/Images/Prestige-finsbury-regent4.jpg';
+import FirstSliderImage from '../Imagesa/Images/prestige-finsbury-park-hyde1.jpg';
+import SecondSliderImage from '../Imagesa/Images/prestige-finsbury-park-hyde3.jpg';
+import ThirdSliderImage from '../Imagesa/Images/prestige-finsbury-regent1.jpg';
+import FourthSliderImage from '../Imagesa/Images/prestige-finsbury-regent4.jpg';
 
  
 const AutoplaySlider = withAutoplay(AwesomeSlider);
