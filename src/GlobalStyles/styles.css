@@ -808,5 +808,8 @@
       background-color: #1976d2;
       animation: none;
   }
+  .aliginingForm{
+    box-shadow: none;
+  }
 
 }
