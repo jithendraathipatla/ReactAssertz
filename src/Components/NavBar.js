@@ -21,7 +21,7 @@ const NavBar = () => {
      }
     return (
         <div>
-           <nav className="navbar" style={{backgroundColor:"white", height:"60px"}}>
+           <nav className="navbar" style={{backgroundColor:"white"}}>
            <div className="nav-center">
               <div className="nav-header">
                  <Link to="/">
