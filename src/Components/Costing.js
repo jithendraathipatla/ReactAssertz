@@ -36,7 +36,7 @@ const Costing = () => {
     
             <tr>
             
-            <td rowSpan={7}  style={{fontSize:"18px", fontWeight:"500"}}>
+            <td rowSpan={4}  style={{fontSize:"18px", fontWeight:"500"}}>
             <br/>
             <br/>
             <br/>
@@ -45,38 +45,21 @@ const Costing = () => {
             </tr>
             <tr>
             <td>2 BHk</td>
-             <td>1150</td>
-             <td> Rs. 80 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
+             <td>1141</td>
+             <td> Rs. 79 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
             </tr>
             <tr>
-             <td>2 BHK </td>
-             <td>1250</td>
+             <td>3 BHK + 2T </td>
+             <td>1354</td>
              <td> Rs.85 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
             </tr>
             <tr>
-             <td>3 BHK </td>
-             <td>1300</td>
-             <td> Rs.88 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
+             <td>3 BHK + 3T </td>
+             <td>1356</td>
+             <td> Rs.1.06 Crore* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
             </tr>
              
-            <tr>
-             <td>3 BHK </td>
-             <td>1400</td>
-             <td> Rs.95 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
-            </tr>
-
-            <tr>
-             <td>3 BHK </td>
-             <td>1600</td>
-             <td> Rs.110 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
-            </tr>
-        
-            <tr>
-             <td>2 BHK </td>
-             <td>1700</td>
-             <td> Rs.115 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
-            </tr>
-
+           
             
           </tbody>
           </table>

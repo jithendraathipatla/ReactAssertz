@@ -23,47 +23,28 @@ const Tabel = () => {
   <tbody>
     
     <tr>
-    <td rowSpan={7} style={{fontSize:"18px", fontWeight:"500"}}>
+    <td rowSpan={4} style={{fontSize:"18px", fontWeight:"500"}}>
     <br/>
     <br/>
     Sun And Sanctum</td>
     </tr>
     <tr>
     <td>2 BHk</td>
-     <td>1150</td>
+     <td>1141</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     </tr>
     <tr>
-     <td>2 BHK </td>
-     <td>1250</td>
+     <td>3 BHK + 2T </td>
+     <td>1354</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     </tr>
     <tr>
-    <td>3 BHK </td>
-    <td>1300</td>
+    <td>3 BHK + 3T</td>
+    <td>1556</td>
     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
    </tr>
    
-   <tr>
-     <td>3 BHK </td>
-     <td>1400</td>
-     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-    </tr>
-
-    <tr>
-    <td>3 BHK </td>
-    <td>1600</td>
-    <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-   </tr>
-
-   <tr>
-   <td>3 BHK </td>
-   <td>1700</td>
-   <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-  </tr>
-
-    
-    
+   
   </tbody>
 </table>
         </div>
