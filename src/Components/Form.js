@@ -19,7 +19,7 @@ const Form = () => {
       Client_name:client_name,
       Client_email:client_email,
       Client_phone_number: phonenumber,
-      Project_Name:"Finsbury Park",
+      Project_Name:"Sun And Sanctum",
     }
     var data = {
       service_id: 'gmail',
@@ -282,7 +282,7 @@ const Form = () => {
   </div>
   <br/>
   <div style={{textAlign:"center"}}>
-  <button className="prestigecopyabcd" name="submit" type="submit" value="submit">Submit</button>
+  <button className="Assetzcopyabcd" name="submit" type="submit" value="submit">Submit</button>
   </div>
   </div>
   </form>

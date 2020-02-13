@@ -14,7 +14,7 @@ const HighlightFormTwo = () => {
             <span style={{display: "block", fontSize: "1.1rem"}}>
              <span class="animated bounceIn infinite" style={{display: "block", animationDuration: "3s"}}>PRE-LAUNCH</span>
          </span></span>
-          <h1>Prestige Finsbury Park</h1>
+          <h1>Assetz Sun And Sanctum</h1>
             <h4>KIADB, Bagalur Road, Bangalore</h4>
             <h4>Exclusive Homes In Bagalur, Bangalore</h4>
             <span style={{backgroundColor: "#d4af37",
@@ -37,7 +37,7 @@ const HighlightFormTwo = () => {
             </div>
              <br/>
              <div style={{textAlign:"center"}}>
-             <Modal title="Price BreakUp"  class="prestigecopy"/>
+             <Modal title="Price BreakUp"  class="Assetzcopy"/>
              </div>
         </div>
     );

@@ -122,7 +122,7 @@ const Gallery = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-            <TitleComponent title="Finsbury Park Gallery"/>
+            <TitleComponent title="Sun And Sanctum Gallery"/>
             <br/>
             <div  className="galleryImages">
               <div>
@@ -130,7 +130,7 @@ const Gallery = () => {
               <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" number="2" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior} height="200px"/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd, Masterplanregent]} state={masterplan}/>}/>
               </div>
               <div>
-              <Title title="Finsbury Park Floor Plans"/>
+              <Title title="Sun And Sanctum Floor Plans"/>
               <TabContainer title1="Hyde" title2="Regent"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]} state={floorsetone}/>}  interior={<LightHouseabc images={[FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]} state={floorsettwo}/>} mplan="Please Check other Sections"/>
               </div>
             </div>             

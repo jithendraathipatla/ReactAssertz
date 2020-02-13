@@ -7,16 +7,16 @@ const Tabel = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-            <TitleComponent title="Finsbury Park Configuration"/>
+            <TitleComponent title="Sun And Sanctum Configuration"/>
             </div>
           
             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
   <thead >
-    <tr className="is-selected" style={{backgroundColor:"#a88944", border:"3px solid #eee"}}>
+    <tr className="is-selected" style={{backgroundColor:"rgb(69, 190, 61)", border:"3px solid #eee"}}>
       <th>Project</th>
-      <th style={{background:"black"}}>Configuration</th>
+      <th style={{background:"#056C9F"}}>Configuration</th>
       <th>Unit Carpet (Sq.Ft)</th>
-      <th style={{background:"black"}}>Price</th>
+      <th style={{background:"#056C9F"}}>Price</th>
     </tr>
   </thead>
  

@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {Link} from 'gatsby'
 import '../GlobalStyles/styles.css';
-import Logo from '../Imagesa/Images/finsbury.svg';
+import Logo from '../Imagesa/Images/logo.svg';
 import HomeSVG from '../Imagesa/Images/svg/home.svg';
 import LoaderSVG from '../Imagesa/Images/svg/loader.svg';
 import ReadingSVG from '../Imagesa/Images/svg/reading-library-2.svg';
@@ -10,7 +10,6 @@ import PriceSVG from '../Imagesa/Images/svg/price.svg';
 import AmenitiesSVG from '../Imagesa/Images/svg/amenities.svg';
 import LocationSVG from '../Imagesa/Images/svg/location.svg';
 import { FaAlignRight } from "react-icons/fa";
-
 
 const NavBar = () => {
   const [state, setstate] = useState(false);
@@ -21,13 +20,12 @@ const NavBar = () => {
         setstate(false);
      }
     return (
-     
         <div>
            <nav className="navbar" style={{backgroundColor:"white"}}>
            <div className="nav-center">
               <div className="nav-header">
                  <Link to="/">
-                    <img src={Logo} alt="Finsbury Park" className="main_logo1"/>
+                    <img src={Logo} alt="Sun And Sanctum" className="main_logo1"/>
                  </Link>
               <button type="button" className="nav-btn" onClick={handelToogle}>
                 <FaAlignRight className="nav-icon"/>
@@ -44,12 +42,10 @@ const NavBar = () => {
               <img  src={LocationSVG} alt="Home Svg"/><li onClick={closingNav} className="LastChild"><Link to="/location">Location</Link></li>
               </ul>   
            </div>
-           
            </nav>
            </div>
       
       );
   };
   
-
 export default NavBar;

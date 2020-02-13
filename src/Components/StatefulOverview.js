@@ -74,7 +74,7 @@ const StatefulOverview = () => {
        
         <div>
         <div style={{textAlign:"center"}}>
-        <Title title="FinsBury Park Overview"/>
+        <Title title="Sun And Sanctum Overview"/>
         </div>
       
         <div className="Overview_main">

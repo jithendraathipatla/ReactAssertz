@@ -17,7 +17,7 @@
   padding: 10px;
   border-radius: 18%;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3); 
-  background: linear-gradient(to bottom, #ff00000f, #ffff002e);
+  background: linear-gradient(to bottom, #10ff0063, #005aff2e);
 }
 
 
@@ -26,10 +26,8 @@
     padding-top: 5px;
 }
 
-
-
 .main_title{
-    color: #A88944;
+    color: #056C9F;
     font-size: 26px;
     padding-top: 15px;
     padding-bottom: 20px;
@@ -56,7 +54,7 @@
   padding: 10px;
   border-radius: 18%;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3); 
-  background: linear-gradient(to bottom, #ff00000f, #ffff002e);
+  background: linear-gradient(to bottom, #10ff0063, #005aff2e);
 }
   
 .Overview_main .properly{
@@ -168,8 +166,8 @@
   
   
   @keyframes example {
-    from {background-color: #000;}
-    to {background-color: #d3b169;}
+    from {background-color: rgb(69, 190, 61);}
+    to {background-color: #056C9F;}
     0%, 100% {
       bottom: 0;
     }
@@ -288,8 +286,8 @@
   padding: 1rem 0;
   color: black;
   text-align: center;
-  font-size: 1.3rem;
-  font-weight: 490;
+  font-size: 1.2rem;
+  font-weight: 350;
   letter-spacing: 0.025rem;
 }
 
@@ -314,7 +312,7 @@
   .nav-links{
     height: auto;
     display: flex;
-    margin-left: 7.3rem;
+    margin-left: 11.3rem;
   }
 
   .nav-links > li{
@@ -339,8 +337,10 @@
       margin-top: 26px;
       margin-left: 8px;
   }
-  .main_logo1{
+  .main_logo1 {
     width: 200px;
+    height: 66px;
+    padding: 2px 0px 0px 0px;
   }
 }
 
@@ -381,7 +381,8 @@
   padding: 4px 10px;
     font-size: 0.8125rem;
     color: #fff;
-    background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
+    background: linear-gradient(-90deg,#056C9F, rgb(69, 190, 61), #056C9F, rgb(69, 190, 61));
+    animation: Gradient 3s ease infinite;
     background-size: 400% 400%;
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
@@ -506,7 +507,7 @@
   color: #fff;
 }
 
-.prestigecopyabcd{
+.Assetzcopyabcd{
   color: white;
   padding: 8px 20px;
   border-width: 1px;
@@ -514,22 +515,22 @@
   border-radius: 2px;
   border: 1px solid transparent;
   border-radius: 3px;
-  background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
+  background: linear-gradient(-90deg, #056C9F, rgb(69, 190, 61), #056C9F, rgb(69, 190, 61));
   background-size: 400% 400%;
   animation: Gradient 3s ease infinite;
 }
 
-.prestigecopyabcd:hover{
+.Assetzcopyabcd:hover{
   cursor: pointer;
 }
 
 
-.prestigecopy{
+.Assetzcopy{
   color: white;
   padding: 5px 59px;
   border: 1px solid transparent;
   border-radius: 3px;
-  background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
+  background: linear-gradient(-90deg, #056C9F, rgb(69, 190, 61), #056C9F, rgb(69, 190, 61));
   background-size: 400% 400%;
   animation: Gradient 3s ease infinite;
 }
