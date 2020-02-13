@@ -14,7 +14,6 @@ const Lighthouse = (props) => {
           <img src={item.image} alt={item.name} onClick={()=> setisOpen(true)} width="400px" />
           {item.name}
         </div>
-        
       )
     })
   }
@@ -23,7 +22,6 @@ const Lighthouse = (props) => {
   return (
     <div>
       <div className="images-in-grid">
-      <br/>
      {displayingGallery()}
      </div>
         {isOpen && (
