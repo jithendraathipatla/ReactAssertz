@@ -38,9 +38,7 @@ const Costing = () => {
             
             <td rowSpan={4}  style={{fontSize:"18px", fontWeight:"500"}}>
             <br/>
-            <br/>
-            <br/>
-            <br/>
+           
             Sun And Sanctum</td>
             </tr>
             <tr>

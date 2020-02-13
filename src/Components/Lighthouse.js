@@ -23,6 +23,7 @@ const Lighthouse = (props) => {
   return (
     <div>
       <div className="images-in-grid">
+      <br/>
      {displayingGallery()}
      </div>
         {isOpen && (
