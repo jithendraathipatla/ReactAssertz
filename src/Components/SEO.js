@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import favicon from '../Imagesa/Images/favicon.jpg';
+import favicon from '../Imagesa/Images/favicon.png';
 
 
 
