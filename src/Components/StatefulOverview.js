@@ -19,12 +19,12 @@ const StatefulOverview = () => {
     },
     {
         main_title:"Total Land Area",
-        sub_heading:"25 Aceres",
+        sub_heading:"4.17 Aceres",
         image:TotalLandArea,
     },
     {
         main_title:"Total Units",
-        sub_heading:"3000 Units",
+        sub_heading:"321 Units",
         image:TotalUnits,
     },
     {
@@ -34,22 +34,22 @@ const StatefulOverview = () => {
     },
     {
         main_title:"Total Towers",
-        sub_heading:"18 Towers",
+        sub_heading:"5 Towers",
         image:TotalTowers,
     },
     {
         main_title:"Unit Varients",
-        sub_heading:"1,2 & 3 BHK",
+        sub_heading:"2 & 3 BHK",
         image:UnitVarients,
     },
     {
         main_title:"Possession Date",
-        sub_heading:"JUNE 2023",
+        sub_heading:"2023",
         image:PossessionDate,
     },
     {
         main_title:"Location",
-        sub_heading:"Baglur Road, Bangalore",
+        sub_heading:"TC Palya, Bangalore ",
         image:Location,
     }
     ]);

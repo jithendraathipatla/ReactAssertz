@@ -15,8 +15,8 @@ const HighlightFormTwo = () => {
              <span class="animated bounceIn infinite" style={{display: "block", animationDuration: "3s"}}>PRE-LAUNCH</span>
          </span></span>
           <h1>Assetz Sun And Sanctum</h1>
-            <h4>KIADB, Bagalur Road, Bangalore</h4>
-            <h4>Exclusive Homes In Bagalur, Bangalore</h4>
+            <h4>TC Palya, Old Madras Road, Bangalore</h4>
+            <h4>Exclusive Homes In Old Madras Road, Bangalore</h4>
             <span style={{backgroundColor: "#056C9F",
             background: "linear-gradient(-45deg, rgb(69, 190, 61), #056C9F ,rgb(69, 190, 61),#056C9F)",
             backgroundSize: "400% 400%",
@@ -27,8 +27,8 @@ const HighlightFormTwo = () => {
                  <span className="animated bounceIn infinite" style={{display: "block", animationDuration:"3s"}}>Hurry! Only 1% GST</span>
                  <span className="animated_sub" style={{display: "block"}}>PMAY benefits</span>
              </span></span>
-             <h3>Luxury 1,2 &amp; 3 BHK Apartments</h3>
-            <h3>₹ 33.5 Lacs Onwards </h3>
+             <h3>Luxury 2 &amp; 3 BHK Apartments</h3>
+            <h3>₹ 79 Lacs Onwards </h3>
 
             <div style={{border:"1px solid white", textAlign:"center"}} className="rera">
              <h5 style={{textAlign:"center", color:"white"}}>RERA No:</h5>

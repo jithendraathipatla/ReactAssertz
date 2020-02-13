@@ -23,46 +23,47 @@ const Tabel = () => {
   <tbody>
     
     <tr>
-    <td rowSpan={3} style={{fontSize:"18px", fontWeight:"500"}}>
-    Hyde</td>
+    <td rowSpan={7} style={{fontSize:"18px", fontWeight:"500"}}>
+    <br/>
+    <br/>
+    Sun And Sanctum</td>
     </tr>
     <tr>
-    <td>1 BHk</td>
-     <td>632 - 652</td>
+    <td>2 BHk</td>
+     <td>1150</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     </tr>
     <tr>
      <td>2 BHK </td>
-     <td>995 - 999</td>
-     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-    </tr>
-     
-
-    <tr>
-    <td rowSpan={5} style={{fontSize:"18px", fontWeight:"500"}}>
-    <br/>Regent</td>
-    </tr>
-    <tr>
-    <td>1 BHk Large</td>
-     <td>862</td>
+     <td>1250</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     </tr>
     <tr>
-     <td>2 BHK</td>
-     <td>1054 - 1173</td>
-     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-    </tr>
-    <tr>
-     <td>3 BHk + 2T</td>
-     <td>1244 - 1277</td>
-     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-    </tr> 
-    <tr>
-    <td>3 BHk + 3T</td>
-    <td>1431 - 1562</td>
+    <td>3 BHK </td>
+    <td>1300</td>
     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-   </tr> 
+   </tr>
+   
+   <tr>
+     <td>3 BHK </td>
+     <td>1400</td>
+     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+    </tr>
 
+    <tr>
+    <td>3 BHK </td>
+    <td>1600</td>
+    <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+   </tr>
+
+   <tr>
+   <td>3 BHK </td>
+   <td>1700</td>
+   <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+  </tr>
+
+    
+    
   </tbody>
 </table>
         </div>

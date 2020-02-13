@@ -292,7 +292,7 @@
 }
 
 .nav-links a:hover {
-  color: #d3b169;
+  color: rgb(69, 190, 61);
 }
 
 .show-nav {
@@ -653,6 +653,7 @@
 .masterPlan{
   text-align: center;
 }
+
 @media all and (max-width: 600px){
 #finalcosting{
   display: flex;
