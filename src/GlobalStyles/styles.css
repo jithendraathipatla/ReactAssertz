@@ -118,7 +118,7 @@
 
   .form-heada h1 {
   font-size: 16px;
-  background-color: #d4af37;
+  background-color: #056C9F;
   margin-bottom: 20px;
   font-weight: 500;
   padding:10px 3px;
@@ -486,7 +486,7 @@
   text-transform: uppercase;
   color: #fff;
   text-shadow: 1px 3px 4px rgba(0, 0, 0, .45);
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .carousel-captiona h4{
@@ -515,7 +515,7 @@
   border-radius: 2px;
   border: 1px solid transparent;
   border-radius: 3px;
-  background: linear-gradient(-90deg, #056C9F, rgb(69, 190, 61), #056C9F, rgb(69, 190, 61));
+  background: linear-gradient(-90deg, rgb(69, 190, 61),#056C9F, rgb(69, 190, 61),#056C9F);
   background-size: 400% 400%;
   animation: Gradient 3s ease infinite;
 }

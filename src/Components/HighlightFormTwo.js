@@ -5,8 +5,8 @@ import Modal from '../Components/Modal';
 const HighlightFormTwo = () => {
     return (
         <div className="carousel-captiona">
-        <span style={{backgroundColor: "#d4af37",
-        background: "linear-gradient(-45deg, #826424, #d4af37 ,#826424,#d4af37)",
+        <span style={{backgroundColor: "#056C9F",
+        background: "linear-gradient(-45deg, rgb(69, 190, 61), #056C9F ,rgb(69, 190, 61),#056C9F)",
         backgroundSize: "400% 400%",
         webkitAnimation: "Gradient 3s ease infinite",
         mozAnimation: "Gradient 3s ease infinite",
@@ -17,8 +17,8 @@ const HighlightFormTwo = () => {
           <h1>Assetz Sun And Sanctum</h1>
             <h4>KIADB, Bagalur Road, Bangalore</h4>
             <h4>Exclusive Homes In Bagalur, Bangalore</h4>
-            <span style={{backgroundColor: "#d4af37",
-            background: "linear-gradient(-45deg, #826424, #d4af37 ,#826424,#d4af37)",
+            <span style={{backgroundColor: "#056C9F",
+            background: "linear-gradient(-45deg, rgb(69, 190, 61), #056C9F ,rgb(69, 190, 61),#056C9F)",
             backgroundSize: "400% 400%",
             webkitAnimation: "Gradient 3s ease infinite",
             mozAnimation: "Gradient 3s ease infinite",
