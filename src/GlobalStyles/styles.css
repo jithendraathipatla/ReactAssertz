@@ -644,12 +644,12 @@
 .form-head h1 {
   font-size: 20px;
   text-align: center;
-  background-color: #d4af37;
+  background-color: rgb(69, 190, 61);
   margin-bottom: 20px;
   padding: 8px 0px;
   color: #fff;
-  
 }
+
 .masterPlan{
   text-align: center;
 }
