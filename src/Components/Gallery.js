@@ -94,7 +94,7 @@ const Gallery = () => {
            
         const [masterplan, setmasterplan] = useState([
             {
-                name:"Master Plan Hyde",
+                name:"Master Plan",
                 image:MasterPlanabcd
             }
         ]);
