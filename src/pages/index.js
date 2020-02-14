@@ -14,6 +14,7 @@ import Slider from '../Components/Slider';
 import TabsContainerOne from '../Components/Costing';
 import SideMenuBar from '../Components/SideMenu';
 import HighlightForm from '../Components/HighlightForm';
+import SectionTwo from '../Components/SecondSection';
 
 
 
@@ -34,6 +35,7 @@ export default () => {
           <HighlightFormTwo/>
           </div>
           </div>
+          <SectionTwo/>
           <SideMenuBar/>
           <div className="box" >
         

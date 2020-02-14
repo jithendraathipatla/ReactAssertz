@@ -19,8 +19,17 @@ const location = () => {
         <div style={{textAlign:"center"}}>
         <Titleabc title="Sun And Sanctum Location"/>
         </div>
-        <Description>Assetz Sun And Sanctum is at Baglur Road, Bangalore. It is very near to WhiteField, Bangalore. So, the Apartments are easily commutable to all the parks and hubs in Bangalore. It is in the center for all of the IT Hubs Bangalore is most famous for. 40 minute Journey away from Manyata-tech-park and 30 Minute away journey from Bagmane Tech-park
-        It connects all the parts of the city from end to end. On any normal traffic day you will reach the destination without any hard toiled work.
+        <Description>Assetz Sun And Sanctum is coming at Tc Palya, Old Madras Road, Baglur Road, Bangalore. It is Just 4 Kilo meters away from Phoenix MarketCity, 7 Km away from ITPL and 10 KM away from Whitefield, Bangalore. And the best school in the area, DELHI PUBLIC SCHOOL, is just 13 KM Away.
+        It is Heart of the city and then 10KM away from Marathahalli. Want to be away from traffic, then the proposed METRO is to your Rescue. The Metro will be well within your reach. It is 4KM away from the Project.
+        <br/>
+        Are you a Movie freak, we have got you covered. The  all big GOPALAN MAll is 6KM away and it is well in reach.
+        Some Key Destinations takeaways that you might want to Consider:
+        I. 6 KM from RMZ Infinity.
+        II. 8 KM from Indiranagar.
+        III. 11 KM from MG Road.
+        IV. 12 KM from CBD
+        V. 13KM from HEBBAL and
+        VI. 15Km from Manyatha Tech Park.
         </Description>
        </div>
            <div>
