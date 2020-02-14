@@ -12,7 +12,7 @@ import SideMenu from '../Components/SideMenu';
 const overview = () => {
     return (
         <div>
-        <SEOComponent title="Assetz Sun And Sanctum Overview | Assetz Sun And Sanctum - Hyde | Assetz Sun And Sanctum -Regent" des="This page helps you to understand more on the Assertz Marq 2.0 Property. The website you will see will help you to get more informative on Assertz Marq 2.0"/>
+        <SEOComponent title="Assetz Sun And Sanctum in Battrahalli | Assetz Sun And Sanctum in TC Palya" des="This page helps you to understand more on the Assertz Marq 2.0 Property. The website you will see will help you to get more informative on Assertz Marq 2.0"/>
         <Navbar/>
         <SideMenu/>
         <div className="box">

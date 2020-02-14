@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const pricing = () => {
     return (
         <div>
-        <SEOComponent title="Assetz Sun And Sanctum Price | Best Apartments near to Kempegowda Airport, Bangalore" des="Are you Curious to know about the offers and benifits the Assetz Sun And Sanctum Provides ?, Then, visit the website to get all the data related to 3BHK and 4BHK starting Prices that Assetz Sun And Sanctum has to offer."/>
+        <SEOComponent title="Assetz Sun And Sanctum Starting Price | Best Apartments in Old Madras Road, Bangalore" des="Are you Curious to know about the offers and benifits the Assetz Sun And Sanctum Provides ?, Then, visit the website to get all the data related to 3BHK and 4BHK starting Prices that Assetz Sun And Sanctum has to offer."/>
         <Navbar/>
         <SideMenu/>
         <div className="box">

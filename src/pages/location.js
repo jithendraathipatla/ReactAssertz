@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const location = () => {
     return (
         <div>
-        <SEOComponent title="Assetz Sun And Sanctum - Hyde Location | Assetz Sun And Sanctum - Regent location | Assetz Sun And Sanctum" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
+        <SEOComponent title="Assetz Sun And Sanctum Location | Sun And Sanctum - location | Sun And Sanctum Apartments in Batrahalli" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
         <Navbar/>
         <SideMenu/>
         <div className="box">

@@ -12,7 +12,7 @@ import '../GlobalStyles/styles.css';
 const masterplan = () => {
     return (
         <div>
-        <SEOComponent title="Assetz Sun And Sanctum Master Plan - Regent | Assetz Sun And Sanctum Master Plan - Hyde | Assetz Sun And Sanctum" des="This page is all about the Assetz Sun And Sanctum Master Plan. This page will allow you to see a detailed view on Master Plan of Assetz Sun And Sanctum  Property"/>
+        <SEOComponent title="Assetz Sun And Sanctum Master Plan | Sun And Sanctum Master Plan| Sun And Sanctum in Old Madras road" des="This page is all about the Assetz Sun And Sanctum Master Plan. This page will allow you to see a detailed view on Master Plan of Assetz Sun And Sanctum  Property"/>
         <Navbar/>
         <SideMenu/>
         <div className="box">

@@ -27,7 +27,7 @@ const HighlightFormTwo = () => {
                  <span className="animated bounceIn infinite" style={{display: "block", animationDuration:"3s"}}>Hurry! Only 1% GST</span>
                  <span className="animated_sub" style={{display: "block"}}>PMAY benefits</span>
              </span></span>
-             <h3>Luxury 2 &amp; 3 BHK Apartments</h3>
+             <h3>Smart 2 &amp; 3 BHK Apartments</h3>
             <h3>₹ 79 Lacs Onwards </h3>
             <div style={{border:"1px solid white", textAlign:"center"}} className="rera">
              <h5 style={{textAlign:"center", color:"white"}}>RERA No:</h5>
