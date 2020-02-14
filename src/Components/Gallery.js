@@ -10,12 +10,10 @@ import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
 import FloorPlanThree from '../Imagesa/Images/HydeFloor3.jpg';
 import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
 
-
-
-import ExteriorFirst from '../Imagesa/Images/prestige-finsbury-park-hyde2.jpg';
-import ExteriorSecond from '../Imagesa/Images/prestige-finsbury-regent1.jpg';
-import ExteriorThird from '../Imagesa/Images/prestige-finsbury-regent3.jpg';
-import ExteriorFourth from '../Imagesa/Images/prestige-finsbury-regent2.jpg';
+import ExteriorFirst from '../Imagesa/Images/sliderone.jpg';
+import ExteriorSecond from '../Imagesa/Images/slidertwo.jpg';
+import ExteriorThird from '../Imagesa/Images/sliderthree.jpg';
+import ExteriorFourth from '../Imagesa/Images/sliderfour.jpg';
 
 import InteriorOne from '../Imagesa/Images/latestBedroom.jpg';
 import InteriorTwo from '../Imagesa/Images/latestDining.jpg';
