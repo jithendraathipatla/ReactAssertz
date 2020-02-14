@@ -9,10 +9,7 @@ import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
 import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
 import FloorPlanThree from '../Imagesa/Images/HydeFloor3.jpg';
 import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
-import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
-import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
-import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
-import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
+
 
 
 import ExteriorFirst from '../Imagesa/Images/prestige-finsbury-park-hyde2.jpg';
@@ -25,12 +22,24 @@ import InteriorTwo from '../Imagesa/Images/latestDining.jpg';
 import InteriorThree from '../Imagesa/Images/latestHall.jpg';
 import InteriorFour from '../Imagesa/Images/latestPeace.jpg'; 
 
-import MasterPlanabcd from '../Imagesa/Images/masterplan-hyde.jpg';
-import Masterplanregent from '../Imagesa/Images/master.jpg';
+import MasterPlanabcd from '../Imagesa/Images/masterPlan.jpg';
+
+import carbonHealingHomes from '../Imagesa/Images/CarbonHealing.jpg';
+import SmartHomes from '../Imagesa/Images/smart.jpg';
 
 
 
 const Gallery = () => {
+    const [carbon, setcarbon] = useState([{
+        name:"Carbon Healing",
+        image: carbonHealingHomes
+    }]);
+
+    const [smart, setsmart] = useState([{
+        name:"Smart Home",
+        image:SmartHomes
+    }]);
+
     const [exterior, setexterior] = useState([
         {
              name:"Outermost view",
@@ -88,34 +97,11 @@ const Gallery = () => {
              }]);
 
 
-             const [floorsettwo, setfloorsettwo] = useState([
-                {
-                name:"1224 SqFt",
-                image: FloorPlanFive
-                },
-                {
-                 name:"1277 SqFt",
-                 image: FloorPlanSix
-                },
-                {
-                    name:"1473 SqFt",
-                    image: FloorPlanseven
-                },
-                {
-                    name:"1562 SqFt",
-                    image: FloorPlanEight
-             }]);
-
-
-
+           
         const [masterplan, setmasterplan] = useState([
             {
                 name:"Master Plan Hyde",
                 image:MasterPlanabcd
-            },
-            {
-                name:"Master Plan Regent",
-                image:Masterplanregent
             }
         ]);
 
@@ -127,11 +113,11 @@ const Gallery = () => {
             <div  className="galleryImages">
               <div>
               <Title title="Interior, Exterior & Masterplan"/>
-              <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" number="2" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior} height="200px"/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd, Masterplanregent]} state={masterplan}/>}/>
+              <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior}/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
               </div>
               <div>
               <Title title="Sun And Sanctum Floor Plans"/>
-              <TabContainer title1="Hyde" title2="Regent"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]} state={floorsetone}/>}  interior={<LightHouseabc images={[FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]} state={floorsettwo}/>} mplan="Please Check other Sections"/>
+              <TabContainer title1="Floor Plan" title2="Carbon Healing Home" title3="Smart Home"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]} state={floorsetone}/>}  interior={<LightHouseabc images={[carbonHealingHomes]} state={carbon}/>} mplan={<LightHouseabc images={[SmartHomes]} state={smart}/>}/>
               </div>
             </div>             
             </div>
