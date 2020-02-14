@@ -29,11 +29,9 @@ const HighlightFormTwo = () => {
              </span></span>
              <h3>Luxury 2 &amp; 3 BHK Apartments</h3>
             <h3>₹ 79 Lacs Onwards </h3>
-
             <div style={{border:"1px solid white", textAlign:"center"}} className="rera">
              <h5 style={{textAlign:"center", color:"white"}}>RERA No:</h5>
-             <h6>Hyde:PRM/KA/RERA/1251/472/PR/191206/003055</h6>
-            <h6>Regent:PRM/KA/RERA/1251/472/PR/191206/003056 </h6>
+             <h6>ACK/KA/RERA/1251/446/PR/200120/003839</h6>
             </div>
              <br/>
              <div style={{textAlign:"center"}}>
