@@ -5,10 +5,9 @@ import TabContainer from '../Components/tabs';
 import Title from '../Components/Title';
 import LightHouseabc from '../Components/Lighthouse';
 
-import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
-import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
-import FloorPlanThree from '../Imagesa/Images/HydeFloor3.jpg';
-import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
+import FloorPlanOne from '../Imagesa/Images/floorone.jpg';
+import FloorPlanTwo from '../Imagesa/Images/floortwo.jpg';
+import FloorPlanThree from '../Imagesa/Images/floorthree.jpg';
 
 import ExteriorFirst from '../Imagesa/Images/sliderone.jpg';
 import ExteriorSecond from '../Imagesa/Images/slidertwo.jpg';
@@ -78,21 +77,18 @@ const Gallery = () => {
 
             const [floorsetone, setfloorsetone] = useState([
                 {
-                name:"646 SqFt",
+                name:"2 BHK",
                 image: FloorPlanOne
                 },
                 {
-                 name:"652 SqFt",
+                 name:"3 BHK + 2T",
                  image: FloorPlanTwo
                 },
                 {
-                    name:"984 SqFt",
+                    name:"3 BHK + 3T",
                     image: FloorPlanThree
                 },
-                {
-                    name:"999 SqFt",
-                    image: FloorPlanFour
-             }]);
+               ]);
 
 
            
@@ -115,7 +111,7 @@ const Gallery = () => {
               </div>
               <div>
               <Title title="Sun And Sanctum Floor Plans"/>
-              <TabContainer title1="Floor Plan" title2="Carbon Healing Home" title3="Smart Home"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]} state={floorsetone}/>}  interior={<LightHouseabc images={[carbonHealingHomes]} state={carbon}/>} mplan={<LightHouseabc images={[SmartHomes]} state={smart}/>}/>
+              <TabContainer title1="Floor Plan" title2="Carbon Healing Home" title3="Smart Home"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree]} state={floorsetone}/>}  interior={<LightHouseabc images={[carbonHealingHomes]} state={carbon}/>} mplan={<LightHouseabc images={[SmartHomes]} state={smart}/>}/>
               </div>
             </div>             
             </div>
