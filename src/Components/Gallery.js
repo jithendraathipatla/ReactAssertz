@@ -43,15 +43,15 @@ const Gallery = () => {
              image: ExteriorFirst
         },
         {
-             name:"Nature Side Walk",
+             name:"Nature Walk",
              image: ExteriorSecond
         },
         {
-            name:"From the Pool View",
+            name:"Areal View",
             image: ExteriorThird
         },
         {
-            name:"Areal view",
+            name:"Pool view",
             image: ExteriorFourth
         }
         ]);
