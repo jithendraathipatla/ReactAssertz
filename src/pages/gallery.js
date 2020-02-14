@@ -12,7 +12,7 @@ import SideMenu from '../Components/SideMenu';
 const gallery = () => {
     return (
         <div>
-            <SEOComponent title="Assetz Sun And Sanctum Gallery | Sun And Sanctum Hyde Gallery | Apartments in TC Palya" des="In this page you will be able to see the all Gallery of Assetz Sun And Sanctum starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Assetz Sun And Sanctum"/>
+            <SEOComponent title="Assetz Sun And Sanctum Gallery | Sun And Sanctum Gallery | Best Apartments in TC Palya" des="In this page you will be able to see the all Gallery of Assetz Sun And Sanctum starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Assetz Sun And Sanctum"/>
             <Navbar/>
             <SideMenu/>
             <div className="box">
