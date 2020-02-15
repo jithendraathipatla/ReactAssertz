@@ -16,6 +16,7 @@ import SideMenuBar from '../Components/SideMenu';
 import HighlightForm from '../Components/HighlightForm';
 import SectionTwo from '../Components/SecondSection';
 import SectionThree from '../Components/ThirdSection';
+import SectionFour from '../Components/FourthSection';
 
 
 
@@ -38,6 +39,7 @@ export default () => {
           </div>
           <SectionTwo/>
           <SectionThree/>
+          <SectionFour/>
           <SideMenuBar/>
           <div className="box" >
         
