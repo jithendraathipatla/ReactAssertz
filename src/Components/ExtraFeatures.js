@@ -11,6 +11,8 @@ import { autoPlay } from 'react-swipeable-views-utils';
 import Ventilation from '../Imagesa/Images/latestHall.jpg';
 import SmartHome from '../Imagesa/Images/smart.jpg';
 import CarbonHealing from '../Imagesa/Images/CarbonHealing.jpg';
+import PoolView from '../Imagesa/Images/sliderthree.jpg';
+import PoolViewTwo from '../Imagesa/Images/sliderfour.jpg';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -28,14 +30,12 @@ const tutorialSteps = [
     imgPath: Ventilation
   },
   {
-    label: 'NeONBRAND Digital Marketing, Las Vegas, United States',
-    imgPath:
-      'https://images.unsplash.com/photo-1518732714860-b62714ce0c59?auto=format&fit=crop&w=400&h=250&q=60',
+    label: 'Ground Water Recharge',
+    imgPath:PoolView
   },
   {
-    label: 'Goč, Serbia',
-    imgPath:
-      'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
+    label: 'Rain water Harvesting',
+    imgPath:PoolViewTwo
   },
 ];
 
