@@ -45,7 +45,8 @@ export default () => {
           <SectionThree/>
           <SectionFour/>
           <SideMenuBar/>
-          <div className="box" >
+          <br/>
+         
         
           <div style={{textAlign:"center", marginTop:"-30px"}} className="normaling" >
            <Title title="About Assetz Sun And Sanctum"/>
@@ -77,7 +78,7 @@ export default () => {
         
         <LocationPart/>
          
-          </div>
+          
        
            <Footer/>
           </div>
