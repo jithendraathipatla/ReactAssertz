@@ -27,8 +27,12 @@ export default () => {
           <SEOComponent title="Assetz Sun And Sanctum | Sun And Sanctum | Assertz constructions " des="This webpage provides all the Information on Assetz Sun And Sanctum . You will be able to see all the related Information on Assetz Sun And Sanctum [Hyde, Regent], starting from Overview of the Project to the Location."/>
           <NavBar/>
           <div className="slider">
-         
           <Slider/>
+          <div className="scroll-downs">
+          <div className="mousey">
+            <div className="scroller"></div>
+          </div>
+        </div>
           </div>
           <div className="backgroundForm">
           <HighlightForm/>

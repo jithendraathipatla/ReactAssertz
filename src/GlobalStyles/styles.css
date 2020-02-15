@@ -1,3 +1,40 @@
+.scroll-downs {
+  position: absolute;
+  top: 55vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width :34px;
+  height: 0px;
+  z-index:20;
+  background: #000;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 42px;
+  border: 3px solid #011814;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: white;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
 .Amenities_main{
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr 3fr 3fr;
@@ -30,7 +67,6 @@
     color: #19544b;
     font-size: 1.6em;
     padding: 40px 0px;
-  
     text-decoration-color: #eee;
 }
 
