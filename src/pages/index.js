@@ -80,11 +80,11 @@ export default () => {
          <Title title="Stand-out Amenities"/>
         </div>
           <ul>
-           <li><FaRegDotCircle/> Carbon Healing</li>
-           <li><FaRegDotCircle/> Smart Homes</li>
-           <li><FaRegDotCircle/> Fresh Air</li>
-           <li><FaRegDotCircle/> Ground Water Recharge</li>
-           <li><FaRegDotCircle/> Rain water Harvesting</li>
+           <li><FaRegDotCircle/> <span>Carbon Healing</span></li>
+           <li><FaRegDotCircle/><span>Smart Homes</span></li>
+           <li><FaRegDotCircle/><span>Fresh Air</span></li>
+           <li><FaRegDotCircle/><span>Ground Water Recharge</span> </li>
+           <li><FaRegDotCircle/> <span>Rain water Harvesting</span></li>
           </ul>
         </div>
         <div css={second}>
@@ -113,9 +113,16 @@ const first = css`
   margin-bottom:20px;
   margin-left:25%;
   margin-top:10%;
-  font-size:1em;
   color:#19544b;
+  svg{
+    margin-right:5px;
+  }
+  span{
+   margin-top:2px;  
+  }
+
  }
+
 `
 
 const second = css`
