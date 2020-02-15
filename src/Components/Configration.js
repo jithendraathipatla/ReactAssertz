@@ -15,19 +15,19 @@ const Tabel = () => {
             <div css={tabel}>
             <img src={Prelaunch}/>
              <div>
-              <span>2 BHK 2T - 1141 SQ FT</span>
-              <span> Rs. 84.57 L</span>
-              <span> Rs. 79.18 L</span>
+              <span><h1>2 BHK 2T -</h1> <h2>1141 SQ FT</h2></span>
+              <span> <h2>Rs. 84.57 L</h2></span>
+              <span> <h2>Rs. 79.18 L</h2></span>
              </div>
              <div>
-             <span>2 BHK 2T - 1141 SQ FT</span>
-             <span> Rs. 84.57 L</span>
-             <span> Rs. 79.18 L</span>
+             <span><h1>2 BHK 2T -</h1>  <h2>1141 SQ FT</h2></span>
+             <span><h2> Rs. 84.57 L</h2></span>
+               <span><h2> Rs. 84.57 L</h2></span>
             </div>
             <div>
-            <span>2 BHK 2T - 1141 SQ FT</span>
-            <span> Rs. 84.57 L</span>
-            <span> Rs. 79.18 L</span>
+            <span><h1>2 BHK 2T -</h1> <h2>1141 SQ FT</h2></span>
+            <span><h2> Rs. 84.57 L</h2></span>
+              <span><h2> Rs. 84.57 L</h2></span>
            </div>
             </div>
             </div>
@@ -45,12 +45,23 @@ const tabel = css`
     border:2px solid black;
   }
   div{
-    border-bottom:0.02px solid #eee;
     width: 880px;
-    padding:20px;
     margin-left: 17%;
+    display:flex;
     span{
-      padding:30px;
+      padding:20px 70px;
+      border-bottom:0.02px solid #eee;
+      display:flex;
+      h1{
+        font-weight:bold;
+        font-size:1.5em;
+      }
+      h2{
+        font-weight:450;
+        font-size:1.2em;
+        margin-top:5px;
+        margin-left:4px;
+      }
     }
   }
 `;
