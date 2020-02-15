@@ -1,5 +1,6 @@
 import React from "react";
 import {css} from '@emotion/core';
+import { FaRegDotCircle } from 'react-icons/fa';
 import NavBar from '../Components/NavBar';
 import Title from '../Components/Title';
 import Footer from '../Components/Footer';
@@ -75,7 +76,16 @@ export default () => {
         </div>
         <div css={someStyling}>
         <div css={first}>
-        jklhkjhkjhkjhkj
+        <div style={{textAlign:"center"}}>
+         <Title title="Stand-out Amenities"/>
+        </div>
+          <ul>
+           <li><FaRegDotCircle/> Carbon Healing</li>
+           <li><FaRegDotCircle/> Smart Homes</li>
+           <li><FaRegDotCircle/> Fresh Air</li>
+           <li><FaRegDotCircle/> Ground Water Recharge</li>
+           <li><FaRegDotCircle/> Rain water Harvesting</li>
+          </ul>
         </div>
         <div css={second}>
         <ExtraFeatures/>
@@ -98,6 +108,14 @@ const someStyling = css`
 
 const first = css`
  flex:3;
+ border: 1px solid #eee;
+ li{
+  margin-bottom:20px;
+  margin-left:25%;
+  margin-top:10%;
+  font-size:1em;
+  color:#19544b;
+ }
 `
 
 const second = css`
