@@ -18,16 +18,19 @@ const Tabel = () => {
               <span><h1>2 BHK 2T -</h1> <h2>1141 SQ FT</h2></span>
               <span> <h3>Rs. 84.57 L</h3></span>
               <span> <h4>Rs. 79.18 L</h4></span>
+              <span><Modal title="Click Here" class="modalbuttonsmall"/></span>
              </div>
              <div>
              <span><h1>2 BHK 2T -</h1>  <h2>1141 SQ FT</h2></span>
              <span><h3> Rs. 84.57 L</h3></span>
                <span><h4> Rs. 84.57 L</h4></span>
+               <span><Modal title="Click Here" class="modalbuttonsmall"/></span>
             </div>
             <div>
             <span><h1>2 BHK 2T -</h1> <h2>1141 SQ FT</h2></span>
             <span><h3> Rs. 84.57 L</h3></span>
-              <span><h4> Rs. 84.57 L</h4></span>
+            <span><h4> Rs. 84.57 L</h4></span>
+            <span><div css={second}><Modal title="Click Here" class="modalbuttonsmall"/></div></span>
            </div>
             </div>
             </div>
@@ -48,12 +51,16 @@ const tabel = css`
     width: 900px;
     display:flex;
     span{
-      padding: 10px 55px 0px; 
+      padding: 10px 42px 10px 28px; 
       border-bottom:0.02px solid #eee;
       border-right:0.04px solid #eee;
       display:flex;
-      :nth-child(3){
+      :nth-child(4){
+        width:120px;
+        display:block;
+        border-bottom:0.02px solid #eee;
         border-right:none;
+        margin-top:3px;
       }
       h1{
         font-weight:bold;
@@ -80,3 +87,7 @@ const tabel = css`
     }
   }
 `;
+
+const second = css`
+display:flex;
+`
