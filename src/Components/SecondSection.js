@@ -16,12 +16,12 @@ const SecondSection = () => {
     },
     {
         name:"6",
-        subName:"Acere of Centrl Park",
+        subName:"Acere of Park",
         icon:<FaTree/>
     },
     {
         name:"1",
-        subName:"In Campus ATM/Bank",
+        subName:"Inside ATM/Bank",
         icon:<FaRegBuilding/>
     },
     ]);
@@ -54,8 +54,7 @@ const anotherStyle = css`
         background:#19544b;
         border-top:0.1px solid white;
         color:white;
-        padding:10px 0px 20px 18vh;
-        text-align:left;
+        text-align:center;
     @media(max-width: 600px) {
         grid-template-columns: 2fr 2fr;
     }`;

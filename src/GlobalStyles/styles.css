@@ -194,8 +194,8 @@
   
   
   @keyframes example {
-    from {background-color: rgb(69, 190, 61);}
-    to {background-color: #056C9F;}
+    from {background-color:#ffc107;}
+    to {background-color: #ff9800;}
     0%, 100% {
       bottom: 0;
     }
@@ -240,8 +240,6 @@
   }
   
   .buttonps{
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
     height: 110px;
     padding-top: 0.6rem;
     padding-right: 2px;
@@ -518,20 +516,24 @@
 .carousel-captiona svg{
  color:#dbc65d;
  font-size: 1rem;
- text-shadow: 1px 3px 4px rgba(0, 0, 0, .45);
+ text-shadow: 1px 0px 2px rgba(12, 12, 12);
 }
 
 .carousel-captiona li{
   display: block;
-  list-style-type: disc;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
   color:#fff;
   margin-bottom: 5px;
-  text-shadow: 1px 3px 4px rgba(192, 146, 146, 0.45);
+  text-shadow: 1px 0px 2px rgba(12, 12, 12);
 }
 
 .carousel-captiona h6{
-  color: #fff;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color:#fff;
+  margin-bottom: 5px;
+  text-shadow: 1px 0px 2px rgba(12, 12, 12);
 }
 
 .Assetzcopyabcd{
