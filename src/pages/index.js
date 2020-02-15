@@ -74,10 +74,12 @@ export default () => {
         <Title title="Extra Features San And Sanctrum Offers"/>
         </div>
         <div css={someStyling}>
-        <div>
+        <div css={first}>
         jklhkjhkjhkjhkj
         </div>
+        <div css={second}>
         <ExtraFeatures/>
+        </div>
         </div>
         <TabsContainerOne/>
         <hr/>
@@ -92,4 +94,14 @@ export default () => {
 const someStyling = css`
  display:flex;
  margin:10px;
+`
+
+const first = css`
+ flex:3;
+`
+
+const second = css`
+ flex:5;
+ border: 1px solid #eee;
+ padding:10px 22px 20px 25px;
 `
