@@ -54,7 +54,7 @@ const anotherStyle = css`
         background:#19544b;
         border-top:0.1px solid white;
         color:white;
-        padding:10px 0px 20px 20vh;
+        padding:10px 0px 20px 18vh;
         text-align:left;
     @media(max-width: 600px) {
         grid-template-columns: 2fr 2fr;

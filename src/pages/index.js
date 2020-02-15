@@ -15,6 +15,7 @@ import TabsContainerOne from '../Components/Costing';
 import SideMenuBar from '../Components/SideMenu';
 import HighlightForm from '../Components/HighlightForm';
 import SectionTwo from '../Components/SecondSection';
+import SectionThree from '../Components/ThirdSection';
 
 
 
@@ -36,6 +37,7 @@ export default () => {
           </div>
           </div>
           <SectionTwo/>
+          <SectionThree/>
           <SideMenuBar/>
           <div className="box" >
         
