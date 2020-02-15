@@ -48,10 +48,13 @@ const tabel = css`
     width: 900px;
     display:flex;
     span{
-      padding: 10px 90px 0px 20.2px;
+      padding: 10px 55px 0px; 
       border-bottom:0.02px solid #eee;
       border-right:0.04px solid #eee;
       display:flex;
+      :nth-child(3){
+        border-right:none;
+      }
       h1{
         font-weight:bold;
         font-size:1.5em;
