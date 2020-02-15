@@ -81,9 +81,9 @@ export default () => {
         </div>
           <ul>
            <li><FaRegDotCircle/> <span>Carbon Healing</span></li>
-           <li><FaRegDotCircle/><span>Smart Homes</span></li>
-           <li><FaRegDotCircle/><span>Fresh Air</span></li>
-           <li><FaRegDotCircle/><span>Ground Water Recharge</span> </li>
+           <li><FaRegDotCircle/> <span>Smart Homes</span></li>
+           <li><FaRegDotCircle/> <span>Fresh Air</span></li>
+           <li><FaRegDotCircle/> <span>Ground Water Recharge</span> </li>
            <li><FaRegDotCircle/> <span>Rain water Harvesting</span></li>
           </ul>
         </div>
@@ -115,15 +115,12 @@ const first = css`
   margin-top:10%;
   color:#19544b;
   svg{
-    margin-right:5px;
+    font-size:small;
   }
   span{
    margin-top:2px;  
   }
-
- }
-
-`
+}`
 
 const second = css`
  flex:5;

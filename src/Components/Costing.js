@@ -24,11 +24,11 @@ const Costing = () => {
         </div>
             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
             <thead >
-              <tr className="is-selected" style={{backgroundColor:"rgb(69, 190, 61)", border:"3px solid #eee"}}>
+              <tr className="is-selected" style={{backgroundColor:"#19544b", border:"3px solid #eee"}}>
               <th>Project</th>
-              <th style={{background:"#056C9F"}}>Configuration</th>
+              <th >Configuration</th>
               <th>Unit Carpet (Sq.Ft)</th>
-              <th style={{background:"#056C9F"}}>Price</th>
+              <th >Price</th>
             </tr>
             </thead>
            
