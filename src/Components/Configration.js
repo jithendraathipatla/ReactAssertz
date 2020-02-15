@@ -40,17 +40,17 @@ export default Tabel;
 const tabel = css`
   background:black;
   color:#fff;
-  padding:20px 0px;
+  margin:0px 50vh;
   img{
     border:2px solid black;
   }
   div{
     width: 900px;
-    margin-left: 18%;
     display:flex;
     span{
-      padding: 20px 85px 0px 67px;
+      padding: 10px 90px 0px 20.2px;
       border-bottom:0.02px solid #eee;
+      border-right:0.04px solid #eee;
       display:flex;
       h1{
         font-weight:bold;
