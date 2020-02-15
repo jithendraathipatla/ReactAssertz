@@ -8,6 +8,7 @@ const ThirdSection = () => {
         <div css={style}>
             <div>
             <Title title="Why Sun and Sanctum?"/>
+            <br/>
               <div css={styletwo}>
                 <div>
                  <ul>
@@ -57,5 +58,6 @@ const styletwo = css`
   li{
       text-align:justify;
       list-style:disc;
+      margin-bottom:12px;
   }
 `;

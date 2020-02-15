@@ -74,7 +74,7 @@ const saperateStyle = css`
         font-size:35px;
     }
     h2{
-        color:#000;
+        color:#fff;
         font-size:22px;
         margin-top:0.1em;
     }
