@@ -544,9 +544,8 @@
   border-radius: 2px;
   border: 1px solid transparent;
   border-radius: 3px;
-  background: linear-gradient(-90deg, rgb(69, 190, 61),#056C9F, rgb(69, 190, 61),#056C9F);
+  background: #ff9800;
   background-size: 400% 400%;
-  animation: Gradient 3s ease infinite;
 }
 
 .Assetzcopyabcd:hover{

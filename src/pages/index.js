@@ -1,4 +1,5 @@
 import React from "react";
+import {css} from '@emotion/core';
 import NavBar from '../Components/NavBar';
 import Title from '../Components/Title';
 import Footer from '../Components/Footer';
@@ -17,7 +18,7 @@ import HighlightForm from '../Components/HighlightForm';
 import SectionTwo from '../Components/SecondSection';
 import SectionThree from '../Components/ThirdSection';
 import SectionFour from '../Components/FourthSection';
-
+import ExtraFeatures from '../Components/ExtraFeatures';
 
 
 export default () => {
@@ -46,8 +47,6 @@ export default () => {
           <SectionFour/>
           <SideMenuBar/>
           <br/>
-         
-        
           <div style={{textAlign:"center", marginTop:"-30px"}} className="normaling" >
            <Title title="About Assetz Sun And Sanctum"/>
            </div>
@@ -65,23 +64,32 @@ export default () => {
         <hr/>
         <Overview/>
         <hr/>
-        <div className="configurationimage">
         <ConfigurationPart/>
-        </div>
         <hr/>
         <Gallery/>
         <hr/>
         <Amenities/>
         <hr/>
+        <div style={{textAlign:"center"}}>
+        <Title title="Extra Features San And Sanctrum Offers"/>
+        </div>
+        <div css={someStyling}>
+        <div>
+        jklhkjhkjhkjhkj
+        </div>
+        <ExtraFeatures/>
+        </div>
         <TabsContainerOne/>
         <hr/>
-        
         <LocationPart/>
-         
-          
-       
            <Footer/>
           </div>
        
     )
 }
+
+
+const someStyling = css`
+ display:flex;
+ margin:10px;
+`
