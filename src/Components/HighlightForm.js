@@ -51,7 +51,7 @@ const HighlightForm = () => {
             </div>
                                         
                 <div className="form-button">
-                <button type="submit" value="send" className="Assetzcopyabcd">Submit</button>
+                <button type="submit" value="send" className="buttona">Submit</button>
                 </div>						
             </div>
         
