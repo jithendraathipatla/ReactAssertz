@@ -4,7 +4,7 @@ import '../GlobalStyles/styles.css';
 const Title = (props) => {
     return (
         <div className="main_title">
-            {props.title}
+            <span className="underline">{props.title}</span>
         </div>
     );
 };
