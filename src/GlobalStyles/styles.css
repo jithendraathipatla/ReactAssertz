@@ -1,11 +1,15 @@
 .jss101 {
-  height: 50px;
   display: block !important;
   align-items: center;
   padding-left: 0px !important;
   background-color: white !important;
 }
 
+.carousel-captiona{
+  padding: 10px;
+  border-radius:4px;
+  background-color: rgba(0,0,0,.41);
+}
 
 .scroll-downs {
   position: absolute;
