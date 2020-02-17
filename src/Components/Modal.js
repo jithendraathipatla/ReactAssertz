@@ -17,10 +17,7 @@ const Modal = (props) => {
         </div>
           <Form/>
           <br/>
-          <br/>
-          <div style={{width: "100%", background: "linear-gradient(101deg, rgb(69, 190, 61), #ff9800)", color:"white", textAlign: "center", padding:"10px 0px"}}>
-          <a href="tel:01234567890"><img src={Callusback} style={{maringLeft:"10px"}}/>  <span style={{color:"white"}}>9071354854</span></a> 
-          </div>
+         <div style={{height:"10px"}}></div>
         </Modalabc>
         </div>
     );
