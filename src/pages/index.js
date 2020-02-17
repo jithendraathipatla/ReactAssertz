@@ -111,5 +111,5 @@ const first = css`
 const second = css`
  flex:5;
  border: 1px solid #eee;
- padding:10px 22px 20px 25px;
+ padding:0px 22px 20px 25px;
 `
