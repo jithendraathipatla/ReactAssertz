@@ -57,6 +57,7 @@ const anotherStyle = css`
         text-align:center;
     @media(max-width: 600px) {
         grid-template-columns: 2fr 2fr;
+        margin-top:-100px;
     }`;
 
 const saperateStyle = css`

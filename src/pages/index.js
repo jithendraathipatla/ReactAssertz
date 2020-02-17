@@ -90,6 +90,9 @@ export default () => {
 const someStyling = css`
  display:flex;
  margin:10px;
+ @media(max-width: 600px) {
+  display:block;
+}
 `
 
 const first = css`

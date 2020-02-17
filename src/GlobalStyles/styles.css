@@ -781,12 +781,12 @@
   }
 
   .carousel-captiona h1 {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .backgroundFormTwo{
     width: 311px;
-    top:2vh;
+    top:9vh;
     left:5vh;
   }
 
@@ -807,7 +807,7 @@
 
   .carousel-captiona h6 {
     color: #fff;
-    font-size: 12px;
+    font-size: 9px;
   }
   .masterPlan{
     margin-left: 0vh;
@@ -878,12 +878,19 @@
     padding: 4px 8px;
       font-size: 0.7125rem;
       color: #fff;
-      border: 1px solid #1976d2;
-      background: #1976d2 !important;
       animation: none;
   }
   .aliginingForm{
     box-shadow: none;
   }
+  
+ .carousel-captiona li{
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  color:#fff;
+  margin-bottom: 5px;
+  text-shadow: 1px 0px 2px rgba(12, 12, 12);
+ }
 
 }

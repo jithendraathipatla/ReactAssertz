@@ -50,6 +50,9 @@ const style = css`
       flex:5;
       padding:2em 1em;
   }
+  @media(max-width: 600px) {
+    display:block;
+  }
 `;
 
 const styletwo = css`
@@ -59,5 +62,9 @@ const styletwo = css`
       text-align:justify;
       list-style:disc;
       margin-bottom:12px;
+  }
+  @media(max-width: 600px) {
+    display:block;
+    padding-left:5em;
   }
 `;

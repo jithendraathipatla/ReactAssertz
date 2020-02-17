@@ -57,4 +57,7 @@ const styleforSectionFour = css`
         cursor:pointer; 
     }
  }
+ @media(max-width: 600px) {
+    grid-template-columns:2fr 2fr;
+}
 `;

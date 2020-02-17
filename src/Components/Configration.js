@@ -86,6 +86,9 @@ const tabel = css`
       }
     }
   }
+  @media(max-width: 600px) {
+    margin:0px 0px;
+  }
 `;
 
 const second = css`
