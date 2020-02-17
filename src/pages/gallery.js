@@ -15,13 +15,13 @@ const gallery = () => {
             <SEOComponent title="Assetz Sun And Sanctum Gallery | Sun And Sanctum Gallery | Best Apartments in TC Palya" des="In this page you will be able to see the all Gallery of Assetz Sun And Sanctum starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Assetz Sun And Sanctum"/>
             <Navbar/>
             <SideMenu/>
-            <div style={{paddingTop:"7vh"}}>
+            <div style={{paddingTop:"10vh"}}>
             <div style={{textAlign:"center"}}>
             <Titleabc title="Sun And Sanctum Gallery"/>
             </div>
             <Description>Assetz Sun And Sanctum is a state-of-the-art residential assignment via Assetz homes. This undertaking has Township concept in which they're giving schools, Retails, industrial space and has pricey features and superb connectivity to all of the fundamental cities and is positioned at Baglur, Bangalore. This venture spread over 22 Acres of land in which they may be coming up with three phases,section one is already exceeded over to the glad client’s and segment 2 is underneath construction.</Description>
            </div>
-            <hr/>
+        
             <GalleryComponent/>
             <Location/>
             <Footer/>

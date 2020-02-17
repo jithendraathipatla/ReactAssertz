@@ -38,7 +38,6 @@ const amenities = () => {
             </Description>
         
            <SideMenu/>
-           <hr/>
            <Amenities/>
             <hr/>
             <Location/>
