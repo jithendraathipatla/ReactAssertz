@@ -57,14 +57,19 @@
     padding: 20px 2px 20px 72px;
 }
 
-.Amenities_main img{
+.Amenities_main :nth-child(odd) img{
   border: 1px solid #eee;
   padding: 10px;
-  border-radius: 18%;
-  box-shadow: 0px 0px 1px 1px #0000004d; 
-  background: linear-gradient(to bottom, #10ff0063, #005aff2e);
+  border-radius: 15%;
+  box-shadow: 0px 0px 3px 3px rgba(86, 179, 214,0.75); 
 }
 
+.Amenities_main :nth-child(even) img{
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 15%;
+  box-shadow: 0px 0px 3px 3px rgba(83, 204, 99, 0.75); 
+}
 
 .Amenities_main h1{
     font-size: 18px;
@@ -92,12 +97,18 @@
 }
 
 
-.Overview_main img{
+.Overview_main :nth-child(odd) img{
   border: 1px solid #eee;
   padding: 10px;
-  border-radius: 18%;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3); 
-  background: linear-gradient(to bottom, #10ff0063, #005aff2e);
+  border-radius: 15%;
+  box-shadow: 0px 0px 3px 3px rgba(86, 179, 214,0.75); 
+}
+
+.Overview_main :nth-child(even) img{
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 15%;
+  box-shadow: 0px 0px 3px 3px rgba(83, 204, 99, 0.75); 
 }
   
 .Overview_main .properly{
