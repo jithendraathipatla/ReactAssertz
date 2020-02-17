@@ -88,6 +88,15 @@ const tabel = css`
   }
   @media(max-width: 600px) {
     margin:0px 0px;
+    div{
+      display:block;
+      width:auto;
+    }
+    span{
+      :nth-child(4){
+        display:flex;
+      }
+    }
   }
 `;
 
