@@ -401,6 +401,12 @@
   }
 }
 
+@media all and (min-width: 1990){
+  .nav-links{
+    margin-left: 13.3rem;
+  }
+}
+
 .images-in-grid{
     display: grid;
     grid-template-columns: 6fr 6fr;
