@@ -14,8 +14,6 @@ const configuration = () => {
            <SEOComponent title="Assetz Properties | Assetz Constructions | Assetz Sun And Sanctum" des="This website Provides a whole lot of information on the Assetz Sun And Sanctum Property. You will find about Total land area the Assetz Sun And Sanctum has come-up with , number of Uits that it owns and many more"/>
            <Navbar/>
            <SideMenu/>
-           <div className="box">
-         
            <div style={{paddingTop:"7vh"}}>
            <div style={{textAlign:"center"}}>
            <Titleabc title="Sun And Sanctum Configuration"/>
@@ -29,7 +27,6 @@ const configuration = () => {
           <Configuration/>
           <hr/>
             <Location/>
-            </div>
             <Footer/>
         </div>
     );
