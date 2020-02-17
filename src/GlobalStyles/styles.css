@@ -353,7 +353,7 @@
   .nav-links{
     height: auto;
     display: flex;
-    margin-left: 11.3rem;
+    margin-left: 2.3rem;
   }
 
   .nav-links > li{
@@ -377,6 +377,11 @@
       height: 16px;
       margin-top: 22px;
       margin-left: 8px;
+  }
+  .nav-links svg{
+    height: 16px;
+    margin-top: 22px;
+    margin-left: 8px;
   }
   .main_logo1 {
     width: 200px;
