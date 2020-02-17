@@ -48,21 +48,7 @@ export default () => {
           <SectionFour/>
           <SideMenuBar/>
           <br/>
-          <div style={{textAlign:"center", marginTop:"-30px"}} className="normaling" >
-           <Title title="About Assetz Sun And Sanctum"/>
-           </div>
-          <Description>
-          <p style={{textAlign:"justify"}}>
-          Assetz Sun And Sanctum is the most awaited residential town coming_up in North Banaglore,
-           KIADB area, Just right adjacent to the Aerospace and Hardware Park. 
-           The Assetz Finsbury is close to Kempedowda International Airport, Devanahalli.
-            The north Bangalore is the New Launch hot and serious property investement where you wanna be. 
-            It comprises of all the needs from Quality schools to luxurious Malls. Assetz Finsbury is the new launch and it is in the heart of banglore, 
-            so the property is becoming sensation by it name and it's locality. Assetz Sun And Sanctum has the good connectivity to all the famious destinations of Bangalore by the wide and well Laid Outer-Ring-Road. 
-          It also has a very good connectivity to Bellary Road.
-        </p>
-        </Description>
-        <hr/>
+         
         <Overview/>
         <hr/>
         <ConfigurationPart/>

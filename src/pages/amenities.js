@@ -13,7 +13,7 @@ const amenities = () => {
         <div>
         <SEOComponent title="Assertz Sun And Sanctum Amenities | Sun and Sanctum Amenities | Top Amenities Apartments in Old madras Road" des="This page is all about the aminities that you can Avail from the Assertz Marq 2.0 Apartments. You can also find more about the Assertz Marq 2.0 Projec within the website"/>
         <Navbar/>
-           <div className="box" style={{paddingTop:"10vh"}}>
+           <div style={{paddingTop:"10vh"}}>
             <div style={{textAlign:"center"}}>
             <Titleabc title="Sun And Sanctum Amenities"/>
             </div>

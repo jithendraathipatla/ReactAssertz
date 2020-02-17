@@ -14,7 +14,6 @@ const pricing = () => {
         <SEOComponent title="Assetz Sun And Sanctum Starting Price | Best Apartments in Old Madras Road, Bangalore" des="Are you Curious to know about the offers and benifits the Assetz Sun And Sanctum Provides ?, Then, visit the website to get all the data related to 3BHK and 4BHK starting Prices that Assetz Sun And Sanctum has to offer."/>
         <Navbar/>
         <SideMenu/>
-        <div className="box">
         <div style={{paddingTop:"7vh"}}>
         <div style={{textAlign:"center"}}>
         <Titleabc title="Sun And Sanctum Pricing"/>
@@ -32,7 +31,6 @@ const pricing = () => {
        <PricingComponent/>
            <hr/>
             <Location/>
-            </div>
         <Footer/>
         </div>
     );

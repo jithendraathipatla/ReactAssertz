@@ -15,7 +15,6 @@ const masterplan = () => {
         <SEOComponent title="Assetz Sun And Sanctum Master Plan | Sun And Sanctum Master Plan| Sun And Sanctum in Old Madras road" des="This page is all about the Assetz Sun And Sanctum Master Plan. This page will allow you to see a detailed view on Master Plan of Assetz Sun And Sanctum  Property"/>
         <Navbar/>
         <SideMenu/>
-        <div className="box">
         <div style={{paddingTop:"7vh"}}>
         <div style={{textAlign:"center"}}>
         <Titleabc title="Sun And Sanctum MasterPlan"/>
@@ -31,7 +30,6 @@ const masterplan = () => {
        </div>
         <hr/>
         <Location/>
-        </div>
         <Footer/>
         </div>
     );

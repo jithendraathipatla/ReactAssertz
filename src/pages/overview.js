@@ -15,7 +15,6 @@ const overview = () => {
         <SEOComponent title="Assetz Sun And Sanctum in Battrahalli | Assetz Sun And Sanctum in TC Palya" des="This page helps you to understand more on the Assertz Marq 2.0 Property. The website you will see will help you to get more informative on Assertz Marq 2.0"/>
         <Navbar/>
         <SideMenu/>
-        <div className="box">
         <div style={{paddingTop:"7vh"}}>
         <div style={{textAlign:"center"}}>
         <Titleabc title="Sun And Sanctum Overview"/>
@@ -28,7 +27,6 @@ const overview = () => {
             <Overview/>
            <hr/>
             <Location/>
-            </div>
             <Footer/>
         </div>
     );
