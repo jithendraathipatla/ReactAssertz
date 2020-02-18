@@ -58,7 +58,7 @@ const anotherStyle = css`
     @media(max-width: 600px) {
         grid-template-columns: 2fr 2fr;
         margin-top:-100px;
-    }`;
+}`
 
 const saperateStyle = css`
    display:block;

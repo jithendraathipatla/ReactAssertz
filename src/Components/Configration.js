@@ -13,7 +13,7 @@ const Tabel = () => {
             </div>
             <div style={{textAlign:"center"}}>
             <div css={tabel}>
-            <img src={Prelaunch}/>
+            <img src={Prelaunch} alt="prelaunch Image"/>
              <div>
               <span><h1>2 BHK 2T -</h1> <h2>1141 SQ FT</h2></span>
               <span> <h3>Rs. 84.57 L</h3></span>

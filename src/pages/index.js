@@ -6,7 +6,6 @@ import Title from '../Components/Title';
 import Footer from '../Components/Footer';
 import Overview from '../Components/StatefulOverview';
 import ConfigurationPart from '../Components/Configration';
-import Description from '../Components/Description';
 import Gallery from '../Components/Gallery';
 import LocationPart from '../Components/Location';
 import Amenities from '../Components/Amenities';
