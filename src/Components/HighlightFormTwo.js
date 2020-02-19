@@ -19,7 +19,7 @@ const HighlightFormTwo = () => {
            </div>
             <div style={{border:"1px solid white", textAlign:"center"}} className="rera">
              <h5 style={{textAlign:"center", color:"white"}}>RERA No:</h5>
-             <h6>ACK/KA/RERA/1251/446/PR/200120/003839</h6>
+             <h6>PRM/KA/RERA/1251/446 /PR/200123/003229</h6>
             </div>
              <br/>
              <div style={{textAlign:"left"}} class="form-button">

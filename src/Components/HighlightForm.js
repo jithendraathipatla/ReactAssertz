@@ -13,7 +13,8 @@ const HighlightForm = () => {
         const client_information = {
             client_name:name,
             client_email:email,
-            client_phone:phone
+            client_phone:phone,
+            project_details:"Sumadhura Aspire Aurum"
         }
         var data = {
             service_id: 'gmail',

@@ -77,7 +77,7 @@
 }
 
 .main_title{
-    color: #19544b;
+    color: #000000;
     font-size: 1.5em;
     font-weight:500;
     padding: 20px 0px;
@@ -85,7 +85,8 @@
 }
 
 .main_title .underline{
-  border-bottom: 2px solid orange;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #ececec;
 }
 
 .Overview_main{
@@ -226,7 +227,7 @@
   
   @keyframes example {
     from {background-color:#ffc107;}
-    to {background-color: #ff9800;}
+    to {background-color: #ffc329;}
     0%, 100% {
       bottom: 0;
     }
@@ -341,7 +342,7 @@
   display: block;
   text-decoration: none;
   padding: 1rem 0;
-  color: black;
+  color: #000000;
   text-align: center;
   font-size: 1.1rem;
   font-weight: 500;
@@ -369,7 +370,7 @@
   .nav-links{
     height: auto;
     display: flex;
-    margin-left: 2.3rem;
+    margin-left: 10.3rem;
   }
 
   .nav-links > li{
@@ -400,8 +401,9 @@
     margin-left: 8px;
   }
   .main_logo1 {
-    width: 200px;
-    height: 66px;
+    width: 91px;
+    height: 59px;
+    padding: 3px
   }
 }
 
@@ -451,7 +453,7 @@
   padding: 4px 10px;
     font-size: 0.8125rem;
     color: #fff;
-    background: #ff9800;
+    background: #ffc329;
     background-size: 400% 400%;
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
@@ -588,7 +590,7 @@
   border-radius: 2px;
   border: 1px solid transparent;
   border-radius: 3px;
-  background: #ff9800;
+  background: #ffc329;
   background-size: 400% 400%;
 }
 
@@ -711,7 +713,7 @@
 
 .form-button .buttona{
   text-align: center;
-  background-color: #ff9800;
+  background-color: #ffc329;
   padding: 8px 15px;
   border-radius: 1px;
   color: #fff;
@@ -723,7 +725,7 @@
 .form-head h1 {
   font-size: 20px;
   text-align: center;
-  background-color: #ff9800;
+  background-color: #ffc329;
   margin-bottom: 20px;
   padding: 8px 0px;
   color: #fff;

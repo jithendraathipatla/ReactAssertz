@@ -19,7 +19,7 @@ const Form = () => {
       Client_name:client_name,
       Client_email:client_email,
       Client_phone_number: phonenumber,
-      Project_Name:"Aspire Aurum",
+      Project_Name:"Sumadhura Aspire Aurum",
     }
     var data = {
       service_id: 'gmail',

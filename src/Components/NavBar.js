@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {Link} from 'gatsby'
 import '../GlobalStyles/styles.css';
-import Logo from '../Imagesa/Images/logo.svg';
+import Logo from '../Imagesa/Images/logo.png';
 import HomeSVG from '../Imagesa/Images/svg/home.svg';
 import LoaderSVG from '../Imagesa/Images/svg/loader.svg';
 import ReadingSVG from '../Imagesa/Images/svg/reading-library-2.svg';
