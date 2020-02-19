@@ -42,23 +42,16 @@ const Costing = () => {
             Aspire Aurum</td>
             </tr>
             <tr>
-            <td>2 BHk</td>
+            <td>1 BHk</td>
              <td>1141</td>
-             <td> Rs. 79 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
+             <td> Rs. 25 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
             </tr>
             <tr>
-             <td>3 BHK + 2T </td>
+             <td>2 BHK </td>
              <td>1354</td>
-             <td> Rs.85 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
+             <td> Rs.35 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
             </tr>
-            <tr>
-             <td>3 BHK + 3T </td>
-             <td>1356</td>
-             <td> Rs.1.06 Crore* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
-            </tr>
-             
            
-            
           </tbody>
           </table>
             </div>
