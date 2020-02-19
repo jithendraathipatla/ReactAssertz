@@ -6,7 +6,7 @@ import { FaRegDotCircle } from 'react-icons/fa';
 const HighlightFormTwo = () => {
     return (
         <div className="carousel-captiona">
-          <h1>Sun And Sanctum Highlights</h1>
+          <h1>Aspire Aurum Highlights</h1>
           <br/>
           <div>
            <ul>

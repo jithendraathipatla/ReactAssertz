@@ -25,7 +25,7 @@ export default () => {
     return(
         <div >
         <div className="backgroundSlider">
-          <SEOComponent title="Assetz Sun And Sanctum | Sun And Sanctum | Assertz constructions " des="This webpage provides all the Information on Assetz Sun And Sanctum . You will be able to see all the related Information on Assetz Sun And Sanctum [Hyde, Regent], starting from Overview of the Project to the Location."/>
+          <SEOComponent title="Sumadhura Aspire Aurum | Aspire Aurum | Assertz constructions " des="This webpage provides all the Information on Sumadhura Aspire Aurum . You will be able to see all the related Information on Sumadhura Aspire Aurum [Hyde, Regent], starting from Overview of the Project to the Location."/>
           <NavBar/>
           <div className="slider">
           <Slider/>

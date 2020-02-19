@@ -108,7 +108,7 @@ const Amenities = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-                <Title title="Sun And Sanctum Amenities"/>
+                <Title title="Aspire Aurum Amenities"/>
             </div>
             <div className="Amenities_main">
             {displayingAmenities()}

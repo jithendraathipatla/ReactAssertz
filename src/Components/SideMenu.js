@@ -62,7 +62,7 @@ const Sidemenu = (props) => {
       let finalformdata = {
         name:vaueone,
         phonenumber:phoneone,
-        PropertyName:"Assetz Sun And Sanctum",
+        PropertyName:"Sumadhura Aspire Aurum",
       }
       var data = {
         service_id: 'gmail',
@@ -91,7 +91,7 @@ const Sidemenu = (props) => {
       let finalformdata = {
         name:vaueone,
         phonenumber:phonetwo,
-        PropertyName:"Assetz Sun And Sanctum",
+        PropertyName:"Sumadhura Aspire Aurum",
       };
       var data = {
         service_id: 'gmail',

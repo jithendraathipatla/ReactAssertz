@@ -7,7 +7,7 @@ const ThirdSection = () => {
     return (
         <div css={style}>
             <div>
-            <Title title="Why Sun and Sanctum?"/>
+            <Title title="Why Aspire Aurum?"/>
             <br/>
               <div css={styletwo}>
                 <div>
@@ -30,7 +30,7 @@ const ThirdSection = () => {
               </div>
             </div>
             <div>
-             <img src={image} alt="sun and sanctum"/>
+             <img src={image} alt="Aspire Aurum"/>
             </div>
         </div>
     );

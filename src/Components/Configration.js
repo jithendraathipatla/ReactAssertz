@@ -9,7 +9,7 @@ const Tabel = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-            <TitleComponent title="Sun And Sanctum Configuration"/>
+            <TitleComponent title="Aspire Aurum Configuration"/>
             </div>
             <div style={{textAlign:"center"}}>
             <div css={tabel}>

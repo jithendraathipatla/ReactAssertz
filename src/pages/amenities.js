@@ -11,11 +11,11 @@ import SideMenu from '../Components/SideMenu';
 const amenities = () => {
     return (
         <div>
-        <SEOComponent title="Assertz Sun And Sanctum Amenities | Sun and Sanctum Amenities | Top Amenities Apartments in Old madras Road" des="This page is all about the aminities that you can Avail from the Assertz Marq 2.0 Apartments. You can also find more about the Assertz Marq 2.0 Projec within the website"/>
+        <SEOComponent title="Assertz Aspire Aurum Amenities | Aspire Aurum Amenities | Top Amenities Apartments in Old madras Road" des="This page is all about the aminities that you can Avail from the Assertz Marq 2.0 Apartments. You can also find more about the Assertz Marq 2.0 Projec within the website"/>
         <Navbar/>
            <div style={{paddingTop:"10vh"}}>
             <div style={{textAlign:"center"}}>
-            <Titleabc title="Sun And Sanctum Amenities"/>
+            <Titleabc title="Aspire Aurum Amenities"/>
             </div>
             <Description>Assertz marq Amenities are the country's best. The Amenities you get inside the Assertz mark are the best in the bes. The Amenities inside the Apartments suit right from your Child to your parents.
             Inside It has a garden. The garden has many trees, the trees are well responsible for the quality air inside the Apartments. The Kids playing Area is designed in such a way that It will attract the kids to be there all day.

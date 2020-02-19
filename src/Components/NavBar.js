@@ -25,7 +25,7 @@ const NavBar = () => {
            <div className="nav-center">
               <div className="nav-header">
                  <Link to="/">
-                    <img src={Logo} alt="Sun And Sanctum" className="main_logo1"/>
+                    <img src={Logo} alt="Aspire Aurum" className="main_logo1"/>
                  </Link>
               <button type="button" className="nav-btn" onClick={handelToogle}>
                 <FaAlignRight className="nav-icon"/>

@@ -11,14 +11,14 @@ import SideMenu from '../Components/SideMenu';
 const location = () => {
     return (
         <div>
-        <SEOComponent title="Assetz Sun And Sanctum Location | Sun And Sanctum - location | Sun And Sanctum Apartments in Batrahalli" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
+        <SEOComponent title="Sumadhura Aspire Aurum Location | Aspire Aurum - location | Aspire Aurum Apartments in Batrahalli" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
         <Navbar/>
         <SideMenu/>
         <div style={{paddingTop:"10vh"}}>
         <div style={{textAlign:"center"}}>
-        <Titleabc title="Sun And Sanctum Location"/>
+        <Titleabc title="Aspire Aurum Location"/>
         </div>
-        <Description>Assetz Sun And Sanctum is coming at Tc Palya, Old Madras Road, Baglur Road, Bangalore. It is Just 4 Kilo meters away from Phoenix MarketCity, 7 Km away from ITPL and 10 KM away from Whitefield, Bangalore. And the best school in the area, DELHI PUBLIC SCHOOL, is just 13 KM Away.
+        <Description>Sumadhura Aspire Aurum is coming at Tc Palya, Old Madras Road, Baglur Road, Bangalore. It is Just 4 Kilo meters away from Phoenix MarketCity, 7 Km away from ITPL and 10 KM away from Whitefield, Bangalore. And the best school in the area, DELHI PUBLIC SCHOOL, is just 13 KM Away.
         It is Heart of the city and then 10KM away from Marathahalli. Want to be away from traffic, then the proposed METRO is to your Rescue. The Metro will be well within your reach. It is 4KM away from the Project.
         <br/>
         Are you a Movie freak, we have got you covered. The  all big GOPALAN MAll is 6KM away and it is well in reach.

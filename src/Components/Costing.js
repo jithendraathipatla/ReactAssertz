@@ -20,7 +20,7 @@ const Costing = () => {
         <div className="costingPart">
         <div> 
         <div style={{textAlign:"center"}}>
-        <Title title="Sun And Sanctum Price"/>
+        <Title title="Aspire Aurum Price"/>
         </div>
             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
             <thead >
@@ -39,7 +39,7 @@ const Costing = () => {
             <td rowSpan={4}  style={{fontSize:"18px", fontWeight:"500"}}>
             <br/>
            
-            Sun And Sanctum</td>
+            Aspire Aurum</td>
             </tr>
             <tr>
             <td>2 BHk</td>
@@ -64,7 +64,7 @@ const Costing = () => {
             </div>
             <div>
             <div style={{textAlign:"center"}}>
-            <Title title="Sun And Sanctum Price"/>
+            <Title title="Aspire Aurum Price"/>
             </div>
            
             <div  onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHoverTwo} className="parkedtwo">
