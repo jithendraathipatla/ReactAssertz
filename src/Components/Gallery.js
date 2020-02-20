@@ -7,6 +7,7 @@ import LightHouseabc from '../Components/Lighthouse';
 
 import FloorPlanOne from '../Imagesa/Images/floorone.jpg';
 import FloorPlanTwo from '../Imagesa/Images/floortwo.jpg';
+import FloorPlanThree from '../Imagesa/Images/floorthree.jpg';
 
 import ExteriorFirst from '../Imagesa/Images/sliderone.jpg';
 import ExteriorSecond from '../Imagesa/Images/slidertwo.jpg';
@@ -76,13 +77,18 @@ const Gallery = () => {
 
             const [floorsetone, setfloorsetone] = useState([
                 {
-                name:"1 BHK",
+                name:"2 BHK",
                 image: FloorPlanOne
                 },
                 {
-                 name:"2 BHK",
+                 name:"3 BHK + 2T",
                  image: FloorPlanTwo
                 },
+                {
+                    name:"3 BHK + 3T",
+                    image: FloorPlanThree
+                },
+                  
                
                ]);
 
@@ -107,7 +113,7 @@ const Gallery = () => {
               </div>
               <div>
               <Title title="Aspire Aurum Floor Plans"/>
-              <TabContainer title1="Floor Plan" title2="Carbon Healing Home" title3="Smart Home"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo]} state={floorsetone}/>}  interior={<LightHouseabc images={[carbonHealingHomes]} state={carbon}/>} mplan={<LightHouseabc images={[SmartHomes]} state={smart}/>}/>
+              <TabContainer title1="Floor Plan" title2="Carbon Healing Home" title3="Smart Home"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree]} state={floorsetone}/>}  interior={<LightHouseabc images={[carbonHealingHomes]} state={carbon}/>} mplan={<LightHouseabc images={[SmartHomes]} state={smart}/>}/>
               </div>
             </div>             
             </div>
