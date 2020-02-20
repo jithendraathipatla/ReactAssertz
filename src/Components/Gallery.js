@@ -4,26 +4,17 @@ import '../GlobalStyles/styles.css';
 import TabContainer from '../Components/tabs';
 import Title from '../Components/Title';
 import LightHouseabc from '../Components/Lighthouse';
-
 import FloorPlanOne from '../Imagesa/Images/floorone.jpg';
 import FloorPlanTwo from '../Imagesa/Images/floortwo.jpg';
-import FloorPlanThree from '../Imagesa/Images/floorthree.jpg';
-
 import ExteriorFirst from '../Imagesa/Images/sliderone.jpg';
-import ExteriorSecond from '../Imagesa/Images/slidertwo.jpg';
-import ExteriorThird from '../Imagesa/Images/sliderthree.jpg';
-import ExteriorFourth from '../Imagesa/Images/sliderfour.jpg';
-
+import ExteriorSecond from '../Imagesa/Images/secondSlider.jpeg';
 import InteriorOne from '../Imagesa/Images/latestBedroom.jpg';
 import InteriorTwo from '../Imagesa/Images/latestDining.jpg';
 import InteriorThree from '../Imagesa/Images/latestHall.jpg';
 import InteriorFour from '../Imagesa/Images/latestPeace.jpg'; 
-
 import MasterPlanabcd from '../Imagesa/Images/masterPlan.jpg';
-
 import carbonHealingHomes from '../Imagesa/Images/CarbonHealing.jpg';
 import SmartHomes from '../Imagesa/Images/smart.jpg';
-
 
 
 const Gallery = () => {
@@ -46,14 +37,6 @@ const Gallery = () => {
              name:"Nature Walk",
              image: ExteriorSecond
         },
-        {
-            name:"Areal View",
-            image: ExteriorThird
-        },
-        {
-            name:"Pool view",
-            image: ExteriorFourth
-        }
         ]);
 
         const [interior, setinterior] = useState([
@@ -77,17 +60,14 @@ const Gallery = () => {
 
             const [floorsetone, setfloorsetone] = useState([
                 {
-                name:"2 BHK",
+                name:"1 BHK",
                 image: FloorPlanOne
                 },
                 {
-                 name:"3 BHK + 2T",
+                 name:"2 BHK",
                  image: FloorPlanTwo
                 },
-                {
-                    name:"3 BHK + 3T",
-                    image: FloorPlanThree
-                },
+               
                ]);
 
 
@@ -102,16 +82,16 @@ const Gallery = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-            <TitleComponent title="Sun And Sanctum Gallery"/>
+            <TitleComponent title="Aspire Aurum Gallery"/>
             <br/>
             <div  className="galleryImages">
               <div>
               <Title title="Interior, Exterior & Masterplan"/>
-              <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior}/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
+              <TabContainer title1="Exterior View" title2="Interior View" title3="Master Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond]} state={exterior}/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
               </div>
               <div>
-              <Title title="Sun And Sanctum Floor Plans"/>
-              <TabContainer title1="Floor Plan" title2="Carbon Healing Home" title3="Smart Home"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree]} state={floorsetone}/>}  interior={<LightHouseabc images={[carbonHealingHomes]} state={carbon}/>} mplan={<LightHouseabc images={[SmartHomes]} state={smart}/>}/>
+              <Title title="Aspire Aurum Floor Plans"/>
+              <TabContainer title1="Floor Plan" title2="Carbon Healing Home" title3="Smart Home"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo]} state={floorsetone}/>}  interior={<LightHouseabc images={[carbonHealingHomes]} state={carbon}/>} mplan={<LightHouseabc images={[SmartHomes]} state={smart}/>}/>
               </div>
             </div>             
             </div>
