@@ -740,7 +740,7 @@
   display: block;
   width: 100%;
   height:80vh !important;
-  padding-bottom: 0px;
+  padding-bottom: 0px !important;
 }
 
 
@@ -912,7 +912,7 @@
  }
 
  .jss101 {
-  height: 500px !important;
+  height: 240px !important;
  }
 
 }
