@@ -92,9 +92,9 @@
 .Overview_main{
     display:grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-gap:40px 75px;
+    grid-gap:50px 20px;
     margin-left: 20px;
-    padding: 10px;
+    padding: 10px 10px 10px 50px;
 }
 
 .Overview_main h1{ 
@@ -504,7 +504,7 @@
 
 .styles_modal__gNwvD .modalImageLogo{
     width: 100px;
-    padding-top:10px
+    padding-top:10px;
 }
 
 .finaltouch a:hover{
