@@ -84,9 +84,9 @@ const tabel = css`
   @media(max-width: 600px) {
     margin:0px 0px;
     div{
-      display:flex;
       width:auto;
       span{
+          display: -webkit-box;
           padding: 2px 15px;
           h1{
             font-size:1em;
@@ -103,11 +103,6 @@ const tabel = css`
          
       }
 
-    }
-    span{
-      :nth-child(4){
-        display:flex;
-      }
     }
   }
 `;
