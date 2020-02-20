@@ -22,7 +22,7 @@ const masterplan = () => {
         <Description>Sumadhura Aspire Aurum is a state-of-the-art residential assignment via Assetz homes. This undertaking has Township concept in which they're giving schools, Retails, industrial space and has pricey features and superb connectivity to all of the fundamental cities and is positioned at Baglur, Bangalore. This venture spread over 22 Acres of land in which they may be coming up with three phases,section one is already exceeded over to the glad client’s and segment 2 is underneath construction.</Description>
        </div>
        <div style={{textAlign:"center"}}>
-       <Titleabc title="Marq Master Plan"/>
+       <Titleabc title="Aspire Aurum Master Plan"/>
        </div>
        <div className="masterPlan">
        <MasterplanImage/>

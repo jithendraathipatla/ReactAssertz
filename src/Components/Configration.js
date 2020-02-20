@@ -38,7 +38,7 @@ export default Tabel;
 const tabel = css`
   background:black;
   color:#fff;
-  margin:0px 50vh;
+  margin:0px 45vh;
   img{
     border:2px solid black;
   }
@@ -51,7 +51,7 @@ const tabel = css`
       border-right:0.04px solid #eee;
       display:flex;
       :nth-child(4){
-        width:120px;
+        width:20%;
         display:block;
         border-bottom:0.02px solid #eee;
         border-right:none;
@@ -100,9 +100,7 @@ const tabel = css`
           h4{
             font-size:1em;
           }
-          :nth-child(1){
-            display:flex;
-          }
+         
       }
 
     }
@@ -113,7 +111,3 @@ const tabel = css`
     }
   }
 `;
-
-const second = css`
-display:flex;
-`
