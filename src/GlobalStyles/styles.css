@@ -739,7 +739,7 @@
 @media all and (max-width: 600px){
 #finalcosting{
   display: flex;
-  margin-left:30%;
+  margin-left:34%;
 }
 .configurationimage{
  background-image: none;
@@ -831,11 +831,12 @@
     display: grid;
     grid-template-columns: 3fr 3fr;
     grid-gap: 26px 44px;
-    padding-left: 20px;
+    padding: 11px 0px 11px 41px;
   }
 
   .costingPart{
     display: block;
+    margin: 10px;
   }
 
   .locationPart{
@@ -846,10 +847,13 @@
   }
   .Overview_main{
     display: grid;
-    grid-template-columns: 7fr 5fr;
-    grid-gap: 14px 50px;
+    grid-template-columns: 5fr 5fr;
     margin-left: 0px;
-    padding: 11px 20px;
+    padding: 11px 0px 11px 41px;
+  }
+  .images-in-grid{
+    grid-gap: 6px;
+    margin: 0px 32px;
   }
 
   .Overview_main .headings {
@@ -873,8 +877,8 @@
   }
 
   .main_logo1 {
-    width: 163px;
-    margin-top:-7px;
+    width: 61px;
+    margin-top:10px;
   }
 
   .modalbuttonsmall{

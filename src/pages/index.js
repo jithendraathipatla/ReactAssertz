@@ -1,6 +1,5 @@
 import React from "react";
 import {css} from '@emotion/core';
-import { FaRegDotCircle } from 'react-icons/fa';
 import NavBar from '../Components/NavBar';
 import Title from '../Components/Title';
 import Footer from '../Components/Footer';

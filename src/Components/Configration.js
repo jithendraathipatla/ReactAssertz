@@ -84,8 +84,21 @@ const tabel = css`
   @media(max-width: 600px) {
     margin:0px 0px;
     div{
-      display:block;
+      display:flex;
       width:auto;
+      span{
+          padding: 2px 15px;
+          h1{
+            font-size:1em;
+          }
+          h2{
+            font-size:0.8em;
+          }
+          :nth-child(1){
+            display:flex;
+          }
+      }
+
     }
     span{
       :nth-child(4){
