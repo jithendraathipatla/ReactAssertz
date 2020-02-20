@@ -43,13 +43,13 @@ const Costing = () => {
             </tr>
             <tr>
             <td>1 BHk</td>
-             <td>1141</td>
-             <td> Rs. 25 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
+             <td>505</td>
+             <td> Rs. 22.5 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
             </tr>
             <tr>
              <td>2 BHK </td>
-             <td>1354</td>
-             <td> Rs.35 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
+             <td>955</td>
+             <td> Rs.32.5 Lakh* <br/><Modal title="Know More" class="modalbuttonsmall"/></td>
             </tr>
            
           </tbody>

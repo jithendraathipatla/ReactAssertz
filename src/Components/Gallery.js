@@ -9,9 +9,8 @@ import FloorPlanOne from '../Imagesa/Images/floorone.jpg';
 import FloorPlanTwo from '../Imagesa/Images/floortwo.jpg';
 
 import ExteriorFirst from '../Imagesa/Images/sliderone.jpg';
-import ExteriorSecond from '../Imagesa/Images/slidertwo.jpg';
-import ExteriorThird from '../Imagesa/Images/sliderthree.jpg';
-import ExteriorFourth from '../Imagesa/Images/sliderfour.jpg';
+import ExteriorSecond from '../Imagesa/Images/secondSlider.jpeg';
+
 
 import InteriorOne from '../Imagesa/Images/latestBedroom.jpg';
 import InteriorTwo from '../Imagesa/Images/latestDining.jpg';
@@ -45,14 +44,6 @@ const Gallery = () => {
              name:"Nature Walk",
              image: ExteriorSecond
         },
-        {
-            name:"Areal View",
-            image: ExteriorThird
-        },
-        {
-            name:"Pool view",
-            image: ExteriorFourth
-        }
         ]);
 
         const [interior, setinterior] = useState([
@@ -103,7 +94,7 @@ const Gallery = () => {
             <div  className="galleryImages">
               <div>
               <Title title="Interior, Exterior & Masterplan"/>
-              <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior}/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
+              <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond]} state={exterior}/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
               </div>
               <div>
               <Title title="Aspire Aurum Floor Plans"/>

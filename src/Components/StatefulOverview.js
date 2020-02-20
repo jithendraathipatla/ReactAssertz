@@ -19,12 +19,12 @@ const StatefulOverview = () => {
     },
     {
         main_title:"Total Land Area",
-        sub_heading:"4.17 Aceres",
+        sub_heading:"2.6 Aceres",
         image:TotalLandArea,
     },
     {
         main_title:"Total Units",
-        sub_heading:"321 Units",
+        sub_heading:"326 Units",
         image:TotalUnits,
     },
     {
@@ -39,17 +39,17 @@ const StatefulOverview = () => {
     },
     {
         main_title:"Unit Varients",
-        sub_heading:"2 & 3 BHK",
+        sub_heading:"1 & 2 BHK",
         image:UnitVarients,
     },
     {
         main_title:"Possession Date",
-        sub_heading:"2023",
+        sub_heading:"DEC 2022",
         image:PossessionDate,
     },
     {
         main_title:"Location",
-        sub_heading:"TC Palya, Bangalore ",
+        sub_heading:"Kadugodi, Bangalore ",
         image:Location,
     }
     ]);

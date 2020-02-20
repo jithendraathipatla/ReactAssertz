@@ -22,7 +22,7 @@ const HighlightFormTwo = () => {
              <h6>PRM/KA/RERA/1251/446 /PR/200123/003229</h6>
             </div>
              <br/>
-             <div style={{textAlign:"left"}} class="form-button">
+             <div style={{textAlign:"center"}} class="form-button">
              <Modal title="Contact Us"  class="buttona"/>
              </div>
         </div>

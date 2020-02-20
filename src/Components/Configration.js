@@ -15,23 +15,18 @@ const Tabel = () => {
             <div css={tabel}>
             <img src={Prelaunch} alt="prelaunch Image"/>
              <div>
-              <span><h1>2 BHK 2T -</h1> <h2>1141 SQ FT</h2></span>
-              <span> <h3>Rs. 84.57 L</h3></span>
-              <span> <h4>Rs. 79.18 L</h4></span>
+              <span><h1>1 BHK -</h1> <h2> 505 SQ FT</h2></span>
+              <span> <h3>Rs. 25 LAKH</h3></span>
+              <span> <h4>Rs. 22.5 LAKH</h4></span>
               <span><Modal title="Click Here" class="modalbuttonsmall"/></span>
              </div>
              <div>
-             <span><h1>2 BHK 2T -</h1>  <h2>1141 SQ FT</h2></span>
-             <span><h3> Rs. 84.57 L</h3></span>
-               <span><h4> Rs. 84.57 L</h4></span>
+             <span><h1>2 BHK -</h1>  <h2> 955 SQ FT</h2></span>
+             <span><h3> Rs. 35 LAKH</h3></span>
+               <span><h4> Rs. 32.5 LAKH</h4></span>
                <span><Modal title="Click Here" class="modalbuttonsmall"/></span>
             </div>
-            <div>
-            <span><h1>2 BHK 2T -</h1> <h2>1141 SQ FT</h2></span>
-            <span><h3> Rs. 84.57 L</h3></span>
-            <span><h4> Rs. 84.57 L</h4></span>
-            <span><div css={second}><Modal title="Click Here" class="modalbuttonsmall"/></div></span>
-           </div>
+           
             </div>
             </div>
         </div>

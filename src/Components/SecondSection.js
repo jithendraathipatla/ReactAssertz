@@ -15,8 +15,8 @@ const SecondSection = () => {
        icon:<FaMendeley/>
     },
     {
-        name:"6",
-        subName:"Acere of Park",
+        name:"No. 1",
+        subName:"In Affordability",
         icon:<FaTree/>
     },
     {

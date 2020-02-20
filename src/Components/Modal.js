@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import Modalabc from 'react-responsive-modal';
 import Form from './Form';
 import '../GlobalStyles/styles.css';
-import OfficialLogo from '../Imagesa/Images/logo.svg';
+import OfficialLogo from '../Imagesa/Images/logoa.jpg';
 
 
 const Modal = (props) => {

@@ -350,7 +350,7 @@
 }
 
 .nav-links a:hover {
-  color: rgb(69, 190, 61);
+  color: rgb(61, 149, 190);
 }
 
 .show-nav {
@@ -503,7 +503,8 @@
 }
 
 .styles_modal__gNwvD .modalImageLogo{
-    width: 300px;
+    width: 100px;
+    padding-top:10px
 }
 
 .finaltouch a:hover{

@@ -18,7 +18,6 @@ import HighlightForm from '../Components/HighlightForm';
 import SectionTwo from '../Components/SecondSection';
 import SectionThree from '../Components/ThirdSection';
 import SectionFour from '../Components/FourthSection';
-import ExtraFeatures from '../Components/ExtraFeatures';
 
 
 export default () => {
@@ -56,26 +55,7 @@ export default () => {
         <hr/>
         <Amenities/>
         <hr/>
-        <div style={{textAlign:"center"}}>
-        <Title title="Extra Features San And Sanctrum Offers"/>
-        </div>
-        <div css={someStyling}>
-        <div css={first}>
-        <div style={{textAlign:"center"}}>
-         <Title title="Stand-out Amenities"/>
-        </div>
-          <ul>
-           <li><FaRegDotCircle/> <span>Carbon Healing</span></li>
-           <li><FaRegDotCircle/> <span>Smart Homes</span></li>
-           <li><FaRegDotCircle/> <span>Fresh Air</span></li>
-           <li><FaRegDotCircle/> <span>Ground Water Recharge</span> </li>
-           <li><FaRegDotCircle/> <span>Rain water Harvesting</span></li>
-          </ul>
-        </div>
-        <div css={second}>
-        <ExtraFeatures/>
-        </div>
-        </div>
+     
         <TabsContainerOne/>
         <hr/>
         <LocationPart/>
