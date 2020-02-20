@@ -11,7 +11,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 const Slider = () => {
     return (
         <div style={{marginTop:"22px"}}>
-           <AutoplaySlider play={true} cancelOnInteraction={false} interval={4000}style={{height:"80vh"}}>
+           <AutoplaySlider play={true} cancelOnInteraction={false} interval={4000}>
              <div data-src={FirstSliderImage} alt="First Slider Image"/>
              <div data-src={SecondSliderImage} alt="Second Slider Image"/>
             </AutoplaySlider> 
