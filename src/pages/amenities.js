@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const amenities = () => {
     return (
         <div>
-        <SEOComponent title="Assertz Aspire Aurum Amenities | Aspire Aurum Amenities | Top Amenities Apartments in Old madras Road" des="This page is all about the aminities that you can Avail from the Assertz Marq 2.0 Apartments. You can also find more about the Assertz Marq 2.0 Projec within the website"/>
+        <SEOComponent title="Sumadhura Aspire Aurum Amenities | Aspire Aurum Amenities | Top Amenities Apartments in Whitefield" des="This page is all about the aminities that you can Avail from the Assertz Marq 2.0 Apartments. You can also find more about the Assertz Marq 2.0 Projec within the website"/>
         <Navbar/>
            <div style={{paddingTop:"10vh"}}>
             <div style={{textAlign:"center"}}>

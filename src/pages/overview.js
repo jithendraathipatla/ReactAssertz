@@ -12,7 +12,7 @@ import SideMenu from '../Components/SideMenu';
 const overview = () => {
     return (
         <div>
-        <SEOComponent title="Sumadhura Aspire Aurum in Battrahalli | Sumadhura Aspire Aurum in TC Palya" des="This page helps you to understand more on the Assertz Marq 2.0 Property. The website you will see will help you to get more informative on Assertz Marq 2.0"/>
+        <SEOComponent title="Sumadhura Aspire Aurum in Whitefield | Sumadhura Aspire Aurum in Marathallli" des="This page helps you to understand more on the Assertz Marq 2.0 Property. The website you will see will help you to get more informative on Assertz Marq 2.0"/>
         <Navbar/>
         <SideMenu/>
         <div style={{paddingTop:"10vh"}}>

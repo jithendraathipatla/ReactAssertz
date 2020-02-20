@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const configuration = () => {
     return (
         <div>
-           <SEOComponent title="Assetz Properties | Assetz Constructions | Sumadhura Aspire Aurum" des="This website Provides a whole lot of information on the Sumadhura Aspire Aurum Property. You will find about Total land area the Sumadhura Aspire Aurum has come-up with , number of Uits that it owns and many more"/>
+           <SEOComponent title="Sumadhura Properties | Sumadhura Constructions | Sumadhura Aspire Aurum" des="This website Provides a whole lot of information on the Sumadhura Aspire Aurum Property. You will find about Total land area the Sumadhura Aspire Aurum has come-up with , number of Uits that it owns and many more"/>
            <Navbar/>
            <SideMenu/>
            <div style={{paddingTop:"10vh"}}>

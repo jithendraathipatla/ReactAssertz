@@ -12,7 +12,7 @@ import SideMenu from '../Components/SideMenu';
 const gallery = () => {
     return (
         <div>
-            <SEOComponent title="Sumadhura Aspire Aurum Gallery | Aspire Aurum Gallery | Best Apartments in TC Palya" des="In this page you will be able to see the all Gallery of Sumadhura Aspire Aurum starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Sumadhura Aspire Aurum"/>
+            <SEOComponent title="Sumadhura Aspire Aurum Gallery | Aspire Aurum Gallery | Best Apartments in Kadugodi" des="In this page you will be able to see the all Gallery of Sumadhura Aspire Aurum starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Sumadhura Aspire Aurum"/>
             <Navbar/>
             <SideMenu/>
             <div style={{paddingTop:"10vh"}}>

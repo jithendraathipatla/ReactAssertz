@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const location = () => {
     return (
         <div>
-        <SEOComponent title="Sumadhura Aspire Aurum Location | Aspire Aurum - location | Aspire Aurum Apartments in Batrahalli" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
+        <SEOComponent title="Sumadhura Aspire Aurum Location | Aspire Aurum - location | Aspire Aurum Apartments in Whitefield" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
         <Navbar/>
         <SideMenu/>
         <div style={{paddingTop:"10vh"}}>
