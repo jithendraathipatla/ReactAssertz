@@ -4,17 +4,25 @@ import '../GlobalStyles/styles.css';
 import TabContainer from '../Components/tabs';
 import Title from '../Components/Title';
 import LightHouseabc from '../Components/Lighthouse';
+
 import FloorPlanOne from '../Imagesa/Images/floorone.jpg';
 import FloorPlanTwo from '../Imagesa/Images/floortwo.jpg';
+
 import ExteriorFirst from '../Imagesa/Images/sliderone.jpg';
-import ExteriorSecond from '../Imagesa/Images/secondSlider.jpeg';
+import ExteriorSecond from '../Imagesa/Images/slidertwo.jpg';
+import ExteriorThird from '../Imagesa/Images/sliderthree.jpg';
+import ExteriorFourth from '../Imagesa/Images/sliderfour.jpg';
+
 import InteriorOne from '../Imagesa/Images/latestBedroom.jpg';
 import InteriorTwo from '../Imagesa/Images/latestDining.jpg';
 import InteriorThree from '../Imagesa/Images/latestHall.jpg';
 import InteriorFour from '../Imagesa/Images/latestPeace.jpg'; 
+
 import MasterPlanabcd from '../Imagesa/Images/masterPlan.jpg';
+
 import carbonHealingHomes from '../Imagesa/Images/CarbonHealing.jpg';
 import SmartHomes from '../Imagesa/Images/smart.jpg';
+
 
 
 const Gallery = () => {
@@ -37,6 +45,14 @@ const Gallery = () => {
              name:"Nature Walk",
              image: ExteriorSecond
         },
+        {
+            name:"Areal View",
+            image: ExteriorThird
+        },
+        {
+            name:"Pool view",
+            image: ExteriorFourth
+        }
         ]);
 
         const [interior, setinterior] = useState([
@@ -87,7 +103,7 @@ const Gallery = () => {
             <div  className="galleryImages">
               <div>
               <Title title="Interior, Exterior & Masterplan"/>
-              <TabContainer title1="Exterior View" title2="Interior View" title3="Master Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond]} state={exterior}/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
+              <TabContainer title1="Exterior View" title2="Interior View" title3="Master Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior}/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
               </div>
               <div>
               <Title title="Aspire Aurum Floor Plans"/>
