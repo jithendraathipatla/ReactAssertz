@@ -733,10 +733,23 @@
   text-align: center;
 }
 
+.awssld__container{
+  height:80vh !important;
+  padding:0px !important;
+}
+
 @media all and (max-width: 600px){
+  .awssld__container{
+    height:70vh !important;
+    padding:0px !important;
+  }
+  .images-in-grid {
+    grid-gap: 4px;
+    margin: 0px 32px;
+}
 #finalcosting{
   display: flex;
-  margin-left:30%;
+  margin-left:34%;
 }
 .configurationimage{
  background-image: none;
@@ -827,12 +840,13 @@
   .Amenities_main {
     display: grid;
     grid-template-columns: 3fr 3fr;
-    grid-gap: 26px 44px;
-    padding-left: 20px;
+    padding:0px;
+    padding-left: 47px;
   }
 
   .costingPart{
     display: block;
+    margin:10px;
   }
 
   .locationPart{
@@ -843,10 +857,8 @@
   }
   .Overview_main{
     display: grid;
-    grid-template-columns: 7fr 5fr;
-    grid-gap: 14px 50px;
-    margin-left: 0px;
-    padding: 11px 20px;
+    grid-template-columns: 5fr 5fr;
+    margin-left: 40px;
   }
 
   .Overview_main .headings {
