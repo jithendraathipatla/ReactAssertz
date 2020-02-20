@@ -65,6 +65,6 @@ const styletwo = css`
   }
   @media(max-width: 600px) {
     display:block;
-    padding-left:8em;
+    padding-left:7em;
   }
 `;
