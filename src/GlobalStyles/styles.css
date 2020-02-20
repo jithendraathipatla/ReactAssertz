@@ -739,7 +739,7 @@
 
 @media all and (max-width: 600px){
   .awssld__container{
-    height:70vh !important;
+    height:80vh !important;
     padding:0px !important;
   }
   .images-in-grid {
@@ -798,8 +798,8 @@
 
   .backgroundFormTwo{
     width: 311px;
-    top:9vh;
-    left:5vh;
+    top:6vh;
+    left:7.5vh;
   }
 
   .awssld__wrapper {
@@ -858,6 +858,7 @@
     display: grid;
     grid-template-columns: 5fr 5fr;
     margin-left: 40px;
+    padding: 10px 0px;
   }
 
   .Overview_main .headings {
