@@ -90,6 +90,7 @@ const tabel = css`
     margin:0px 0px;
     div{
       width:auto;
+      display:inline-flex;
       span{
         padding:10px;
         h1{
@@ -108,14 +109,14 @@ const tabel = css`
           margin-top: 0px;
         }
         :nth-child(4){
-          width:85px;
+          width:135px;
         }
       }
     
     }
     span{
       :nth-child(4){
-        display:flex;
+        display:box;
       }
     }
   }
