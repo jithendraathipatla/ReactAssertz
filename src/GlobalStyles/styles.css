@@ -719,7 +719,7 @@
    display: none;
   }
   .modalbuttonsmall{
-    display: flex;
+    display: block;
   }
   .main_logo1{
     width: 89px;
@@ -727,7 +727,7 @@
   }
 
   .nav-btn{
-   color:#d3b169;
+   color:black;
   }
 
   .carousel-captiona h1 {
