@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const configuration = () => {
     return (
         <div>
-           <SEOComponent title="Prestige waterford | Reviews | Prcies" des="This website Provides a whole lot of information on the Prestige  Waterford Property. You will find about Total land area the Prestige  Waterford has come-up with , number of Uits that it owns and many more"/>
+           <SEOComponent title="Prestige waterford | Reviews | Prcies" des="In this webpage you will be treated with the different sizes of apartments within the Prestige waterford Apartments. This page will also provide Information on the sizes of 1 BHk, 2 BHK and then 3 BHK sizes."/>
            <Navbar/>
            <SideMenu/>
            <div className="box">
@@ -21,8 +21,10 @@ const configuration = () => {
            <Titleabc title=" Waterford Configuration"/>
            </div>
            <Description>      
-               Bagalur Road is now one of the finest and rapidly developing region in the Bangalore North. Baglur is also equiped with all the facilities and properties from reputed gaints. Prestige  Waterford is located off Bagalur, which exactly is in Gummanahalli, of North Banglore. As the Prestige we are comitted to offer the best suited amenities to it's customers. Keeping every economic section in mind Prestige Finsbury is spreadind with luxurious 1,2,3 BHK Homes. So we reveal the most exiciting part, How much do you thisnk is the distance between the Prestige  Waterford to the Kempedowda International Airport ?, "It is just 13.2 Km". On any normal day it will be with in 20minutes travell from the Kempedowda International airport.
-         </Description>
+           The below table describes the sizes of different apartments inside the Prestige waterford Apartments. The corresponding sizes have corresponding Price Range. The Pricing of Prestige Waterford Apartments, Whitefild, Bangalore have calculated in such a way that it will be the most suitable and then the most affordable apartments in the area of Whitefield.
+           <br/>
+           If you are an investor and want to see your money multiply in the coming years then the Prestige Waterford Apartments is clearly one of the hottest destinations for your investment destination in the area of Whitefield.
+           </Description>
            </div>
           
            <hr/>

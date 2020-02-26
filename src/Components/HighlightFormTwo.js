@@ -33,11 +33,10 @@ const HighlightFormTwo = () => {
             <div style={{border:"1px solid white", textAlign:"center"}} className="rera">
              <h5 style={{textAlign:"center", color:"white"}}>RERA No:</h5>
              <h6>Coming soon</h6>
-            <h6>Coming Soon</h6>
             </div>
              <br/>
              <div style={{textAlign:"center"}}>
-             <Modal title="Price BreakUp"  class="prestigecopy"/>
+             <Modal title="Complete Costing Details"  class="prestigecopy"/>
              </div>
         </div>
     );

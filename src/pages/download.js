@@ -5,11 +5,10 @@ const download = () => {
     return (
       
         <div style={{textAlign:"center"}}>
-        <SEOComponent title="Assertz marq 2.0"/>
+        <SEOComponent title="Prestige Waterford Apartments"/>
 	     <h1>Sent Successfully! Thank you, We will contact you shortly!</h1>
-		<h3><a href="https://drive.google.com/open?id=1cQjo-FwWNmCqFv_71lLac2heQyOIGTZT">Click here to download Brochure [Hyde]</a></h3>
-		<h3><a href="https://drive.google.com/open?id=1uCIKnYTyTH27_ueX1dvAIbAG_UCtOcKd">Click here to download Brochure [Regent]</a></h3>
-        </div>
+		<h3><a href="https://drive.google.com/open?id=1cQjo-FwWNmCqFv_71lLac2heQyOIGTZT">Click here to download Brochure</a></h3>
+	        </div>
     );
 };
 

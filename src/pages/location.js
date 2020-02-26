@@ -6,13 +6,12 @@ import Footer from '../Components/Footer';
 import Titleabc from '../Components/Title';
 import Description from '../Components/Description';
 import SideMenu from '../Components/SideMenu';
-\
 
 
 const location = () => {
     return (
         <div>
-        <SEOComponent title="Prestige Waterford | location | in whitefield" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
+        <SEOComponent title="Prestige Waterford | location | in whitefield" des="This page is about the Prestige Waterford Location.Prestige Waterford Apartments are Coming_up in the Whitefield Location. The information on this page is all about the prestige waterford apartments location details, where it is coming up and where exactly in Bangalore it will be."/>
         <Navbar/>
         <SideMenu/>
         <div className="box">
@@ -20,9 +19,7 @@ const location = () => {
         <div style={{textAlign:"center"}}>
         <Titleabc title=" Waterford Location"/>
         </div>
-        <Description>Prestige  Waterford is at Baglur Road, Bangalore. It is very near to WhiteField, Bangalore. So, the Apartments are easily commutable to all the parks and hubs in Bangalore. It is in the center for all of the IT Hubs Bangalore is most famous for. 40 minute Journey away from Manyata-tech-park and 30 Minute away journey from Bagmane Tech-park
-        It connects all the parts of the city from end to end. On any normal traffic day you will reach the destination without any hard toiled work.
-        </Description>
+        <Description>Prestige Waterford is an up and coming extravagance private task situated in Whitefield, a flourishing suburb of Bangalore. Prestige Waterford is a mix of extravagance, comfort, and security. It is an insightfully structured advancement by Prestige Group that will assist the inhabitants with nurturing their psyche, body, and soul. Regarded inhabitants of this venture will get a choice to look over an assortment of homes where they can appreciate sees and unwind in the tranquility of the region itself. This gated network accompanies keenly structured homes and sufficient space that is exquisitely used to give you more throughout everyday life. Being situated in created neighborhoods, your new home is in the region of shops, shopping centers, schools, and workplaces. Glory Waterford is the ideal private goal for you and your family.</Description>
        </div>
            <div>
             <Location/>
