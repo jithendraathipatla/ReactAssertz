@@ -698,7 +698,7 @@
     display: block;
     text-decoration: none;
     color: #000;
-    text-align: justify;
+    text-align: center;
     padding: 9px 8vh;
     font-size: 1rem;
     transition: all 0.3s linear;
@@ -722,7 +722,8 @@
     display: block;
   }
   .main_logo1{
-    width: 89px;
+    width: 65px;
+    padding-left: 13px;
     height: 65px;
   }
 
@@ -763,9 +764,6 @@
     margin-left: 0vh;
   }
   
-  .table.is-narrow td {
-    text-align: left !important;
-  }
   .table tr.is-selected th {
     text-align: left !important;
     font-size: 15px;
