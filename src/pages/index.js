@@ -44,12 +44,7 @@ export default () => {
           Prestige Group presents Prestige Waterford at Whitefield,a flourishing suburb of Bangalore. Made by the best of extravagances, this milestone will presently wake up at the Whitefield.It is an upcoming new residential project located in Whitefield Bangalore.And Locations is Pattandur Agrahara, Whitefield, Bangalore, Karnataka 560066.It is construction by Prestige Group which is one of the top real-estate firms of the country with projects spread across the cities of India.It Also includes a clubhouse, fully equipped gymnasium, swimming pool, multi-purpose hall, 24/7 Security and much more.
  
 Prestige Waterford comes with smartly designed homes and ample space that is utilized to give you more in life. And there will be the best International Schools, work places, Quality Health Care Facilities, Shopping Malls, Hotels and Restaurants and much more. 
-<br/>
-<br/>
-<strong>Achievements of Prestige Group which are worth mention below:-</strong> <br/>i) Prestige Group has been commemorated with India’s most trusted brand 2015 award at Hotel Leela,<br/> ii)Mumbai by IBC Info Media Corp, USA, in association with the International brand council. <br/> And many more Awards.
-
-
-
+Achievements of Prestige Group which are worth mention below:- i) Prestige Group has been commemorated with India’s most trusted brand 2015 award at Hotel Leela, ii)Mumbai by IBC Info Media Corp, USA, in association with the International brand council. And many more Awards.
         </p>
         </Description>
         <hr/>

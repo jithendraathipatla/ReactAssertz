@@ -36,7 +36,7 @@ const HighlightFormTwo = () => {
             </div>
              <br/>
              <div style={{textAlign:"center"}}>
-             <Modal title="Complete Costing Details"  class="prestigecopy"/>
+             <Modal title="Complete Details"  class="prestigecopy different"/>
              </div>
         </div>
     );
