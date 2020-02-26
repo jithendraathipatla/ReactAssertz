@@ -6,12 +6,13 @@ import Footer from '../Components/Footer';
 import Titleabc from '../Components/Title';
 import Description from '../Components/Description';
 import SideMenu from '../Components/SideMenu';
+\
 
 
 const location = () => {
     return (
         <div>
-        <SEOComponent title="Prestige  Waterford - Hyde Location | Prestige  Waterford - Regent location | Prestige  Waterford" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
+        <SEOComponent title="Prestige Waterford | location | in whitefield" des="This page provides better understanding of the Assertz marq location. It gives the Information about the nearby ares and ten the nearby malls surrounding the Project "/>
         <Navbar/>
         <SideMenu/>
         <div className="box">

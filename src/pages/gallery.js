@@ -12,7 +12,7 @@ import SideMenu from '../Components/SideMenu';
 const gallery = () => {
     return (
         <div>
-            <SEOComponent title="Prestige  Waterford Regent Gallery | Prestige  Waterford Hyde Gallery | Prestige  Waterford" des="In this page you will be able to see the all Gallery of Prestige  Waterford starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Prestige  Waterford"/>
+            <SEOComponent title="Prestige Waterford | Gallery | Interior | Exterior" des="In this page you will be able to see the all Gallery of Prestige  Waterford starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Prestige  Waterford"/>
             <Navbar/>
             <SideMenu/>
             <div className="box">

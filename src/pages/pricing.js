@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const pricing = () => {
     return (
         <div>
-        <SEOComponent title="Prestige  Waterford Price | Best Apartments near to Kempegowda Airport, Bangalore" des="Are you Curious to know about the offers and benifits the Prestige  Waterford Provides ?, Then, visit the website to get all the data related to 3BHK and 4BHK starting Prices that Prestige  Waterford has to offer."/>
+        <SEOComponent title="Prestige  Waterford | starting Price | Price" des="Are you Curious to know about the offers and benifits the Prestige  Waterford Provides ?, Then, visit the website to get all the data related to 3BHK and 4BHK starting Prices that Prestige  Waterford has to offer."/>
         <Navbar/>
         <SideMenu/>
         <div className="box">

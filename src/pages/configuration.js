@@ -11,7 +11,7 @@ import SideMenu from '../Components/SideMenu';
 const configuration = () => {
     return (
         <div>
-           <SEOComponent title="Prestige Properties | Prestige Constructions | Prestige  Waterford" des="This website Provides a whole lot of information on the Prestige  Waterford Property. You will find about Total land area the Prestige  Waterford has come-up with , number of Uits that it owns and many more"/>
+           <SEOComponent title="Prestige waterford | Reviews | Prcies" des="This website Provides a whole lot of information on the Prestige  Waterford Property. You will find about Total land area the Prestige  Waterford has come-up with , number of Uits that it owns and many more"/>
            <Navbar/>
            <SideMenu/>
            <div className="box">

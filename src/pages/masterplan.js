@@ -12,7 +12,7 @@ import '../GlobalStyles/styles.css';
 const masterplan = () => {
     return (
         <div>
-        <SEOComponent title="Prestige  Waterford Master Plan - Regent | Prestige  Waterford Master Plan - Hyde | Prestige  Waterford" des="This page is all about the Prestige  Waterford Master Plan. This page will allow you to see a detailed view on Master Plan of Prestige  Waterford  Property"/>
+        <SEOComponent title="Prestige  Waterford | Master Plan | Floor Plan" des="This page is all about the Prestige  Waterford Master Plan. This page will allow you to see a detailed view on Master Plan of Prestige  Waterford  Property"/>
         <Navbar/>
         <SideMenu/>
         <div className="box">
