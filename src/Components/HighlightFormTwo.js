@@ -28,7 +28,7 @@ const HighlightFormTwo = () => {
                  <span className="animated_sub" style={{display: "block"}}>PMAY benefits</span>
              </span></span>
              <h3>Luxury 1,2 &amp; 3 BHK Apartments</h3>
-            <h3>₹ -- Lacs Onwards </h3>
+            <h3>₹ _ _ Lacs Onwards </h3>
 
             <div style={{border:"1px solid white", textAlign:"center"}} className="rera">
              <h5 style={{textAlign:"center", color:"white"}}>RERA No:</h5>
@@ -36,7 +36,7 @@ const HighlightFormTwo = () => {
             </div>
              <br/>
              <div style={{textAlign:"center"}}>
-             <Modal title="Complete Details"  class="prestigecopy different"/>
+             <Modal title="Download Complete Details"  class="prestigecopy different"/>
              </div>
         </div>
     );

@@ -9,7 +9,6 @@ import SiteVisitSVG from '../Imagesa/Images/svg/site-visit.svg';
 import PriceSVG from '../Imagesa/Images/svg/price.svg';
 import AmenitiesSVG from '../Imagesa/Images/svg/amenities.svg';
 import LocationSVG from '../Imagesa/Images/svg/location.svg';
-import CallBack from '../Imagesa/Images/svg/call-back.svg';
 import { FaAlignRight, FaPhone } from "react-icons/fa";
 
 
@@ -42,9 +41,7 @@ const NavBar = () => {
               <img  src={SiteVisitSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/masterplan">Master Plan</Link></li>
               <img  src={PriceSVG} alt="Home Svg"/> <li onClick={closingNav}><Link to="/pricing">Pricing</Link></li>
               <img  src={AmenitiesSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/amenities">Amenities</Link></li>
-              <img  src={LocationSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/location">Location</Link></li>
-              <FaPhone/><li onClick={closingNav} className="LastChild"><a href="tel:9071354854">9071354854</a></li>
-
+              <img  src={LocationSVG} alt="Home Svg"/><li onClick={closingNav} className="LastChild"><Link to="/location">Location</Link></li>
               </ul>   
            </div>
            

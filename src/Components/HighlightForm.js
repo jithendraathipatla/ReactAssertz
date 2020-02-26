@@ -13,13 +13,14 @@ const HighlightForm = () => {
         const client_information = {
             client_name:name,
             client_email:email,
-            client_phone:phone
+            client_phone:phone,
+            project_name:"Prestige Waterford"
         }
         var data = {
             service_id: 'gmail',
             template_id: 'normal',
             user_id: 'user_s9VasukllOwTDnR8R0FWD',
-            template_params: client_information
+            template_params: client_information,
         }
       
         axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
