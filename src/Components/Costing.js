@@ -72,7 +72,7 @@ const Costing = () => {
             </div>
             <br/>
             <div style={{textAlign:"center"}} id="finalcosting">
-            <Modal title="Complecte Costing" class="modalbuttonsmall" />
+            <Modal title="Complete Costing" class="modalbuttonsmall" />
             </div>
             </div>
         </div>
