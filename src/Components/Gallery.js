@@ -123,7 +123,7 @@ const Gallery = () => {
             <div  className="galleryImages">
               <div>
               <Title title="Interior, Exterior & Masterplan"/>
-              <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" number="2" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior} height="200px"/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
+              <TabContainer title1="Exterior View" title2="Interior View" title3="Master Plan" number="2" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior} height="200px"/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
               </div>
               <div>
               <Title title=" Waterford Floor Plans"/>
