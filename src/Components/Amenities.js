@@ -108,7 +108,7 @@ const Amenities = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-                <Title title="FinsBury Park Amenities"/>
+                <Title title=" Waterford Amenities"/>
             </div>
             <div className="Amenities_main">
             {displayingAmenities()}

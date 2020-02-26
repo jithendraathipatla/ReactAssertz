@@ -15,7 +15,7 @@ const amenities = () => {
         <Navbar/>
            <div className="box" style={{paddingTop:"10vh"}}>
             <div style={{textAlign:"center"}}>
-            <Titleabc title="Finsbury Park Amenities"/>
+            <Titleabc title=" Waterford Amenities"/>
             </div>
             <Description>Assertz marq Amenities are the country's best. The Amenities you get inside the Assertz mark are the best in the bes. The Amenities inside the Apartments suit right from your Child to your parents.
             Inside It has a garden. The garden has many trees, the trees are well responsible for the quality air inside the Apartments. The Kids playing Area is designed in such a way that It will attract the kids to be there all day.

@@ -298,7 +298,7 @@
 }
 
 .show-nav {
-  height: 350px;
+  height: 336px;
 }
 
 @media screen and (min-width: 768px) {
@@ -314,7 +314,7 @@
   .nav-links{
     height: auto;
     display: flex;
-    margin-left: 7.3rem;
+    margin-left: 5rem;
   }
 
   .nav-links > li{
@@ -339,8 +339,14 @@
       margin-top: 26px;
       margin-left: 8px;
   }
+  .nav-links svg{
+    height: 16px;
+    margin-top: 26px;
+    margin-left: 8px;
+}
   .main_logo1{
-    width: 200px;
+    width: 80px;
+    height: 60px;
   }
 }
 
@@ -431,8 +437,8 @@
 }
 
 .styles_modal__gNwvD .modalImageLogo{
-  padding: 21px 0px 0px 0px;
-    width: 300px;
+  padding: 6px 0px 0px 0px;
+    width: 87px;
 }
 
 .finaltouch a:hover{
@@ -602,7 +608,7 @@
 
 .backgroundForm{
   position: absolute;
-  top:20%;
+  top:15%;
   z-index: 17;
   right:3%;
   background-color: #000000cf;
@@ -672,6 +678,7 @@
     text-align: justify;
     padding: 9px 8vh;
     font-size: 1rem;
+    transition: all 0.3s linear;
     font-weight: 490;
     letter-spacing: .025rem;
   }
@@ -692,7 +699,8 @@
     display: flex;
   }
   .main_logo1{
-    width:200px;
+    width: 89px;
+    height: 65px;
   }
 
   .nav-btn{
@@ -745,9 +753,8 @@
   }
   .Amenities_main {
     display: grid;
-    grid-template-columns: 3fr 3fr;
-    grid-gap: 26px 44px;
-    padding-left: 20px;
+    grid-template-columns: 5fr 5fr;
+    padding-left: 30px;
   }
 
   .costingPart{
@@ -762,10 +769,9 @@
   }
   .Overview_main{
     display: grid;
-    grid-template-columns: 7fr 5fr;
-    grid-gap: 14px 50px;
+    grid-template-columns: 5fr 5fr;
     margin-left: 0px;
-    padding: 11px 20px;
+    padding: 10px 0px 10px 20px;
   }
 
   .Overview_main .headings {

@@ -14,9 +14,9 @@ const HighlightFormTwo = () => {
             <span style={{display: "block", fontSize: "1.1rem"}}>
              <span class="animated bounceIn infinite" style={{display: "block", animationDuration: "3s"}}>PRE-LAUNCH</span>
          </span></span>
-          <h1>Prestige Finsbury Park</h1>
-            <h4>KIADB, Bagalur Road, Bangalore</h4>
-            <h4>Exclusive Homes In Bagalur, Bangalore</h4>
+          <h1>Prestige  Waterford</h1>
+            <h4>Whitefield, Bangalore</h4>
+            <h4>Exclusive Homes In Whitefield, Bangalore</h4>
             <span style={{backgroundColor: "#d4af37",
             background: "linear-gradient(-45deg, #826424, #d4af37 ,#826424,#d4af37)",
             backgroundSize: "400% 400%",
@@ -28,12 +28,12 @@ const HighlightFormTwo = () => {
                  <span className="animated_sub" style={{display: "block"}}>PMAY benefits</span>
              </span></span>
              <h3>Luxury 1,2 &amp; 3 BHK Apartments</h3>
-            <h3>₹ 33.5 Lacs Onwards </h3>
+            <h3>₹ -- Lacs Onwards </h3>
 
             <div style={{border:"1px solid white", textAlign:"center"}} className="rera">
              <h5 style={{textAlign:"center", color:"white"}}>RERA No:</h5>
-             <h6>Hyde:PRM/KA/RERA/1251/472/PR/191206/003055</h6>
-            <h6>Regent:PRM/KA/RERA/1251/472/PR/191206/003056 </h6>
+             <h6>Coming soon</h6>
+            <h6>Coming Soon</h6>
             </div>
              <br/>
              <div style={{textAlign:"center"}}>

@@ -19,37 +19,37 @@ const StatefulOverview = () => {
     },
     {
         main_title:"Total Land Area",
-        sub_heading:"25 Aceres",
+        sub_heading:"Comming Soon",
         image:TotalLandArea,
     },
     {
         main_title:"Total Units",
-        sub_heading:"3000 Units",
+        sub_heading:"Comming Soon",
         image:TotalUnits,
     },
     {
         main_title:"Number Of Floors",
-        sub_heading:"B + G + 20",
+        sub_heading:"Comming Soon",
         image:NumberOfFloors,
     },
     {
         main_title:"Total Towers",
-        sub_heading:"18 Towers",
+        sub_heading:"Comming Soon",
         image:TotalTowers,
     },
     {
         main_title:"Unit Varients",
-        sub_heading:"1,2 & 3 BHK",
+        sub_heading:"Comming Soon",
         image:UnitVarients,
     },
     {
         main_title:"Possession Date",
-        sub_heading:"JUNE 2023",
+        sub_heading:"Comming Soon",
         image:PossessionDate,
     },
     {
         main_title:"Location",
-        sub_heading:"Baglur Road, Bangalore",
+        sub_heading:"Comming Soon",
         image:Location,
     }
     ]);
@@ -74,7 +74,7 @@ const StatefulOverview = () => {
        
         <div>
         <div style={{textAlign:"center"}}>
-        <Title title="FinsBury Park Overview"/>
+        <Title title=" Waterford Overview"/>
         </div>
       
         <div className="Overview_main">

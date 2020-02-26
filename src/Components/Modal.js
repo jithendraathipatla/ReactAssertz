@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import Modalabc from 'react-responsive-modal';
 import Form from './Form';
 import '../GlobalStyles/styles.css';
-import OfficialLogo from '../Imagesa/Images/finsbury.svg';
+import OfficialLogo from '../Imagesa/Images/logo.png';
 import Callusback from '../Imagesa/Images/svg/call-back.svg'
 
 const Modal = (props) => {
