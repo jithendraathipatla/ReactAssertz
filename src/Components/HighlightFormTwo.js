@@ -24,8 +24,8 @@ const HighlightFormTwo = () => {
             mozAnimation: "Gradient 3s ease infinite",
             animation: "Gradient 3s ease infinite", color:"#fff", padding: "5px",textAlign:"center" ,display: "block",margin: "5px 0"}}>
                         <span style={{display: "block", fontSize: "1.5rem", letterSpacing:"3px"}} className="highlightree">
-                 <span className="animated bounceIn infinite" style={{display: "block", animationDuration:"3s"}}>Hurry! Only 1% GST</span>
-                 <span className="animated_sub" style={{display: "block"}}>PMAY benefits</span>
+                 <span className="animated bounceIn infinite" style={{display: "block", animationDuration:"3s"}}>Hurry! Limited Units</span>
+                 <span className="animated_sub" style={{display: "block"}}>Make your Bookings now..</span>
              </span></span>
              <h3>Luxury 1,2 &amp; 3 BHK Apartments</h3>
             <h3>₹ _ _ Lacs Onwards </h3>

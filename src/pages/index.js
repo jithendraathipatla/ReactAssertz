@@ -14,14 +14,13 @@ import Slider from '../Components/Slider';
 import TabsContainerOne from '../Components/Costing';
 import SideMenuBar from '../Components/SideMenu';
 import HighlightForm from '../Components/HighlightForm';
-import AnotherModal from '../Components/New_modal';
+
 
 
 
 export default () => {
     return(
-        <div >
-        <AnotherModal/>
+        <div>
         <div className="backgroundSlider">
           <SEOComponent title="Prestige Waterford | Whitefield,Bangalore | ITPL| Brochure | Price" des="This webpage gives you all the Information about the upcoming Prestige Waterford Apartments in Whitefield, Bangalore. This page briefs you all the details of prestige Waterford Apartments starting from floor Pan to the reviews."/>
           <NavBar/>
