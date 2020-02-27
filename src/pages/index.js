@@ -13,10 +13,9 @@ import HighlightFormTwo from '../Components/HighlightFormTwo';
 import Slider from '../Components/Slider';
 import TabsContainerOne from '../Components/Costing';
 import SideMenuBar from '../Components/SideMenu';
+import SideImage from '../Imagesa/Images/prestige-finsbury-banner1.jpg';
 import HighlightForm from '../Components/HighlightForm';
-
-
-
+import NewSection from '../Components/NewSection';
 
 export default () => {
     return(
@@ -24,6 +23,12 @@ export default () => {
         <div className="backgroundSlider">
           <SEOComponent title="Prestige Waterford | Whitefield,Bangalore | ITPL| Brochure | Price" des="This webpage gives you all the Information about the upcoming Prestige Waterford Apartments in Whitefield, Bangalore. This page briefs you all the details of prestige Waterford Apartments starting from floor Pan to the reviews."/>
           <NavBar/>
+          <div className="scroll-downs">
+          <div className="mousey">
+          <div className="scroller">
+          </div>
+          </div>
+          </div>
           <div className="slider">
           <Slider/>
           </div>
@@ -36,10 +41,14 @@ export default () => {
           </div>
           <SideMenuBar/>
           <div className="box" >
-        
           <div style={{textAlign:"center", marginTop:"-30px"}} className="normaling" >
            <Title title="About Prestige  Waterford"/>
            </div>
+           <div className="imageBesideContent">
+           <div>
+           <img src={SideImage} alt="Prestige Group" style={{height:"270px", paddingLeft:"20px"}}/>
+           </div>
+           <div>
           <Description>
           <p style={{textAlign:"justify"}}>
           Prestige Group presents Prestige Waterford at Whitefield,a flourishing suburb of Bangalore. Made by the best of extravagances, this milestone will presently wake up at the Whitefield.It is an upcoming new residential project located in Whitefield Bangalore. And Locations is Pattandur Agrahara, Whitefield, Bangalore, Karnataka 560066.It is construction by Prestige Group which is one of the top real-estate firms of the country with projects spread across the cities of India.It Also includes a clubhouse, fully equipped gymnasium, swimming pool, multi-purpose hall, 24/7 Security and much more.
@@ -48,6 +57,8 @@ Prestige Waterford comes with smartly designed homes and ample space that is uti
 Achievements of Prestige Group which are worth mention below:- i) Prestige Group has been commemorated with India’s most trusted brand 2015 award at Hotel Leela, ii)Mumbai by IBC Info Media Corp, USA, in association with the International brand council. And many more Awards.
         </p>
         </Description>
+        </div>
+        </div>
         <hr/>
         <Overview/>
         <hr/>
@@ -61,7 +72,7 @@ Achievements of Prestige Group which are worth mention below:- i) Prestige Group
         <hr/>
         <TabsContainerOne/>
         <hr/>
-        
+        <NewSection/>
         <LocationPart/>
          
           </div>
