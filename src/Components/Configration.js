@@ -24,11 +24,16 @@ const Tabel = () => {
     
     <tr>
     <td rowSpan={4} style={{fontSize:"18px", fontWeight:"500"}}>
-    <div style={{height:"12px"}}></div>
+    <br/>
     Waterford</td>
     </tr>
     <tr>
-     <td>3 BHK </td>
+     <td>3 BHK Small</td>
+     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+     <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+    </tr>
+    <tr>
+     <td>3 BHK Large</td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
      <td><Modal title="Know More" class="modalbuttonsmall"/></td>
     </tr>
