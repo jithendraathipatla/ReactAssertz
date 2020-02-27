@@ -314,7 +314,7 @@
   
    .button-closed1::after{
     font-family: 'FontAwesome';
-      content: '\f0a8';
+      content: '\f0a9';
     color: white !important;
     cursor: pointer;
     font-size: 1em;
