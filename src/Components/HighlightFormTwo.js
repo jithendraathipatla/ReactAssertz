@@ -27,7 +27,7 @@ const HighlightFormTwo = () => {
                  <span className="animated bounceIn infinite" style={{display: "block", animationDuration:"3s"}}>Hurry! Limited Units</span>
                  <span className="animated_sub" style={{display: "block"}}>Make your Bookings now..</span>
              </span></span>
-             <h3>Luxury 1,2 &amp; 3 BHK Apartments</h3>
+             <h3>Luxury 3 &amp; 4 BHK Apartments</h3>
             <h3>₹ _ _ Lacs Onwards </h3>
 
             <div style={{border:"1px solid white", textAlign:"center"}} className="rera">
