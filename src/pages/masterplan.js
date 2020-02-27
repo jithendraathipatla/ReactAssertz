@@ -12,15 +12,19 @@ import '../GlobalStyles/styles.css';
 const masterplan = () => {
     return (
         <div>
-        <SEOComponent title="Prestige FinsBury Park Master Plan - Regent | Prestige FinsBury Park Master Plan - Hyde | Prestige FinsBury Park" des="This page is all about the Prestige FinsBury Park Master Plan. This page will allow you to see a detailed view on Master Plan of Prestige FinsBury Park  Property"/>
+        <SEOComponent title="Prestige  Waterford | Master Plan | Floor Plan" des="
+        You will be shown all the images related to Master Plans of Prestige Waterford Apartments. Once after visiting this webpage you will have the best idea about the master plan of Prestige Waterford Apartments Bangalore."/>
         <Navbar/>
         <SideMenu/>
         <div className="box">
         <div style={{paddingTop:"7vh"}}>
         <div style={{textAlign:"center"}}>
-        <Titleabc title="FinsBury Park MasterPlan"/>
+        <Titleabc title=" Waterford MasterPlan"/>
         </div>
-        <Description>Prestige FinsBury Park is a state-of-the-art residential assignment via Assetz homes. This undertaking has Township concept in which they're giving schools, Retails, industrial space and has pricey features and superb connectivity to all of the fundamental cities and is positioned at Baglur, Bangalore. This venture spread over 22 Acres of land in which they may be coming up with three phases,section one is already exceeded over to the glad client’s and segment 2 is underneath construction.</Description>
+        <Description>Prestige Waterford Apartments are beautifully designed apartments by the Prestige Constructions group. As all we know how much well the Prestige group is at its quality.
+        So apart from quality, Prestige Waterford Apartments assures us the best in the world designs by the experts in the field of Civil Engineering.
+        
+        Once you visit this beautifully planned Venture we are sure that you will fall in love with this beautiful creation by Prestige Constructions. So if you are looking for an apartment or trying out any investment destinations then the Prestige waterford apartments by the Prestige Broup in the Area of Whitefield, Bangalore will be Your Right Choice.</Description>
        </div>
         <hr/>
        <div style={{textAlign:"center"}}>

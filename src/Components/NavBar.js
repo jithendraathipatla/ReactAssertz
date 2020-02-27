@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {Link} from 'gatsby'
 import '../GlobalStyles/styles.css';
-import Logo from '../Imagesa/Images/finsbury.svg';
+import Logo from '../Imagesa/Images/logo.png';
 import HomeSVG from '../Imagesa/Images/svg/home.svg';
 import LoaderSVG from '../Imagesa/Images/svg/loader.svg';
 import ReadingSVG from '../Imagesa/Images/svg/reading-library-2.svg';
@@ -9,7 +9,7 @@ import SiteVisitSVG from '../Imagesa/Images/svg/site-visit.svg';
 import PriceSVG from '../Imagesa/Images/svg/price.svg';
 import AmenitiesSVG from '../Imagesa/Images/svg/amenities.svg';
 import LocationSVG from '../Imagesa/Images/svg/location.svg';
-import { FaAlignRight } from "react-icons/fa";
+import { FaAlignRight, FaPhone } from "react-icons/fa";
 
 
 const NavBar = () => {
@@ -27,7 +27,7 @@ const NavBar = () => {
            <div className="nav-center">
               <div className="nav-header">
                  <Link to="/">
-                    <img src={Logo} alt="Finsbury Park" className="main_logo1"/>
+                    <img src={Logo} alt=" Waterford" className="main_logo1"/>
                  </Link>
               <button type="button" className="nav-btn" onClick={handelToogle}>
                 <FaAlignRight className="nav-icon"/>

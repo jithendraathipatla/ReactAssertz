@@ -61,6 +61,7 @@ export default function SimpleTabs(props) {
           <Tab label={props.title3} {...a11yProps(props.number)} />
         </Tabs>
       </AppBar>
+      <br/>
       <TabPanel value={value} index={0}>
         {props.exterior}
       </TabPanel>
