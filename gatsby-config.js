@@ -6,7 +6,15 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-material-ui`, `gatsby-plugin-sass`] 
+  plugins: [`gatsby-plugin-material-ui`, `gatsby-plugin-sass`,
+  {
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      trackingId: "UA-155154594-9",
+      head: true,
+    },
+  },
+  ] 
 }
 
 

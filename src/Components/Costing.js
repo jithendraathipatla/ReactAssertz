@@ -64,7 +64,7 @@ const Costing = () => {
             </div>
            
             <div  onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHoverTwo} className="parkedtwo">
-            <img src={CostingImage}  alt="costing Details" style={{height:"223px", width:"100%"}}/>
+            <img src={CostingImage}  alt="costing Details" style={{height:"223px", width:"100%"}} alt="..."/>
             <div className={hoveredText === null ? "parkedone" : "parked"}>
             <Modal title="Know More"  class="modalbuttonsmall"/>
             </div>

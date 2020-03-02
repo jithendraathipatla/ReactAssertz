@@ -12,7 +12,7 @@ const Location = () => {
         <div style={{textAlign:"center"}}>
         <Title title=" Waterford Location"/>
         </div>
-        <img src={ComingSoon} width="100%" frameBorder="0" style={{border:"0"}} allowFullscreen=""/>
+        <img src={ComingSoon} width="100%" frameBorder="0" style={{border:"0"}} allowFullscreen="" alt=".."/>
         </div>
         <div>
         <div style={{textAlign:"center"}}>
