@@ -10,9 +10,9 @@ import Slider from "../Components/Slider"
 import HighlightForm from "../Components/HighlightForm"
 import CardswithProjects from "../Components/Projects"
 import FirstSliderImage from '../Imagesa/Images/prestige-finsbury-park-hyde1.jpg';
-import SecondSliderImage from '../Imagesa/Images/jindal/exterior-one.jpg';
-import ThirdSliderImage from '../Imagesa/Images/Kew/slider-one.jpg';
-import FourthSliderImage from '../Imagesa/Images/Elysian/interior-one.jpg';
+import SecondSliderImage from '../Imagesa/Images/willo/slider-one.jpg';
+import ThirdSliderImage from '../Imagesa/Images/songofsouth/slider-one.jpg';
+import FourthSliderImage from '../Imagesa/Images/Elysian/first.jpg';
 
 export default () => {
   return (

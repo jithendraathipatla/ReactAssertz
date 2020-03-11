@@ -122,6 +122,7 @@ const card_image = css`
     height: 30vh;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    background:#eeee;
     :hover {
       cursor: pointer;
     }

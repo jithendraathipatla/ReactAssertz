@@ -2,11 +2,22 @@ import React, { useState } from "react"
 import { css, jsx } from "@emotion/core"
 import Card from "./Cards"
 import Image4 from "../Imagesa/Images/prestige-finsbury-banner1.jpg"
+import Image1 from '../Imagesa/Images/songofsouth/slider-one.jpg';
+import Image2 from '../Imagesa/Images/Kew/slider-three.jpg';
+import Image3 from '../Imagesa/Images/Kew/slider-one.jpg';
+import Image5 from '../Imagesa/Images/jindal/exterior-one.jpg';
+import Image6 from '../Imagesa/Images/Elysian/first.jpg';
+import Image7 from '../Imagesa/Images/willo/slider-four.jpg';
+import Image8 from '../Imagesa/Images/botanique/slider-one.jpg';
+import Image9 from '../Imagesa/Images/parksquare/slider-one.jpg';
+import Image10 from '../Imagesa/Images/fontainebleau/slider-one.jpg';
+import Image11 from '../Imagesa/Images/dolcevita/slider-one.jpg';
+import Image12 from '../Imagesa/Images/Coming-Soon-Project-.jpg'
 
 const App = () => {
   const [state, setstate] = useState([
     {
-      image: Image4,
+      image: Image12,
       alt: "Prestige Waterford",
       unit_type: "3 & 4 BHK",
       price: "1.24 CR",
@@ -30,7 +41,7 @@ const App = () => {
       page: "finsbury_park",
     },
     {
-      image: Image4,
+      image: Image1,
       alt: "Prestige Song of the South",
       unit_type: "1,2,2.5,3,3.5,4 BHK",
       price: "40 Lakhs",
@@ -43,7 +54,7 @@ const App = () => {
       page: "song_of_south",
     },
     {
-      image: Image4,
+      image: Image2,
       alt: "Prestige lake ridge",
       unit_type: "1,2& 3 BHk",
       price: "40 lakhs",
@@ -57,7 +68,7 @@ const App = () => {
     },
 
     {
-      image: Image4,
+      image: Image3,
       alt: "Prestige Kew Gardens ",
       unit_type: "1,2 & 3 BHK",
       price: "94 Lakh",
@@ -70,7 +81,7 @@ const App = () => {
       page: "kew_gardens",
     },
     {
-      image: Image4,
+      image: Image5,
       alt: "Prestige Jindal City",
       unit_type: "1,2,3 & 4 BHk",
       price: "48 lakhs",
@@ -83,7 +94,7 @@ const App = () => {
       page: "jindal_city",
     },
     {
-      image: Image4,
+      image: Image6,
       alt: "Prestige Elysian",
       unit_type: "2 Towers G + 16,18 Floors",
       price: "86 Lakhs",
@@ -96,7 +107,7 @@ const App = () => {
     },
 
     {
-      image: Image4,
+      image: Image7,
       alt: "Prestige Willow Tree",
       unit_type: "1,2,3,3.5 BHK",
       price: "46 Lakhs",
@@ -109,7 +120,7 @@ const App = () => {
       page: "willow_tree",
     },
     {
-      image: Image4,
+      image: Image8,
       alt: "Prestige Botanique",
       unit_type: "3, & 3 BHk",
       price: "1.6 cr",
@@ -123,7 +134,7 @@ const App = () => {
     },
 
     {
-      image: Image4,
+      image: Image9,
       alt: "Prestige Park Square",
       unit_type: "2 & 3 BHk",
       price: "95 Lakhs",
@@ -137,7 +148,7 @@ const App = () => {
     },
 
     {
-      image: Image4,
+      image: Image10,
       alt: "Prestige Fontaine Bleau",
       unit_type: "2 & 3 BHk",
       price: "83 Lakhs",
@@ -150,7 +161,7 @@ const App = () => {
       page: "fontaine_bleau",
     },
     {
-      image: Image4,
+      image: Image11,
       alt: "Prestige Dolce Vita",
       unit_type: "2 & 3 BHk",
       price: "94 lakhs",
