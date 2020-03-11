@@ -31,14 +31,7 @@ const HighlightFormTwo = () => {
              <h3>Luxury 3 &amp; 4 BHK Apartments</h3>
             <h3>₹ _ _ Lacs Onwards </h3>
 
-            <div style={{border:"1px solid white", textAlign:"center"}} className="rera">
-             <h5 style={{textAlign:"center", color:"white"}}>RERA No:</h5>
-             <h6>Coming soon</h6>
-            </div>
-             <br/>
-             <div style={{textAlign:"center"}}>
-             <Modal title="Download Complete Details"  class="prestigecopy different"/>
-             </div>
+            
         </div>
     );
 };
