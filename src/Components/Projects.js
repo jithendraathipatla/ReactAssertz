@@ -128,7 +128,7 @@ const App = () => {
       unit_type: "2 & 3 BHk",
       price: "95 Lakhs",
       towers: "3 Towers 3B + G + 27 Floors",
-      location: "Bannerghatta Road, Bangalore North",
+      location: "Bannerghatta Road, Bangalore",
       posession: "2021",
       link:
         "https://drive.google.com/open?id=1kuI8nfT50ujZIOJaNesfARsi9i-_tj9f",
