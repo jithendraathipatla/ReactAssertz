@@ -19,7 +19,7 @@ const Form = () => {
       Client_name:client_name,
       Client_email:client_email,
       Client_phone_number: phonenumber,
-      Project_Name:"Finsbury Park",
+      Project_Name:" Waterford",
     }
     var data = {
       service_id: 'gmail',
@@ -276,7 +276,7 @@ const Form = () => {
     <option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
   
 </select>
-    <input className="input" type="number" name="phone" required minlength="10" maxlength="20" title="Must have 10 digit numbers" pattern="^\d{10}$" value={phone}  placeholder="e.g. 999999999"/>
+    <input className="input" type="number" name="phone" required minLength="10" maxLength="20" title="Must have 10 digit numbers" pattern="^\d{10}$" value={phone}  placeholder="e.g. 999999999"/>
     </div>
   </div>
   </div>

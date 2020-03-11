@@ -20,7 +20,7 @@ const Costing = () => {
         <div className="costingPart">
         <div> 
         <div style={{textAlign:"center"}}>
-        <Title title="FinsBury Park Price"/>
+        <Title title=" Waterford Price"/>
         </div>
             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
             <thead >
@@ -35,63 +35,43 @@ const Costing = () => {
             <tbody>
     
             <tr>
-            <td rowSpan={3}  style={{fontSize:"18px", fontWeight:"500"}}>
-            Hyde</td>
+            <td rowSpan={4} style={{fontSize:"18px", fontWeight:"500"}}>
+            <br/>
+            Waterford</td>
             </tr>
             <tr>
-            <td>1 BHk</td>
-             <td>632 - 652</td>
-             <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-            </tr>
-            <tr>
-             <td>2 BHK </td>
-             <td>995 - 999</td>
-             <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-            </tr>
-             
-        
-            <tr>
-            <td rowSpan={5}  style={{fontSize:"18px", fontWeight:"500"}}>
-            <br/>Regent</td>
-            </tr>
-            <tr>
-            <td>1 BHk Large</td>
-             <td>862</td>
-             <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-            </tr>
-            <tr>
-             <td>2 BHK</td>
-             <td>1054 - 1173</td>
-             <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-            </tr>
-            <tr>
-             <td>3 BHk + 2T</td>
-             <td>1244 - 1277</td>
-             <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-            </tr> 
-            <tr>
-            <td>3 BHk + 3T</td>
-            <td>1431 - 1562</td>
+            <td>3 BHk Small</td>
             <td><Modal title="Know More" class="modalbuttonsmall"/></td>
-           </tr> 
-        
+                 <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+            </tr>
+            <tr>
+            <td>3 BHk Large</td>
+            <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+                 <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+            </tr>
+            <tr>
+             <td>4 BHK </td>
+             <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+             <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+            </tr>
+            
           </tbody>
           </table>
             </div>
             <div>
             <div style={{textAlign:"center"}}>
-            <Title title="FinsBury Park Price"/>
+            <Title title=" Waterford Price"/>
             </div>
            
             <div  onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHoverTwo} className="parkedtwo">
-            <img src={CostingImage}  alt="costing Details" style={{height:"223px", width:"100%"}}/>
+            <img src={CostingImage}  alt="costing Details" style={{height:"223px", width:"100%"}} alt="..."/>
             <div className={hoveredText === null ? "parkedone" : "parked"}>
             <Modal title="Know More"  class="modalbuttonsmall"/>
             </div>
             </div>
             <br/>
             <div style={{textAlign:"center"}} id="finalcosting">
-            <Modal title="Complecte Costing" class="modalbuttonsmall" />
+            <Modal title="Complete Costing" class="modalbuttonsmall" />
             </div>
             </div>
         </div>

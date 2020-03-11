@@ -13,18 +13,24 @@ import HighlightFormTwo from '../Components/HighlightFormTwo';
 import Slider from '../Components/Slider';
 import TabsContainerOne from '../Components/Costing';
 import SideMenuBar from '../Components/SideMenu';
+import SideImage from '../Imagesa/Images/prestige-finsbury-banner1.jpg';
 import HighlightForm from '../Components/HighlightForm';
-
+import NewSection from '../Components/NewSection';
 
 
 export default () => {
     return(
-        <div >
+        <div>
         <div className="backgroundSlider">
-          <SEOComponent title="Prestige FinsBury Park | Prestige FinsBury Park - Hyde,Regent" des="This webpage provides all the Information on Prestige FinsBury Park . You will be able to see all the related Information on Prestige FinsBury park [Hyde, Regent], starting from Overview of the Project to the Location."/>
+          <SEOComponent title="Prestige Waterford | Whitefield,Bangalore | ITPL| Brochure | Price" des="This webpage gives you all the Information about the upcoming Prestige Waterford Apartments in Whitefield, Bangalore. This page briefs you all the details of prestige Waterford Apartments starting from floor Pan to the reviews."/>
           <NavBar/>
+          <div className="scroll-downs">
+          <div className="mousey">
+          <div className="scroller">
+          </div>
+          </div>
+          </div>
           <div className="slider">
-         
           <Slider/>
           </div>
           <div className="backgroundForm">
@@ -36,21 +42,24 @@ export default () => {
           </div>
           <SideMenuBar/>
           <div className="box" >
-        
           <div style={{textAlign:"center", marginTop:"-30px"}} className="normaling" >
-           <Title title="About Prestige Finsbury Park"/>
+           <Title title="About Prestige  Waterford"/>
            </div>
+           <div className="imageBesideContent">
+           <div>
+           <img src={SideImage} alt="Prestige Group" style={{height:"270px", paddingLeft:"20px"}}/>
+           </div>
+           <div>
           <Description>
           <p style={{textAlign:"justify"}}>
-          Prestige Finsbury Park is the most awaited residential town coming_up in North Banaglore,
-           KIADB area, Just right adjacent to the Aerospace and Hardware Park. 
-           The Prestige Finsbury is close to Kempedowda International Airport, Devanahalli.
-            The north Bangalore is the New Launch hot and serious property investement where you wanna be. 
-            It comprises of all the needs from Quality schools to luxurious Malls. Prestige Finsbury is the new launch and it is in the heart of banglore, 
-            so the property is becoming sensation by it name and it's locality. Prestige Finsbury park has the good connectivity to all the famious destinations of Bangalore by the wide and well Laid Outer-Ring-Road. 
-          It also has a very good connectivity to Bellary Road.
+          Prestige Group presents Prestige Waterford at Whitefield,a flourishing suburb of Bangalore. Made by the best of extravagances, this milestone will presently wake up at the Whitefield.It is an upcoming new residential project located in Whitefield Bangalore. And Locations is Pattandur Agrahara, Whitefield, Bangalore, Karnataka 560066.It is construction by Prestige Group which is one of the top real-estate firms of the country with projects spread across the cities of India.It Also includes a clubhouse, fully equipped gymnasium, swimming pool, multi-purpose hall, 24/7 Security and much more.
+ 
+Prestige Waterford comes with smartly designed homes and ample space that is utilized to give you more in life. And there will be the best International Schools, work places, Quality Health Care Facilities, Shopping Malls, Hotels and Restaurants and much more. 
+Achievements of Prestige Group which are worth mention below:- i) Prestige Group has been commemorated with India’s most trusted brand 2015 award at Hotel Leela, ii)Mumbai by IBC Info Media Corp, USA, in association with the International brand council. And many more Awards.
         </p>
         </Description>
+        </div>
+        </div>
         <hr/>
         <Overview/>
         <hr/>
@@ -64,7 +73,7 @@ export default () => {
         <hr/>
         <TabsContainerOne/>
         <hr/>
-        
+        <NewSection/>
         <LocationPart/>
          
           </div>

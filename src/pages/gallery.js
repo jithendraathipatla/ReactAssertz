@@ -12,16 +12,18 @@ import SideMenu from '../Components/SideMenu';
 const gallery = () => {
     return (
         <div>
-            <SEOComponent title="Prestige FinsBury Park Regent Gallery | Prestige FinsBury Park Hyde Gallery | Prestige FinsBury Park" des="In this page you will be able to see the all Gallery of Prestige FinsBury Park starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Prestige FinsBury Park"/>
+            <SEOComponent title="Prestige Waterford | Gallery | Interior | Exterior" des="In this page you will get an idea about the interior Part, exterior Part, Floor Plan and Master Plan of the Prestige Waterford Apartments Whitefield. You will be shown all the floor plans master Plans in the Prestige waterford Apartments."/>
             <Navbar/>
             <SideMenu/>
             <div className="box">
             <div style={{paddingTop:"7vh"}}>
             <div style={{textAlign:"center"}}>
-            <Titleabc title="FinsBury Park Gallery"/>
+            <Titleabc title=" Waterford Gallery"/>
             </div>
-            <Description>Prestige FinsBury Park is a state-of-the-art residential assignment via Prestige homes. This undertaking has Township concept in which they're giving schools, Retails, industrial space and has pricey features and superb connectivity to all of the fundamental cities and is positioned at Baglur, Bangalore. This venture spread over 22 Acres of land in which they may be coming up with three phases,section one is already exceeded over to the glad client’s and segment 2 is underneath construction.</Description>
-           </div>
+            <Description>
+            Prestige Smart Kitchen has once again been awarded the 'Best franchisor of the year for Home/Home products' award by Franchisee India in an event held at Hotel Lalit, New Delhi on 19th Oct 2015. India's Most popular and promising Brands 2014 - Real Estate.D and damp; B Corporate Awards Top Indian Company 2014 - Real Estate Prestige Group.CNBC Awaaz Real Estate Award 2013.The best of International Schools, work environments, Quality Health Care Facilities, Shopping Malls, Hotels and Restaurants inside prompt sweep adds to the everyday Quality of Life.
+            </Description>
+            </div>
             <hr/>
             <GalleryComponent/>
             <Location/>
