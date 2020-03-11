@@ -8,6 +8,7 @@ import FirstSliderImage from '../Imagesa/Images/prestige-finsbury-park-hyde1.jpg
 import SecondSliderImage from '../Imagesa/Images/prestige-finsbury-park-hyde3.jpg';
 import ThirdSliderImage from '../Imagesa/Images/prestige-finsbury-regent1.jpg';
 import FourthSliderImage from '../Imagesa/Images/prestige-finsbury-regent4.jpg';
+import ProjectLogo from '../Imagesa/Images/logo.png';
 
 const waterford = () => {
     return (
@@ -18,7 +19,7 @@ const waterford = () => {
          <hr/>
          <Amenities project="Waterford Amenities"/>
          <hr/>
-         <LocationComponent title="Waterford Location" iframe="null"/>
+         <LocationComponent title="Waterford Location"  logo={ProjectLogo} iframe="null"/>
 
         </Layout>
     );

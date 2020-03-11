@@ -2,7 +2,6 @@ import React from 'react';
 import Title from './Title';
 import FormComponent from './Form';
 import {css} from '@emotion/core';
-import Logo from '../Imagesa/Images/logo.png';
 import ComingSo from '../Imagesa/Images/Coming-Soon-Project-.jpg'
 
 const Location = (props) => {
@@ -12,7 +11,7 @@ const Location = (props) => {
           src={props.iframe}
           frameBorder="0"
           style={{ width: "100%" }}
-          height="485px"
+          height="535px"
           allowFullScreen=""
           title={props.title}
         ></iframe>
@@ -40,7 +39,7 @@ const Location = (props) => {
         </div>
         <div css={aliginingForm}>
         <div style={{textAlign:"center"}}>
-            <img src={Logo} alt=" Waterford" width="17%" style={{height:"70px", marginTop:"-12px"}}/>
+            <img src={props.logo} alt=" Waterford" width="80%" style={{height:"120px", marginTop:"-12px"}}/>
           </div>
         <FormComponent/>
         </div>
