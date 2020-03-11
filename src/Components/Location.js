@@ -12,7 +12,7 @@ const Location = (props) => {
           src={props.iframe}
           frameBorder="0"
           style={{ width: "100%" }}
-          height="450px"
+          height="485px"
           allowFullScreen=""
           title={props.title}
         ></iframe>
@@ -40,7 +40,7 @@ const Location = (props) => {
         </div>
         <div css={aliginingForm}>
         <div style={{textAlign:"center"}}>
-            <img src={Logo} alt=" Waterford" width="26%" style={{ height:"100px"}}/>
+            <img src={Logo} alt=" Waterford" width="17%" style={{height:"70px", marginTop:"-12px"}}/>
           </div>
         <FormComponent/>
         </div>
@@ -52,7 +52,7 @@ const Location = (props) => {
 const locationPart = css`
 display: grid;
 grid-template-columns: 8fr 4fr;
-grid-gap: 20px;
+grid-gap: 10px;
 padding-left:10px;
 margin-bottom:30px;
 `
@@ -60,6 +60,7 @@ margin-bottom:30px;
 const aliginingForm = css`
 box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
 padding: 20px;
+margin-right:10px;
 background-size: cover;
 
 `
