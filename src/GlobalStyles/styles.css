@@ -69,13 +69,6 @@ body{
   box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 1);
 }
 
-.Amenities_main{
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr 3fr 3fr;
-    grid-gap: 40px 58px;
-    padding: 20px 2px 20px 72px;
-}
-
 .configurationimage{
   background-image: url('../Imagesa/Images/Beach.jpg');
   padding:10px 10px 40px 10px;
@@ -83,20 +76,6 @@ body{
   background-size: cover;
 }
 
-.Amenities_main img{
-  border: 1px solid #eee;
-  padding: 10px;
-  border-radius: 18%;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3); 
-  background: linear-gradient(to bottom, #ff00000f, #ffff002e);
-}
-
-
-.Amenities_main h1{
-    font-size: 18px;
-    padding-top: 5px;
-    color:#000000;
-}
 
 
 
@@ -113,48 +92,6 @@ body{
      text-underline-position: under; 
 }
 
-.Overview_main{
-    display:grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-gap:40px 75px;
-    margin-left: 20px;
-    padding: 10px;
-}
-
-.Overview_main h1{ 
-    text-transform: uppercase;
-    font-size: 18px;
-    color:#000000;
-    font-weight: 500;
-}
-
-
-.Overview_main img{
-  border: 1px solid #eee;
-  padding: 10px;
-  border-radius: 18%;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3); 
-  background: linear-gradient(to bottom, #ff00000f, #ffff002e);
-}
-  
-.Overview_main .properly{
-    display: flex;
-}
-
-.Overview_main .properly img{
- width:45px;
-}
-
-
-.Overview_main img{
-  flex:1;
-}
-
-.Overview_main .headings{
-    flex:6;
-    margin-left: 20px;
-}
-  
 .awssld__bullets {
   display: none !important;
 }
@@ -834,12 +771,7 @@ body{
   .galleryImages {
     display: block;
   }
-  .Amenities_main {
-    display: grid;
-    grid-template-columns: 5fr 5fr;
-    padding-left: 30px;
-  }
-
+  
   .costingPart{
     display: block;
   }
@@ -847,24 +779,7 @@ body{
   .locationPart{
    display: block;
   }
-  .Overview_main h2 {
-    padding-top: 0px;
-  }
-  .Overview_main{
-    display: grid;
-    grid-template-columns: 5fr 5fr;
-    margin-left: 0px;
-    padding: 10px 0px 10px 20px;
-  }
-
-  .Overview_main .headings {
-    display:block;
-     margin-left: 0px;
-  }
-  
-  .Overview_main .properly{
-    display: block;
-  }
+ 
 
   .backgroundForm {
    display: none;

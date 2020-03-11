@@ -1,14 +1,18 @@
 import React from 'react';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
+import OverviewComponent from '../Components/StatefulOverview';
+
 
 
 const Elysian = () => {
     return (
-        <Layout>
+        <Layout title="prestige elysian | reviews | Brouchere | Location">
         
          <h1>I am from the elysian</h1>
-         <Amenities/>
+         <OverviewComponent project="Elysian Overview"/>
+         <hr/>
+         <Amenities project="Elysian Amenities"/>
         </Layout>
     );
 };
