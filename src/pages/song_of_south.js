@@ -4,12 +4,16 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import FirstSliderImage from '../Imagesa/Images/songofsouth/slider-one.jpg';
+import SecondSliderImage from '../Imagesa/Images/songofsouth/slider-two.jpg';
+import ThirdSliderImage from '../Imagesa/Images/songofsouth/slider-three.jpg';
+import FourthSliderImage from '../Imagesa/Images/songofsouth/slider-four.jpg';
 
 
 const amenities = () => {
     return (
         <Layout title="prestige song of south | reviews | Brouchere | Location">        
-         <SliderComponent/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
          <br/>
          <OverviewComponent project="Song of South Overview"/>
          <hr/>

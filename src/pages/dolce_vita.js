@@ -4,6 +4,10 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import FirstSliderImage from '../Imagesa/Images/dolcevita/slider-one.jpg';
+import SecondSliderImage from '../Imagesa/Images/dolcevita/slider-two.jpg';
+import ThirdSliderImage from '../Imagesa/Images/dolcevita/slider-one.jpg';
+import FourthSliderImage from '../Imagesa/Images/dolcevita/slider-two.jpg';
 
 
 
@@ -11,7 +15,7 @@ import SliderComponent from '../Components/Slider';
 const Dolce = () => {
     return (
         <Layout title="prestige dolce vita | reviews | Location">
-          <SliderComponent/>
+          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
           <br/>
          <OverviewComponent project="Dolce Vita Overview"/>
          <hr/>

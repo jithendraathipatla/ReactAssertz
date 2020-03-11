@@ -162,18 +162,7 @@ const App = () => {
       brouchereName: "Download Prestige Dolce Vita Brouchere",
       page: "dolce_vita",
     },
-    {
-      image: Image4,
-      alt: "Prestige Brooklyn Heights",
-      unit_type: "1 2 & 3 BHk",
-      price: "66 Lakhs",
-      towers: "12 Blocks G+26 Floors",
-      location: "Banashankari Bangalore",
-      posession: "2021 onwards",
-      // link:"https://drive.google.com/open?id=1JmstNKv4SmlSJNp-DduTnkufTNjOP9m6",
-      brouchereName: "Download Prestige Brooklyn Heights Brouchere",
-      page: "brooklyn_heights",
-    },
+
   ])
 
   const displayingCards = () => {

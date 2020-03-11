@@ -4,13 +4,18 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import FirstSliderImage from '../Imagesa/Images/parksquare/slider-one.jpg';
+import SecondSliderImage from '../Imagesa/Images/parksquare/slider-two.jpg';
+import ThirdSliderImage from '../Imagesa/Images/parksquare/slider-three.jpg';
+import FourthSliderImage from '../Imagesa/Images/parksquare/slider-four.jpg';
+
 
 
 
 const Park = () => {
     return (
         <Layout title="prestige elysian | reviews | Brouchere | Location">
-         <SliderComponent/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
          <br/>
          <OverviewComponent project="Park Square Overview"/>
          <hr/>

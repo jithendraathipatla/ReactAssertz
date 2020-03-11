@@ -4,6 +4,10 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import FirstSliderImage from '../Imagesa/Images/Elysian/first.jpg';
+import SecondSliderImage from '../Imagesa/Images/Elysian/second-slider.jpg';
+import ThirdSliderImage from '../Imagesa/Images/Elysian/third-slider.jpg';
+import FourthSliderImage from '../Imagesa/Images/Elysian/first.jpg';
 
 
 
@@ -12,7 +16,7 @@ import SliderComponent from '../Components/Slider';
 const Elysian = () => {
     return (
         <Layout title="prestige elysian | reviews | Brouchere | Location">
-         <SliderComponent/>
+         <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
          <OverviewComponent project="Elysian Overview"/>
          <hr/>
          <Amenities project="Elysian Amenities"/>

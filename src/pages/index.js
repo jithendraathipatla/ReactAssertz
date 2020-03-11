@@ -9,6 +9,10 @@ import HighlightFormTwo from "../Components/HighlightFormTwo"
 import Slider from "../Components/Slider"
 import HighlightForm from "../Components/HighlightForm"
 import CardswithProjects from "../Components/Projects"
+import FirstSliderImage from '../Imagesa/Images/prestige-finsbury-park-hyde1.jpg';
+import SecondSliderImage from '../Imagesa/Images/jindal/exterior-one.jpg';
+import ThirdSliderImage from '../Imagesa/Images/Kew/slider-one.jpg';
+import FourthSliderImage from '../Imagesa/Images/Elysian/interior-one.jpg';
 
 export default () => {
   return (
@@ -25,7 +29,7 @@ export default () => {
           </div>
         </div>
         <div className="slider">
-          <Slider />
+          <Slider one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
         </div>
         <div className="backgroundForm">
           <HighlightForm />

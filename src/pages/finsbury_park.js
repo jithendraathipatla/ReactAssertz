@@ -4,15 +4,16 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
-
-
-
+import FirstSliderImage from '../Imagesa/Images/prestige-finsbury-park-hyde1.jpg';
+import SecondSliderImage from '../Imagesa/Images/prestige-finsbury-park-hyde3.jpg';
+import ThirdSliderImage from '../Imagesa/Images/prestige-finsbury-regent1.jpg';
+import FourthSliderImage from '../Imagesa/Images/prestige-finsbury-regent4.jpg';
 
 
 const Finsbury = () => {
     return (
         <Layout title="prestige finsbury park | reviews | Brouchere | Location">        
-         <SliderComponent/>
+         <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
          <br/>
          <OverviewComponent project="Finsbury Park Overview"/>
          <hr/>

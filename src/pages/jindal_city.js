@@ -4,13 +4,17 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import FirstSliderImage from '../Imagesa/Images/jindal/exterior-two.jpg';
+import SecondSliderImage from '../Imagesa/Images/jindal/exterior-two.jpg';
+import ThirdSliderImage from '../Imagesa/Images/jindal/slider-three.jpg';
+import FourthSliderImage from '../Imagesa/Images/jindal/slider-four.jpg';
 
 
 
 const Jindal = () => {
     return (
         <Layout title="prestige jindal city | reviews | Brouchere | Location">
-         <SliderComponent/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
          <br/>
          <OverviewComponent project="Jindal city Overview"/>
          <hr/>

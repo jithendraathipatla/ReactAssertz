@@ -4,11 +4,16 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import FirstSliderImage from '../Imagesa/Images/fontainebleau/slider-one.jpg';
+import SecondSliderImage from '../Imagesa/Images/fontainebleau/slider-two.jpg';
+import ThirdSliderImage from '../Imagesa/Images/fontainebleau/slider-three.jpg';
+import FourthSliderImage from '../Imagesa/Images/fontainebleau/slider-two.jpg';
+
 
 const amenities = () => {
     return (
         <Layout title="prestige fontaine bleau | reviews | Brouchere | Location">
-         <SliderComponent/>
+         <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
          <br/>
          <OverviewComponent project="Fontaine Bleau Overview"/>
          <hr/>

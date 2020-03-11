@@ -4,13 +4,17 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import FirstSliderImage from '../Imagesa/Images/Kew/slider-one.jpg';
+import SecondSliderImage from '../Imagesa/Images/Kew/slider-twojpg.jpg';
+import ThirdSliderImage from '../Imagesa/Images/Kew/slider-three.jpg';
+import FourthSliderImage from '../Imagesa/Images/Kew/slider-four.jpg';
 
 
 
 const Lake = () => {
     return (
         <Layout title="prestige lake ridge | reviews | Brouchere | Location">
-         <SliderComponent/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
          <br/>
          <OverviewComponent project="Lake Ridge Overview"/>
          <hr/>

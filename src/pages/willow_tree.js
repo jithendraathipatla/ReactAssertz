@@ -4,6 +4,10 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import FirstSliderImage from '../Imagesa/Images/willo/slider-one.jpg';
+import SecondSliderImage from '../Imagesa/Images/willo/slider-two.jpg';
+import ThirdSliderImage from '../Imagesa/Images/willo/slider-three.jpg';
+import FourthSliderImage from '../Imagesa/Images/willo/slider-four.jpg';
 
 
 
@@ -11,7 +15,7 @@ import SliderComponent from '../Components/Slider';
 const willo = () => {
     return (
         <Layout title="prestige willow tree | reviews | Brouchere | Location">
-         <SliderComponent/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
          <br/>
          <OverviewComponent project="Willo Tree Overview"/>
          <hr/>

@@ -4,11 +4,15 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import FirstSliderImage from '../Imagesa/Images/Kew/slider-one.jpg';
+import SecondSliderImage from '../Imagesa/Images/Kew/slider-twojpg.jpg';
+import ThirdSliderImage from '../Imagesa/Images/Kew/slider-three.jpg';
+import FourthSliderImage from '../Imagesa/Images/Kew/slider-four.jpg';
 
 const Key = () => {
     return (
         <Layout title="prestige kew gardens | reviews | Brouchere | Location">
-         <SliderComponent/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
          <br/>
          <OverviewComponent project="Kew Gardens Overview"/>
          <hr/>
