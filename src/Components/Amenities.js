@@ -118,8 +118,8 @@ const Amenities = (props) => {
 const Amenities_main = css`
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr 3fr 3fr;
-  grid-gap: 30px;
-  padding: 20px 2px 20px 100px;
+  grid-gap: 30px 80px;
+  padding: 20px 2px 20px 50px;
   margin-bottom:30px;
   img{
     border: 2px solid #379ad4;

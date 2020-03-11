@@ -81,8 +81,8 @@ const StatefulOverview = (props) => {
 const overview_main = css`
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-gap: 40px;
-  margin-left: 90px;
+  grid-gap: 40px 50px;
+  margin-left: 40px;
   margin-bottom:30px;
   padding: 10px;
   img {
