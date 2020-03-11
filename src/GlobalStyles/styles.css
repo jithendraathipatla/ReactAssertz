@@ -466,17 +466,6 @@ body{
   text-align: center !important;
 }
 
-.locationPart{
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-gap: 20px;
-}
-
-.aliginingForm{
-  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  background-size: cover;
-}
 
 .backgroundSlider{
   position: relative;
@@ -776,10 +765,6 @@ body{
     display: block;
   }
 
-  .locationPart{
-   display: block;
-  }
- 
 
   .backgroundForm {
    display: none;
