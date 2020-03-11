@@ -122,8 +122,8 @@ const Amenities_main = css`
   padding: 20px 2px 20px 50px;
   margin-bottom:30px;
   img{
-    border: 2px solid #379ad4;
-    padding: 15px;
+    border: 1px solid #eeee;
+    padding: 10px;
     border-radius: 15%;
     background: linear-gradient(to bottom, #ff00000f, #ffff002e);
   }

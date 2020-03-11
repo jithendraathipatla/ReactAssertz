@@ -86,8 +86,8 @@ const overview_main = css`
   margin-bottom:30px;
   padding: 10px;
   img {
-    border: 2px solid #379ad4;
-    padding: 15px;
+    border: 1px solid #eeee;
+    padding: 10px;
     border-radius: 15%;
     background: linear-gradient(to bottom, #ff00000f, #ffff002e);
   }
@@ -104,7 +104,7 @@ const headings = css`
       text-transform: uppercase;
       font-weight: 500;
       font-size: 18px;
-      margin-bottom: 14px;
+      margin-bottom: 5px;
     }
   }
 `
