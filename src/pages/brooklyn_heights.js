@@ -3,13 +3,16 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
+import SliderComponent from '../Components/Slider';
+
 
 
 
 const Brooklyn = () => {
     return (
         <Layout title="prestige brooklyn heights | Brouchere | Location">
-         <h1>I am from the Brooklyn Heights</h1>
+         <SliderComponent/>
+         <br/>
          <OverviewComponent project="Brooklyn Heights Overview"/>
          <hr/>
          <Amenities project="Brooklyn Heights Amenities"/>

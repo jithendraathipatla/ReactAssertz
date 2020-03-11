@@ -3,15 +3,15 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
-
+import SliderComponent from '../Components/Slider';
 
 
 
 const Jindal = () => {
     return (
         <Layout title="prestige jindal city | reviews | Brouchere | Location">
-        
-         <h1>I am from the Jindal city</h1>
+         <SliderComponent/>
+         <br/>
          <OverviewComponent project="Jindal city Overview"/>
          <hr/>
          <Amenities project="Jindal City Amenities"/>

@@ -3,13 +3,16 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
+import SliderComponent from '../Components/Slider';
+
 
 
 
 const Dolce = () => {
     return (
         <Layout title="prestige dolce vita | reviews | Location">
-         <h1>I am from the dolce vita</h1>
+          <SliderComponent/>
+          <br/>
          <OverviewComponent project="Dolce Vita Overview"/>
          <hr/>
          <Amenities project="Dolce Vita Amenities"/>

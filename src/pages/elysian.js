@@ -3,6 +3,8 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
+import SliderComponent from '../Components/Slider';
+
 
 
 
@@ -10,8 +12,7 @@ import LocationComponent from '../Components/Location';
 const Elysian = () => {
     return (
         <Layout title="prestige elysian | reviews | Brouchere | Location">
-        
-         <h1>I am from the elysian</h1>
+         <SliderComponent/>
          <OverviewComponent project="Elysian Overview"/>
          <hr/>
          <Amenities project="Elysian Amenities"/>

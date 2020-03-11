@@ -3,12 +3,14 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
+import SliderComponent from '../Components/Slider';
 
 
 const Botanique = () => {
     return (
         <Layout title="prestige Botanique| Brouchere | Location">
-         <h1>I am from the Botanique</h1>
+         <SliderComponent/>
+         <br/>
          <OverviewComponent project="Botanique Overview"/>
          <hr/>
          <Amenities project="Botanique Amenities"/>

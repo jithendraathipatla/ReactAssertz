@@ -3,12 +3,14 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import Overcomponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
+import SliderComponent from '../Components/Slider';
 
 
 const waterford = () => {
     return (
         <Layout title="prestige waterford | ITPL | Brouchere | Location">
-         <h1>I am from the waterford tree</h1>
+          <SliderComponent/>
+          <br/>
          <Overcomponent project="Waterford Overview"/>
          <hr/>
          <Amenities project="Waterford Amenities"/>

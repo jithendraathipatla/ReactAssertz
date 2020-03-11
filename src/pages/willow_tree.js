@@ -3,6 +3,7 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
+import SliderComponent from '../Components/Slider';
 
 
 
@@ -10,7 +11,8 @@ import LocationComponent from '../Components/Location';
 const willo = () => {
     return (
         <Layout title="prestige willow tree | reviews | Brouchere | Location">
-         <h1>I am from the Willo tree</h1>
+         <SliderComponent/>
+         <br/>
          <OverviewComponent project="Willo Tree Overview"/>
          <hr/>
          <Amenities project="Wollow Tree Amenities"/>

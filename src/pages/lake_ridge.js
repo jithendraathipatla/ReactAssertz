@@ -3,14 +3,15 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
+import SliderComponent from '../Components/Slider';
 
 
 
 const Lake = () => {
     return (
         <Layout title="prestige lake ridge | reviews | Brouchere | Location">
-        
-         <h1>I am from the Lake ridge</h1>
+         <SliderComponent/>
+         <br/>
          <OverviewComponent project="Lake Ridge Overview"/>
          <hr/>
          <Amenities project="Lake Ridge Amenities"/>

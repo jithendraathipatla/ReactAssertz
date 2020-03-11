@@ -3,11 +3,13 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
+import SliderComponent from '../Components/Slider';
 
 const Key = () => {
     return (
         <Layout title="prestige kew gardens | reviews | Brouchere | Location">
-         <h1>I am from the Kew Garden</h1>
+         <SliderComponent/>
+         <br/>
          <OverviewComponent project="Kew Gardens Overview"/>
          <hr/>
          <Amenities project="Kew Gardens Amenities"/>

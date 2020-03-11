@@ -3,6 +3,8 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
+import SliderComponent from '../Components/Slider';
+
 
 
 
@@ -10,7 +12,8 @@ import LocationComponent from '../Components/Location';
 const Finsbury = () => {
     return (
         <Layout title="prestige finsbury park | reviews | Brouchere | Location">        
-         <h1>I am from the Finsbury tree</h1>
+         <SliderComponent/>
+         <br/>
          <OverviewComponent project="Finsbury Park Overview"/>
          <hr/>
          <Amenities project="Finsbury Park Amenities"/>

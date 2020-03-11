@@ -3,15 +3,13 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
-
-
-
+import SliderComponent from '../Components/Slider';
 
 const amenities = () => {
     return (
         <Layout title="prestige fontaine bleau | reviews | Brouchere | Location">
-        
-         <h1>I am from the fontaine bleau</h1>
+         <SliderComponent/>
+         <br/>
          <OverviewComponent project="Fontaine Bleau Overview"/>
          <hr/>
          <Amenities project="Fontaine Bleau Amenities"/>
