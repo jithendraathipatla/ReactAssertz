@@ -13,7 +13,7 @@ import ProjectLogo from '../Imagesa/Images/logo.png';
 const waterford = () => {
     return (
         <Layout title="prestige waterford | ITPL | Brouchere | Location">
-          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Waterford" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="3" bedroomthree="4" price="_ _"/>
           <br/>
          <Overcomponent project="Waterford Overview"/>
          <hr/>

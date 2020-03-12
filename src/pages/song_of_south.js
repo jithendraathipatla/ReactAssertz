@@ -14,7 +14,7 @@ import ProjectLogo from '../Imagesa/Images/songofsouth/logo.jpg';
 const amenities = () => {
     return (
         <Layout title="prestige song of south | reviews | Brouchere | Location">        
-         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to MoveIn" project="Prestige Song of South" location="In Begur Road," attractiveone="Ready_to_move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1,2,3.5 " bedroomtwo="3,3.5" bedroomthree="4" price="39.4"/>
          <br/>
          <OverviewComponent project="Song of South Overview"/>
          <hr/>

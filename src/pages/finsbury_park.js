@@ -14,7 +14,7 @@ import ProjectLogo from '../Imagesa/Images/finsbury.svg';
 const Finsbury = () => {
     return (
         <Layout title="prestige finsbury park | reviews | Brouchere | Location">        
-         <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+         <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="PRESTIGE FINSBURY PARK" location="In Bagular," attractiveone="Hurry! Only 1% GST" atteractivetwo="PMAY benefits" bedroomone="1, " bedroomtwo="2" bedroomthree="3" price="33.5"/>
          <br/>
          <OverviewComponent project="Finsbury Park Overview"/>
          <hr/>
