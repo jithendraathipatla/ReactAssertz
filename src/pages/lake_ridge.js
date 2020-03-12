@@ -15,7 +15,7 @@ import ProjectLogo from '../Imagesa/Images/lakeridge/logo.jpg';
 const Lake = () => {
     return (
         <Layout title="prestige lake ridge | reviews | Brouchere | Location">
-         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to Move_In" project="Prestige Lake Ridge" location="In Subramanyapura," attractiveone="Ready to Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2" bedroomthree="3" price="40"/>
          <br/>
          <OverviewComponent project="Lake Ridge Overview"/>
          <hr/>

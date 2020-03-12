@@ -44,7 +44,7 @@ const App = () => {
       image: Image1,
       alt: "Prestige Song of the South",
       unit_type: "1,2,2.5,3,3.5,4 BHK",
-      price: "40 Lakhs",
+      price: "39.4 Lakhs",
       towers: "16 Towers  G + 15,17,20 Floors",
       location: "Begur Road, Bangalore",
       posession: "2019 onwards",
