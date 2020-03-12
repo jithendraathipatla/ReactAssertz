@@ -4,7 +4,7 @@ import Card from "./Cards"
 import Image4 from "../Imagesa/Images/prestige-finsbury-banner1.jpg"
 import Image1 from '../Imagesa/Images/songofsouth/slider-one.jpg';
 import Image2 from '../Imagesa/Images/Kew/slider-three.jpg';
-import Image3 from '../Imagesa/Images/Kew/slider-one.jpg';
+import Image3 from '../Imagesa/Images/parksquare/slider-one.jpg';
 import Image5 from '../Imagesa/Images/jindal/exterior-one.jpg';
 import Image6 from '../Imagesa/Images/Elysian/first.jpg';
 import Image7 from '../Imagesa/Images/willo/slider-four.jpg';
