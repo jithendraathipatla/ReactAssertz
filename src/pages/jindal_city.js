@@ -15,7 +15,7 @@ import ProjectLogo from '../Imagesa/Images/jindal/logo.jpg';
 const Jindal = () => {
     return (
         <Layout title="prestige jindal city | reviews | Brouchere | Location">
-         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Jindal City" location="In TumKur," attractiveone="Pre_launch Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2, 3" bedroomthree="4" price="48"/>
          <br/>
          <OverviewComponent project="Jindal city Overview"/>
          <hr/>

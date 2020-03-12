@@ -13,7 +13,7 @@ import ProjectLogo from '../Imagesa/Images/Kew/logo.jpg';
 const Key = () => {
     return (
         <Layout title="prestige kew gardens | reviews | Brouchere | Location">
-         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to Move_In" project="Prestige Kew Gardens" location="In Yelamur," attractiveone="Ready to Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2" bedroomthree="3" price="86"/>
          <br/>
          <OverviewComponent project="Kew Gardens Overview"/>
          <hr/>

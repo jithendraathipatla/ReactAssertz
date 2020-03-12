@@ -15,7 +15,7 @@ import ProjectLogo from '../Imagesa/Images/botanique/logo.jpg';
 const Botanique = () => {
     return (
         <Layout title="prestige Botanique| Brouchere | Location">
-         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Botanique" location="In RV Road," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="184"/>
          <br/>
          <OverviewComponent project="Botanique Overview"/>
          <hr/>

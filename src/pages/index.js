@@ -29,7 +29,7 @@ export default () => {
           </div>
         </div>
         <div className="slider">
-          <Slider one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Prestige Group" project="Prestige Constructions" location="In" attractiveone="Bangalore`s Best Apartments" atteractivetwo="Hurry! Book now" bedroomone="11" bedroomtwo="2, 3" bedroomthree="4" price="30"/>
+          <Slider one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Prestige Group" project="Prestige Constructions" location="In" attractiveone="Bangalore`s Best Apartments" atteractivetwo="Hurry! Book now" bedroomone="11" bedroomtwo="2, 3" bedroomthree="4" price="33.5"/>
         </div>
       </div>
       <div>

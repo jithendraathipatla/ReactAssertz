@@ -16,7 +16,7 @@ import ProjectLogo from '../Imagesa/Images/Elysian/logo.jpg';
 const Elysian = () => {
     return (
         <Layout title="prestige elysian | reviews | Brouchere | Location">
-         <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+         <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Lake Ridge" location="In Bannerghatta," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="86"/>
          <OverviewComponent project="Elysian Overview"/>
          <hr/>
          <Amenities project="Elysian Amenities"/>

@@ -15,7 +15,7 @@ import ProjectLogo from '../Imagesa/Images/dolcevita/logo.jpg';
 const Dolce = () => {
     return (
         <Layout title="prestige dolce vita | reviews | Location">
-          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Dolce Vita" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="94"/>
           <br/>
          <OverviewComponent project="Dolce Vita Overview"/>
          <hr/>

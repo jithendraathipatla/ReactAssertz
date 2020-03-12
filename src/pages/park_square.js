@@ -16,7 +16,7 @@ import ProjectLogo from '../Imagesa/Images/parksquare/logo.jpg';
 const Park = () => {
     return (
         <Layout title="prestige elysian | reviews | Brouchere | Location">
-         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Park Square" location="In Bannerghatta," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="80"/>
          <br/>
          <OverviewComponent project="Park Square Overview"/>
          <hr/>

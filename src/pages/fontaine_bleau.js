@@ -14,7 +14,7 @@ import ProjectLogo from '../Imagesa/Images/fontainebleau/logo.jpg';
 const amenities = () => {
     return (
         <Layout title="prestige fontaine bleau | reviews | Brouchere | Location">
-         <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+         <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Fontaine Bleau" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="83"/>
          <br/>
          <OverviewComponent project="Fontaine Bleau Overview"/>
          <hr/>

@@ -14,7 +14,7 @@ import ProjectLogo from '../Imagesa/Images/willo/logo.jpg';
 const willo = () => {
     return (
         <Layout title="prestige willow tree | reviews | Brouchere | Location">
-         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage}/>
+         <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Willow Tree" location="In Vidyanarayapura," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="1, 2," bedroomtwo="3, 3.5" bedroomthree="3.5" price="46"/>
          <br/>
          <OverviewComponent project="Willo Tree Overview"/>
          <hr/>
