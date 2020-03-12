@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import ConfigurationComponent from '../Components/ConfigurationTabel';
 import FirstSliderImage from '../Imagesa/Images/dolcevita/slider-one.jpg';
 import SecondSliderImage from '../Imagesa/Images/dolcevita/slider-two.jpg';
 import ThirdSliderImage from '../Imagesa/Images/dolcevita/slider-one.jpg';
@@ -13,11 +14,45 @@ import ProjectLogo from '../Imagesa/Images/dolcevita/logo.jpg';
 
 
 const Dolce = () => {
+    const [squarefeet, setsquarefeet] = useState([
+        {
+            bed: "2 BHk",
+            feet: 1267,
+            price: 94
+        },
+        {
+            bed: "2 BHK",
+            feet: 1274,
+            price: 94
+        },
+        {
+            bed: "3 BHK",
+            feet: 1718,
+            price: 128
+        },
+        {
+            bed: "3 BHK",
+            feet: 1758,
+            price: 129
+        },
+        {
+            bed: "3 BHK Large",
+            feet: 1911,
+            price: 141
+        },
+        {
+            bed: "3 BHK Large",
+            feet: 1924,
+            price: 142
+        },
+    ])
     return (
         <Layout title="prestige dolce vita | reviews | Location">
           <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Dolce Vita" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="94"/>
           <br/>
-         <OverviewComponent project="Dolce Vita Overview"/>
+         <OverviewComponent project="Dolce Vita Overview" />
+         <hr/>
+         <ConfigurationComponent project="Dolce Vita Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Dolce Vita Amenities"/>
          <hr/>

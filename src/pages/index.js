@@ -2,12 +2,8 @@ import React from "react"
 import NavBar from "../Components/NavBar"
 import Title from "../Components/Title"
 import Footer from "../Components/Footer"
-
-
 import SEOComponent from "../Components/SEO"
-import HighlightFormTwo from "../Components/HighlightFormTwo"
 import Slider from "../Components/Slider"
-import HighlightForm from "../Components/HighlightForm"
 import CardswithProjects from "../Components/Projects"
 import FirstSliderImage from '../Imagesa/Images/prestige-finsbury-park-hyde1.jpg';
 import SecondSliderImage from '../Imagesa/Images/willo/slider-one.jpg';
