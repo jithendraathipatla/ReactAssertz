@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useState} from 'react';
+import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -13,11 +14,50 @@ import ProjectLogo from '../Imagesa/Images/botanique/logo.jpg';
 
 
 const Botanique = () => {
+    const [squarefeet, setsquarefeet] = useState([
+        {
+            bed: "2 BHk",
+            feet: 1473,
+            price: 184
+        },
+        {
+            bed: "3 BHK",
+            feet: 1751,
+            price: 218
+        },
+        {
+            bed: "3 BHK",
+            feet: 1873,
+            price: 236
+        },
+        {
+            bed: "3 BHK",
+            feet: 1932,
+            price: 244
+        },
+        {
+            bed: "3 BHK",
+            feet: 1942,
+            price: 245
+        },
+        {
+            bed: "3 BHK",
+            feet: 2311,
+            price: 288
+        },
+        {
+            bed: "3 BHK",
+            feet: 2473,
+            price: 291
+        },
+    ])
     return (
         <Layout title="prestige Botanique| Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Botanique" location="In RV Road," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="184"/>
          <br/>
          <OverviewComponent project="Botanique Overview"/>
+         <hr/>
+         <ConfigurationComponent project="Botanique Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Botanique Amenities"/>
          <hr/>

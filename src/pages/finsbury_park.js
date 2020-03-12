@@ -1,5 +1,6 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Layout from '../Components/Layout';
+import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
@@ -12,11 +13,35 @@ import ProjectLogo from '../Imagesa/Images/finsbury.svg';
 
 
 const Finsbury = () => {
+    const [squarefeet, setsquarefeet] = useState([
+        {
+            bed: "1 BHk -  Hyde",
+            feet: "636 - 652",
+            price: 33.5
+        },
+        {
+            bed: "2 BHK - Hyde",
+            feet: "955 - 999",
+            price: 50.6
+        },
+        {
+            bed: "3 BHK + 2T - Regent",
+            feet: "1244 - 1277",
+            price: 63
+        },
+        {
+            bed: "3 BHK + 3T - Regent",
+            feet: "1431 - 1562",
+            price: 73
+        },
+    ])
     return (
         <Layout title="prestige finsbury park | reviews | Brouchere | Location">        
          <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="PRESTIGE FINSBURY PARK" location="In Bagular," attractiveone="Hurry! Only 1% GST" atteractivetwo="PMAY benefits" bedroomone="1, " bedroomtwo="2" bedroomthree="3" price="33.5"/>
          <br/>
          <OverviewComponent project="Finsbury Park Overview"/>
+         <hr/>
+         <ConfigurationComponent project="Finsbury park Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Finsbury Park Amenities"/>
          <hr/>

@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useState} from 'react';
+import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -11,12 +12,36 @@ import FourthSliderImage from '../Imagesa/Images/willo/slider-four.jpg';
 import ProjectLogo from '../Imagesa/Images/willo/logo.jpg';
 
 
-const willo = () => {
+const Willo = () => {
+    const [squarefeet, setsquarefeet] = useState([
+        {
+            bed: "1 BHk",
+            feet: "661 - 664",
+            price: 46
+        },
+        {
+            bed: "2 BHK",
+            feet: "1154",
+            price: 85
+        },
+        {
+            bed: "3 BHK",
+            feet: "1364 - 1596",
+            price: 100
+        },
+        {
+            bed: "3 BHK + Maid",
+            feet: "1812 - 1830",
+            price: 135
+        },
+    ])
     return (
         <Layout title="prestige willow tree | reviews | Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Willow Tree" location="In Vidyanarayapura," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="1, 2," bedroomtwo="3, 3.5" bedroomthree="3.5" price="46"/>
          <br/>
          <OverviewComponent project="Willo Tree Overview"/>
+         <hr/>
+         <ConfigurationComponent project="Willow Tree Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Wollow Tree Amenities"/>
          <hr/>
@@ -25,4 +50,4 @@ const willo = () => {
     );
 };
 
-export default willo;
+export default Willo;

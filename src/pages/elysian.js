@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useState} from 'react';
+import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -14,10 +15,34 @@ import ProjectLogo from '../Imagesa/Images/Elysian/logo.jpg';
 
 
 const Elysian = () => {
+    const [squarefeet, setsquarefeet] = useState([
+        {
+            bed: "2 BHk",
+            feet: "1109",
+            price: 86
+        },
+        {
+            bed: "3 BHK",
+            feet: "1342",
+            price: 104
+        },
+        {
+            bed: "3 BHK",
+            feet: "1617",
+            price: 125
+        },
+        {
+            bed: "3 BHK",
+            feet: "1810",
+            price: 140
+        },
+    ])
     return (
         <Layout title="prestige elysian | reviews | Brouchere | Location">
          <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Elysian" location="In Bannerghatta," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="86"/>
          <OverviewComponent project="Elysian Overview"/>
+         <hr/>
+         <ConfigurationComponent project="Elysian Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Elysian Amenities"/>
          <hr/>

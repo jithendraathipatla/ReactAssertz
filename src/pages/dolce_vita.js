@@ -17,32 +17,32 @@ const Dolce = () => {
     const [squarefeet, setsquarefeet] = useState([
         {
             bed: "2 BHk",
-            feet: 1267,
+            feet: "1267",
             price: 94
         },
         {
             bed: "2 BHK",
-            feet: 1274,
+            feet: "1274",
             price: 94
         },
         {
             bed: "3 BHK",
-            feet: 1718,
+            feet: "1718",
             price: 128
         },
         {
             bed: "3 BHK",
-            feet: 1758,
+            feet: "1758",
             price: 129
         },
         {
             bed: "3 BHK Large",
-            feet: 1911,
+            feet: "1911",
             price: 141
         },
         {
             bed: "3 BHK Large",
-            feet: 1924,
+            feet: "1924",
             price: 142
         },
     ])

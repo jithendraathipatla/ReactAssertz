@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useState} from 'react';
+import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -13,11 +14,50 @@ import ProjectLogo from '../Imagesa/Images/jindal/logo.jpg';
 
 
 const Jindal = () => {
+    const [squarefeet, setsquarefeet] = useState([
+        {
+            bed: "1 BHk",
+            feet: 607,
+            price: 48
+        },
+        {
+            bed: "2 BHK Compact",
+            feet: "962 - 984",
+            price: 73
+        },
+        {
+            bed: "2 BHK Regular",
+            feet: "1058 - 1111",
+            price: 80
+        },
+        {
+            bed: "3 BHK + 2T",
+            feet: "1373 - 1425",
+            price: 105
+        },
+        {
+            bed: "3 BHK + 3T",
+            feet: "1657 - 1719",
+            price: 123
+        },
+        {
+            bed: "4 BHK",
+            feet: "2075",
+            price: 150
+        },
+        {
+            bed: "3 BHK + Maid",
+            feet: "1711 - 1855",
+            price: 105
+        },
+    ])
     return (
         <Layout title="prestige jindal city | reviews | Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Jindal City" location="In TumKur," attractiveone="Pre_launch Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2, 3" bedroomthree="4" price="48"/>
          <br/>
-         <OverviewComponent project="Jindal city Overview"/>
+         <OverviewComponent project="Jindal City Overview"/>
+         <hr/>
+         <ConfigurationComponent project="Jindal City Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Jindal City Amenities"/>
          <hr/>

@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useState} from 'react';
+import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -11,12 +12,36 @@ import FourthSliderImage from '../Imagesa/Images/fontainebleau/slider-two.jpg';
 import ProjectLogo from '../Imagesa/Images/fontainebleau/logo.jpg';
 
 
-const amenities = () => {
+const Fontaine_bleau = () => {
+    const [squarefeet, setsquarefeet] = useState([
+        {
+            bed: "2 BHk",
+            feet: "1132",
+            price: 83
+        },
+        {
+            bed: "3 BHK Small",
+            feet: "1356",
+            price: 100
+        },
+        {
+            bed: "3 BHK",
+            feet: "1575",
+            price: 116
+        },
+        {
+            bed: "3 BHK",
+            feet: "1603",
+            price: 118
+        },
+    ])
     return (
         <Layout title="prestige fontaine bleau | reviews | Brouchere | Location">
          <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Fontaine Bleau" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="83"/>
          <br/>
          <OverviewComponent project="Fontaine Bleau Overview"/>
+         <hr/>
+         <ConfigurationComponent project="Fontaine Bleau Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Fontaine Bleau Amenities"/>
          <hr/>
@@ -25,4 +50,4 @@ const amenities = () => {
     );
 };
 
-export default amenities;
+export default Fontaine_bleau;

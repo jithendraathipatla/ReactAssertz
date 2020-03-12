@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useState} from 'react';
+import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -11,11 +12,35 @@ import FourthSliderImage from '../Imagesa/Images/Kew/slider-four.jpg';
 import ProjectLogo from '../Imagesa/Images/Kew/logo.jpg';
 
 const Key = () => {
+    const [squarefeet, setsquarefeet] = useState([
+        {
+            bed: "1 BHk",
+            feet: "615 - 634",
+            price: 86
+        },
+        {
+            bed: "2 BHK",
+            feet: "1146 - 1185",
+            price: 94
+        },
+        {
+            bed: "2 BHK + Study",
+            feet: "1291 - 1360",
+            price: 110
+        },
+        {
+            bed: "3 BHK",
+            feet: "1067",
+            price: 119
+        },
+    ])
     return (
         <Layout title="prestige kew gardens | reviews | Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to Move_In" project="Prestige Kew Gardens" location="In Yelamur," attractiveone="Ready to Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2" bedroomthree="3" price="86"/>
          <br/>
          <OverviewComponent project="Kew Gardens Overview"/>
+         <hr/>
+         <ConfigurationComponent project="Kew Gardens Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Kew Gardens Amenities"/>
          <hr/>

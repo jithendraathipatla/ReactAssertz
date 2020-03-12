@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useState} from 'react';
+import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -14,11 +15,35 @@ import ProjectLogo from '../Imagesa/Images/parksquare/logo.jpg';
 
 
 const Park = () => {
+    const [squarefeet, setsquarefeet] = useState([
+        {
+            bed: "2 BHk",
+            feet: 1115 - 1130,
+            price: 80
+        },
+        {
+            bed: "3 BHK + 2T",
+            feet: 1348 - 1385,
+            price: 97
+        },
+        {
+            bed: "3 BHK + 3T",
+            feet: 1596 - 1600,
+            price: 114
+        },
+        {
+            bed: "3 BHK + Maid",
+            feet: 1711 - 1855,
+            price: 105
+        },
+    ])
     return (
         <Layout title="prestige elysian | reviews | Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Park Square" location="In Bannerghatta," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="80"/>
          <br/>
          <OverviewComponent project="Park Square Overview"/>
+         <hr/>
+         <ConfigurationComponent project="Park Square Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Park Square Amenities"/>
          <hr/>
