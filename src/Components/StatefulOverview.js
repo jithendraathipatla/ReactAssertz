@@ -19,37 +19,37 @@ const StatefulOverview = () => {
     },
     {
         main_title:"Total Land Area",
-        sub_heading:"25 Aceres",
+        sub_heading:"5 Acer",
         image:TotalLandArea,
     },
     {
         main_title:"Total Units",
-        sub_heading:"3000 Units",
+        sub_heading:"501 Units",
         image:TotalUnits,
     },
     {
         main_title:"Number Of Floors",
-        sub_heading:"B + G + 20",
+        sub_heading:"B + G + 28",
         image:NumberOfFloors,
     },
     {
         main_title:"Total Towers",
-        sub_heading:"18 Towers",
+        sub_heading:"3 Blocks",
         image:TotalTowers,
     },
     {
         main_title:"Unit Varients",
-        sub_heading:"1,2 & 3 BHK",
+        sub_heading:"1.5,2 & 3 BHK",
         image:UnitVarients,
     },
     {
         main_title:"Possession Date",
-        sub_heading:"JUNE 2023",
+        sub_heading:"DEC 2023",
         image:PossessionDate,
     },
     {
         main_title:"Location",
-        sub_heading:"Baglur Road, Bangalore",
+        sub_heading:"KR Puram, Bangalore",
         image:Location,
     }
     ]);
@@ -59,7 +59,7 @@ const StatefulOverview = () => {
         return state.map((item,i)=>{
           return (
               <div key={i} className="properly">
-                <img src={item.image} alt={item.main_title} width="40px" />
+                <img src={item.image} alt={item.main_title} />
                 <div className="headings">
                  <h1>{item.main_title}</h1>
                  <h2>{item.sub_heading}</h2>
@@ -74,7 +74,7 @@ const StatefulOverview = () => {
        
         <div>
         <div style={{textAlign:"center"}}>
-        <Title title="FinsBury Park Overview"/>
+        <Title title="Auriga Overview"/>
         </div>
       
         <div className="Overview_main">

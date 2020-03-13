@@ -12,15 +12,17 @@ import SideMenu from '../Components/SideMenu';
 const gallery = () => {
     return (
         <div>
-            <SEOComponent title="Prestige FinsBury Park Regent Gallery | Prestige FinsBury Park Hyde Gallery | Prestige FinsBury Park" des="In this page you will be able to see the all Gallery of Prestige FinsBury Park starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Prestige FinsBury Park"/>
+            <SEOComponent title="Concorde Auriga Gallery | Auriga gallery | Concorde Auriga" des="In this page you will be able to see the all Gallery of Concorde Auriga starting from interior to the Floor Plan. You will be able to see all the Information about the Flooor plan, Master Plan and then the Images of Interiors and Exterior Parts of Concorde Auriga"/>
             <Navbar/>
             <SideMenu/>
             <div className="box">
-            <div style={{paddingTop:"7vh"}}>
+            <div style={{paddingTop:"10vh"}}>
             <div style={{textAlign:"center"}}>
-            <Titleabc title="FinsBury Park Gallery"/>
+            <Titleabc title="Auriga Gallery"/>
             </div>
-            <Description>Prestige FinsBury Park is a state-of-the-art residential assignment via Prestige homes. This undertaking has Township concept in which they're giving schools, Retails, industrial space and has pricey features and superb connectivity to all of the fundamental cities and is positioned at Baglur, Bangalore. This venture spread over 22 Acres of land in which they may be coming up with three phases,section one is already exceeded over to the glad client’s and segment 2 is underneath construction.</Description>
+            <Description>
+            <a href="http://concordeauriga.org.in/">Concorde Auriga</a> Gallery: When Heading Through Investment Decisions, The Prominent Thing. Individuals Are Often Uncertain About Whether To Buy A Property From An Existing Area Or A New One. Individuals Are Urged To Prefer Investing In Developing Sites, Existing Leading Sites. Since Rates Are Marginal In Developing Markets, There Is Room For Development With Regard To Land Value. It Is A Threat To Invest In Developed Areas As The Region Has Reached The Peak. Until Jumping To Conclusions, A Site Visit Before Position Is Necessary. Welcome To <a href="http://concordeauriga.org.in/">Concorde Auriga</a> Gallery
+            </Description>
            </div>
             <hr/>
             <GalleryComponent/>

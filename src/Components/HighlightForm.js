@@ -47,7 +47,7 @@ const HighlightForm = () => {
             </div>
                             
             <div className="form-group">
-                <input type="text" name="phone_no" placeholder="Your Phone" minlength="10" maxlength="20" title="Must have 10 digit numbers" pattern="^\d{10}$" required/>
+                <input type="text" name="phone_no" placeholder="Your Phone" minLength="10" maxLength="20" title="Must have 10 digit numbers" pattern="^\d{10}$" required/>
             </div>
                                         
                 <div className="form-button">

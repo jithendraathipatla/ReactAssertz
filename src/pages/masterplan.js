@@ -12,16 +12,18 @@ import '../GlobalStyles/styles.css';
 const masterplan = () => {
     return (
         <div>
-        <SEOComponent title="Prestige FinsBury Park Master Plan - Regent | Prestige FinsBury Park Master Plan - Hyde | Prestige FinsBury Park" des="This page is all about the Prestige FinsBury Park Master Plan. This page will allow you to see a detailed view on Master Plan of Prestige FinsBury Park  Property"/>
+        <SEOComponent title="concorde Auriga | masterplan | floorplan" des="This page is all about the concorde Auriga Master Plan. This page will allow you to see a detailed view on Master Plan of Concorde Auriga  Property"/>
         <Navbar/>
         <SideMenu/>
         <div className="box">
-        <div style={{paddingTop:"7vh"}}>
+        <div style={{paddingTop:"10vh"}}>
         <div style={{textAlign:"center"}}>
-        <Titleabc title="FinsBury Park MasterPlan"/>
+        <Titleabc title="Concorde Auriga MasterPlan"/>
         </div>
-        <Description>Prestige FinsBury Park is a state-of-the-art residential assignment via Assetz homes. This undertaking has Township concept in which they're giving schools, Retails, industrial space and has pricey features and superb connectivity to all of the fundamental cities and is positioned at Baglur, Bangalore. This venture spread over 22 Acres of land in which they may be coming up with three phases,section one is already exceeded over to the glad client’s and segment 2 is underneath construction.</Description>
-       </div>
+        <Description>
+          Get Updated <a href="http://concordeauriga.org.in/">Concorde Auriga</a> Prices and More, Regardless of whether you're On the SoftwareMarket or Buying a Coffee Pot, Finding the Best Price Is a Natural Part of the Purchase Decisionof Any Consumer. Value <a href="http://concordeauriga.org.in/">Concorde Auriga</a> Is Affordable And Is In Line With The Option OfAffordability Of The Consumer And Improved Living Standards In Surrounding Areas.Concorde Auriga Is The Best Choice For Luxury Hunters. Concorde Auriga Is An AttractiveInvestment For Wise Buyers Who Want To Own A Residence In Bangalore's GrowingCommercial Area, Medahalli KR Puram. Concorde Auriga Strives To Provide Its ProspectiveBuyers With The Finest And Comfortable Amenities. The Quality of Concorde AurigaMedahalli, With Rising Land Values Surrounding the Site. Makes It Ideal To Buy The PropertyNow At The Pre-Launch Price.
+        </Description>
+        </div>
         <hr/>
        <div style={{textAlign:"center"}}>
        <Titleabc title="Marq Master Plan"/>

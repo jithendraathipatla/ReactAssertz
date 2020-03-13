@@ -5,35 +5,51 @@ import TabContainer from '../Components/tabs';
 import Title from '../Components/Title';
 import LightHouseabc from '../Components/Lighthouse';
 
-import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
-import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
-import FloorPlanThree from '../Imagesa/Images/HydeFloor3.jpg';
-import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
-import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
-import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
-import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
-import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
+import floorOne from '../Imagesa/Images/gallery/Auriga-towerA-one.jpg';
+import floorTwo from '../Imagesa/Images/gallery/Auriga-towerA-two.jpg';
+import floorThree from '../Imagesa/Images/gallery/Auriga-towerA-three.jpg';
+import floorFour from '../Imagesa/Images/gallery/Auriga-towerA-four.jpg';
+import floorFive from '../Imagesa/Images/gallery/Auriga-towerA-five.jpg';
+import floorSix from '../Imagesa/Images/gallery/Auriga-towerA-six.jpg';
 
 
-import ExteriorFirst from '../Imagesa/Images/prestige-finsbury-park-hyde1.jpg';
-import ExteriorSecond from '../Imagesa/Images/prestige-finsbury-regent3.jpg';
-import ExteriorThird from '../Imagesa/Images/prestige-finsbury-regent2.jpg';
-import ExteriorFourth from '../Imagesa/Images/prestige-finsbury-regent4.jpg';
+import BfloorOne from '../Imagesa/Images/gallery/Auriga-towerB-one.jpg';
+import BfloorTwo from '../Imagesa/Images/gallery/Auriga-towerB-two.jpg';
+import BfloorThree from '../Imagesa/Images/gallery/Auriga-towerB-three.jpg';
+import BfloorFour from '../Imagesa/Images/gallery/Auriga-towerB-four.jpg';
+import BfloorFive from '../Imagesa/Images/gallery/Auriga-towerB-five.jpg';
+import BfloorSix from '../Imagesa/Images/gallery/Auriga-towerB-six.jpg';
+
+
+import CfloorOne from '../Imagesa/Images/gallery/Auriga-towerC-one.jpg';
+import CfloorTwo from '../Imagesa/Images/gallery/Auriga-towerC-two.jpg';
+import CfloorThree from '../Imagesa/Images/gallery/Auriga-towerC-three.jpg';
+import CfloorFour from '../Imagesa/Images/gallery/Auriga-towerC-four.jpg';
+import CfloorFive from '../Imagesa/Images/gallery/Auriga-towerC-five.jpg';
+import CfloorSix from '../Imagesa/Images/gallery/Auriga-towerC-six.jpg';
+import CfloorSeven from '../Imagesa/Images/gallery/Auriga-towerc-seven.jpg';
+
+
+import ExteriorFirst from '../Imagesa/Images/exterior_new1.jpg';
+import ExteriorSecond from '../Imagesa/Images/exterior_new2.jpg';
+import ExteriorThird from '../Imagesa/Images/exterior_new3.jpg';
+import ExteriorFourth from '../Imagesa/Images/exterior_new4.jpg';
+import ExteriorFifth from '../Imagesa/Images/exterior_new5.jpg';
+
 
 import InteriorOne from '../Imagesa/Images/latestBedroom.jpg';
 import InteriorTwo from '../Imagesa/Images/latestDining.jpg';
 import InteriorThree from '../Imagesa/Images/latestHall.jpg';
 import InteriorFour from '../Imagesa/Images/latestPeace.jpg'; 
 
-import MasterPlanabcd from '../Imagesa/Images/masterplan-hyde.jpg';
-import Masterplanregent from '../Imagesa/Images/master.jpg';
+import MasterPlanabcd from '../Imagesa/Images/gallery/Auriga-master.jpg';
 
 
 
 const Gallery = () => {
     const [exterior, setexterior] = useState([
         {
-             name:"Outermost view",
+             name:"Pool View",
              image: ExteriorFirst
         },
         {
@@ -41,12 +57,16 @@ const Gallery = () => {
              image: ExteriorSecond
         },
         {
-            name:"From the Pool View",
+            name:"Nuture View",
             image: ExteriorThird
         },
         {
             name:"Areal view",
             image: ExteriorFourth
+        },
+        {
+            name:"Outerdoor Space",
+            image: ExteriorFifth
         }
         ]);
 
@@ -69,69 +89,123 @@ const Gallery = () => {
             }]);
 
 
-            const [floorsetone, setfloorsetone] = useState([
+            const [floorPlan, setfloorPlan] = useState([
                 {
-                name:"646 SqFt",
-                image: FloorPlanOne
+                  name:"1151 Sq.ft",
+                  image: floorOne,
                 },
                 {
-                 name:"652 SqFt",
-                 image: FloorPlanTwo
+                  name:"1361 Sq.ft",
+                  image:floorTwo,
+                },
+               
+                {
+                  name:"1074 Sq.ft",
+                  image: floorThree,
+                },
+                 {
+                  name:"1758 Sq.ft",
+                  image: floorFour,
+                },
+                
+                {
+                  name:"1351 Sq.ft",
+                  image: floorFive,
                 },
                 {
-                    name:"984 SqFt",
-                    image: FloorPlanThree
+                  name:"1164 Sq.ft",
+                  image: floorSix,
+                },
+              
+              ]);
+          
+          
+              const [BfloorPlan, BsetfloorPlan] = useState([
+                {
+                  name:"833 Sq.ft",
+                  image: BfloorOne,
                 },
                 {
-                    name:"999 SqFt",
-                    image: FloorPlanFour
-             }]);
-
-
-             const [floorsettwo, setfloorsettwo] = useState([
+                  name:"1371 Sq.ft",
+                  image:BfloorTwo,
+                },
+               
                 {
-                name:"1224 SqFt",
-                image: FloorPlanFive
+                  name:"1139 Sq.ft",
+                  image: BfloorThree,
+                },
+                 {
+                  name:"1097 Sq.ft",
+                  image: BfloorFour,
+                },
+                
+                {
+                  name:"837 Sq.ft",
+                  image: BfloorFive,
                 },
                 {
-                 name:"1277 SqFt",
-                 image: FloorPlanSix
+                  name:"1344 Sq.ft",
+                  image: BfloorSix,
+                },
+              
+              ]);
+          
+              const [CfloorPlan, CsetfloorPlan] = useState([
+                {
+                  name:"1344 Sq.ft",
+                  image: CfloorOne,
                 },
                 {
-                    name:"1473 SqFt",
-                    image: FloorPlanseven
+                  name:"1312 Sq.ft",
+                  image:CfloorTwo,
+                },
+               
+                {
+                  name:"1136 Sq.ft",
+                  image: CfloorThree,
+                },
+                 {
+                  name:"1758 Sq.ft",
+                  image: CfloorFour,
+                },
+                
+                {
+                  name:"1074 Sq.ft",
+                  image: CfloorFive,
                 },
                 {
-                    name:"1562 SqFt",
-                    image: FloorPlanEight
-             }]);
-
+                  name:"1744 Sq.ft",
+                  image: CfloorSix,
+                },
+                {
+                  name:"1366 Sq.ft",
+                  image: CfloorSeven,
+                },
+              
+              ]);
 
 
         const [masterplan, setmasterplan] = useState([
             {
-                name:"Master Plan Hyde",
-                image:MasterPlanabcd
+                name:"Master Plan",
+                image:MasterPlanabcd,
             },
-            {
-                name:"Master Plan Regent",
-                image:Masterplanregent
-            }
+           
         ]);
 
     return (
-        <div>
+        <div className="maingallery">
             <div style={{textAlign:"center"}}>
-            <TitleComponent title="Finsbury Park Gallery"/>
+            <TitleComponent title="Auriga Gallery"/>
             <br/>
             <div  className="galleryImages">
               <div>
               <Title title="Interior, Exterior & Masterplan"/>
-              <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" number="2" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior} height="200px"/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd, Masterplanregent]} state={masterplan}/>}/>
+              <TabContainer title1="Exterior" title2="Interior" title3="Master Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior} height="200px"/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>}  mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>} />
               </div>
               <div>
-              <Title title="Finsbury Park Floor Plans"/>
-              <TabContainer title1="Hyde" title2="Regent"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]} state={floorsetone}/>}  interior={<LightHouseabc images={[FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]} state={floorsettwo}/>} mplan="Please Check other Sections"/>
+              <Title title="Auriga Floor Plans"/>
+              <TabContainer title1="Tower A" title2="Tower B" title3="Tower C" interior={<LightHouseabc images={[floorOne, floorTwo, floorThree, floorFour, floorFive, floorSix]} state={floorPlan} />} exterior={<LightHouseabc images={[BfloorOne, BfloorTwo, BfloorThree, BfloorFour, BfloorFive, BfloorSix]} state={BfloorPlan}/>}  mplan={<LightHouseabc images={[CfloorOne, CfloorTwo, CfloorThree, CfloorFour, CfloorFive, CfloorSix, CfloorSeven]} state={CfloorPlan}/>} /> 
               </div>
             </div>             
             </div>

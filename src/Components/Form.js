@@ -60,7 +60,7 @@ const Form = () => {
   <label className="label">Phone Number</label>
   <div className="control">
   <div className="controlabc">
-  <select name="countryCode" id="aaaselect" style={{width: "83px"}} className="form-control">
+  <select name="countryCode" id="aaaselect" style={{width: "83px", height:"38px"}} className="form-control">
   <option data-countrycode="IN" value="91">Ind (+91)</option>
     <option data-countrycode="DZ" value="213">Algeria (+213)</option>
     <option data-countrycode="AD" value="376">Andorra (+376)</option>
@@ -276,7 +276,7 @@ const Form = () => {
     <option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
   
 </select>
-    <input className="input" type="number" name="phone" required minlength="10" maxlength="20" title="Must have 10 digit numbers" pattern="^\d{10}$" value={phone}  placeholder="e.g. 999999999"/>
+    <input className="input" type="number" name="phone" required minLength="10" maxLength="20" title="Must have 10 digit numbers" pattern="^\d{10}$" value={phone}  placeholder="e.g. 999999999"/>
     </div>
   </div>
   </div>

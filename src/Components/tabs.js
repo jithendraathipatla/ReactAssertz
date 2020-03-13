@@ -19,7 +19,7 @@ function TabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && <Box p={props.number}>{children}</Box>}
+      {value === index && <Box p={3}>{children}</Box>}
     </Typography>
   );
 }
@@ -58,9 +58,10 @@ export default function SimpleTabs(props) {
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
           <Tab label={props.title1} {...a11yProps(0)} />
           <Tab label={props.title2} {...a11yProps(1)} />
-          <Tab label={props.title3} {...a11yProps(props.number)} />
+          <Tab label={props.title3} {...a11yProps(2)} />
         </Tabs>
       </AppBar>
+      <br/>
       <TabPanel value={value} index={0}>
         {props.exterior}
       </TabPanel>

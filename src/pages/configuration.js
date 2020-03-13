@@ -11,18 +11,22 @@ import SideMenu from '../Components/SideMenu';
 const configuration = () => {
     return (
         <div>
-           <SEOComponent title="Prestige Properties | Prestige Constructions | Prestige FinsBury Park" des="This website Provides a whole lot of information on the Prestige FinsBury Park Property. You will find about Total land area the Prestige FinsBury Park has come-up with , number of Uits that it owns and many more"/>
+           <SEOComponent title="Concorde Group | Concorde Builders  | Concorde Auriga" des="This website Provides a whole lot of information on the concorde Auriga Property. You will find about Total land area the concorde Auriga has come-up with , number of Uits that it owns and many more"/>
            <Navbar/>
            <SideMenu/>
            <div className="box">
          
-           <div style={{paddingTop:"7vh"}}>
+           <div style={{paddingTop:"10vh"}}>
            <div style={{textAlign:"center"}}>
-           <Titleabc title="FinsBury Park Configuration"/>
+           <Titleabc title="Auriga Configuration"/>
            </div>
            <Description>      
-               Bagalur Road is now one of the finest and rapidly developing region in the Bangalore North. Baglur is also equiped with all the facilities and properties from reputed gaints. Prestige Finsbury park is located off Bagalur, which exactly is in Gummanahalli, of North Banglore. As the Prestige we are comitted to offer the best suited amenities to it's customers. Keeping every economic section in mind Prestige Finsbury is spreadind with luxurious 1,2,3 BHK Homes. So we reveal the most exiciting part, How much do you thisnk is the distance between the Prestige Finsbury park to the Kempedowda International Airport ?, "It is just 13.2 Km". On any normal day it will be with in 20minutes travell from the Kempedowda International airport.
-         </Description>
+            <a href="http://concordeauriga.org.in/">Concorde Auriga</a> Apartments Is Thoughtfully Designed In Manner It Can Take Care Of Every Family Needs, Be It Small Or Large. Today When We Have A First Job In It Its Mostly Located In Whitefield Or ITPL And It Would Be A First Job Of A Fresher. Lease Is Going High Day By Day With No Value Of Money. So Here Concorde Group With Its New Project  <a href="http://concordeauriga.org.in/">Concorde Auriga</a> Apartments Old Madras Road KR Puram Has Done Its Best Designed To Accommodate A Fresher Who Has Joined Into His New Job And Will Be Very Soon Looking To Buy A New Home. 
+            <br/>
+            <br/>
+            <a href="http://concordeauriga.org.in/">Concorde Auriga</a> Apartments On Old Madras Road Has Come With Compact 2 Bhk Which Will Easily Accommodate Is Luxury Living In 2 BhkWhere He Is Not Worried If He Has Guest Coming To His Home. He CanAccommodate Them Easily And The Price Is Such That Buy The Time TheProperty Is Completed He Would Be Comfortably Paying His Emi's With NoAdditional Burden To Him. Approaching People Who Are Already Settled And Looking For Larger 2 Bhk Home In Old Madras Road, Will Have TheOption To Choose Amongst The Larger Variant Available In Bhk. FamiliesAre Growing As Well Property Prices Are, Where There Is Need Of AndAdditional Room For Kid's Or A Study Room, Here We Provide You To GoWith An Additional Option Of 2.5 Bhk Apartment At Auriga.
+            
+           </Description>
            </div>
           
            <hr/>

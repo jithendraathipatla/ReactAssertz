@@ -1,12 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import favicon from '../Imagesa/Images/favicon.jpg';
-
-
 
 const SiteMetadata = ({ pathname, locale, title, des }) => {
-
-
   return (
     <Helmet defer={false} defaultTitle={title} titleTemplate={`%s | ${title}`}>
       <html lang={locale} />
@@ -15,15 +10,17 @@ const SiteMetadata = ({ pathname, locale, title, des }) => {
         name="viewport"
         content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover"
       />
-      <link rel="icon" href={favicon} />
       <meta name="description" content={des} />
       <meta property="og:url" content={pathname} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content={locale} />
       <meta property="og:site_name" content={des} />
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>      
+      <link
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+        rel="stylesheet"
+      />
     </Helmet>
   )
 }
 
-export default SiteMetadata;
+export default SiteMetadata

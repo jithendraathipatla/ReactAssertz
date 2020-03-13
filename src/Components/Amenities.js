@@ -99,7 +99,7 @@ const Amenities = () => {
         return state.map((item,i)=>{
             return(
                 <div key={i} >
-                   <img src={item.img} alt={item.name} width="50px"/>
+                   <img src={item.img} alt={item.name} width="30px"/>
                    <h1>{item.name}</h1>
                 </div>
             )
@@ -108,7 +108,7 @@ const Amenities = () => {
     return (
         <div>
             <div style={{textAlign:"center"}}>
-                <Title title="FinsBury Park Amenities"/>
+                <Title title="Auriga Amenities"/>
             </div>
             <div className="Amenities_main">
             {displayingAmenities()}

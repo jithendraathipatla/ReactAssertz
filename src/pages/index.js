@@ -1,76 +1,112 @@
-import React from "react";
-import NavBar from '../Components/NavBar';
-import Title from '../Components/Title';
-import Footer from '../Components/Footer';
-import Overview from '../Components/StatefulOverview';
-import ConfigurationPart from '../Components/Configration';
-import Description from '../Components/Description';
-import Gallery from '../Components/Gallery';
-import LocationPart from '../Components/Location';
-import Amenities from '../Components/Amenities';
-import SEOComponent from '../Components/SEO';
-import HighlightFormTwo from '../Components/HighlightFormTwo';
-import Slider from '../Components/Slider';
-import TabsContainerOne from '../Components/Costing';
-import SideMenuBar from '../Components/SideMenu';
-import HighlightForm from '../Components/HighlightForm';
-
-
+import React from "react"
+import NavBar from "../Components/NavBar"
+import Title from "../Components/Title"
+import Footer from "../Components/Footer"
+import Overview from "../Components/StatefulOverview"
+import ConfigurationPart from "../Components/Configration"
+import Description from "../Components/Description"
+import Gallery from "../Components/Gallery"
+import LocationPart from "../Components/Location"
+import Amenities from "../Components/Amenities"
+import SEOComponent from "../Components/SEO"
+import HighlightFormTwo from "../Components/HighlightFormTwo"
+import Slider from "../Components/Slider"
+import TabsContainerOne from "../Components/Costing"
+import SideMenuBar from "../Components/SideMenu"
+import HighlightForm from "../Components/HighlightForm"
 
 export default () => {
-    return(
-        <div >
-        <div className="backgroundSlider">
-          <SEOComponent title="Prestige FinsBury Park | Prestige FinsBury Park - Hyde,Regent" des="This webpage provides all the Information on Prestige FinsBury Park . You will be able to see all the related Information on Prestige FinsBury park [Hyde, Regent], starting from Overview of the Project to the Location."/>
-          <NavBar/>
-          <div className="slider">
-         
-          <Slider/>
-          </div>
-          <div className="backgroundForm">
-          <HighlightForm/>
-          </div>
-          <div className="backgroundFormTwo">
-          <HighlightFormTwo/>
-          </div>
-          </div>
-          <SideMenuBar/>
-          <div className="box" >
-        
-          <div style={{textAlign:"center", marginTop:"-30px"}} className="normaling" >
-           <Title title="About Prestige Finsbury Park"/>
-           </div>
-          <Description>
-          <p style={{textAlign:"justify"}}>
-          Prestige Finsbury Park is the most awaited residential town coming_up in North Banaglore,
-           KIADB area, Just right adjacent to the Aerospace and Hardware Park. 
-           The Prestige Finsbury is close to Kempedowda International Airport, Devanahalli.
-            The north Bangalore is the New Launch hot and serious property investement where you wanna be. 
-            It comprises of all the needs from Quality schools to luxurious Malls. Prestige Finsbury is the new launch and it is in the heart of banglore, 
-            so the property is becoming sensation by it name and it's locality. Prestige Finsbury park has the good connectivity to all the famious destinations of Bangalore by the wide and well Laid Outer-Ring-Road. 
-          It also has a very good connectivity to Bellary Road.
-        </p>
-        </Description>
-        <hr/>
-        <Overview/>
-        <hr/>
-        <div className="configurationimage">
-        <ConfigurationPart/>
+  return (
+    <div>
+      <div className="backgroundSlider">
+        <SEOComponent
+          title="Concorde Auriga | Old Madras Road | Bangalore | KR Puram"
+          des="Concorde Auriga offers 2, 3 BHK Apartments starting @ 43.0 Lacs. Concorde Auriga Location is in Old Madras Road, Bangalore. know more on, Location, Floor Plan, Gallery  within this page"
+        />
+        <NavBar />
+        <div className="slider">
+          <Slider />
         </div>
-        <hr/>
-        <Gallery/>
-        <hr/>
-        <Amenities/>
-        <hr/>
-        <TabsContainerOne/>
-        <hr/>
-        
-        <LocationPart/>
-         
-          </div>
-       
-           <Footer/>
-          </div>
-       
-    )
+        <div className="backgroundForm">
+          <HighlightForm />
+        </div>
+      </div>
+      <SideMenuBar />
+      <div className="box">
+        <div style={{ textAlign: "center" }} className="normaling">
+          <Title title="About Concorde Auriga" />
+        </div>
+        <Description>
+          <p style={{ textAlign: "justify" }}>
+            <a href="http://concordeauriga.org.in/">Concorde Auriga Review </a>{" "}
+            is the new launch Property in Medahalli, near KR Puram Old Madras
+            Road, Bangalore. The Property is spread across 5.2 Acer Land at Old
+            Madras Road, Medahalli. This property has more than 500 units with 3
+            Towers and has G + 29 Floors. Amenities inside this Beautifully
+            Crafted Project include Clubhouse, Landscaped Garden, Gymnasium,
+            Swimming Pool, 24/7 Power Backup, Outdoor Sports Club, Children’s
+            Play Area, Convention Hall, and with most of the vacant area
+            dedicated to the Fresh and Natural Air. Beside this project you
+            would have a beautiful lake, where you would be able to enjoy nature
+            at its best in a vast city like Bangalore. The builders of this
+            project are from concorde Group, they have designed this project in
+            such a way that the sunlight will be available in all parts of the
+            day and will have a good and quality air access to all the Residents
+            of this beautifully planned Project.
+            <br />
+            <br />
+            <a href="http://concordeauriga.org.in/">Concorde Auriga</a> is
+            coming_up in an area where the city has access to Bangalore's best
+            Schools, Parks, Clinic’s, Tech parks’s, Shopping Centers and IT
+            work-spaces. On any given day one could reach these spaces within a
+            short span of Time. Auriga has beautifully designed homes, where you
+            would be able to see the lake view through the glass view, this view
+            gives a lot of happiness to all the nature Lovers. What separates
+            you from enjoying the bliss inside the{" "}
+            <a href="http://concordeauriga.org.in/">Concorde Auriga</a> is its
+            possession. It is in its last leg before opening its gates to the
+            fortunate customers.
+            <br />
+            <br />
+            Talking about the access to the famous parts of Bangalore, this
+            project has access to all the parts of City. It is just 14.3 KM from
+            the world famous MG Road Bangalore. The closest station from the
+            Project is just 5.9 KM away. Want to reach the other parts of India
+            through Airways? Then they have got you covered, the International
+            Airport is just 13.2 KM away. The KR Puram Railway Station is Just
+            nearby.
+            <br />
+            <br />
+            This property is also in the Vicinity to reach all the hospitals in
+            case of emergencies. Some of the hospitals to reach include Columbia
+            Asia hospital, VIMS Hospital, Janapriya Hospital, MGA Hospital and
+            Many more.
+            <a href="http://concordeauriga.org.in/">Concorde Auriga</a> has a
+            beautiful Gallery. The Floor Plan and Master Plan are designed in
+            such a way that it will win the hearts of every Customer wishing to
+            buy their dream homes. You can review the property by just visiting
+            the site. You could leave all of your details here for free sit
+            visit.
+          </p>
+        </Description>
+        <hr />
+        <Overview />
+        <hr />
+        <div>
+          <ConfigurationPart />
+        </div>
+        <hr />
+        <Gallery />
+        <hr />
+        <Amenities />
+        <hr />
+        <TabsContainerOne />
+        <hr />
+
+        <LocationPart />
+      </div>
+
+      <Footer />
+    </div>
+  )
 }
