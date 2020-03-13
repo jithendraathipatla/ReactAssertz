@@ -7,7 +7,6 @@ import 'react-image-lightbox/style.css';
 const Lighthouse = (props) => {
   const images = props.images;
   const [state, setstate] = useState(props.state);
-  console.log(state, images);
   const displayingGallery = () => {
     return state.map((item,i)=>{
       return(

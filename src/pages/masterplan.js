@@ -18,7 +18,7 @@ const masterplan = () => {
         <div className="box">
         <div style={{paddingTop:"10vh"}}>
         <div style={{textAlign:"center"}}>
-        <Titleabc title="Concorde Auriga MasterPlan"/>
+        <Titleabc title="Auriga MasterPlan"/>
         </div>
         <Description>
           Get Updated <a href="http://concordeauriga.org.in/">Concorde Auriga</a> Prices and More, Regardless of whether you're On the SoftwareMarket or Buying a Coffee Pot, Finding the Best Price Is a Natural Part of the Purchase Decisionof Any Consumer. Value <a href="http://concordeauriga.org.in/">Concorde Auriga</a> Is Affordable And Is In Line With The Option OfAffordability Of The Consumer And Improved Living Standards In Surrounding Areas.Concorde Auriga Is The Best Choice For Luxury Hunters. Concorde Auriga Is An AttractiveInvestment For Wise Buyers Who Want To Own A Residence In Bangalore's GrowingCommercial Area, Medahalli KR Puram. Concorde Auriga Strives To Provide Its ProspectiveBuyers With The Finest And Comfortable Amenities. The Quality of Concorde AurigaMedahalli, With Rising Land Values Surrounding the Site. Makes It Ideal To Buy The PropertyNow At The Pre-Launch Price.

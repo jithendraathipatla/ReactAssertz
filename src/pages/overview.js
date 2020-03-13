@@ -18,7 +18,7 @@ const overview = () => {
         <div className="box">
         <div style={{paddingTop:"10vh"}}>
         <div style={{textAlign:"center"}}>
-        <Titleabc title="FinsBury Park Overview"/>
+        <Titleabc title="Auriga Overview"/>
           </div>
            <Description>
 
