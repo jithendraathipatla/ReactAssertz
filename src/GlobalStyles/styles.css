@@ -17,7 +17,7 @@ body{
     width: -webkit-fill-available;
     font-size: 16px;
     color: black;
-    margin-bottom: 0.7em;
+    margin-bottom: 1em;
 }
 
 .field .label{
@@ -741,7 +741,7 @@ body{
 }
 
 .normaling{
-  margin-top: -120px !important;
+  margin-top: -100px !important;
 }
   .nav-links a {
     display: block;
@@ -768,13 +768,15 @@ body{
   }
   .modalbuttonsmall{
     display: flex;
+    font-size: 0.8em;
+    text-align: center;
   }
   .main_logo1{
     width:200px;
   }
 
   .nav-btn{
-   color:#d3b169;
+   color:black;
   }
 
   .carousel-captiona h1 {
@@ -825,7 +827,7 @@ body{
     display: grid;
     grid-template-columns: 3fr 3fr;
     grid-gap: 26px 44px;
-    padding-left: 20px;
+    padding-left: 53px;
   }
 
   .costingPart{
@@ -837,13 +839,14 @@ body{
   }
   .Overview_main h2 {
     padding-top: 0px;
+    font-size:12px
   }
   .Overview_main{
     display: grid;
-    grid-template-columns: 7fr 5fr;
+    grid-template-columns: 4fr 5fr;
     grid-gap: 14px 50px;
-    margin-left: 0px;
-    padding: 11px 20px;
+    margin-left: 4px;
+    padding: 11px 38px;
   }
 
   .Overview_main .headings {
@@ -872,5 +875,31 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .images-in-grid img {
+    height: 170px;
+    border: 1px solid #eee;
+    width: 130px;
+  }
+  .tabelhead {
+    font-size: 0.7em;
+  }
+  .tabelbody td {
+    font-size: 0.6em;
+    padding:2px;
+  }
+  .tabelmain{
+    padding:0px;
+    margin:5px;
+  }
+  .Overview_main h1 {
 
+    font-size: 13px;
+  }
+  .maingallery {
+    padding: 0px 0px 30px 0px;
+  }
+
+  #mapframe{
+    margin-right: 20px;
+  }
 }

@@ -62,7 +62,7 @@ const Sidemenu = (props) => {
       let finalformdata = {
         name:vaueone,
         phonenumber:phoneone,
-        PropertyName:"Prestige FinsBury Park",
+        PropertyName:"Concorde Auriga",
       }
       var data = {
         service_id: 'gmail',
@@ -72,9 +72,7 @@ const Sidemenu = (props) => {
       }
   
      axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
-    .then(res => {
-      console.log(res);
-      console.log(res.data); 
+    .then(res => { 
       alert("You will now be redirected.");
       window.location = "/download/";
     }).catch((e)=>{
@@ -91,7 +89,7 @@ const Sidemenu = (props) => {
       let finalformdata = {
         name:vaueone,
         phonenumber:phonetwo,
-        PropertyName:"Prestige FinsBury Park",
+        PropertyName:"Concorde Auriga",
       };
       var data = {
         service_id: 'gmail',
@@ -102,8 +100,6 @@ const Sidemenu = (props) => {
   
     axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
     .then(res => {
-      console.log(res);
-      console.log(res.data);
       alert("You will now be redirected.");
       window.location = "/download/";
     })
