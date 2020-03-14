@@ -40,7 +40,7 @@ const Willo = () => {
         <Layout title="prestige willow tree | reviews | Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Willow Tree" location="In Vidyanarayapura," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="1, 2," bedroomtwo="3, 3.5" bedroomthree="3.5" price="46"/>
          <br/>
-         <OverviewComponent project="Willo Tree Overview"/>
+         <OverviewComponent project="Willo Tree Overview" loc="Vidyaranyapura" area="6.73 Acer" units="451" towers="5T" floors="G+10,11 Floors" var="1,2,3 & 3.5 Bhk" poss="mid 2022"/>
          <hr/>
          <ConfigurationComponent project="Willow Tree Configuration" tabelone={squarefeet}/>
          <hr/>

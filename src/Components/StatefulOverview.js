@@ -19,37 +19,37 @@ const StatefulOverview = (props) => {
     },
     {
       main_title: "Total Land Area",
-      sub_heading: "Comming Soon",
+      sub_heading: props.area,
       image: TotalLandArea,
     },
     {
       main_title: "Total Units",
-      sub_heading: "Comming Soon",
+      sub_heading: props.units,
       image: TotalUnits,
     },
     {
       main_title: "Number Of Floors",
-      sub_heading: "Comming Soon",
+      sub_heading: props.floors,
       image: NumberOfFloors,
     },
     {
       main_title: "Total Towers",
-      sub_heading: "Comming Soon",
+      sub_heading: props.towers,
       image: TotalTowers,
     },
     {
       main_title: "Unit Varients",
-      sub_heading: "Comming Soon",
+      sub_heading: props.var,
       image: UnitVarients,
     },
     {
       main_title: "Possession Date",
-      sub_heading: "Comming Soon",
+      sub_heading: props.poss,
       image: PossessionDate,
     },
     {
       main_title: "Location",
-      sub_heading: "Comming Soon",
+      sub_heading: props.loc,
       image: Location,
     },
   ])
@@ -81,12 +81,12 @@ const StatefulOverview = (props) => {
 const overview_main = css`
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-gap: 40px 50px;
-  margin-left: 40px;
+  grid-gap: 40px 20px;
+  margin-left: 30px;
   margin-bottom:30px;
-  padding: 10px;
+  padding: 10px 30px 10px 10px;
   img {
-    border: 1px solid #eeee;
+    box-shadow:0px 0px 1px 2px rgba(0,0,0,0.5);
     padding: 10px;
     border-radius: 15%;
     background: linear-gradient(to bottom, #ff00000f, #ffff002e);
@@ -95,6 +95,9 @@ const overview_main = css`
 
 const properly = css`
   display: flex;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.09);
+    border-radius: 5px;
+    padding: 10px 20px;
 `
 const headings = css`
   padding-left: 20px;

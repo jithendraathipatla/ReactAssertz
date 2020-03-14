@@ -55,7 +55,7 @@ const Song = () => {
         <Layout title="prestige song of south | reviews | Brouchere | Location">        
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to MoveIn" project="Prestige Song of South" location="In Begur Road," attractiveone="Ready_to_move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1,2,3.5 " bedroomtwo="3,3.5" bedroomthree="4" price="39.4"/>
          <br/>
-         <OverviewComponent project="Song of South Overview"/>
+         <OverviewComponent project="Song of South Overview" loc="Begur" area="33 Acer" units="2234" towers="16T" floors="G+15,17,20 Floors" var="1,2,2.5,3.5 & 3 Bhk" poss="mid 2019"/>
          <hr/>
          <ConfigurationComponent project="Song of South Configuration" tabelone={squarefeet}/>
          <hr/>

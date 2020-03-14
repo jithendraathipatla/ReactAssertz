@@ -51,7 +51,7 @@ const Dolce = () => {
         <Layout title="prestige dolce vita | reviews | Location">
           <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Dolce Vita" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="94"/>
           <br/>
-         <OverviewComponent project="Dolce Vita Overview" />
+         <OverviewComponent project="Dolce Vita Overview" loc="Whitefield" area="1.36 Acer" units="66" towers="2T" floors="G+7+8 Floors" var="2&3 Bhk" poss="2021"/>
          <hr/>
          <ConfigurationComponent project="Dolce Vita Configuration" tabelone={squarefeet}/>
          <hr/>

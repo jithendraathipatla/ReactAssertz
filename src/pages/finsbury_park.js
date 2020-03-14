@@ -41,7 +41,7 @@ const Finsbury = () => {
         <Layout title="prestige finsbury park | reviews | Brouchere | Location">        
          <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="PRESTIGE FINSBURY PARK" location="In Bagular," attractiveone="Hurry! Only 1% GST" atteractivetwo="PMAY benefits" bedroomone="1, " bedroomtwo="2" bedroomthree="3" price="33.5"/>
          <br/>
-         <OverviewComponent project="Finsbury Park Overview"/>
+         <OverviewComponent project="Finsbury Park Overview" loc="Baglur Road" area="Hyde:15, Regent:10 A" units="Hyde:2092, Regent: 958" towers="12T" floors="B+G+20 Floors" var="1,2&3 Bhk" poss="2023"/>
          <hr/>
          <ConfigurationComponent project="Finsbury park Configuration" tabelone={squarefeet}/>
          <hr/>

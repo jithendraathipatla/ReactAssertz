@@ -56,7 +56,7 @@ const Jindal = () => {
         <Layout title="prestige jindal city | reviews | Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Jindal City" location="In TumKur," attractiveone="Pre_launch Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2, 3" bedroomthree="4" price="48"/>
          <br/>
-         <OverviewComponent project="Jindal City Overview"/>
+         <OverviewComponent project="Jindal City Overview" loc="Tumkur" area="32 Acer" units="3571" towers="15T" floors="G+27+28 Floors" var="1,2,3 & 4 Bhk" poss="2021(P1)"/>
          <hr/>
          <ConfigurationComponent project="Jindal City Configuration" tabelone={squarefeet}/>
          <hr/>

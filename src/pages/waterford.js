@@ -34,7 +34,7 @@ const Waterford = () => {
         <Layout title="prestige waterford | ITPL | Brouchere | Location">
           <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Waterford" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="3" bedroomthree="4" price="_ _"/>
           <br/>
-         <Overcomponent project="Waterford Overview"/>
+         <Overcomponent project="Waterford Overview" loc="Whitefield" area="Coming Soon" units="Coming Soon" towers="Coming Soon" floors="Coming Soon" var="Coming Soon" poss="Coming Soon"/>
          <hr/>
          <ConfigurationComponent project="Waterford Configuration" tabelone={squarefeet}/>
          <hr/>

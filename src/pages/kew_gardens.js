@@ -39,7 +39,7 @@ const Key = () => {
         <Layout title="prestige kew gardens | reviews | Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to Move_In" project="Prestige Kew Gardens" location="In Yelamur," attractiveone="Ready to Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2" bedroomthree="3" price="86"/>
          <br/>
-         <OverviewComponent project="Kew Gardens Overview"/>
+         <OverviewComponent project="Kew Gardens Overview" loc="Yelamur" area="15.74 Acer" units="979" towers="16T" floors="G+4 Floors" var="1,2&3 Bhk" poss="2019"/>
          <hr/>
          <ConfigurationComponent project="Kew Gardens Configuration" tabelone={squarefeet}/>
          <hr/>

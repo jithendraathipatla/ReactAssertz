@@ -42,7 +42,7 @@ const Park = () => {
         <Layout title="prestige elysian | reviews | Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Park Square" location="In Bannerghatta," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="80"/>
          <br/>
-         <OverviewComponent project="Park Square Overview"/>
+         <OverviewComponent project="Park Square Overview" loc="Bannerghatta" area="8 Acer" units="586" towers="3T" floors="3B+G+27 Floors" var="2&3 Bhk" poss="2021"/>
          <hr/>
          <ConfigurationComponent project="Park Square Configuration" tabelone={squarefeet}/>
          <hr/>

@@ -40,7 +40,7 @@ const Fontaine_bleau = () => {
         <Layout title="prestige fontaine bleau | reviews | Brouchere | Location">
          <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Fontaine Bleau" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="83"/>
          <br/>
-         <OverviewComponent project="Fontaine Bleau Overview"/>
+         <OverviewComponent project="Fontaine Bleau Overview" loc="Whitefield" area="1.05 Acer" units="60" towers="2T" floors="G+10 Floors" var="2&3 Bhk" poss="2021"/>
          <hr/>
          <ConfigurationComponent project="Fontaine Bleau Configuration" tabelone={squarefeet}/>
          <hr/>
