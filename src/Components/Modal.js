@@ -1,29 +1,86 @@
-import React,{useState} from 'react';
-import Modalabc from 'react-responsive-modal';
-import Form from './Form';
-import '../GlobalStyles/styles.css';
-import OfficialLogo from '../Imagesa/Images/logo.png';
-import Callusback from '../Imagesa/Images/svg/call-back.svg'
+import React from 'react';
+import {css} from '@emotion/core';
+import FormComponent from '../Components/Form';
+import { withStyles } from '@material-ui/core/styles';
+import Dialog from '@material-ui/core/Dialog';
+import MuiDialogTitle from '@material-ui/core/DialogTitle';
+import MuiDialogContent from '@material-ui/core/DialogContent';
+import MuiDialogActions from '@material-ui/core/DialogActions';
+import IconButton from '@material-ui/core/IconButton';
+import CloseIcon from '@material-ui/icons/Close';
+import Typography from '@material-ui/core/Typography';
 
-const Modal = (props) => {
-    const [isopen, setisopen] = useState(false);
-      return (
-        <div className="finaltouch">
-        <a onClick={() => setisopen(true)} className={props.class}>{props.title}</a>
-        <Modalabc open={isopen} onClose={ () => setisopen(false)}>
-       
-        <div style={{textAlign:"center"}}>
-        <img className="modalImageLogo" src={OfficialLogo} alt="Marq 2.0"/>
-        </div>
-          <Form/>
-          <br/>
-          <br/>
-          <div style={{width: "100%", background: "linear-gradient(101deg, #d4af37, #000)", color:"white", textAlign: "center", padding:"10px 0px"}}>
-          <a href="tel:01234567890"><img src={Callusback} style={{maringLeft:"10px"}}/>  <span style={{color:"white"}}>9071354854</span></a> 
-          </div>
-        </Modalabc>
-        </div>
-    );
-};
-    
-export default Modal;
+const styles = theme => ({
+  root: {
+    margin: 0,
+    padding: theme.spacing(2),
+  },
+  closeButton: {
+    position: 'absolute',
+    right: theme.spacing(1),
+    top: theme.spacing(1),
+    color: theme.palette.grey[500],
+  },
+});
+
+const DialogTitle = withStyles(styles)(props => {
+  const { children, classes, onClose, ...other } = props;
+  return (
+    <MuiDialogTitle disableTypography className={classes.root} {...other}>
+      <Typography variant="h6">{children}</Typography>
+      {onClose ? (
+        <IconButton aria-label="close" className={classes.closeButton} onClick={onClose}>
+          <CloseIcon />
+        </IconButton>
+      ) : null}
+    </MuiDialogTitle>
+  );
+});
+
+const DialogContent = withStyles(theme => ({
+  root: {
+    padding: theme.spacing(2),
+  },
+}))(MuiDialogContent);
+
+const DialogActions = withStyles(theme => ({
+  root: {
+    margin: 0,
+    padding: theme.spacing(1),
+  },
+}))(MuiDialogActions);
+
+export default function CustomizedDialogs(props) {
+  const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  return (
+    <div>
+      <a css={props.size} onClick={handleClickOpen}>
+        {props.title}
+      </a>
+      <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+        <DialogTitle id="customized-dialog-title" onClose={handleClose}>
+          {props.project}
+        </DialogTitle>
+        <DialogContent dividers>
+           <FormComponent/>
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}
+
+
+const medium = css`
+  border:1px solid blue;
+  background:blue;
+  color:white;
+  padding:10px;
+`

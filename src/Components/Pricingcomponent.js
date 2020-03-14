@@ -1,4 +1,5 @@
 import React from 'react';
+import ModalComponent from '../Components/Modal';
 import {css} from '@emotion/core';
 import costsheetImage from '../Imagesa/Images/costing-details.jpg';
 import Title from '../Components/Title';
@@ -11,7 +12,7 @@ const Pricingcomponent = (props) => {
                      <span>{item.bed}</span>
                      <span>{item.feet}  Sq.ft</span>
                      <span>{item.price} Lacs</span>
-                     <span>Know More</span>
+                     <span><ModalComponent title="Know More" project={props.project} size={medium}/></span>
                 </div>
             )
         })
@@ -46,6 +47,7 @@ const Pricingcomponent = (props) => {
  margin:0px 40px 40px;
  margin-top:0px;
  display:flex;
+ position:relative;
  `
  
  const Tabelhead= css`
@@ -97,5 +99,15 @@ const Pricingcomponent = (props) => {
    width:370px;
   }
  `
+ const medium = css`
+  border:1px solid blue;
+  background:blue;
+  color:white;
+  padding:10px;
+  position:absloute;
+  div{
+      margin:10px;
+  }
+`
 
  export default Pricingcomponent;

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Pricingcomponent from '../Components/Pricingcomponent';
 import Layout from '../Components/Layout';
+import Modalcomponent from '../Components/Modal';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
@@ -58,7 +59,7 @@ const Botanique = () => {
          <br/>
          <OverviewComponent project="Botanique Overview" loc="RV Road" area="0.6 Acer" units="34" towers="1T" floors="2B+G+8 Floors" var="2&3 Bhk" poss="2021"/>
          <hr/>
-         <ConfigurationComponent project="Botanique Configuration" tabelone={squarefeet}/>
+         <ConfigurationComponent project="Botan ique Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Botanique Amenities"/>
          <hr/>
