@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
+import Pricingcomponent from '../Components/Pricingcomponent';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -59,6 +60,8 @@ const Song = () => {
          <ConfigurationComponent project="Song of South Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Song of South Amenities"/>
+         <hr/>
+         <Pricingcomponent project="Song of South Pricing" tabeltwo={squarefeet}/>
          <hr/>
          <LocationComponent  title="Song of south Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15558.84081421235!2d77.6136469!3d12.8619848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85622af2679c25d8!2sPrestige%20Song%20of%20the%20South!5e0!3m2!1sen!2sin!4v1583824572461!5m2!1sen!2sin"/>
         </Layout>

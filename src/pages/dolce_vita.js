@@ -5,6 +5,7 @@ import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
+import Pricingcomponent from '../Components/Pricingcomponent';
 import FirstSliderImage from '../Imagesa/Images/dolcevita/slider-one.jpg';
 import SecondSliderImage from '../Imagesa/Images/dolcevita/slider-two.jpg';
 import ThirdSliderImage from '../Imagesa/Images/dolcevita/slider-one.jpg';
@@ -55,6 +56,8 @@ const Dolce = () => {
          <ConfigurationComponent project="Dolce Vita Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Dolce Vita Amenities"/>
+         <hr/>
+         <Pricingcomponent project="Dolce VitaPricing" tabeltwo={squarefeet}/>
          <hr/>
          <LocationComponent title="Dolce Vita Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.96872735442!2d77.7402523141352!3d12.973852018340834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae115b9966adff%3A0xbbc8e762a3036b41!2sPrestige%20Dolce%20Vita!5e0!3m2!1sen!2sin!4v1583827758989!5m2!1sen!2sin" />
 

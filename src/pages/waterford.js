@@ -10,6 +10,7 @@ import SecondSliderImage from '../Imagesa/Images/prestige-finsbury-park-hyde3.jp
 import ThirdSliderImage from '../Imagesa/Images/prestige-finsbury-regent1.jpg';
 import FourthSliderImage from '../Imagesa/Images/prestige-finsbury-regent4.jpg';
 import ProjectLogo from '../Imagesa/Images/logo.png';
+import Pricingcomponent from '../Components/Pricingcomponent';
 
 const Waterford = () => {
     const [squarefeet, setsquarefeet] = useState([
@@ -38,6 +39,8 @@ const Waterford = () => {
          <ConfigurationComponent project="Waterford Configuration" tabelone={squarefeet}/>
          <hr/>
          <Amenities project="Waterford Amenities"/>
+         <hr/>
+         <Pricingcomponent project="Waterford Pricing" tabeltwo={squarefeet}/>
          <hr/>
          <LocationComponent title="Waterford Location"  logo={ProjectLogo} iframe="null"/>
 
