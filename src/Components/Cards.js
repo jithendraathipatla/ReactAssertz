@@ -1,4 +1,5 @@
 import React from "react";
+import ModalComponent from '../Components/Modal';
 import { FaHome, FaRupeeSign, FaCalendarAlt } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { GiEvilTower } from "react-icons/gi";
@@ -12,7 +13,7 @@ const Card = props => {
     <div>
       <div css={card}>
         <div css={card_image}>
-          <img src={props.image} alt="Placeholder image" />
+        <Link to={`/${props.pages}`}><img src={props.image} alt="Placeholder image" /></Link>
         </div>
         <div css={card_content}>
           <div css={media_left}>
@@ -98,7 +99,7 @@ const Card = props => {
 
           <div css={buttons}>
             <button css={button}><Link to={`/${props.pages}`}><a>More details</a></Link></button>
-            <button css={button} style={{marginLeft:"40px"}}>Brochure</button>
+            <button css={button}><ModalComponent title="Brouchure" project={props.alt}/></button>
           </div>
         </div>
       </div>
@@ -141,14 +142,16 @@ const card_content = css`
 `
 
 const buttons = css`
-  padding: 10px 0px;
+  padding: 10px 7px;
   background: #eeee;
   text-align: center;
-  font-size: 1.3em;
+  display:flex;
+  justify-content:space-between;
 `
 
 
 const button = css`
+  font-size:medium;
   background: white;
   color: red;
   border-radius: 50px;
@@ -164,6 +167,7 @@ const button = css`
   :hover {
     transform: translateY(-1px);
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    cursor:pointer; 
   }
 `
 

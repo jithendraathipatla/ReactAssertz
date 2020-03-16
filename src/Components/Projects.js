@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { css, jsx } from "@emotion/core"
-import Card from "./Cards"
+import Card from "./Cards";
+import ModalComponent from '../Components/Modal';
 import Image4 from "../Imagesa/Images/prestige-finsbury-banner1.jpg"
 import Image1 from '../Imagesa/Images/songofsouth/slider-one.jpg';
 import Image2 from '../Imagesa/Images/Kew/slider-three.jpg';
