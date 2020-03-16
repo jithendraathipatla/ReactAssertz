@@ -11,11 +11,10 @@ const Lighthouse = (props) => {
     return state.map((item,i)=>{
       return(
         <div key={i} style={{paddingBottom:"8px", backgroundColor:"#eee"}}>
-          <img src={item.image} alt={item.name} onClick={()=> setisOpen(true)} width="290px" />
+          <img src={item.img} alt={item.name} onClick={()=> setisOpen(true)} width="290px" />
           {item.name}
         </div>
-        
-      )
+      ) 
     })
   }
   const [photoIndex, setphotoIndex] = useState(0);

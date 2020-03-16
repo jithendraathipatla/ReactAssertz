@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
-import GalleyComponent from '../Components/Gallery';
+import GalleryComponent from '../Components/Gallery';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';

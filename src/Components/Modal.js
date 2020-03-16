@@ -76,11 +76,3 @@ export default function CustomizedDialogs(props) {
     </div>
   );
 }
-
-
-const medium = css`
-  border:1px solid blue;
-  background:blue;
-  color:white;
-  padding:10px;
-`
