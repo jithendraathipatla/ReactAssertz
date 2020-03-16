@@ -21,7 +21,7 @@ const Location = (props) => {
       
       const comingSoon = () => {
         return(
-          <div  style={{textAlign:"center", marginTop:"75px"}}>
+          <div  style={{textAlign:"center", marginTop:"75px"}} css={butone}>
           <img src={ComingSo} alt="coming Soon"/>
           </div>
         )
@@ -73,4 +73,14 @@ const final= css`
   width:98% !important;
 }
 `
+
+const butone= css`
+img{
+@media(max-width:600px){
+  width: 300px;
+    margin-top: -60px;
+}
+}
+`
+
 export default Location;
