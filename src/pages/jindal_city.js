@@ -13,6 +13,25 @@ import ThirdSliderImage from '../Imagesa/Images/jindal/slider-three.jpg';
 import FourthSliderImage from '../Imagesa/Images/jindal/slider-four.jpg';
 import ProjectLogo from '../Imagesa/Images/jindal/logo.jpg';
 
+import InteriorOne from '../Imagesa/Images/Elysian/interior-one.jpg';
+import InteriorTwo from '../Imagesa/Images/Elysian/interior-two.jpg';
+import InteriorThree from '../Imagesa/Images/Elysian/interior-three.jpg';
+import InteriorFour from '../Imagesa/Images/Elysian/interior-four.jpg'; 
+
+
+import masterplanabcd from "../Imagesa/Images/jindal/master-plan.jpg";
+
+
+import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
+import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
+import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
+import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
+import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
+import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
+import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
+import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
+
+
 
 
 const Jindal = () => {
@@ -53,6 +72,92 @@ const Jindal = () => {
             price: 105
         },
     ])
+
+    const [masterplan, setmasterplan] = useState([
+        {
+          img: masterplanabcd,
+          name: "Jindal City",
+        },
+    ]);
+
+    const [exterior, setexterior] = useState([
+        {
+          img: FirstSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: SecondSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: ThirdSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: FourthSliderImage,
+          name: "Exterior View",
+        },
+      ])
+    
+      const [interior, setinterior] = useState([
+        {
+          name: "Hall",
+          img: InteriorOne,
+        },
+        {
+          name: "Bed Room",
+          img: InteriorTwo,
+        },
+        {
+          name: "Kitchen",
+          img: InteriorThree,
+        },
+        {
+          name: "Main Hall",
+          img: InteriorFour,
+        },
+      ])
+    
+      const [floor, setfloor] = useState([
+        {
+          name: "648 SqFt - Hyde",
+          img: FloorPlanOne,
+        },
+        {
+          name: "652 SqFt - Hyde",
+          img: FloorPlanTwo,
+        },
+        {
+          name: "977 SqFt - Hyde",
+          img: FloorPlanThree,
+        },
+        {
+          name: "984 SqFt - Hyde",
+          img: FloorPlanFour,
+        },
+        {
+          name: "1224 SqFt -Regent",
+          img: FloorPlanFive,
+        },
+        {
+          name: "1277 SqFt -Regent",
+          img: FloorPlanSix,
+        },
+        {
+          name: "1473 SqFt -Regent",
+          img: FloorPlanseven,
+        },
+        {
+          name: "1562 SqFt -Regent",
+          img: FloorPlanEight,
+        },
+      ]);
+
+      const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage, FourthSliderImage]);
+      const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour]);
+      const [lightmas, setlighmas] = useState([masterplanabcd]);
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]);
+    
     return (
         <Layout title="prestige jindal city | reviews | Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Jindal City" location="In TumKur," attractiveone="Pre_launch Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2, 3" bedroomthree="4" price="48"/>
@@ -61,7 +166,7 @@ const Jindal = () => {
          <hr/>
          <ConfigurationComponent project="Jindal City Configuration" tabelone={squarefeet}/>
          <hr/>
-         <GalleryComponent project="Jindal Gallery"/>
+         <GalleryComponent project="Jindal Gallery" Exterior={exterior} ExteriorImages={lightext} Interior={interior} InteriorImages={lighint} Mprop={masterplan} MImagesprop={lightmas} Fprop={floor} FImageprop={lightflor}/>
          <hr/>
          <Amenities project="Jindal City Amenities"/>
          <hr/>

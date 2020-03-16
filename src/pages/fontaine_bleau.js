@@ -14,6 +14,26 @@ import FourthSliderImage from '../Imagesa/Images/fontainebleau/slider-two.jpg';
 import ProjectLogo from '../Imagesa/Images/fontainebleau/logo.jpg';
 
 
+
+import InteriorOne from '../Imagesa/Images/Elysian/interior-one.jpg';
+import InteriorTwo from '../Imagesa/Images/Elysian/interior-two.jpg';
+import InteriorThree from '../Imagesa/Images/Elysian/interior-three.jpg';
+import InteriorFour from '../Imagesa/Images/Elysian/interior-four.jpg'; 
+
+
+import masterplanabcd from "../Imagesa/Images/fontainebleau/master-plan.jpeg";
+
+
+import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
+import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
+import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
+import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
+import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
+import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
+import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
+import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
+
+
 const Fontaine_bleau = () => {
     const [squarefeet, setsquarefeet] = useState([
         {
@@ -36,8 +56,93 @@ const Fontaine_bleau = () => {
             feet: "1603",
             price: 118
         },
-    ])
-    return (
+    ]);
+    const [masterplan, setmasterplan] = useState([
+        {
+          img: masterplanabcd,
+          name: "Fontaine Bleau",
+        },
+    ]);
+
+    const [exterior, setexterior] = useState([
+        {
+          img: FirstSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: SecondSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: ThirdSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: FourthSliderImage,
+          name: "Exterior View",
+        },
+      ])
+    
+      const [interior, setinterior] = useState([
+        {
+          name: "Hall",
+          img: InteriorOne,
+        },
+        {
+          name: "Bed Room",
+          img: InteriorTwo,
+        },
+        {
+          name: "Kitchen",
+          img: InteriorThree,
+        },
+        {
+          name: "Main Hall",
+          img: InteriorFour,
+        },
+      ])
+    
+      const [floor, setfloor] = useState([
+        {
+          name: "648 SqFt - Hyde",
+          img: FloorPlanOne,
+        },
+        {
+          name: "652 SqFt - Hyde",
+          img: FloorPlanTwo,
+        },
+        {
+          name: "977 SqFt - Hyde",
+          img: FloorPlanThree,
+        },
+        {
+          name: "984 SqFt - Hyde",
+          img: FloorPlanFour,
+        },
+        {
+          name: "1224 SqFt -Regent",
+          img: FloorPlanFive,
+        },
+        {
+          name: "1277 SqFt -Regent",
+          img: FloorPlanSix,
+        },
+        {
+          name: "1473 SqFt -Regent",
+          img: FloorPlanseven,
+        },
+        {
+          name: "1562 SqFt -Regent",
+          img: FloorPlanEight,
+        },
+      ]);
+
+      const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage, FourthSliderImage]);
+      const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour]);
+      const [lightmas, setlighmas] = useState([masterplanabcd]);
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]);
+    
+      return (
         <Layout title="prestige fontaine bleau | reviews | Brouchere | Location">
          <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Fontaine Bleau" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="83"/>
          <br/>
@@ -45,7 +150,7 @@ const Fontaine_bleau = () => {
          <hr/>
          <ConfigurationComponent project="Fontaine Bleau Configuration" tabelone={squarefeet}/>
          <hr/>
-         <GalleryComponent project="Fontaine Bleau Gallery"/>
+         <GalleryComponent project="Fontaine Bleau Gallery" Exterior={exterior} ExteriorImages={lightext} Interior={interior} InteriorImages={lighint} Mprop={masterplan} MImagesprop={lightmas} Fprop={floor} FImageprop={lightflor}/>
          <hr/>
          <Amenities project="Fontaine Bleau Amenities"/>
          <hr/>
