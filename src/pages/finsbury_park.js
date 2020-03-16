@@ -13,10 +13,10 @@ import SecondSliderImage from "../Imagesa/Images/prestige-finsbury-park-hyde3.jp
 import ThirdSliderImage from "../Imagesa/Images/prestige-finsbury-regent1.jpg"
 import FourthSliderImage from "../Imagesa/Images/prestige-finsbury-regent4.jpg"
 
-import InteriorOne from '../Imagesa/Images/Coming-Soon-Project-.jpg';
-import InteriorTwo from '../Imagesa/Images/Coming-Soon-Project-.jpg';
-import InteriorThree from '../Imagesa/Images/Coming-Soon-Project-.jpg';
-import InteriorFour from '../Imagesa/Images/Coming-Soon-Project-.jpg'; 
+import InteriorOne from '../Imagesa/Images/latestBedroom.jpg';
+import InteriorTwo from '../Imagesa/Images/latestDining.jpg';
+import InteriorThree from '../Imagesa/Images/latestHall.jpg';
+import InteriorFour from '../Imagesa/Images/latestPeace.jpg'; 
 
 
 import masterplanhyde from "../Imagesa/Images/masterplan-hyde.jpg"
@@ -93,19 +93,19 @@ const Finsbury = () => {
   const [interior, setinterior] = useState([
     {
       name: "Bed Room",
-      image: InteriorOne,
+      img: InteriorOne,
     },
     {
       name: "Dining Hall",
-      image: InteriorTwo,
+      img: InteriorTwo,
     },
     {
       name: "Hall",
-      image: InteriorThree,
+      img: InteriorThree,
     },
     {
       name: "Balcony View",
-      image: InteriorFour,
+      img: InteriorFour,
     },
   ])
 
@@ -153,6 +153,7 @@ const Finsbury = () => {
     ThirdSliderImage,
     FourthSliderImage,
   ])
+  const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour])
   const [lightmas, setlighmas] = useState([masterplanhyde, masterplanregent])
 
   return (
@@ -197,6 +198,8 @@ const Finsbury = () => {
         project="Finsbury park Gallery"
         Exterior={exterior}
         ExteriorImages={lightext}
+        Interior={interior}
+        InteriorImages={lighint}
         Mprop={masterplan}
         MImagesprop={lightmas}
       />
