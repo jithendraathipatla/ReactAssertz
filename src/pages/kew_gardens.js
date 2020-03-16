@@ -13,6 +13,27 @@ import ThirdSliderImage from '../Imagesa/Images/Kew/slider-three.jpg';
 import FourthSliderImage from '../Imagesa/Images/Kew/slider-four.jpg';
 import ProjectLogo from '../Imagesa/Images/Kew/logo.jpg';
 
+
+import InteriorOne from '../Imagesa/Images/Kew/interior-one.jpg';
+import InteriorTwo from '../Imagesa/Images/Kew/interior-two.jpg';
+
+
+
+import masterplanabcd from "../Imagesa/Images/Kew/master-plan.jpg";
+
+
+import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
+import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
+import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
+import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
+import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
+import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
+import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
+import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
+
+
+
+
 const Key = () => {
     const [squarefeet, setsquarefeet] = useState([
         {
@@ -35,7 +56,85 @@ const Key = () => {
             feet: "1067",
             price: 119
         },
-    ])
+    ]);
+    const [masterplan, setmasterplan] = useState([
+        {
+          img: masterplanabcd,
+          name: "Kew Gardens",
+        },
+    ]);
+
+    const [exterior, setexterior] = useState([
+        {
+          img: FirstSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: SecondSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: ThirdSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: FourthSliderImage,
+          name: "Exterior View",
+        },
+      ])
+    
+      const [interior, setinterior] = useState([
+        {
+          name: "Bed Room",
+          img: InteriorOne,
+        },
+        {
+          name: "Hall",
+          img: InteriorTwo,
+        },
+       
+      ])
+    
+      const [floor, setfloor] = useState([
+        {
+          name: "648 SqFt - Hyde",
+          img: FloorPlanOne,
+        },
+        {
+          name: "652 SqFt - Hyde",
+          img: FloorPlanTwo,
+        },
+        {
+          name: "977 SqFt - Hyde",
+          img: FloorPlanThree,
+        },
+        {
+          name: "984 SqFt - Hyde",
+          img: FloorPlanFour,
+        },
+        {
+          name: "1224 SqFt -Regent",
+          img: FloorPlanFive,
+        },
+        {
+          name: "1277 SqFt -Regent",
+          img: FloorPlanSix,
+        },
+        {
+          name: "1473 SqFt -Regent",
+          img: FloorPlanseven,
+        },
+        {
+          name: "1562 SqFt -Regent",
+          img: FloorPlanEight,
+        },
+      ]);
+
+      const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage, FourthSliderImage]);
+      const [lighint, setlighint] = useState([InteriorOne, InteriorTwo]);
+      const [lightmas, setlighmas] = useState([masterplanabcd]);
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]);
+    
     return (
         <Layout title="prestige kew gardens | reviews | Brouchere | Location">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to Move_In" project="Prestige Kew Gardens" location="In Yelamur," attractiveone="Ready to Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2" bedroomthree="3" price="86"/>
@@ -44,7 +143,7 @@ const Key = () => {
          <hr/>
          <ConfigurationComponent project="Kew Gardens Configuration" tabelone={squarefeet}/>
          <hr/>
-         <GalleryComponent project="Key Gardens Gallery"/>
+         <GalleryComponent project="Key Gardens Gallery" Exterior={exterior} ExteriorImages={lightext} Interior={interior} InteriorImages={lighint} Mprop={masterplan} MImagesprop={lightmas} Fprop={floor} FImageprop={lightflor}/>
          <hr/>
          <Amenities project="Kew Gardens Amenities"/>
          <hr/>
