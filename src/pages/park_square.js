@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
+import GalleryComponent from '../Components/Gallery';
 import Pricingcomponent from '../Components/Pricingcomponent';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
@@ -45,6 +46,8 @@ const Park = () => {
          <OverviewComponent project="Park Square Overview" loc="Bannerghatta" area="8 Acer" units="586" towers="3T" floors="3B+G+27 Floors" var="2&3 Bhk" poss="2021"/>
          <hr/>
          <ConfigurationComponent project="Park Square Configuration" tabelone={squarefeet}/>
+         <hr/>
+         <GalleryComponent project="Park Square Gallery"/>
          <hr/>
          <Amenities project="Park Square Amenities"/>
          <hr/>

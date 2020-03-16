@@ -58,7 +58,8 @@ export default function SimpleTabs(props) {
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
           <Tab label={props.title1} {...a11yProps(0)} />
           <Tab label={props.title2} {...a11yProps(1)} />
-          <Tab label={props.title3} {...a11yProps(props.number)} />
+          <Tab label={props.title3} {...a11yProps(2)} />
+          <Tab label={props.title4} {...a11yProps(3)} />
         </Tabs>
       </AppBar>
       <br/>

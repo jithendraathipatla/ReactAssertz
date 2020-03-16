@@ -6,6 +6,7 @@ import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
 import SliderComponent from '../Components/Slider';
+import GalleryComponent from '../Components/Gallery';
 import FirstSliderImage from '../Imagesa/Images/jindal/exterior-two.jpg';
 import SecondSliderImage from '../Imagesa/Images/jindal/exterior-two.jpg';
 import ThirdSliderImage from '../Imagesa/Images/jindal/slider-three.jpg';
@@ -59,6 +60,8 @@ const Jindal = () => {
          <OverviewComponent project="Jindal City Overview" loc="Tumkur" area="32 Acer" units="3571" towers="15T" floors="G+27+28 Floors" var="1,2,3 & 4 Bhk" poss="2021(P1)"/>
          <hr/>
          <ConfigurationComponent project="Jindal City Configuration" tabelone={squarefeet}/>
+         <hr/>
+         <GalleryComponent project="Jindal Gallery"/>
          <hr/>
          <Amenities project="Jindal City Amenities"/>
          <hr/>

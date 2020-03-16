@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
+import GalleryComponent from '../Components/Gallery';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import Overcomponent from '../Components/StatefulOverview';
@@ -37,6 +38,8 @@ const Waterford = () => {
          <Overcomponent project="Waterford Overview" loc="Whitefield" area="Coming Soon" units="Coming Soon" towers="Coming Soon" floors="Coming Soon" var="Coming Soon" poss="Coming Soon"/>
          <hr/>
          <ConfigurationComponent project="Waterford Configuration" tabelone={squarefeet}/>
+         <hr/>
+         <GalleryComponent project="Gallery Gallery"/>
          <hr/>
          <Amenities project="Waterford Amenities"/>
          <hr/>

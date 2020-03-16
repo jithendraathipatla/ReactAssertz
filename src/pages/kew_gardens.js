@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
+import GalleryComponent from '../Components/Gallery';
 import Pricingcomponent from '../Components/Pricingcomponent';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
@@ -42,6 +43,8 @@ const Key = () => {
          <OverviewComponent project="Kew Gardens Overview" loc="Yelamur" area="15.74 Acer" units="979" towers="16T" floors="G+4 Floors" var="1,2&3 Bhk" poss="2019"/>
          <hr/>
          <ConfigurationComponent project="Kew Gardens Configuration" tabelone={squarefeet}/>
+         <hr/>
+         <GalleryComponent project="Key Gardens Gallery"/>
          <hr/>
          <Amenities project="Kew Gardens Amenities"/>
          <hr/>

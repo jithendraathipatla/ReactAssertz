@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import Layout from '../Components/Layout';
+import GalleryComponent from '../Components/Gallery';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -44,6 +45,8 @@ const Finsbury = () => {
          <OverviewComponent project="Finsbury Park Overview" loc="Baglur Road" area="Hyde:15, Regent:10 A" units="Hyde:2092, Regent: 958" towers="12T" floors="B+G+20 Floors" var="1,2&3 Bhk" poss="2023"/>
          <hr/>
          <ConfigurationComponent project="Finsbury park Configuration" tabelone={squarefeet}/>
+         <hr/>
+         <GalleryComponent project="Finsbury park Gallery"/>
          <hr/>
          <Amenities project="Finsbury Park Amenities"/>
          <hr/>

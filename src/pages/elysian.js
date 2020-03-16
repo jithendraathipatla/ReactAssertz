@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Pricingcomponent from '../Components/Pricingcomponent';
+import GalleryComponent from '../Components/Gallery';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -44,6 +45,8 @@ const Elysian = () => {
          <OverviewComponent project="Elysian Overview" loc="Bannerghatta" area="6.37 Acer" units="548" towers="2T" floors="G+16+18 Floors" var="2&3 Bhk" poss="2022"/>
          <hr/>
          <ConfigurationComponent project="Elysian Configuration" tabelone={squarefeet}/>
+         <hr/>
+         <GalleryComponent project="Elysian Gallery"/>
          <hr/>
          <Amenities project="Elysian Amenities"/>
          <hr/>

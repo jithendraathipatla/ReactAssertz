@@ -3,6 +3,7 @@ import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
 import LocationComponent from '../Components/Location';
+import GalleryComponent from '../Components/Gallery';
 import SliderComponent from '../Components/Slider';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
 import Pricingcomponent from '../Components/Pricingcomponent';
@@ -54,6 +55,8 @@ const Dolce = () => {
          <OverviewComponent project="Dolce Vita Overview" loc="Whitefield" area="1.36 Acer" units="66" towers="2T" floors="G+7+8 Floors" var="2&3 Bhk" poss="2021"/>
          <hr/>
          <ConfigurationComponent project="Dolce Vita Configuration" tabelone={squarefeet}/>
+         <hr/>
+         <GalleryComponent project="Dolce Vita Gallery"/>
          <hr/>
          <Amenities project="Dolce Vita Amenities"/>
          <hr/>

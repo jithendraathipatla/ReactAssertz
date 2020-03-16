@@ -11,7 +11,7 @@ const Lighthouse = (props) => {
     return state.map((item,i)=>{
       return(
         <div key={i} style={{paddingBottom:"8px", backgroundColor:"#eee"}}>
-          <img src={item.image} alt={item.name} onClick={()=> setisOpen(true)} width="400px" />
+          <img src={item.image} alt={item.name} onClick={()=> setisOpen(true)} width="290px" />
           {item.name}
         </div>
         

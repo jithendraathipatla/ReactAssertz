@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import {css} from '@emotion/core';
 import TitleComponent from '../Components/Title';
 import '../GlobalStyles/styles.css';
 import TabContainer from '../Components/tabs';
@@ -29,7 +30,7 @@ import MasterPlanabcd from '../Imagesa/Images/Coming-Soon-Project-.jpg';
 
 
 
-const Gallery = () => {
+const Gallery = (props) => {
     const [exterior, setexterior] = useState([
         {
              name:"Outermost view",
@@ -116,19 +117,16 @@ const Gallery = () => {
         ]);
 
     return (
-        <div>
+        <div css={main}>
             <div style={{textAlign:"center"}}>
-            <TitleComponent title=" Waterford Gallery"/>
+            <TitleComponent title={props.project}/>
             <br/>
             <div  className="galleryImages">
-              <div>
-              <Title title="Interior, Exterior & Masterplan"/>
-              <TabContainer title1="Exterior View" title2="Interior View" title3="Master Plan" number="2" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior} height="200px"/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
+              <div  css={central}>
+               <Title title="Interior,Exterior, Masterplan & Floorplan"/>
+               <TabContainer title1="Exterior View" title2="Interior View" title3="Master Plan" title4="Floor Plan" exterior={<LightHouseabc images={[ExteriorFirst, ExteriorSecond, ExteriorThird, ExteriorFourth]} state={exterior} height="200px"/>}  interior={<LightHouseabc images={[InteriorOne, InteriorTwo, InteriorThree, InteriorFour]} state={interior}/>} mplan={<LightHouseabc images={[MasterPlanabcd]} state={masterplan}/>}/>
               </div>
-              <div>
-              <Title title=" Waterford Floor Plans"/>
-              <TabContainer title1="Floor Plans"  exterior={<LightHouseabc images={[FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]} state={floorsetone}/>}  interior={<LightHouseabc images={[FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]} state={floorsettwo}/>} mplan="Please Check other Sections"/>
-              </div>
+             
             </div>             
             </div>
         </div>
@@ -136,3 +134,14 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
+const main = css`
+  margin-bottom:30px;
+`
+const central = css`
+    text-align: center;
+    margin: 0px 40px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.07);
+`

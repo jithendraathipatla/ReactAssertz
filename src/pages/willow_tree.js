@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import ConfigurationComponent from '../Components/ConfigurationTabel';
+import GalleyComponent from '../Components/Gallery';
 import Layout from '../Components/Layout';
 import Amenities from '../Components/Amenities';
 import OverviewComponent from '../Components/StatefulOverview';
@@ -43,6 +44,8 @@ const Willo = () => {
          <OverviewComponent project="Willo Tree Overview" loc="Vidyaranyapura" area="6.73 Acer" units="451" towers="5T" floors="G+10,11 Floors" var="1,2,3 & 3.5 Bhk" poss="mid 2022"/>
          <hr/>
          <ConfigurationComponent project="Willow Tree Configuration" tabelone={squarefeet}/>
+         <hr/>
+         <GalleryComponent project="Willow Tree Gallery"/>
          <hr/>
          <Amenities project="Willow Tree Amenities"/>
          <hr/>
