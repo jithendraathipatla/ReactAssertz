@@ -8,7 +8,7 @@ const HighlightFormTwo = (props) => {
         backgroundSize: "400% 400%",
         webkitAnimation: "Gradient 3s ease infinite",
         mozAnimation: "Gradient 3s ease infinite",
-        animation: "Gradient 3s ease infinite", color:"#fff", padding: "2px", width:"25%", display: "block" ,margin: "5px 0", fontSize: "20px"}} className="prewidth"> 
+        animation: "Gradient 3s ease infinite", color:"#fff", padding: "2px", width:"30%", display: "block" ,margin: "5px 0", fontSize: "20px", textAlign:"center"}} className="prewidth"> 
             <span style={{display: "block", fontSize: "1.1rem"}}>
             <span className="animated bounceIn infinite" style={{display: "block", animationDuration: "3s"}}>{props.first}</span>
          </span></span>
