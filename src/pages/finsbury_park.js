@@ -22,14 +22,14 @@ import InteriorFour from '../Imagesa/Images/latestPeace.jpg';
 import masterplanhyde from "../Imagesa/Images/masterplan-hyde.jpg"
 import masterplanregent from "../Imagesa/Images/master.jpg"
 
-import FloorPlanOne from '../Imagesa/Images/Coming-Soon-Project-.jpg';
-import FloorPlanTwo from '../Imagesa/Images/Coming-Soon-Project-.jpg';
-import FloorPlanThree from '../Imagesa/Images/Coming-Soon-Project-.jpg';
-import FloorPlanFour from '../Imagesa/Images/Coming-Soon-Project-.jpg';
-import FloorPlanFive from '../Imagesa/Images/Coming-Soon-Project-.jpg';
-import FloorPlanSix from '../Imagesa/Images/Coming-Soon-Project-.jpg';
-import FloorPlanseven from '../Imagesa/Images/Coming-Soon-Project-.jpg';
-import FloorPlanEight from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
+import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
+import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
+import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
+import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
+import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
+import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
+import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
 
 
 
@@ -109,43 +109,41 @@ const Finsbury = () => {
     },
   ])
 
-  const [floorsetone, setfloorsetone] = useState([
+  const [floor, setfloor] = useState([
     {
-      name: "Floor Plan",
-      image: FloorPlanOne,
+      name: "648 SqFt - Hyde",
+      img: FloorPlanOne,
     },
     {
-      name: "Floor Plan",
-      image: FloorPlanTwo,
+      name: "652 SqFt - Hyde",
+      img: FloorPlanTwo,
     },
     {
-      name: "Floor Plan",
-      image: FloorPlanThree,
+      name: "977 SqFt - Hyde",
+      img: FloorPlanThree,
     },
     {
-      name: "Floor Plan",
-      image: FloorPlanFour,
-    },
-  ])
-
-  const [floorsettwo, setfloorsettwo] = useState([
-    {
-      name: "Floor Plan",
-      image: FloorPlanFive,
+      name: "984 SqFt - Hyde",
+      img: FloorPlanFour,
     },
     {
-      name: "Floor Plan",
-      image: FloorPlanSix,
+      name: "1224 SqFt -Regent",
+      img: FloorPlanFive,
     },
     {
-      name: "Floor Plan",
-      image: FloorPlanseven,
+      name: "1277 SqFt -Regent",
+      img: FloorPlanSix,
     },
     {
-      name: "Floor Plan",
-      image: FloorPlanEight,
+      name: "1473 SqFt -Regent",
+      img: FloorPlanseven,
     },
-  ])
+    {
+      name: "1562 SqFt -Regent",
+      img: FloorPlanEight,
+    },
+  
+  ]);
 
   const [lightext, setlightext] = useState([
     FirstSliderImage,
@@ -155,6 +153,7 @@ const Finsbury = () => {
   ])
   const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour])
   const [lightmas, setlighmas] = useState([masterplanhyde, masterplanregent])
+  const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight])
 
   return (
     <Layout title="prestige finsbury park | reviews | Brouchere | Location">
@@ -202,6 +201,8 @@ const Finsbury = () => {
         InteriorImages={lighint}
         Mprop={masterplan}
         MImagesprop={lightmas}
+        Fprop={floor}
+        FImageprop={lightflor}
       />
       <hr />
       <Amenities project="Finsbury Park Amenities" />

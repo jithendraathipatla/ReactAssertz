@@ -17,7 +17,7 @@ const Gallery = (props) => {
             <div  className="galleryImages">
               <div  css={central}>
                <Title title="Interior,Exterior, Masterplan & Floorplan"/>
-               <TabContainer title1="Exterior View" title2="Interior View" title3="Master Plan" title4="Floor Plan" exterior={<LightHouseabc images={props.ExteriorImages} state={props.Exterior}/>} interior={<LightHouseabc images={props.InteriorImages} state={props.Interior}/>}  mplan={<LightHouseabc images={props.MImagesprop} state={props.Mprop}/>}/>
+               <TabContainer title1="Exterior View" title2="Interior View" title3="Master Plan" title4="Floor Plan" exterior={<LightHouseabc images={props.ExteriorImages} state={props.Exterior}/>} interior={<LightHouseabc images={props.InteriorImages} state={props.Interior}/>}  mplan={<LightHouseabc images={props.MImagesprop} state={props.Mprop}/>} fplan={<LightHouseabc images={props.FImageprop} state={props.Fprop}/>} />
               </div>
              
             </div>             

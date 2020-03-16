@@ -72,6 +72,9 @@ export default function SimpleTabs(props) {
       <TabPanel value={value} index={2}>
        {props.mplan}
       </TabPanel>
+      <TabPanel value={value} index={3}>
+      {props.fplan}
+     </TabPanel>
     </div>
   );
 }
