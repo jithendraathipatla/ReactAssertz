@@ -14,6 +14,26 @@ import FourthSliderImage from '../Imagesa/Images/songofsouth/slider-four.jpg';
 import ProjectLogo from '../Imagesa/Images/songofsouth/logo.jpg';
 
 
+import InteriorOne from '../Imagesa/Images/Elysian/interior-one.jpg';
+import InteriorTwo from '../Imagesa/Images/Elysian/interior-two.jpg';
+import InteriorThree from '../Imagesa/Images/Elysian/interior-three.jpg';
+import InteriorFour from '../Imagesa/Images/Elysian/interior-four.jpg'; 
+
+
+import masterplanabcd from "../Imagesa/Images/songofsouth/master-plan.jpg";
+
+
+import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
+import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
+import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
+import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
+import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
+import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
+import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
+import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
+
+
+
 const Song = () => {
     const [squarefeet, setsquarefeet] = useState([
         {
@@ -52,6 +72,92 @@ const Song = () => {
             price: 136
         },
     ])
+
+    const [masterplan, setmasterplan] = useState([
+        {
+          img: masterplanabcd,
+          name: "Song of South",
+        },
+    ]);
+
+    const [exterior, setexterior] = useState([
+        {
+          img: FirstSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: SecondSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: ThirdSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: FourthSliderImage,
+          name: "Exterior View",
+        },
+      ])
+    
+      const [interior, setinterior] = useState([
+        {
+          name: "Hall",
+          img: InteriorOne,
+        },
+        {
+          name: "Bed Room",
+          img: InteriorTwo,
+        },
+        {
+          name: "Kitchen",
+          img: InteriorThree,
+        },
+        {
+          name: "Main Hall",
+          img: InteriorFour,
+        },
+      ])
+    
+      const [floor, setfloor] = useState([
+        {
+          name: "648 SqFt - Hyde",
+          img: FloorPlanOne,
+        },
+        {
+          name: "652 SqFt - Hyde",
+          img: FloorPlanTwo,
+        },
+        {
+          name: "977 SqFt - Hyde",
+          img: FloorPlanThree,
+        },
+        {
+          name: "984 SqFt - Hyde",
+          img: FloorPlanFour,
+        },
+        {
+          name: "1224 SqFt -Regent",
+          img: FloorPlanFive,
+        },
+        {
+          name: "1277 SqFt -Regent",
+          img: FloorPlanSix,
+        },
+        {
+          name: "1473 SqFt -Regent",
+          img: FloorPlanseven,
+        },
+        {
+          name: "1562 SqFt -Regent",
+          img: FloorPlanEight,
+        },
+      ]);
+
+      const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage, FourthSliderImage]);
+      const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour]);
+      const [lightmas, setlighmas] = useState([masterplanabcd]);
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]);
+    
     return (
         <Layout title="prestige song of south | reviews | Brouchere | Location">        
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to MoveIn" project="Prestige Song of South" location="In Begur Road," attractiveone="Ready_to_move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1,2,3.5 " bedroomtwo="3,3.5" bedroomthree="4" price="39.4"/>
@@ -60,7 +166,7 @@ const Song = () => {
          <hr/>
          <ConfigurationComponent project="Song of South Configuration" tabelone={squarefeet}/>
          <hr/>
-         <GalleryComponent project="Song of South Gallery"/>
+         <GalleryComponent project="Song of South Gallery" Exterior={exterior} ExteriorImages={lightext} Interior={interior} InteriorImages={lighint} Mprop={masterplan} MImagesprop={lightmas} Fprop={floor} FImageprop={lightflor}/>
          <hr/>
          <Amenities project="Song of South Amenities"/>
          <hr/>
