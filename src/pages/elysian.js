@@ -13,8 +13,23 @@ import ThirdSliderImage from '../Imagesa/Images/Elysian/third-slider.jpg';
 import FourthSliderImage from '../Imagesa/Images/Elysian/first.jpg';
 import ProjectLogo from '../Imagesa/Images/Elysian/logo.jpg';
 
+import InteriorOne from '../Imagesa/Images/Elysian/interior-one.jpg';
+import InteriorTwo from '../Imagesa/Images/Elysian/interior-two.jpg';
+import InteriorThree from '../Imagesa/Images/Elysian/interior-three.jpg';
+import InteriorFour from '../Imagesa/Images/Elysian/interior-four.jpg'; 
 
 
+import masterplanabcd from "../Imagesa/Images/Elysian/master-plan.jpg";
+
+
+import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
+import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
+import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
+import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
+import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
+import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
+import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
+import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
 
 const Elysian = () => {
     const [squarefeet, setsquarefeet] = useState([
@@ -39,14 +54,100 @@ const Elysian = () => {
             price: 140
         },
     ])
-    return (
+
+    const [masterplan, setmasterplan] = useState([
+        {
+          img: masterplanabcd,
+          name: "Elysian",
+        },
+    ]);
+
+    const [exterior, setexterior] = useState([
+        {
+          img: FirstSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: SecondSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: ThirdSliderImage,
+          name: "Exterior View",
+        },
+        {
+          img: FourthSliderImage,
+          name: "Exterior View",
+        },
+      ])
+    
+      const [interior, setinterior] = useState([
+        {
+          name: "Hall",
+          img: InteriorOne,
+        },
+        {
+          name: "Bed Room",
+          img: InteriorTwo,
+        },
+        {
+          name: "Kitchen",
+          img: InteriorThree,
+        },
+        {
+          name: "Main Hall",
+          img: InteriorFour,
+        },
+      ])
+    
+      const [floor, setfloor] = useState([
+        {
+          name: "648 SqFt - Hyde",
+          img: FloorPlanOne,
+        },
+        {
+          name: "652 SqFt - Hyde",
+          img: FloorPlanTwo,
+        },
+        {
+          name: "977 SqFt - Hyde",
+          img: FloorPlanThree,
+        },
+        {
+          name: "984 SqFt - Hyde",
+          img: FloorPlanFour,
+        },
+        {
+          name: "1224 SqFt -Regent",
+          img: FloorPlanFive,
+        },
+        {
+          name: "1277 SqFt -Regent",
+          img: FloorPlanSix,
+        },
+        {
+          name: "1473 SqFt -Regent",
+          img: FloorPlanseven,
+        },
+        {
+          name: "1562 SqFt -Regent",
+          img: FloorPlanEight,
+        },
+      ]);
+
+      const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage, FourthSliderImage]);
+      const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour])
+      const [lightmas, setlighmas] = useState([masterplanabcd])
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight])
+
+      return (
         <Layout title="prestige elysian | reviews | Brouchere | Location">
          <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Elysian" location="In Bannerghatta," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="86"/>
          <OverviewComponent project="Elysian Overview" loc="Bannerghatta" area="6.37 Acer" units="548" towers="2T" floors="G+16+18 Floors" var="2&3 Bhk" poss="2022"/>
          <hr/>
          <ConfigurationComponent project="Elysian Configuration" tabelone={squarefeet}/>
          <hr/>
-         <GalleryComponent project="Elysian Gallery"/>
+         <GalleryComponent project="Elysian Gallery" Exterior={exterior} ExteriorImages={lightext} Interior={interior} InteriorImages={lighint} Mprop={masterplan} MImagesprop={lightmas} Fprop={floor} FImageprop={lightflor}/>
          <hr/>
          <Amenities project="Elysian Amenities"/>
          <hr/>

@@ -83,19 +83,19 @@ const Botanique = () => {
       const [exterior, setexterior] = useState([
         {
           img: FirstSliderImage,
-          name: "Exterior View - Hyde",
+          name: "Exterior View",
         },
         {
           img: SecondSliderImage,
-          name: "Exterior View - Hyde",
+          name: "Exterior View",
         },
         {
           img: ThirdSliderImage,
-          name: "Exterior View - Regent",
+          name: "Exterior View",
         },
         {
           img: FourthSliderImage,
-          name: "Exterior View - Regent",
+          name: "Exterior View",
         },
       ])
 
