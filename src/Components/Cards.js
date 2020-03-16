@@ -13,7 +13,7 @@ const Card = props => {
     <div>
       <div css={card}>
         <div css={card_image}>
-        <Link to={`/${props.pages}`}><img src={props.image} alt="Placeholder image" /></Link>
+         <Link to={`/${props.pages}`}><img src={props.image} alt="Placeholder image" title={props.alt}/></Link>
         </div>
         <div css={card_content}>
           <div css={media_left}>
@@ -139,6 +139,9 @@ const media_left = css`
 `
 const card_content = css`
   padding: 10px;
+  @media(max-width:600px){
+    margin-bottom:20px;
+  }
 `
 
 const buttons = css`

@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import axios from "axios"
 import { css } from "@emotion/core"
 
-const Form = () => {
+const Form = (props) => {
   const [name, setname] = useState()
   const [email, setemail] = useState()
   const [phone, setphone] = useState()
@@ -18,7 +18,7 @@ const Form = () => {
       Client_name: client_name,
       Client_email: client_email,
       Client_phone_number: phonenumber,
-      Project_Name: " Waterford",
+      Project_Name: props.project_Name,
     }
     var data = {
       service_id: "gmail",

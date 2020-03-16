@@ -70,7 +70,7 @@ export default function CustomizedDialogs(props) {
           {props.project}
         </DialogTitle>
         <DialogContent dividers>
-           <FormComponent/>
+           <FormComponent project_name={props.project}/>
         </DialogContent>
       </Dialog>
     </div>

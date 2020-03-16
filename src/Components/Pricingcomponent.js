@@ -48,6 +48,9 @@ const Pricingcomponent = (props) => {
  margin-top:0px;
  display:flex;
  position:relative;
+ @media(max-width:600px){
+   display:block;
+ }
  `
  
  const Tabelhead= css`

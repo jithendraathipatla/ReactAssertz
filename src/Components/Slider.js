@@ -43,6 +43,9 @@ const partwo = css`
    z-index: 10;
    background: rgba(0,0,0,.81);
    right: 4%;
+   @media (max-width:600px){
+      display:none;
+   }
 `
 
 const parthree = css`
@@ -53,5 +56,8 @@ const parthree = css`
    background-color: rgba(0,0,0,.7);
    padding:10px;
    border-radius:5px;
+   @media (max-width:600px){
+      top:7%;
+   }
 `
 export default Slider;

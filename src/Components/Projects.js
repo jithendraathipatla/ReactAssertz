@@ -209,6 +209,10 @@ const card_container = css`
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
   grid-gap: 20px;
+  @media (max-width:600px){
+    display:block;
+    padding:0px 20px;
+ }
 `
 
 export default App

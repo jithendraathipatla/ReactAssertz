@@ -54,6 +54,9 @@ grid-template-columns: 8fr 4fr;
 grid-gap: 10px;
 padding-left:10px;
 margin-bottom:30px;
+@media(max-width:600px){
+  display:block;
+}
 `
 
 const aliginingForm = css`

@@ -128,6 +128,9 @@ const Amenities_main = css`
     background: linear-gradient(to bottom, #ff00000f, #ffff002e);
     box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.3);
   }
+  @media(max-width:600px){
+    grid-template-columns:3fr 3fr;
+  }
 `
 
 const firstOne = css`

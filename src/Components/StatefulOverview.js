@@ -68,7 +68,7 @@ const StatefulOverview = (props) => {
     })
   }
   return (
-    <div>
+    <div css={media_main}>
       <div style={{ textAlign: "center" }}>
         <Title title={props.project} />
       </div>
@@ -78,6 +78,11 @@ const StatefulOverview = (props) => {
   )
 }
 
+const media_main= css`
+  @media(max-width:600px){
+    margin-top:-110px;
+  }
+`
 const overview_main = css`
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
@@ -91,6 +96,9 @@ const overview_main = css`
     border-radius: 15%;
     background: linear-gradient(to bottom, #ff00000f, #ffff002e);
   }
+  @media(max-width:600px){
+    display:block;
+  }
 `
 
 const properly = css`
@@ -98,6 +106,9 @@ const properly = css`
   box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.09);
     border-radius: 5px;
     padding: 10px 20px;
+  @media(max-width:600px){
+    margin-bottom:10px;
+  }
 `
 const headings = css`
   padding-left: 20px;

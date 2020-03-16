@@ -705,10 +705,23 @@ a.button:hover {
 
   .nav-btn {
     color: black;
+    padding-right:20px;
   }
+  .images-in-grid {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-gap: 20px;
+    color: #000000;
+  }
+  
 
-  .carousel-captiona h1 {
-    font-size: 20px;
+  .carousel-captiona h2 {
+    font-size: 24px;
+  }
+   
+  .slider {
+    margin-top: 0px;
+    margin-bottom: -90px;
   }
 
   .awssld__wrapper {
