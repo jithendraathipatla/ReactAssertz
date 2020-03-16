@@ -55,7 +55,7 @@ const Willo = () => {
     const [masterplan, setmasterplan] = useState([
         {
           img: masterplanabcd,
-          name: "Jindal City",
+          name: "Willow Tree",
         },
     ]);
 
