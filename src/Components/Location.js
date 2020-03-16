@@ -14,6 +14,7 @@ const Location = (props) => {
           height="535px"
           allowFullScreen=""
           title={props.title}
+          css={final}
         ></iframe>
         )
       }
@@ -67,4 +68,9 @@ background-size: cover;
 
 `
 
+const final= css`
+@media(max-width:600px){
+  width:98% !important;
+}
+`
 export default Location;

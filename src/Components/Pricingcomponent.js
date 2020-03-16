@@ -50,6 +50,7 @@ const Pricingcomponent = (props) => {
  position:relative;
  @media(max-width:600px){
    display:block;
+   margin:0px 10px
  }
  `
  
@@ -101,6 +102,9 @@ const Pricingcomponent = (props) => {
   img{
    width:370px;
   }
+  @media(max-width:600px){
+    display:none;
+  }
  `
  const medium = css`
   padding:2px;
@@ -111,6 +115,9 @@ const Pricingcomponent = (props) => {
     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
         :hover{
         color:white !important;
+        }
+        @media(max-width:600px){
+          display:block;
         }
 `
 
