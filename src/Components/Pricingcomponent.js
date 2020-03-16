@@ -100,7 +100,7 @@ const Pricingcomponent = (props) => {
   }
  `
  const medium = css`
-  border:1px solid blue;
+  padding:2px;
   background:blue;
   color:white;
   background:linear-gradient(-90deg,#d3b169,#000,#d3b169,#000);
