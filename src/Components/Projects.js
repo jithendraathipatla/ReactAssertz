@@ -33,7 +33,7 @@ const App = () => {
       alt: "Prestige Finsbury Park",
       unit_type: "1,2 & 3 BHK",
       price: "33.5 Lac",
-      towers: "18",
+      towers: "18 Towers",
       location: "KIDAB Area, North Bangalore",
       posession: "June 2023",
       link: "https://drive.google.com/file/d/1uCIKnYTyTH27_ueX1dvAIbAG_UCtOcKd/view",
@@ -59,7 +59,7 @@ const App = () => {
       alt: "Prestige lake ridge",
       unit_type: "1,2& 3 BHk",
       price: "40 lakhs",
-      towers: "12 Towers Devasthanagalu",
+      towers: "12 Towers",
       location: "Devasthanagalu, Bangalore",
       posession: "2019 onwards",
       link:
