@@ -34,22 +34,22 @@ const Park = () => {
     const [squarefeet, setsquarefeet] = useState([
         {
             bed: "2 BHk",
-            feet: 1115 - 1130,
+            feet: "1115 - 1130",
             price: 80
         },
         {
             bed: "3 BHK + 2T",
-            feet: 1348 - 1385,
+            feet: "1348 - 1385",
             price: 97
         },
         {
             bed: "3 BHK + 3T",
-            feet: 1596 - 1600,
+            feet: "1596 - 1600",
             price: 114
         },
         {
             bed: "3 BHK + Maid",
-            feet: 1711 - 1855,
+            feet: "1711 - 1855",
             price: 105
         },
     ])
