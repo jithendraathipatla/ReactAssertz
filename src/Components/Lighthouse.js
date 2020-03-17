@@ -8,7 +8,6 @@ const Lighthouse = (props) => {
   const images = props.images;
   const [state, setstate] = useState(props.state);
   const displayingGallery = () => {
-    console.log(images);
     return state.map((item,i)=>{
       return(
         <div key={i} style={{paddingBottom:"8px", backgroundColor:"#eee"}}>

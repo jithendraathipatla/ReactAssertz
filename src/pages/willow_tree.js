@@ -21,11 +21,10 @@ import InteriorFour from '../Imagesa/Images/willo/interior-four.jpg';
 
 import masterplanabcd from "../Imagesa/Images/willo/master-plan.jpg";
 
-
-import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
-import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
-import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
-import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
+import FloorPlanOne from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanTwo from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanThree from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanFour from '../Imagesa/Images/Coming-Soon-Project-.jpg';
 
 
 
@@ -99,19 +98,19 @@ const Willo = () => {
     
       const [floor, setfloor] = useState([
         {
-          name: "648 SqFt - Hyde",
+          name: "661 SqFt - 1 BHK",
           img: FloorPlanOne,
         },
         {
-          name: "652 SqFt - Hyde",
+          name: "1154 SqFt - 2 BHK",
           img: FloorPlanTwo,
         },
         {
-          name: "977 SqFt - Hyde",
+          name: "1364 SqFt - 3 BHK",
           img: FloorPlanThree,
         },
         {
-          name: "984 SqFt - Hyde",
+          name: "1812 SqFt - 4 BHK",
           img: FloorPlanFour,
         }
       ]);

@@ -21,15 +21,11 @@ import InteriorFour from '../Imagesa/Images/Elysian/interior-four.jpg';
 
 import masterplanabcd from "../Imagesa/Images/Elysian/master-plan.jpg";
 
+import FloorPlanOne from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanTwo from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanThree from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanFour from '../Imagesa/Images/Coming-Soon-Project-.jpg';
 
-import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
-import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
-import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
-import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
-import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
-import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
-import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
-import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
 
 const Elysian = () => {
     const [squarefeet, setsquarefeet] = useState([
@@ -102,46 +98,31 @@ const Elysian = () => {
     
       const [floor, setfloor] = useState([
         {
-          name: "648 SqFt - Hyde",
+          name: "1109 SqFt - 2 BHK",
           img: FloorPlanOne,
         },
         {
-          name: "652 SqFt - Hyde",
+          name: "1342 SqFt - 3 BHK S",
           img: FloorPlanTwo,
         },
         {
-          name: "977 SqFt - Hyde",
+          name: "1617 SqFt - 3 BHK M",
           img: FloorPlanThree,
         },
         {
-          name: "984 SqFt - Hyde",
+          name: "1810 SqFt - 3 BHK L",
           img: FloorPlanFour,
         },
-        {
-          name: "1224 SqFt -Regent",
-          img: FloorPlanFive,
-        },
-        {
-          name: "1277 SqFt -Regent",
-          img: FloorPlanSix,
-        },
-        {
-          name: "1473 SqFt -Regent",
-          img: FloorPlanseven,
-        },
-        {
-          name: "1562 SqFt -Regent",
-          img: FloorPlanEight,
-        },
+       
       ]);
 
       const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage, FourthSliderImage]);
       const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour])
       const [lightmas, setlighmas] = useState([masterplanabcd])
-      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight])
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour])
 
       return (
-        <Layout title="prestige elysian | reviews | Brouchere | Location" project="Prestige Elysian">
+        <Layout title="prestige elysian | reviews | Brouchere | Location" project="Prestige Elysian" page="elysian">
          <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Elysian" location="In Bannerghatta," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="86"/>
          <OverviewComponent project="Elysian Overview" loc="Bannerghatta" area="6.37 Acer" units="548" towers="2T" floors="G+16+18 Floors" var="2&3 Bhk" poss="2022"/>
          <hr/>
@@ -151,7 +132,7 @@ const Elysian = () => {
          <hr/>
          <Amenities project="Elysian Amenities"/>
          <hr/>
-         <Pricingcomponent proj="Elysian Pricing" tabeltwo={squarefeet} project="Prestige Elysian"/>
+         <Pricingcomponent proj="Elysian Pricing" tabeltwo={squarefeet} project="Prestige Elysian" page="elysian"/>
          <hr/>
          <LocationComponent title="Elysian Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.53596909848!2d77.59184831413425!3d12.87322012051415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15255b79d7ad%3A0x1fdc3f6d55183b1!2sPrestige%20Elysian!5e0!3m2!1sen!2sin!4v1583827860303!5m2!1sen!2sin"/>
         </Layout>

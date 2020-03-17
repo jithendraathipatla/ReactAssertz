@@ -27,7 +27,7 @@ const Pricingcomponent = (props) => {
                      <span>{item.bed}</span>
                      <span>{item.feet}  Sq.ft</span>
                      <span>{item.price} Lacs</span>
-                     <span><ModalComponent title="Know More" project={props.project} size={medium}/></span>
+                     <span><ModalComponent title="Know More" project={props.project} size={medium} link={props.page}/></span>
                 </div>
             )
         })

@@ -23,14 +23,12 @@ import InteriorFour from '../Imagesa/Images/latestPeace.jpg';
 import masterplanabcd from "../Imagesa/Images/dolcevita/master-plan.jpg";
 
 
-import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
-import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
-import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
-import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
-import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
-import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
-import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
-import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
+
+import FloorPlanOne from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanTwo from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanThree from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanFour from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+
 
 const Dolce = () => {
     const [squarefeet, setsquarefeet] = useState([
@@ -113,47 +111,32 @@ const Dolce = () => {
 
       const [floor, setfloor] = useState([
         {
-          name: "648 SqFt - Hyde",
+          name: "1274 SqFt - 2 BHK",
           img: FloorPlanOne,
         },
         {
-          name: "652 SqFt - Hyde",
+          name: "1718 SqFt - 3 BHK M",
           img: FloorPlanTwo,
         },
         {
-          name: "977 SqFt - Hyde",
+          name: "1911 SqFt - 3 BHK L",
           img: FloorPlanThree,
         },
         {
-          name: "984 SqFt - Hyde",
+          name: "1924 SqFt - 3 BHK XL",
           img: FloorPlanFour,
         },
-        {
-          name: "1224 SqFt -Regent",
-          img: FloorPlanFive,
-        },
-        {
-          name: "1277 SqFt -Regent",
-          img: FloorPlanSix,
-        },
-        {
-          name: "1473 SqFt -Regent",
-          img: FloorPlanseven,
-        },
-        {
-          name: "1562 SqFt -Regent",
-          img: FloorPlanEight,
-        },
+        
       ]);
 
       const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage,FourthSliderImage,]);
       const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour])
       const [lightmas, setlighmas] = useState([masterplanabcd])
-      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight])
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour])
        
       
       return (
-        <Layout title="prestige dolce vita | reviews | Location" project="Prestige Dolce Vita">
+        <Layout title="prestige dolce vita | reviews | Location" project="Prestige Dolce Vita" page="dolce_vita">
           <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Dolce Vita" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="94"/>
           <br/>
          <OverviewComponent project="Dolce Vita Overview" loc="Whitefield" area="1.36 Acer" units="66" towers="2T" floors="G+7+8 Floors" var="2&3 Bhk" poss="2021"/>
@@ -165,7 +148,7 @@ const Dolce = () => {
 
          <Amenities project="Dolce Vita Amenities"/>
          <hr/>
-         <Pricingcomponent proj="Dolce Vita Pricing" project="Prestige Dolce Vita" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Dolce Vita Pricing" project="Prestige Dolce Vita" tabeltwo={squarefeet} page="dolce_vita"/>
          <hr/>
          <LocationComponent title="Dolce Vita Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.96872735442!2d77.7402523141352!3d12.973852018340834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae115b9966adff%3A0xbbc8e762a3036b41!2sPrestige%20Dolce%20Vita!5e0!3m2!1sen!2sin!4v1583827758989!5m2!1sen!2sin" />
         </Layout>

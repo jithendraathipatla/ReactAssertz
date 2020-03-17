@@ -75,7 +75,7 @@ const Sidemenu = (props) => {
       console.log(res);
       console.log(res.data); 
       alert("You will now be redirected.");
-      window.location = "/download/";
+      window.location = `/download-${props.link}/`;
     }).catch((e)=>{
       console.log(e);
     })
@@ -104,7 +104,7 @@ const Sidemenu = (props) => {
       console.log(res);
       console.log(res.data);
       alert("You will now be redirected.");
-      window.location = "/download/";
+      window.location = `/download-${props.link}/`;
     })
     }
 

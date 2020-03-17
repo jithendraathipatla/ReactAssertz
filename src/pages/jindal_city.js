@@ -22,14 +22,10 @@ import InteriorFour from '../Imagesa/Images/Elysian/interior-four.jpg';
 import masterplanabcd from "../Imagesa/Images/jindal/master-plan.jpg";
 
 
-import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
-import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
-import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
-import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
-import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
-import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
-import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
-import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
+import FloorPlanOne from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanTwo from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanThree from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanFour from '../Imagesa/Images/Coming-Soon-Project-.jpg';
 
 
 
@@ -120,46 +116,31 @@ const Jindal = () => {
     
       const [floor, setfloor] = useState([
         {
-          name: "648 SqFt - Hyde",
+          name: "607 SqFt - 1 BHK",
           img: FloorPlanOne,
         },
         {
-          name: "652 SqFt - Hyde",
+          name: "962 SqFt - 2 BHK",
           img: FloorPlanTwo,
         },
         {
-          name: "977 SqFt - Hyde",
+          name: "1373 SqFt - 3 BHK",
           img: FloorPlanThree,
         },
         {
-          name: "984 SqFt - Hyde",
+          name: "2075 SqFt - 4 BHK",
           img: FloorPlanFour,
         },
-        {
-          name: "1224 SqFt -Regent",
-          img: FloorPlanFive,
-        },
-        {
-          name: "1277 SqFt -Regent",
-          img: FloorPlanSix,
-        },
-        {
-          name: "1473 SqFt -Regent",
-          img: FloorPlanseven,
-        },
-        {
-          name: "1562 SqFt -Regent",
-          img: FloorPlanEight,
-        },
+       
       ]);
 
       const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage, FourthSliderImage]);
       const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour]);
       const [lightmas, setlighmas] = useState([masterplanabcd]);
-      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]);
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]);
     
     return (
-        <Layout title="prestige jindal city | reviews | Brouchere | Location" project="Prestige Jindal City">
+        <Layout title="prestige jindal city | reviews | Brouchere | Location" project="Prestige Jindal City" page="jindal_city">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Jindal City" location="In TumKur," attractiveone="Pre_launch Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2, 3" bedroomthree="4" price="48"/>
          <br/>
          <OverviewComponent project="Jindal City Overview" loc="Tumkur" area="32 Acer" units="3571" towers="15T" floors="G+27+28 Floors" var="1,2,3 & 4 Bhk" poss="2021(P1)"/>
@@ -170,7 +151,7 @@ const Jindal = () => {
          <hr/>
          <Amenities project="Jindal City Amenities" />
          <hr/>
-         <Pricingcomponent proj="Jindal City Pricing" project="Prestige Jindal City" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Jindal City Pricing" project="Prestige Jindal City" tabeltwo={squarefeet} page="jindal_city"/>
          <hr/>
          <LocationComponent title="Jindal city Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7246220716765!2d77.48581591413593!3d13.053192516616061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae2320ea5d750d%3A0x405b3e113778063b!2sPrestige%20Jindalcity!5e0!3m2!1sen!2sin!4v1583828266207!5m2!1sen!2sin"/>
         </Layout>

@@ -5,7 +5,7 @@ const download = () => {
     return (
         <div style={{textAlign:"center"}}>
         <SEOComponent title="Prestige Waterford Apartments"/>
-	     <h4>Sent Successfully! Thank you, We will contact you shortly! And we email you the Brochure Shortly.</h4>
+	     <h4>Sent Successfully! Thank you, We will contact you shortly! And the borchure will be available soon</h4>
 	    </div>
     );
 };

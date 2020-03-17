@@ -23,16 +23,10 @@ import InteriorFour from '../Imagesa/Images/Elysian/interior-four.jpg';
 import masterplanabcd from "../Imagesa/Images/songofsouth/master-plan.jpg";
 
 
-import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
-import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
-import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
-import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
-import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
-import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
-import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
-import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
-
-
+import FloorPlanOne from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanTwo from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanThree from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanFour from '../Imagesa/Images/Coming-Soon-Project-.jpg';
 
 const Song = () => {
     const [squarefeet, setsquarefeet] = useState([
@@ -120,46 +114,31 @@ const Song = () => {
     
       const [floor, setfloor] = useState([
         {
-          name: "648 SqFt - Hyde",
+          name: "644 SqFt - 1 BHK",
           img: FloorPlanOne,
         },
         {
-          name: "652 SqFt - Hyde",
+          name: "1197 SqFt - 2 BHK",
           img: FloorPlanTwo,
         },
         {
-          name: "977 SqFt - Hyde",
+          name: "1598 SqFt - 3 BHK",
           img: FloorPlanThree,
         },
         {
-          name: "984 SqFt - Hyde",
+          name: "2406 SqFt - 4 BHK",
           img: FloorPlanFour,
         },
-        {
-          name: "1224 SqFt -Regent",
-          img: FloorPlanFive,
-        },
-        {
-          name: "1277 SqFt -Regent",
-          img: FloorPlanSix,
-        },
-        {
-          name: "1473 SqFt -Regent",
-          img: FloorPlanseven,
-        },
-        {
-          name: "1562 SqFt -Regent",
-          img: FloorPlanEight,
-        },
+       
       ]);
 
       const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage, FourthSliderImage]);
       const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour]);
       const [lightmas, setlighmas] = useState([masterplanabcd]);
-      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]);
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]);
     
     return (
-        <Layout title="prestige song of south | reviews | Brouchere | Location" project="Prestige Song of South">        
+        <Layout title="prestige song of south | reviews | Brouchere | Location" project="Prestige Song of South" page="song_of_south">        
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to Move_In" project="Prestige Song of South" location="In Begur Road," attractiveone="Ready_to_move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1,2,3.5 " bedroomtwo="3,3.5" bedroomthree="4" price="39.4"/>
          <br/>
          <OverviewComponent project="Song of South Overview" loc="Begur" area="33 Acer" units="2234" towers="16T" floors="G+15,17,20 Floors" var="1,2,2.5,3.5 & 3 Bhk" poss="mid 2019"/>
@@ -170,7 +149,7 @@ const Song = () => {
          <hr/>
          <Amenities project="Song of South Amenities"/>
          <hr/>
-         <Pricingcomponent proj="Song of South Pricing" project="Prestige Song of South" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Song of South Pricing" project="Prestige Song of South" tabeltwo={squarefeet} page="song_of_south"/>
          <hr/>
          <LocationComponent  title="Song of south Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15558.84081421235!2d77.6136469!3d12.8619848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85622af2679c25d8!2sPrestige%20Song%20of%20the%20South!5e0!3m2!1sen!2sin!4v1583824572461!5m2!1sen!2sin"/>
         </Layout>

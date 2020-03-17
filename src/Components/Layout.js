@@ -9,7 +9,7 @@ const Layout = (props) => {
         <div>
         <SeoComponent title={props.title}/>
         <Navbar/>
-        <SideMenu project_name={props.project}/>
+        <SideMenu project_name={props.project} link={props.page}/>
         {props.children}
         <Footer/>
         </div>

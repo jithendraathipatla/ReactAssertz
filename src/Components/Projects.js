@@ -129,7 +129,7 @@ const App = () => {
       location: "RV Road, Bangalore ",
       posession: "2021",
       link:
-        "https://drive.google.com/open?id=1LXZB4htUXDk5aHt1-XmeVV5Gdtn4AWrl   ",
+        "https://drive.google.com/open?id=1LXZB4htUXDk5aHt1-XmeVV5Gdtn4AWrl",
       brouchereName: "Download Prestige Botanique Brochure",
       page: "botanique",
     },

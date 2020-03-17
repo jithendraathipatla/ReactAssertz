@@ -22,15 +22,10 @@ import InteriorFour from '../Imagesa/Images/Elysian/interior-four.jpg';
 import masterplanabcd from "../Imagesa/Images/lakeridge/master-plan.jpg";
 
 
-import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
-import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
-import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
-import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
-import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
-import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
-import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
-import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
-
+import FloorPlanOne from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanTwo from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanThree from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanFour from '../Imagesa/Images/Coming-Soon-Project-.jpg';
 
 
 const Lake = () => {
@@ -110,37 +105,22 @@ const Lake = () => {
     
       const [floor, setfloor] = useState([
         {
-          name: "648 SqFt - Hyde",
+          name: "661 SqFt - 1 BHk",
           img: FloorPlanOne,
         },
         {
-          name: "652 SqFt - Hyde",
+          name: "1137 SqFt - 2 BHK",
           img: FloorPlanTwo,
         },
         {
-          name: "977 SqFt - Hyde",
+          name: "1571 SqFt - 3 BHK",
           img: FloorPlanThree,
         },
         {
-          name: "984 SqFt - Hyde",
+          name: "1745 SqFt - 3 BHK + Maid",
           img: FloorPlanFour,
         },
-        {
-          name: "1224 SqFt -Regent",
-          img: FloorPlanFive,
-        },
-        {
-          name: "1277 SqFt -Regent",
-          img: FloorPlanSix,
-        },
-        {
-          name: "1473 SqFt -Regent",
-          img: FloorPlanseven,
-        },
-        {
-          name: "1562 SqFt -Regent",
-          img: FloorPlanEight,
-        },
+        
       ]);
 
       
@@ -148,10 +128,10 @@ const Lake = () => {
       const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage, FourthSliderImage]);
       const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour]);
       const [lightmas, setlighmas] = useState([masterplanabcd]);
-      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]);
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]);
     
     return (
-        <Layout title="prestige lake ridge | reviews | Brouchere | Location" project="Prestige Lake Ridge">
+        <Layout title="prestige lake ridge | reviews | Brouchere | Location" project="Prestige Lake Ridge" page="lake_ridge">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to Move_In" project="Prestige Lake Ridge" location="In Subramanyapura," attractiveone="Ready to Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2" bedroomthree="3" price="40"/>
          <br/>
          <OverviewComponent project="Lake Ridge Overview" loc="Subramanyapura" area="15.96 Acer" units="1119" towers="12T" floors="G+18 Floors" var="1,2 & 3 Bhk" poss="2019"/>
@@ -162,7 +142,7 @@ const Lake = () => {
          <hr/>
          <Amenities project="Lake Ridge Amenities"/>
          <hr/>
-         <Pricingcomponent proj="Lake Ridge Pricing" project="Prestige Lake Ridge" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Lake Ridge Pricing" project="Prestige Lake Ridge" tabeltwo={squarefeet} page="lake_ridge"/>
          <hr/>
          <LocationComponent title="Lake Ridge Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7778.171742611922!2d77.54183352164858!3d12.902199671598392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f0eee48361b%3A0x3c40e528e94bdec8!2sPrestige%20Lake%20Ridge!5e0!3m2!1sen!2sin!4v1583828452900!5m2!1sen!2sin"/>
         </Layout>

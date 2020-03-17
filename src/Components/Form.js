@@ -1,10 +1,9 @@
 import React, { useState } from "react"
 import axios from "axios"
 import { css } from "@emotion/core"
-import DownloadComponent from '../pages/download';
+
 
 const Form = (props) => {
-  console.log(props.project_name);
   const [name, setname] = useState()
   const [email, setemail] = useState()
   const [phone, setphone] = useState()
@@ -22,6 +21,8 @@ const Form = (props) => {
       Client_phone_number: phonenumber,
       Project_Name: props.project_name,
     }
+    window.location = `/download-${props.link}/`
+
 
     var data = {
       service_id: "gmail",
@@ -29,12 +30,14 @@ const Form = (props) => {
       user_id: "user_s9VasukllOwTDnR8R0FWD",
       template_params: finalData,
     }
+  
+    window.location = `/download-${props.project_name}/`
      axios
       .post("https://api.emailjs.com/api/v1.0/email/send", data)
       .then(res => {
         console.log(res)
         alert("You will now be redirected.")
-        window.location = "/download/"
+        window.location = `/download-${props.link}/`
       })
       .catch(e => {
         console.log(e)

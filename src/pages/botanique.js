@@ -24,14 +24,11 @@ import InteriorFour from '../Imagesa/Images/latestPeace.jpg';
 import masterplanabcd from "../Imagesa/Images/botanique/master-plan.png";
 
 
-import FloorPlanOne from '../Imagesa/Images/HydeFloor2.jpg';
-import FloorPlanTwo from '../Imagesa/Images/HydeFloor4.jpg';
-import FloorPlanThree from '../Imagesa/Images/HydeFloor7.jpg';
-import FloorPlanFour from '../Imagesa/Images/HydeFloor8.jpg';
-import FloorPlanFive from '../Imagesa/Images/FloorRegentNow4.jpg';
-import FloorPlanSix from '../Imagesa/Images/FloorRegentNow5.jpg';
-import FloorPlanseven from '../Imagesa/Images/FloorRegentNow6.jpg';
-import FloorPlanEight from '../Imagesa/Images/FloorRegentNow8.jpg';
+import FloorPlanOne from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanTwo from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanThree from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import FloorPlanFour from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+
 
 
 const Botanique = () => {
@@ -120,45 +117,30 @@ const Botanique = () => {
     
       const [floor, setfloor] = useState([
         {
-          name: "648 SqFt - Hyde",
+          name: "1473 SqFt - 2 BHK",
           img: FloorPlanOne,
         },
         {
-          name: "652 SqFt - Hyde",
+          name: "1751 SqFt - 3 BHK S",
           img: FloorPlanTwo,
         },
         {
-          name: "977 SqFt - Hyde",
+          name: "1942 SqFt - 3 BHK M",
           img: FloorPlanThree,
         },
         {
-          name: "984 SqFt - Hyde",
+          name: "2473 SqFt - 3 BHK L",
           img: FloorPlanFour,
         },
-        {
-          name: "1224 SqFt -Regent",
-          img: FloorPlanFive,
-        },
-        {
-          name: "1277 SqFt -Regent",
-          img: FloorPlanSix,
-        },
-        {
-          name: "1473 SqFt -Regent",
-          img: FloorPlanseven,
-        },
-        {
-          name: "1562 SqFt -Regent",
-          img: FloorPlanEight,
-        },
+       
       ]);
 
       const [lightext, setlightext] = useState([FirstSliderImage, SecondSliderImage, ThirdSliderImage,FourthSliderImage,]);
       const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour])
       const [lightmas, setlighmas] = useState([masterplanabcd])
-      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight])    
+      const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour])    
         return (
-        <Layout title="prestige Botanique| Brouchere | Location" project="Prestige Botanique">
+        <Layout title="prestige Botanique| Brouchere | Location" project="Prestige Botanique" page="botanique">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Botanique" location="In RV Road," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="184"/>
          <br/>
          <OverviewComponent project="Botanique Overview" loc="RV Road" area="0.6 Acer" units="34" towers="1T" floors="2B+G+8 Floors" var="2&3 Bhk" poss="2021"/>
@@ -169,7 +151,7 @@ const Botanique = () => {
          <hr/>
          <Amenities project="Botanique Amenities"/>
          <hr/>
-         <Pricingcomponent proj="Botanique Pricing" project="Prestige Botanique" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Botanique Pricing" project="Prestige Botanique" tabeltwo={squarefeet} page="botanique"/>
          <hr/>
          <LocationComponent title="Botanique Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2735931848188!2d77.57796491413502!3d12.95433691876352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15e8bb736e65%3A0xb451cc1a6240f293!2sPrestige%20Botanique!5e0!3m2!1sen!2sin!4v1583827427402!5m2!1sen!2sin"/>
         </Layout>

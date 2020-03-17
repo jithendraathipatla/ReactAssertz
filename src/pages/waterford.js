@@ -118,7 +118,7 @@ const Waterford = () => {
       const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]);
     
     return (
-        <Layout title="prestige waterford | ITPL | Brouchere | Location" project="Prestige Waterford">
+        <Layout title="prestige waterford | ITPL | Brouchere | Location" project="Prestige Waterford" page="waterford">
 
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Waterford" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="3" bedroomthree="4" price="_ _"/>
          <br/>
@@ -130,7 +130,7 @@ const Waterford = () => {
          <hr/>
          <Amenities project="Waterford Amenities"/>
          <hr/>
-         <Pricingcomponent proj="Waterford Pricing" project="Prestige Waterford" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Waterford Pricing" project="Prestige Waterford" tabeltwo={squarefeet} page="waterford"/>
          <hr/>
          <LocationComponent title="Waterford Location"  logo={ProjectLogo} iframe="null"/>
 
