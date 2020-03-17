@@ -33,18 +33,18 @@ const Waterford = () => {
     const [squarefeet, setsquarefeet] = useState([
         {
             bed: "3 BHk",
-            feet: "Know More",
-            price:"Know More"
+            feet: "Coming Soon",
+            price:"Coming Soon"
         },
         {
             bed: "4 BHK Medium",
-            feet: "Know More",
-            price:"Know More"
+            feet: "Coming Soon",
+            price:"Coming Soon"
         },
         {
             bed: "4 BHK Large",
-            feet: "Know More",
-            price: "Know More"
+            feet: "Coming Soon",
+            price: "Coming Soon"
         },
     ])
 
