@@ -21,17 +21,12 @@ const Form = (props) => {
       Client_phone_number: phonenumber,
       Project_Name: props.project_name,
     }
-    window.location = `/download-${props.link}/`
-
-
-    var data = {
+      var data = {
       service_id: "gmail",
       template_id: "normal",
       user_id: "user_s9VasukllOwTDnR8R0FWD",
       template_params: finalData,
     }
-  
-    window.location = `/download-${props.project_name}/`
      axios
       .post("https://api.emailjs.com/api/v1.0/email/send", data)
       .then(res => {
