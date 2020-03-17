@@ -51,7 +51,6 @@ const Pricingcomponent = (props) => {
                 </div>
                 <div css={imagestyle}  onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHoverone}>
                  <img src={costsheetImage} alt="cost sheet"/>
-                 handleMouseHover()
                 </div>
              </div>
  
