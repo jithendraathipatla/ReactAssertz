@@ -57,7 +57,7 @@ const parthree = css`
    padding:10px;
    border-radius:5px;
    @media (max-width:600px){
-      top:7%;
+      top:12%;
    }
 `
 export default Slider;

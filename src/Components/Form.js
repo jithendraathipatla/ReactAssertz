@@ -29,20 +29,16 @@ const Form = (props) => {
       user_id: "user_s9VasukllOwTDnR8R0FWD",
       template_params: finalData,
     }
-
-    console.log(finalData);
-    
-
-    //  axios
-    //   .post("https://api.emailjs.com/api/v1.0/email/send", data)
-    //   .then(res => {
-    //     console.log(res)
-    //     alert("You will now be redirected.")
-    //     window.location = "/download/"
-    //   })
-    //   .catch(e => {
-    //     console.log(e)
-    //   })
+     axios
+      .post("https://api.emailjs.com/api/v1.0/email/send", data)
+      .then(res => {
+        console.log(res)
+        alert("You will now be redirected.")
+        window.location = "/download/"
+      })
+      .catch(e => {
+        console.log(e)
+      })
   }
   return (
     <form onSubmit={handelingFormdata} name="main_forma" method="post">

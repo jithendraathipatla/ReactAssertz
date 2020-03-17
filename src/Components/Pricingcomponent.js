@@ -5,6 +5,21 @@ import costsheetImage from '../Imagesa/Images/costing-details.jpg';
 import Title from '../Components/Title';
 
 const Pricingcomponent = (props) => {
+    const handleMouseHover = () => {
+      console.log("hi");
+      return(
+        <div css={know}>
+        <ModalComponent title="Know More" project={props.proj} size={medium}/>
+        </div>
+      )
+    }
+
+    const handleMouseHoverone = () => {
+      console.log("hione");
+      return(
+         null
+      )
+    }
     const displayingTabelBody = () => {
         return props.tabeltwo.map((item,i)=>{
             return (
@@ -12,7 +27,7 @@ const Pricingcomponent = (props) => {
                      <span>{item.bed}</span>
                      <span>{item.feet}  Sq.ft</span>
                      <span>{item.price} Lacs</span>
-                     <span><ModalComponent title="Know More" project={props.proj} size={medium}/></span>
+                     <span><ModalComponent title="Know More" project={props.project} size={medium}/></span>
                 </div>
             )
         })
@@ -34,8 +49,9 @@ const Pricingcomponent = (props) => {
                   {displayingTabelBody()}
                  </div>
                 </div>
-                <div css={imagestyle}>
+                <div css={imagestyle}  onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHoverone}>
                  <img src={costsheetImage} alt="cost sheet"/>
+                 handleMouseHover()
                 </div>
              </div>
  
@@ -100,12 +116,22 @@ const Pricingcomponent = (props) => {
   flex:2;
   padding-left:20px;
   img{
+   position:relative;
    width:370px;
+   :hover{
+    cursor:pointer;
+    }
   }
   @media(max-width:600px){
     display:none;
   }
+  
  `
+
+ const know = css`
+   position:absolute;
+ `
+
  const medium = css`
   padding:2px;
   background:blue;

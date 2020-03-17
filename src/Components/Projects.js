@@ -1,11 +1,10 @@
 import React, { useState } from "react"
 import { css, jsx } from "@emotion/core"
 import Card from "./Cards";
-import ModalComponent from '../Components/Modal';
 import Image4 from "../Imagesa/Images/prestige-finsbury-banner1.jpg"
 import Image1 from '../Imagesa/Images/songofsouth/slider-one.jpg';
 import Image2 from '../Imagesa/Images/Kew/slider-three.jpg';
-import Image3 from '../Imagesa/Images/parksquare/slider-one.jpg';
+import Image3 from '../Imagesa/Images/lakeridge/exterior.jpg';
 import Image5 from '../Imagesa/Images/jindal/exterior-one.jpg';
 import Image6 from '../Imagesa/Images/Elysian/first.jpg';
 import Image7 from '../Imagesa/Images/willo/slider-four.jpg';
@@ -56,7 +55,7 @@ const App = () => {
       page: "song_of_south",
     },
     {
-      image: Image2,
+      image: Image3,
       alt: "Prestige lake ridge",
       unit_type: "1,2& 3 BHk",
       price: "40 lakhs",
@@ -70,7 +69,7 @@ const App = () => {
     },
 
     {
-      image: Image3,
+      image: Image2,
       alt: "Prestige Kew Gardens ",
       unit_type: "1,2 & 3 BHK",
       price: "94 Lakh",
