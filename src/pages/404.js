@@ -15,7 +15,7 @@ const ErrorPage = () => {
 };
 
 const button = css`
-    margin: 80vh 90vh;
+    margin: 70vh 90vh;
     padding: 9px;
     border-radius: 4px;
     border: 1px solid #eeee;
