@@ -141,7 +141,7 @@ const Elysian = () => {
       const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight])
 
       return (
-        <Layout title="prestige elysian | reviews | Brouchere | Location">
+        <Layout title="prestige elysian | reviews | Brouchere | Location" project="Prestige Elysian">
          <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Elysian" location="In Bannerghatta," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="86"/>
          <OverviewComponent project="Elysian Overview" loc="Bannerghatta" area="6.37 Acer" units="548" towers="2T" floors="G+16+18 Floors" var="2&3 Bhk" poss="2022"/>
          <hr/>
@@ -151,7 +151,7 @@ const Elysian = () => {
          <hr/>
          <Amenities project="Elysian Amenities"/>
          <hr/>
-         <Pricingcomponent project="Elysian Pricing" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Elysian Pricing" tabeltwo={squarefeet} project="Prestige Elysian"/>
          <hr/>
          <LocationComponent title="Elysian Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.53596909848!2d77.59184831413425!3d12.87322012051415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15255b79d7ad%3A0x1fdc3f6d55183b1!2sPrestige%20Elysian!5e0!3m2!1sen!2sin!4v1583827860303!5m2!1sen!2sin"/>
         </Layout>

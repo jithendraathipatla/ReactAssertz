@@ -120,9 +120,9 @@ const Willo = () => {
       const [lighint, setlighint] = useState([InteriorOne, InteriorTwo, InteriorThree, InteriorFour]);
       const [lightmas, setlighmas] = useState([masterplanabcd]);
       const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour]);
-    
+
     return (
-        <Layout title="prestige willow tree | reviews | Brouchere | Location">
+        <Layout title="prestige willow tree | reviews | Brouchere | Location" project="Prestige willow Tree">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Willow Tree" location="In Vidyanarayapura," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="1, 2," bedroomtwo="3, 3.5" bedroomthree="3.5" price="46"/>
          <br/>
          <OverviewComponent project="Willo Tree Overview" loc="Vidyaranyapura" area="6.73 Acer" units="451" towers="5T" floors="G+10,11 Floors" var="1,2,3 & 3.5 Bhk" poss="mid 2022"/>
@@ -133,7 +133,7 @@ const Willo = () => {
          <hr/>
          <Amenities project="Willow Tree Amenities"/>
          <hr/>
-         <Pricingcomponent project="Willow Tree Pricing" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Willow Tree Pricing" project="Prestige Willo Tree" tabeltwo={squarefeet}/>
          <hr/>
          <LocationComponent title="Willo Tree Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.357265704769!2d77.55748681413623!3d13.076529516106874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae23552102b273%3A0xcf4c849a7275b34b!2sPrestige%20Willow%20Tree!5e0!3m2!1sen!2sin!4v1583828717972!5m2!1sen!2sin"/>
         </Layout>

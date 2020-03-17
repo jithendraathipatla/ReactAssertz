@@ -99,7 +99,7 @@ const Card = props => {
 
           <div css={buttons}>
             <button css={button}><Link to={`/${props.pages}`}><a>More details</a></Link></button>
-            <button css={button}><ModalComponent title="Brouchure" project={props.alt}/></button>
+            <button css={button}><ModalComponent title="Brouchure" project={props.alt} link={props.link} linkone={props.link1}/></button>
           </div>
         </div>
       </div>

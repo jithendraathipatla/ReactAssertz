@@ -1,5 +1,4 @@
 import React from 'react';
-import {css} from '@emotion/core';
 import FormComponent from '../Components/Form';
 import { withStyles } from '@material-ui/core/styles';
 import Dialog from '@material-ui/core/Dialog';
@@ -70,7 +69,7 @@ export default function CustomizedDialogs(props) {
           {props.project}
         </DialogTitle>
         <DialogContent dividers>
-           <FormComponent project_name={props.project}/>
+           <FormComponent project_name={props.project} link={props.link} link1={props.linkone}/>
         </DialogContent>
       </Dialog>
     </div>

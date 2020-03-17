@@ -158,7 +158,7 @@ const Botanique = () => {
       const [lightmas, setlighmas] = useState([masterplanabcd])
       const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight])    
         return (
-        <Layout title="prestige Botanique| Brouchere | Location">
+        <Layout title="prestige Botanique| Brouchere | Location" project="Prestige Botanique">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Botanique" location="In RV Road," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="184"/>
          <br/>
          <OverviewComponent project="Botanique Overview" loc="RV Road" area="0.6 Acer" units="34" towers="1T" floors="2B+G+8 Floors" var="2&3 Bhk" poss="2021"/>
@@ -169,7 +169,7 @@ const Botanique = () => {
          <hr/>
          <Amenities project="Botanique Amenities"/>
          <hr/>
-         <Pricingcomponent project="Botanique Pricing" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Botanique Pricing" project="Prestige Botanique" tabeltwo={squarefeet}/>
          <hr/>
          <LocationComponent title="Botanique Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2735931848188!2d77.57796491413502!3d12.95433691876352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15e8bb736e65%3A0xb451cc1a6240f293!2sPrestige%20Botanique!5e0!3m2!1sen!2sin!4v1583827427402!5m2!1sen!2sin"/>
         </Layout>

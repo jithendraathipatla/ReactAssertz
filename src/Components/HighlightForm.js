@@ -3,7 +3,7 @@ import axios from 'axios';
 import '../GlobalStyles/styles.css';
 
 
-const HighlightForm = () => {
+const HighlightForm = (props) => {
     const handelformdata = (e) => {
         e.preventDefault();
         const name = e.target.elements.name.value;
@@ -14,7 +14,7 @@ const HighlightForm = () => {
             client_name:name,
             client_email:email,
             client_phone:phone,
-            project_name:"Prestige Waterford"
+            project_name:props.projectnmame
         }
         var data = {
             service_id: 'gmail',
@@ -22,15 +22,14 @@ const HighlightForm = () => {
             user_id: 'user_s9VasukllOwTDnR8R0FWD',
             template_params: client_information,
         }
-      
-        axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
-        .then(res => {
-          console.log(res);
-          console.log(res.data);
-          alert("You will now be redirected.");
-          window.location = "/download/";
-        })
-      
+        console.log(client_information);
+        // axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
+        // .then(res => {
+        //   console.log(res);
+        //   console.log(res.data);
+        //   alert("You will now be redirected.");
+        //   window.location = "/download/";
+        // })
     }
     return (
         <div>
@@ -49,9 +48,8 @@ const HighlightForm = () => {
                             
             <div className="form-group">
            
-          <input type="text" name="phone_no" placeholder="Your Phone" minLength="10" maxLength="20" title="Must have 10 digit numbers" pattern="^\d{10}$" required/>
-            </div>
-                                        
+           <input type="text" name="phone_no" placeholder="Your Phone" minLength="10" maxLength="20" title="Must have 10 digit numbers" pattern="^\d{10}$" required/>
+              </div>                
                 <div className="form-button">
                 <button type="submit" value="send" className="prestigecopyabcd">Submit</button>
                 </div>						

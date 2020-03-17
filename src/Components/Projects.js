@@ -32,13 +32,14 @@ const App = () => {
     {
       image: Image4,
       alt: "Prestige Finsbury Park",
-      unit_type: "3 & 4 BHK",
-      price: "1.24 CR",
-      towers: "Coming Soon",
+      unit_type: "1,2 & 3 BHK",
+      price: "33.5 Lac",
+      towers: "18",
       location: "KIDAB Area, North Bangalore",
-      posession: "Coming Soon",
-      link: "Coming Soon",
-      brouchereName: "Coming Soon",
+      posession: "June 2023",
+      link: "https://drive.google.com/file/d/1uCIKnYTyTH27_ueX1dvAIbAG_UCtOcKd/view",
+      link1:"https://drive.google.com/file/d/1cQjo-FwWNmCqFv_71lLac2heQyOIGTZT/view",
+      brouchereName: "Download Prestige Finsbury Park Brochure",
       page: "finsbury_park",
     },
     {
@@ -51,7 +52,7 @@ const App = () => {
       posession: "2019 onwards",
       link:
         "https://drive.google.com/open?id=1S6RsDbGVtaIDhW5EY5jI-ZTsesoBjQkN",
-      brouchereName: "Download Prestige Song of the South Brouchere",
+      brouchereName: "Download Prestige Song of the South Brochure",
       page: "song_of_south",
     },
     {
@@ -64,7 +65,7 @@ const App = () => {
       posession: "2019 onwards",
       link:
         "https://drive.google.com/open?id=13jPTHzIRfjsX0-Og8c1bJp0LcjTdim66",
-      brouchereName: "Download prestige lake ridge Brouchere",
+      brouchereName: "Download prestige lake ridge Brochure",
       page: "lake_ridge",
     },
 
@@ -78,7 +79,7 @@ const App = () => {
       posession: "2019 onwards",
       link:
         "https://drive.google.com/open?id=1S6RsDbGVtaIDhW5EY5jI-ZTsesoBjQkN",
-      brouchereName: "Download Prestige Kew Gardens Brouchere",
+      brouchereName: "Download Prestige Kew Gardens Brochure",
       page: "kew_gardens",
     },
     {
@@ -91,7 +92,7 @@ const App = () => {
       posession: "2021 Onwards (P1)",
       link:
         "https://drive.google.com/file/d/1-1vxZM_N147Yl9y2Iiza87xdtp2fOYYC/view?usp=sharing",
-      brouchereName: "Download Prestige Jindal City Brouchere",
+      brouchereName: "Download Prestige Jindal City Brochure",
       page: "jindal_city",
     },
     {
@@ -103,7 +104,7 @@ const App = () => {
       location: "Arekere, Bannerghatta Road",
       posession: "2022 onwards",
       // link:"https://drive.google.com/open?id=1gD1dqRdfmSLXclBQSC43a3VBY3CNOj84",
-      brouchereName: "Download Prestige Elysian Brouchere",
+      brouchereName: "Download Prestige Elysian Brochure",
       page: "elysian",
     },
 
@@ -117,7 +118,7 @@ const App = () => {
       posession: "2022 onwards",
       link:
         "https://drive.google.com/open?id=1Luc7dPRqSMwT8T-GjDV64HpFFzCV90sc",
-      brouchereName: "Download Prestige Willow Tree Brouchere",
+      brouchereName: "Download Prestige Willow Tree Brochure",
       page: "willow_tree",
     },
     {
@@ -130,7 +131,7 @@ const App = () => {
       posession: "2021",
       link:
         "https://drive.google.com/open?id=1LXZB4htUXDk5aHt1-XmeVV5Gdtn4AWrl   ",
-      brouchereName: "Download Prestige Botanique Brouchere",
+      brouchereName: "Download Prestige Botanique Brochure",
       page: "botanique",
     },
 
@@ -144,7 +145,7 @@ const App = () => {
       posession: "2021",
       link:
         "https://drive.google.com/open?id=1kuI8nfT50ujZIOJaNesfARsi9i-_tj9f",
-      brouchereName: "Download Prestige Park Square Brouchere",
+      brouchereName: "Download Prestige Park Square Brochure",
       page: "park_square",
     },
 
@@ -158,7 +159,7 @@ const App = () => {
       posession: "2021",
       link:
         "https://drive.google.com/open?id=1iiwgLyIHfwp2KkVayBE5T9-xEBmKi5wV",
-      brouchereName: "Download Prestige Fontaine Bleau Brouchere",
+      brouchereName: "Download Prestige Fontaine Bleau Brochure",
       page: "fontaine_bleau",
     },
     {
@@ -171,7 +172,7 @@ const App = () => {
       posession: "2021 onwards",
       link:
         "https://drive.google.com/open?id=1o92-nnA-kYMsE8U-e-TnknwW3Uvm24xR",
-      brouchereName: "Download Prestige Dolce Vita Brouchere",
+      brouchereName: "Download Prestige Dolce Vita Brochure",
       page: "dolce_vita",
     },
 

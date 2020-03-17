@@ -156,7 +156,7 @@ const Finsbury = () => {
   const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight])
 
   return (
-    <Layout title="prestige finsbury park | reviews | Brouchere | Location">
+    <Layout title="prestige finsbury park | reviews | Brouchere | Location" project="Prestige Finsbyry_park">
       <SliderComponent
         one={FirstSliderImage}
         two={SecondSliderImage}
@@ -207,7 +207,7 @@ const Finsbury = () => {
       <hr />
       <Amenities project="Finsbury Park Amenities" />
       <hr />
-      <Pricingcomponent project="Finsbury Park Pricing" tabeltwo={squarefeet} />
+      <Pricingcomponent proj="Finsbury Park Pricing" project="Prestige Finsbury Park" tabeltwo={squarefeet} />
       <hr />
       <LocationComponent
         title="Finsbury Park Location"

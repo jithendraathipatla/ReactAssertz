@@ -12,7 +12,7 @@ const Pricingcomponent = (props) => {
                      <span>{item.bed}</span>
                      <span>{item.feet}  Sq.ft</span>
                      <span>{item.price} Lacs</span>
-                     <span><ModalComponent title="Know More" project={props.project} size={medium}/></span>
+                     <span><ModalComponent title="Know More" project={props.proj} size={medium}/></span>
                 </div>
             )
         })
@@ -20,7 +20,7 @@ const Pricingcomponent = (props) => {
      return (
          <div>
              <div style={{textAlign:"center"}}>
-             <Title title={props.project}/>
+             <Title title={props.proj}/>
              </div>
              <div css={Tabel}>
                 <div css={Tabelhead}>
@@ -50,7 +50,7 @@ const Pricingcomponent = (props) => {
  position:relative;
  @media(max-width:600px){
    display:block;
-   margin:0px 10px
+   margin:0px 10px;
  }
  `
  

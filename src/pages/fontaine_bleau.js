@@ -143,7 +143,7 @@ const Fontaine_bleau = () => {
       const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]);
     
       return (
-        <Layout title="prestige fontaine bleau | reviews | Brouchere | Location">
+        <Layout title="prestige fontaine bleau | reviews | Brouchere | Location" project="Prestige Fontaine Bleau">
          <SliderComponent  one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Pre_launch" project="Prestige Fontaine Bleau" location="In Whitefield," attractiveone="Pre_launch offers" atteractivetwo="Hurry! Book now" bedroomone="" bedroomtwo="2" bedroomthree="3" price="83"/>
          <br/>
          <OverviewComponent project="Fontaine Bleau Overview" loc="Whitefield" area="1.05 Acer" units="60" towers="2T" floors="G+10 Floors" var="2&3 Bhk" poss="2021"/>
@@ -154,7 +154,7 @@ const Fontaine_bleau = () => {
          <hr/>
          <Amenities project="Fontaine Bleau Amenities"/>
          <hr/>
-         <Pricingcomponent project="Fontaine Bleau Pricing" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Fontaine Bleau Pricing" project="Prestige Fontaine Bleau" tabeltwo={squarefeet}/>
          <hr/>
          <LocationComponent title="Fontaine Bleau Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.949070287174!2d77.74051741413528!3d12.975109318313503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11ff99828ba3%3A0xc975735a9e91bfbe!2sPRESTIGE%20FONTAINE%20BLEAU!5e0!3m2!1sen!2sin!4v1583828183205!5m2!1sen!2sin"/>
         </Layout>

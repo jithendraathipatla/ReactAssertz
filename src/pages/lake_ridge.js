@@ -151,7 +151,7 @@ const Lake = () => {
       const [lightflor, setlightflor] = useState([FloorPlanOne, FloorPlanTwo, FloorPlanThree, FloorPlanFour, FloorPlanFive, FloorPlanSix, FloorPlanseven, FloorPlanEight]);
     
     return (
-        <Layout title="prestige lake ridge | reviews | Brouchere | Location">
+        <Layout title="prestige lake ridge | reviews | Brouchere | Location" project="Prestige Lake Ridge">
          <SliderComponent one={FirstSliderImage} two={SecondSliderImage} three={ThirdSliderImage} four={FourthSliderImage} phase="Ready to Move_In" project="Prestige Lake Ridge" location="In Subramanyapura," attractiveone="Ready to Move_In offers" atteractivetwo="Hurry! Book now" bedroomone="1, " bedroomtwo="2" bedroomthree="3" price="40"/>
          <br/>
          <OverviewComponent project="Lake Ridge Overview" loc="Subramanyapura" area="15.96 Acer" units="1119" towers="12T" floors="G+18 Floors" var="1,2 & 3 Bhk" poss="2019"/>
@@ -162,7 +162,7 @@ const Lake = () => {
          <hr/>
          <Amenities project="Lake Ridge Amenities"/>
          <hr/>
-         <Pricingcomponent project="Lake Ridge Pricing" tabeltwo={squarefeet}/>
+         <Pricingcomponent proj="Lake Ridge Pricing" project="Prestige Lake Ridge" tabeltwo={squarefeet}/>
          <hr/>
          <LocationComponent title="Lake Ridge Location" logo={ProjectLogo} iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7778.171742611922!2d77.54183352164858!3d12.902199671598392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f0eee48361b%3A0x3c40e528e94bdec8!2sPrestige%20Lake%20Ridge!5e0!3m2!1sen!2sin!4v1583828452900!5m2!1sen!2sin"/>
         </Layout>

@@ -62,7 +62,7 @@ const Sidemenu = (props) => {
       let finalformdata = {
         name:vaueone,
         phonenumber:phoneone,
-        PropertyName:"Prestige  Waterford",
+        PropertyName:props.project_name,
       }
       var data = {
         service_id: 'gmail',
@@ -70,17 +70,18 @@ const Sidemenu = (props) => {
         user_id: 'user_s9VasukllOwTDnR8R0FWD',
         template_params: finalformdata
       }
-  
-     axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
-    .then(res => {
-      console.log(res);
-      console.log(res.data); 
-      alert("You will now be redirected.");
-      window.location = "/download/";
-    }).catch((e)=>{
-      console.log(e);
-    })
-    }
+      
+      console.log(finalformdata);
+    //  axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
+    // .then(res => {
+    //   console.log(res);
+    //   console.log(res.data); 
+    //   alert("You will now be redirected.");
+    //   window.location = "/download/";
+    // }).catch((e)=>{
+    //   console.log(e);
+    // })
+     }
 
 
 
@@ -131,7 +132,7 @@ const Sidemenu = (props) => {
                 </div>
               </form>
            </div>  
-<a className={nextstep} onClick={handelPopUp}>Download Brouchure</a>
+<a className={nextstep} onClick={handelPopUp}>Download Brochure</a>
   </div>
 
   <div className={costone}>

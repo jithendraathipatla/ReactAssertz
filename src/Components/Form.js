@@ -1,8 +1,10 @@
 import React, { useState } from "react"
 import axios from "axios"
 import { css } from "@emotion/core"
+import DownloadComponent from '../pages/download';
 
 const Form = (props) => {
+  console.log(props.project_name);
   const [name, setname] = useState()
   const [email, setemail] = useState()
   const [phone, setphone] = useState()
@@ -18,8 +20,9 @@ const Form = (props) => {
       Client_name: client_name,
       Client_email: client_email,
       Client_phone_number: phonenumber,
-      Project_Name: props.project_Name,
+      Project_Name: props.project_name,
     }
+
     var data = {
       service_id: "gmail",
       template_id: "normal",
@@ -27,16 +30,19 @@ const Form = (props) => {
       template_params: finalData,
     }
 
-    axios
-      .post("https://api.emailjs.com/api/v1.0/email/send", data)
-      .then(res => {
-        console.log(res)
-        alert("You will now be redirected.")
-        window.location = "/download/"
-      })
-      .catch(e => {
-        console.log(e)
-      })
+    console.log(finalData);
+    
+
+    //  axios
+    //   .post("https://api.emailjs.com/api/v1.0/email/send", data)
+    //   .then(res => {
+    //     console.log(res)
+    //     alert("You will now be redirected.")
+    //     window.location = "/download/"
+    //   })
+    //   .catch(e => {
+    //     console.log(e)
+    //   })
   }
   return (
     <form onSubmit={handelingFormdata} name="main_forma" method="post">
@@ -101,10 +107,15 @@ const Form = (props) => {
             Submit
           </button>
         </div>
+       
       </div>
     </form>
   )
 }
+
+const none = css`
+ display:none;
+`
 
 const input = css`
   box-shadow: inset 0 0.0625em 0.125em rgba(10, 10, 10, 0.05);
@@ -140,4 +151,4 @@ const label = css`
   font-weight: 700;
 `
 
-export default Form
+export default Form;
