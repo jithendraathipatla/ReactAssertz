@@ -314,7 +314,7 @@ a.button:hover {
 }
 
 .show-nav {
-  height: 336px;
+  height: 150px;
 }
 
 @media screen and (min-width: 768px) {
