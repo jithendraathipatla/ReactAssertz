@@ -49,9 +49,6 @@ const Pricingcomponent = (props) => {
                   {displayingTabelBody()}
                  </div>
                 </div>
-                <div css={imagestyle}  onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHoverone}>
-                 <img src={costsheetImage} alt="cost sheet"/>
-                </div>
              </div>
  
          </div>
@@ -61,8 +58,7 @@ const Pricingcomponent = (props) => {
  const Tabel = css`
  margin:0px 40px 40px;
  margin-top:0px;
- display:flex;
- position:relative;
+ display:block;
  @media(max-width:600px){
    display:block;
    margin:0px 10px;
@@ -110,22 +106,7 @@ const Pricingcomponent = (props) => {
        background:#eeee
    }
  `
-
- const imagestyle = css`
-  flex:2;
-  padding-left:20px;
-  img{
-   position:relative;
-   width:370px;
-   :hover{
-    cursor:pointer;
-    }
-  }
-  @media(max-width:600px){
-    display:none;
-  }
-  
- `
+ 
 
  const know = css`
    position:absolute;
