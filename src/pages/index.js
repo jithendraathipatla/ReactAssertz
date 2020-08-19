@@ -13,7 +13,7 @@ import HighlightFormTwo from '../Components/HighlightFormTwo';
 import Slider from '../Components/Slider';
 import TabsContainerOne from '../Components/Costing';
 import SideMenuBar from '../Components/SideMenu';
-import SideImage from '../Imagesa/Images/prestige-finsbury-banner1.jpg';
+import SideImage from '../Imagesa/Images/prestige-waterford-banner.jpg';
 import HighlightForm from '../Components/HighlightForm';
 import NewSection from '../Components/NewSection';
 
@@ -22,7 +22,7 @@ export default () => {
     return(
         <div>
         <div className="backgroundSlider">
-          <SEOComponent title="Prestige Waterford | Whitefield,Bangalore | ITPL| Brochure | Price" des="This webpage gives you all the Information about the upcoming Prestige Waterford Apartments in Whitefield, Bangalore. This page briefs you all the details of prestige Waterford Apartments starting from floor Pan to the reviews."/>
+          <SEOComponent title="Prestige Waterford | Whitefield,Bangalore | ITPL| Brochure | Price" des=" Prestige Waterford is an Upcoming project by Prestige Group at Bangalore. Get the updated Details of Prestige Waterford price, review, Location, and Contact Us Booking Assistance"/>
           <NavBar/>
           <div className="scroll-downs">
           <div className="mousey">

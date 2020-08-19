@@ -17,9 +17,9 @@ const HighlightForm = () => {
             project_name:"Prestige Waterford"
         }
         var data = {
-            service_id: 'gmail',
-            template_id: 'normal',
-            user_id: 'user_s9VasukllOwTDnR8R0FWD',
+            service_id: 'default_service',
+            template_id: 'template_Be8dpfNK',
+            user_id: 'user_dL8CNNb8AnMR28qE6oOlM',
             template_params: client_information,
         }
       

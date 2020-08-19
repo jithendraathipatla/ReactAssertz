@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import LightHouseabc from './Lighthouse';
-import MasterPlanabcd from '../Imagesa/Images/Coming-Soon-Project-.jpg';
+import MasterPlanabcd from '../Imagesa/Images/prestige-waterford-masterplan.jpg';
 
 
 

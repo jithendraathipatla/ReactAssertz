@@ -34,14 +34,14 @@ const NavBar = () => {
               </button>
               </div>
               <ul className={state === true ? "nav-links show-nav" : "nav-links"}>
-              <img  src={HomeSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/">Home</Link></li>
-              <img  src={AmenitiesSVG} alt="Home Svg"/> <li onClick={closingNav}><Link to="/overview">Overview</Link></li>
-              <img  src={LoaderSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/configuration">Configuration</Link></li>
-              <img  src={ReadingSVG} alt="Home Svg"/> <li onClick={closingNav}><Link to="/gallery">Gallery</Link></li>
-              <img  src={SiteVisitSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/masterplan">Master Plan</Link></li>
-              <img  src={PriceSVG} alt="Home Svg"/> <li onClick={closingNav}><Link to="/pricing">Pricing</Link></li>
-              <img  src={AmenitiesSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/amenities">Amenities</Link></li>
-              <img  src={LocationSVG} alt="Home Svg"/><li onClick={closingNav} className="LastChild"><Link to="/location">Location</Link></li>
+              <img  src={HomeSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/" activeClassName="active">Home</Link></li>
+              <img  src={AmenitiesSVG} alt="Home Svg"/> <li onClick={closingNav}><Link to="/overview" activeClassName="active">Overview</Link></li>
+              <img  src={LoaderSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/configuration" activeClassName="active">Configuration</Link></li>
+              <img  src={ReadingSVG} alt="Home Svg"/> <li onClick={closingNav}><Link to="/gallery" activeClassName="active">Gallery</Link></li>
+              <img  src={SiteVisitSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/masterplan" activeClassName="active">Master Plan</Link></li>
+              <img  src={PriceSVG} alt="Home Svg"/> <li onClick={closingNav}><Link to="/pricing" activeClassName="active">Pricing</Link></li>
+              <img  src={AmenitiesSVG} alt="Home Svg"/><li onClick={closingNav}><Link to="/amenities" activeClassName="active">Amenities</Link></li>
+              <img  src={LocationSVG} alt="Home Svg"/><li onClick={closingNav} className="LastChild" activeClassName="active"><Link to="/location">Location</Link></li>
               </ul>   
            </div>
            

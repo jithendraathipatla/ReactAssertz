@@ -35,9 +35,20 @@ const Costing = () => {
             <tbody>
     
             <tr>
-            <td rowSpan={4} style={{fontSize:"18px", fontWeight:"500"}}>
+            <td rowSpan={6} style={{fontSize:"18px", fontWeight:"500"}}>
+            <br/>
             <br/>
             Waterford</td>
+            </tr>
+            <tr>
+            <td>1 BHk</td>
+            <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+                 <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+            </tr>
+            <tr>
+            <td>2 BHk</td>
+            <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+                 <td><Modal title="Know More" class="modalbuttonsmall"/></td>
             </tr>
             <tr>
             <td>3 BHk Small</td>
