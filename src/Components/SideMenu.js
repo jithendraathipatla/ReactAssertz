@@ -93,6 +93,7 @@ const Sidemenu = props => {
       .then(
         function(response) {
           console.log("SUCCESS!", response.status, response.text)
+          window.location = "/download/"
         },
         function(err) {
           console.log("FAILED...", err)
@@ -127,6 +128,7 @@ const Sidemenu = props => {
       .then(
         function(response) {
           console.log("SUCCESS!", response.status, response.text)
+          window.location = "/download/"
         },
         function(err) {
           console.log("FAILED...", err)

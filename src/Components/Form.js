@@ -31,6 +31,7 @@ const Form = () => {
     emailjs.send("default_service","template_Be8dpfNK", template_params, "user_dL8CNNb8AnMR28qE6oOlM")
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
+       window.location = "/download/"
     }, function(err) {
        console.log('FAILED...', err);
     });
