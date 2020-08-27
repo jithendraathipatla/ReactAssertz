@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+import emailjs from 'emailjs-com';
 import '../GlobalStyles/styles.css';
 
 
@@ -10,26 +10,27 @@ const HighlightForm = () => {
         const email = e.target.elements.email.value;
         const phone = e.target.elements.phone_no.value;
 
-        const client_information = {
-            client_name:name,
-            client_email:email,
-            client_phone:phone,
-            project_name:"Prestige Waterford"
-        }
-        var data = {
-            service_id: 'default_service',
-            template_id: 'template_Be8dpfNK',
-            user_id: 'user_dL8CNNb8AnMR28qE6oOlM',
-            template_params: client_information,
-        }
+        const templateParams1 = {
+            Client_name: name,
+            Client_email: email,
+            Client_phone_number: phone,
+            Project_Name: " Waterford",
+          }
+          var requiredData = JSON.stringify(templateParams1);
+          
+          var template_params = {
+            "from_name": "Waterford Lead",
+            "to_name": "Mahid Ali",
+            "message_html": requiredData
+         }
+         
       
-        axios.post('https://api.emailjs.com/api/v1.0/email/send',  data )
-        .then(res => {
-          console.log(res);
-          console.log(res.data);
-          alert("You will now be redirected.");
-          window.location = "/download/";
-        })
+          emailjs.send("default_service","template_Be8dpfNK", template_params, "user_dL8CNNb8AnMR28qE6oOlM")
+          .then(function(response) {
+             console.log('SUCCESS!', response.status, response.text);
+          }, function(err) {
+             console.log('FAILED...', err);
+          });
       
     }
     return (

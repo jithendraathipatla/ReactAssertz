@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import axios from "axios"
+import emailjs from 'emailjs-com';
 
 const Form = () => {
   const [name, setname] = useState()
@@ -13,34 +13,27 @@ const Form = () => {
     if (phonenumber.length > 10) {
       alert("Must enter a Valid Number")
     }
-    const finalData = {
+    const templateParams1 = {
       Client_name: client_name,
       Client_email: client_email,
       Client_phone_number: phonenumber,
       Project_Name: " Waterford",
     }
-    var data = {
-      service_id: "default_service",
-      template_id: "template_Be8dpfNK",
-      user_id: "user_dL8CNNb8AnMR28qE6oOlM",
-    }
-
+    var requiredData = JSON.stringify(templateParams1);
+    
     var template_params = {
-      from_name: "Prestige Waterford Leads",
-      to_name: "Mahid Ali",
-      message_html: finalData,
-    }
+      "from_name": "Waterford Lead",
+      "to_name": "Mahid Ali",
+      "message_html": requiredData
+   }
+   
 
-    axios
-      .post("https://api.emailjs.com/api/v1.0/email/send", data, template_params)
-      .then(res => {
-        console.log(res)
-        alert("You will now be redirected.")
-        window.location = "/download/"
-      })
-      .catch(e => {
-        console.log(e)
-      })
+    emailjs.send("default_service","template_Be8dpfNK", template_params, "user_dL8CNNb8AnMR28qE6oOlM")
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(err) {
+       console.log('FAILED...', err);
+    });
   }
   return (
     <form onSubmit={handelingFormdata} name="main_forma" method="post">
